@@ -424,3 +424,38 @@ text-align: center;
 padding: 20px;
 color: #6b7280;
 }
+
+/* TABLE */
+.standings-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+.standings-table th,
+.standings-table td {
+padding: 10px;
+border-bottom: 1px solid #1f2937;
+text-align: left;
+}
+
+.standings-table th {
+background: #111827;
+}
+
+/* POWER RANKINGS */
+.ranking div {
+background: #111827;
+padding: 12px;
+margin: 6px 0;
+border-radius: 8px;
+font-weight: bold;
+}
+
+/* CARD */
+.card {
+background: #111827;
+padding: 20px;
+border-radius: 10px;
+margin-top: 10px;
+}
