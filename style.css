@@ -343,11 +343,44 @@ flex-wrap: wrap;
 
 .logo {
 margin: 0;
-font-size: 1.2rem;
-line-height: 1.1;
+display: flex;
+align-items: center;
+gap: 10px;
 color: #e5e7eb;
 flex: 0 0 auto;
 }
+
+.logo-ball {
+font-size: 1.5rem;
+line-height: 1;
+flex-shrink: 0;
+}
+
+.logo-text {
+display: flex;
+flex-direction: column;
+line-height: 1.05;
+}
+
+.logo-top {
+font-size: 0.62rem;
+font-weight: 800;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: var(--muted);
+}
+
+.logo-main {
+font-size: 1.45rem;
+font-weight: 800;
+letter-spacing: -0.02em;
+color: #e5e7eb;
+}
+
+.logo-accent {
+color: var(--accent-2);
+}
+
 
 .main-nav {
 display: flex;
@@ -562,9 +595,20 @@ align-items: flex-start;
 
 .logo {
 width: 100%;
-font-size: 1.05rem;
+gap: 8px;
 }
 
+.logo-ball {
+    font-size: 1.25rem;
+}
+
+.logo-top {
+    font-size: 0.56rem;
+}
+
+.logo-main{
+    font-size: 1.2rem;
+}
 .main-nav {
 width: 100%;
 gap: 14px;
@@ -612,8 +656,13 @@ white-space: nowrap;
 padding: 12px 14px;
 }
 
-.logo {
-font-size: 1rem;
+.logo-main{
+    font-size: 1.08rem;
+}
+.logo-top{
+    font-size: 0.52rem;
+    letter-spacing: 0.1em;
+}
 }
 
 .main-nav {
@@ -636,4 +685,4 @@ font-size: 1.75rem;
 .container {
 padding: 32px 16px;
 }
-}
+
