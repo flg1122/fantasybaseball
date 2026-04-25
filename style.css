@@ -686,3 +686,144 @@ font-size: 1.75rem;
 padding: 32px 16px;
 }
 
+/* WEEKLY LEADERS PAGE */
+.leaders-hero {
+  background:
+    linear-gradient(180deg, rgba(96, 165, 250, 0.1), transparent 70%),
+    #111827;
+  border: 1px solid #1f2937;
+  border-radius: 22px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+
+.leaders-hero h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.leaders-hero p {
+  color: var(--muted);
+  max-width: 800px;
+}
+
+.leaders-status {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.leaders-status span {
+  background: #0f172a;
+  border: 1px solid #24314b;
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.leaders-meta {
+  margin-bottom: 18px;
+}
+
+.leaders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.leader-card {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 16px;
+  align-items: center;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.leader-rank {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.leader-main h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.leader-main p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.leader-points {
+  text-align: right;
+}
+
+.leader-points strong {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--accent-2);
+}
+
+.leader-points span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.leader-breakdown {
+  grid-column: 2 / 4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.leader-breakdown span {
+  background: #0f172a;
+  border: 1px solid #24314b;
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 700px) {
+  .leader-card {
+    grid-template-columns: 1fr;
+  }
+
+  .leader-points {
+    text-align: left;
+  }
+
+  .leader-breakdown {
+    grid-column: auto;
+  }
+}
+
+/* HOMEPAGE BUTTONS */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #60a5fa;
+  color: #60a5fa;
+}
+
+.btn-secondary:hover {
+  background: rgba(96, 165, 250, 0.12);
+  color: white;
+}

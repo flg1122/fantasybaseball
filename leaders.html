@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weekly Leaders | Dugout Dispatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">
+        <span class="logo-ball">⚾</span>
+        <span class="logo-text">
+          <span class="logo-top">Fantasy League Media</span>
+          <span class="logo-main">Dugout <span class="logo-accent">Dispatch</span></span>
+        </span>
+      </h1>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+
+        <details class="dropdown-details">
+          <summary>Weekly Recaps</summary>
+          <div class="dropdown-panel">
+            <a href="placeholder.html">Week 1</a>
+            <a href="placeholder.html">Week 2</a>
+            <a href="placeholder.html">Week 3</a>
+            <a href="week4.html">Week 4</a>
+            <a href="week5.html">Week 5</a>
+          </div>
+        </details>
+
+        <a href="standings.html">Rankings</a>
+        <a href="leaders.html">Leaders</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="leaders-hero">
+      <p class="feature-kicker">Live Weekly Scoring</p>
+      <h1>🔥 Weekly Player Leaders</h1>
+      <p>
+        Tracking the top fantasy performers of the current scoring period using live MLB data.
+        Scores reset every Monday and build through Sunday.
+      </p>
+
+      <div class="leaders-status">
+        <span id="update-status">Pulling stats...</span>
+        <span id="last-updated">Last updated: loading...</span>
+      </div>
+    </section>
+
+    <section class="leaders-board" id="leaders-board">
+      <div class="card">
+        <p>Loading weekly leaders...</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function formatDateTime(value) {
+      const date = new Date(value);
+      return date.toLocaleString("en-US", {
+        timeZone: "America/New_York",
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit"
+      });
+    }
+
+    function nextHourlyUpdateCountdown() {
+      const now = new Date();
+      const next = new Date(now);
+      next.setHours(now.getHours() + 1, 0, 0, 0);
+
+      const diff = next - now;
+      const mins = Math.floor(diff / 60000);
+      const secs = Math.floor((diff % 60000) / 1000);
+
+      return `${mins}m ${secs}s`;
+    }
+
+    function renderCountdown() {
+      const el = document.getElementById("update-status");
+      if (!el) return;
+      el.textContent = `Pulling stats... next scheduled refresh in ${nextHourlyUpdateCountdown()}`;
+    }
+
+    async function loadLeaders() {
+      try {
+        const res = await fetch("data/weekly-leaders.json?v=" + Date.now());
+        const data = await res.json();
+
+        document.getElementById("last-updated").textContent =
+          `Last updated: ${formatDateTime(data.generatedAt)} ET`;
+
+        const board = document.getElementById("leaders-board");
+
+        board.innerHTML = `
+          <div class="leaders-meta card">
+            <strong>Scoring Period:</strong>
+            ${data.scoringPeriod.start} through ${data.scoringPeriod.end}
+          </div>
+
+          <div class="leaders-list">
+            ${data.leaders.map((player, index) => `
+              <article class="leader-card">
+                <div class="leader-rank">#${index + 1}</div>
+
+                <div class="leader-main">
+                  <h2>${player.name}</h2>
+                  <p>${player.position || "UTIL"} • Team ID ${player.teamId}</p>
+                </div>
+
+                <div class="leader-points">
+                  <strong>${player.totalPoints}</strong>
+                  <span>pts</span>
+                </div>
+
+                <div class="leader-breakdown">
+                  <span>Batting: ${player.battingPoints}</span>
+                  <span>Pitching: ${player.pitchingPoints}</span>
+                  <span>Games: ${player.games.length}</span>
+                </div>
+              </article>
+            `).join("")}
+          </div>
+        `;
+      } catch (err) {
+        document.getElementById("leaders-board").innerHTML = `
+          <div class="card">
+            <h2>Stats temporarily unavailable</h2>
+            <p>Could not load weekly leaders. Try again after the next stat pull.</p>
+          </div>
+        `;
+      }
+    }
+
+    loadLeaders();
+    renderCountdown();
+    setInterval(renderCountdown, 1000);
+  </script>
+</body>
+</html>
