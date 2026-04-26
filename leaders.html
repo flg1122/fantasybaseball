@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+
 <body>
   <header class="navbar">
     <div class="nav-container">
@@ -18,8 +19,10 @@
         </span>
       </h1>
 
+
       <nav class="main-nav">
         <a href="index.html">Home</a>
+
 
         <details class="dropdown-details">
           <summary>Weekly Recaps</summary>
@@ -32,35 +35,65 @@
           </div>
         </details>
 
+
         <a href="standings.html">Rankings</a>
         <a href="leaders.html">Leaders</a>
       </nav>
     </div>
   </header>
 
+
   <main class="page-wrap">
     <section class="leaders-hero">
       <p class="feature-kicker">Live Weekly Scoring</p>
-      <h1>🔥 Weekly Player Leaders</h1>
+      <h1>Weekly Player Leaders</h1>
       <p>
-        Tracking the top fantasy performers of the current scoring period using live MLB data.
-        Scores reset every Monday and build through Sunday.
+        Full fantasy leaderboard for the current scoring period. Filter by overall, hitters, or pitchers.
+        Scores reset every Monday and refresh automatically about every 15 minutes.
       </p>
 
+
       <div class="leaders-status">
-        <span id="update-status">Pulling stats...</span>
+        <span id="update-status">Next refresh loading...</span>
         <span id="last-updated">Last updated: loading...</span>
+      </div>
+
+
+      <div class="leader-controls">
+        <div class="leader-tabs">
+          <button class="leader-tab active" data-view="overall">Overall</button>
+          <button class="leader-tab" data-view="hitters">Hitters</button>
+          <button class="leader-tab" data-view="pitchers">Pitchers</button>
+        </div>
+
+
+        <label class="leader-limit">
+          Show
+          <select id="limit-select">
+            <option value="25">Top 25</option>
+            <option value="50">Top 50</option>
+            <option value="100">Top 100</option>
+            <option value="all">All Players</option>
+          </select>
+        </label>
       </div>
     </section>
 
-    <section class="leaders-board" id="leaders-board">
+
+    <section id="leaders-board">
       <div class="card">
         <p>Loading weekly leaders...</p>
       </div>
     </section>
   </main>
 
+
   <script>
+    let leadersData = null;
+    let currentView = "overall";
+    let currentLimit = 25;
+
+
     function formatDateTime(value) {
       const date = new Date(value);
       return date.toLocaleString("en-US", {
@@ -73,64 +106,155 @@
       });
     }
 
-    function nextHourlyUpdateCountdown() {
+
+    function nextUpdateCountdown() {
       const now = new Date();
       const next = new Date(now);
-      next.setHours(now.getHours() + 1, 0, 0, 0);
+      const currentMinutes = now.getMinutes();
+      const nextQuarter = Math.ceil((currentMinutes + 1) / 15) * 15;
+
+
+      if (nextQuarter >= 60) {
+        next.setHours(now.getHours() + 1, 0, 0, 0);
+      } else {
+        next.setMinutes(nextQuarter, 0, 0);
+      }
+
 
       const diff = next - now;
       const mins = Math.floor(diff / 60000);
       const secs = Math.floor((diff % 60000) / 1000);
 
+
       return `${mins}m ${secs}s`;
     }
 
+
     function renderCountdown() {
-      const el = document.getElementById("update-status");
-      if (!el) return;
-      el.textContent = `Pulling stats... next scheduled refresh in ${nextHourlyUpdateCountdown()}`;
+      document.getElementById("update-status").textContent =
+        `Next scheduled refresh in ~${nextUpdateCountdown()}`;
     }
+
+
+    function getList() {
+      if (currentView === "hitters") return leadersData.hitterLeaders || [];
+      if (currentView === "pitchers") return leadersData.pitcherLeaders || [];
+      return leadersData.overallLeaders || [];
+    }
+
+
+    function getLimitedList(players) {
+      if (currentLimit === "all") return players;
+      return players.slice(0, Number(currentLimit));
+    }
+
+
+    function renderTable() {
+      const fullList = getList();
+      const players = getLimitedList(fullList);
+      const board = document.getElementById("leaders-board");
+
+
+      const title =
+        currentView === "hitters" ? "Hitter Leaders" :
+        currentView === "pitchers" ? "Pitcher Leaders" :
+        "Overall Leaders";
+
+
+      let header = "";
+      let rows = "";
+
+
+      if (currentView === "pitchers") {
+        header = `
+          <tr>
+            <th>RK</th><th>PLAYER</th><th>TEAM</th><th>POS</th><th>PTS</th>
+            <th>IP</th><th>K</th><th>H</th><th>BB</th><th>HR</th><th>SV</th><th>HLD</th><th>G</th>
+          </tr>
+        `;
+
+
+        rows = players.map((p, i) => `
+          <tr>
+            <td class="rank">#${i + 1}</td>
+            <td class="player-name">${p.name}</td>
+            <td class="team-name">${p.teamName || "Unknown Team"}</td>
+            <td>${p.position || "P"}</td>
+            <td class="points">${p.pitchingPoints}</td>
+            <td>${p.pitchingStats?.inningsPitched ?? "0.0"}</td>
+            <td>${p.pitchingStats?.strikeOuts ?? 0}</td>
+            <td>${p.pitchingStats?.hitsAllowed ?? 0}</td>
+            <td>${p.pitchingStats?.walksAllowed ?? 0}</td>
+            <td>${p.pitchingStats?.homeRunsAllowed ?? 0}</td>
+            <td>${p.pitchingStats?.saves ?? 0}</td>
+            <td>${p.pitchingStats?.holds ?? 0}</td>
+            <td>${p.games.length}</td>
+          </tr>
+        `).join("");
+      } else {
+        header = `
+          <tr>
+            <th>RK</th><th>PLAYER</th><th>TEAM</th><th>POS</th><th>PTS</th>
+            <th>AB</th><th>H</th><th>2B</th><th>3B</th><th>HR</th><th>BB</th><th>HBP</th><th>SB</th><th>CS</th><th>G</th>
+          </tr>
+        `;
+
+
+        rows = players.map((p, i) => `
+          <tr>
+            <td class="rank">#${i + 1}</td>
+            <td class="player-name">${p.name}</td>
+            <td class="team-name">${p.teamName || "Unknown Team"}</td>
+            <td>${p.position || "UTIL"}</td>
+            <td class="points">${currentView === "hitters" ? p.battingPoints : p.totalPoints}</td>
+            <td>${p.battingStats?.atBats ?? 0}</td>
+            <td>${p.battingStats?.hits ?? 0}</td>
+            <td>${p.battingStats?.doubles ?? 0}</td>
+            <td>${p.battingStats?.triples ?? 0}</td>
+            <td>${p.battingStats?.homeRuns ?? 0}</td>
+            <td>${p.battingStats?.walks ?? 0}</td>
+            <td>${p.battingStats?.hitByPitch ?? 0}</td>
+            <td>${p.battingStats?.stolenBases ?? 0}</td>
+            <td>${p.battingStats?.caughtStealing ?? 0}</td>
+            <td>${p.games.length}</td>
+          </tr>
+        `).join("");
+      }
+
+
+      board.innerHTML = `
+        <div class="leaders-table-card">
+          <div class="leaders-table-header">
+            <div>
+              <h2>${title}</h2>
+              <p>${leadersData.scoringPeriod.start} through ${leadersData.scoringPeriod.end}</p>
+            </div>
+            <strong>${fullList.length} players</strong>
+          </div>
+
+
+          <div class="leaders-table-wrap">
+            <table class="leaders-table">
+              <thead>${header}</thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
 
     async function loadLeaders() {
       try {
         const res = await fetch("data/weekly-leaders.json?v=" + Date.now());
-        const data = await res.json();
+        leadersData = await res.json();
+
 
         document.getElementById("last-updated").textContent =
-          `Last updated: ${formatDateTime(data.generatedAt)} ET`;
+          `Last updated: ${formatDateTime(leadersData.generatedAt)} ET`;
 
-        const board = document.getElementById("leaders-board");
 
-        board.innerHTML = `
-          <div class="leaders-meta card">
-            <strong>Scoring Period:</strong>
-            ${data.scoringPeriod.start} through ${data.scoringPeriod.end}
-          </div>
-
-          <div class="leaders-list">
-            ${data.leaders.map((player, index) => `
-              <article class="leader-card">
-                <div class="leader-rank">#${index + 1}</div>
-
-                <div class="leader-main">
-                  <h2>${player.name}</h2>
-                  <p>${player.position || "UTIL"} • Team ID ${player.teamId}</p>
-                </div>
-
-                <div class="leader-points">
-                  <strong>${player.totalPoints}</strong>
-                  <span>pts</span>
-                </div>
-
-                <div class="leader-breakdown">
-                  <span>Batting: ${player.battingPoints}</span>
-                  <span>Pitching: ${player.pitchingPoints}</span>
-                  <span>Games: ${player.games.length}</span>
-                </div>
-              </article>
-            `).join("")}
-          </div>
-        `;
+        renderTable();
       } catch (err) {
         document.getElementById("leaders-board").innerHTML = `
           <div class="card">
@@ -141,9 +265,27 @@
       }
     }
 
+
+    document.addEventListener("click", (e) => {
+      if (e.target.classList.contains("leader-tab")) {
+        document.querySelectorAll(".leader-tab").forEach(btn => btn.classList.remove("active"));
+        e.target.classList.add("active");
+        currentView = e.target.dataset.view;
+        renderTable();
+      }
+    });
+
+
+    document.getElementById("limit-select").addEventListener("change", (e) => {
+      currentLimit = e.target.value;
+      renderTable();
+    });
+
+
     loadLeaders();
     renderCountdown();
     setInterval(renderCountdown, 1000);
   </script>
 </body>
 </html>
+
