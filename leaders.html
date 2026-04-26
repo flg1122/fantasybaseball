@@ -177,7 +177,10 @@
         rows = players.map((p, i) => `
           <tr>
             <td class="rank">#${i + 1}</td>
-            <td class="player-name">${p.name}</td>
+            <td class="player-name">
+              ${p.name}
+              <span>${p.teamName || "Unknown Team"}</span>
+            </td>
             <td class="team-name">${p.teamName || "Unknown Team"}</td>
             <td>${p.position || "P"}</td>
             <td class="points">${p.pitchingPoints}</td>
@@ -203,7 +206,10 @@
         rows = players.map((p, i) => `
           <tr>
             <td class="rank">#${i + 1}</td>
-            <td class="player-name">${p.name}</td>
+            <td class="player-name">
+              ${p.name}
+              <span>${p.teamName || "Unknown Team"}</span>
+            </td>
             <td class="team-name">${p.teamName || "Unknown Team"}</td>
             <td>${p.position || "UTIL"}</td>
             <td class="points">${currentView === "hitters" ? p.battingPoints : p.totalPoints}</td>

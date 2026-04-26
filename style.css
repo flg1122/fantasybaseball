@@ -698,16 +698,19 @@ padding: 32px 16px;
   box-shadow: var(--shadow);
 }
 
+
 .leaders-hero h1 {
   margin: 0 0 12px;
   font-size: clamp(2rem, 5vw, 3.4rem);
   line-height: 1.05;
 }
 
+
 .leaders-hero p {
   color: var(--muted);
   max-width: 800px;
 }
+
 
 .leaders-status {
   margin-top: 18px;
@@ -715,6 +718,7 @@ padding: 32px 16px;
   flex-wrap: wrap;
   gap: 12px;
 }
+
 
 .leaders-status span {
   background: #0f172a;
@@ -725,89 +729,6 @@ padding: 32px 16px;
   font-size: 0.9rem;
 }
 
-.leaders-meta {
-  margin-bottom: 18px;
-}
-
-.leaders-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.leader-card {
-  display: grid;
-  grid-template-columns: 70px 1fr auto;
-  gap: 16px;
-  align-items: center;
-  background: #111827;
-  border: 1px solid #1f2937;
-  border-radius: 16px;
-  padding: 18px;
-  box-shadow: var(--shadow);
-}
-
-.leader-rank {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: var(--accent);
-}
-
-.leader-main h2 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-
-.leader-main p {
-  margin: 4px 0 0;
-  color: var(--muted);
-}
-
-.leader-points {
-  text-align: right;
-}
-
-.leader-points strong {
-  display: block;
-  font-size: 2rem;
-  line-height: 1;
-  color: var(--accent-2);
-}
-
-.leader-points span {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
-.leader-breakdown {
-  grid-column: 2 / 4;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.leader-breakdown span {
-  background: #0f172a;
-  border: 1px solid #24314b;
-  border-radius: 999px;
-  padding: 6px 10px;
-  color: #cbd5e1;
-  font-size: 0.85rem;
-}
-
-@media (max-width: 700px) {
-  .leader-card {
-    grid-template-columns: 1fr;
-  }
-
-  .leader-points {
-    text-align: left;
-  }
-
-  .leader-breakdown {
-    grid-column: auto;
-  }
-}
 
 /* HOMEPAGE BUTTONS */
 .hero-actions {
@@ -817,19 +738,21 @@ padding: 32px 16px;
   flex-wrap: wrap;
 }
 
+
 .btn-secondary {
   background: transparent;
   border: 1px solid #60a5fa;
   color: #60a5fa;
 }
 
+
 .btn-secondary:hover {
   background: rgba(96, 165, 250, 0.12);
   color: white;
 }
+
+
 /* ESPN STYLE WEEKLY LEADERS TABLE */
-
-
 .leader-controls {
   display: flex;
   justify-content: space-between;
@@ -977,20 +900,171 @@ padding: 32px 16px;
 }
 
 
+.player-name span {
+  display: none;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+
 .team-name {
   color: #cbd5e1;
 }
 
 
+/* MOBILE LEADERS OPTIMIZATION */
 @media (max-width: 700px) {
+  .page-wrap {
+    padding: 22px 14px 44px;
+  }
+
+
+  .leaders-hero {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+
+  .leaders-hero h1 {
+    font-size: 2rem;
+  }
+
+
+  .leaders-hero p {
+    font-size: 0.95rem;
+  }
+
+
+  .leaders-status {
+    gap: 8px;
+  }
+
+
+  .leaders-status span {
+    font-size: 0.78rem;
+    padding: 7px 10px;
+  }
+
+
   .leader-controls {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+
+  .leader-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+  }
+
+
+  .leader-tab {
+    width: 100%;
+    padding: 9px 8px;
+    font-size: 0.85rem;
+  }
+
+
+  .leader-limit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .leader-limit select {
+    flex: 1;
+    max-width: 170px;
   }
 
 
   .leaders-table-header {
     align-items: flex-start;
     flex-direction: column;
+    padding: 16px;
+  }
+
+
+  .leaders-table-header h2 {
+    font-size: 1.35rem;
+  }
+
+
+  .leaders-table-header p {
+    font-size: 0.9rem;
+  }
+
+
+  .leaders-table {
+    min-width: 0;
+    width: 100%;
+  }
+
+
+  .leaders-table th,
+  .leaders-table td {
+    padding: 13px 10px;
+    font-size: 0.9rem;
+  }
+
+
+  /* Hide TEAM and deeper stat columns on mobile */
+  .leaders-table th:nth-child(3),
+  .leaders-table td:nth-child(3),
+  .leaders-table th:nth-child(n+6),
+  .leaders-table td:nth-child(n+6) {
+    display: none;
+  }
+
+
+  .leaders-table th:nth-child(1),
+  .leaders-table td:nth-child(1) {
+    width: 52px;
+  }
+
+
+  .leaders-table th:nth-child(2),
+  .leaders-table td:nth-child(2) {
+    width: auto;
+  }
+
+
+  .leaders-table th:nth-child(4),
+  .leaders-table td:nth-child(4) {
+    width: 52px;
+    text-align: center;
+  }
+
+
+  .leaders-table th:nth-child(5),
+  .leaders-table td:nth-child(5) {
+    width: 76px;
+    text-align: right;
+    display: table-cell;
+  }
+
+
+  .player-name {
+    white-space: normal;
+    line-height: 1.2;
+    max-width: none;
+  }
+
+
+  .player-name span {
+    display: block;
+  }
+
+
+  .points {
+    font-size: 1.05rem;
+    font-weight: 900;
+    color: var(--accent-2);
   }
 }
 
