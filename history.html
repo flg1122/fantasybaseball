@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weekly Archives | Dugout Dispatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">
+        <span class="logo-ball">⚾</span>
+        <span class="logo-text">
+          <span class="logo-top">Fantasy League Media</span>
+          <span class="logo-main">Dugout <span class="logo-accent">Dispatch</span></span>
+        </span>
+      </h1>
+
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+
+
+        <details class="dropdown-details">
+          <summary>Weekly Recaps</summary>
+          <div class="dropdown-panel">
+            <a href="placeholder.html">Week 1</a>
+            <a href="placeholder.html">Week 2</a>
+            <a href="placeholder.html">Week 3</a>
+            <a href="week4.html">Week 4</a>
+            <a href="week5.html">Week 5</a>
+          </div>
+        </details>
+
+
+        <a href="standings.html">Standings</a>
+        <a href="leaders.html">Scoring Leaders</a>
+        <a href="history.html">Archives</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="page-wrap">
+    <section class="leaders-hero">
+      <p class="feature-kicker">Archived Weekly Leaders</p>
+      <h1>Weekly Scoring Archive</h1>
+      <p>
+        View completed weekly scoring leaderboards. Filter by week, overall, hitters, pitchers,
+        and sort from best to worst or worst to best.
+      </p>
+
+
+      <div class="leader-controls">
+        <label class="leader-limit">
+          Select Week
+          <select id="week-select">
+            <option value="5">Week 5</option>
+            <option value="4">Week 4</option>
+          </select>
+        </label>
+
+
+        <div class="leader-tabs">
+          <button class="leader-tab active" data-view="overall">Overall</button>
+          <button class="leader-tab" data-view="hitters">Hitters</button>
+          <button class="leader-tab" data-view="pitchers">Pitchers</button>
+        </div>
+
+
+        <label class="leader-limit">
+          Show
+          <select id="limit-select">
+            <option value="25">Top 25</option>
+            <option value="50">Top 50</option>
+            <option value="100">Top 100</option>
+            <option value="all">All Players</option>
+          </select>
+        </label>
+
+
+        <label class="leader-limit">
+          Sort
+          <select id="sort-select">
+            <option value="desc">Best to Worst</option>
+            <option value="asc">Worst to Best</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+
+    <section id="archive-board">
+      <div class="card">
+        <p>Loading archive...</p>
+      </div>
+    </section>
+  </main>
+
+
+  <script>
+    let archiveData = null;
+    let currentWeek = "5";
+    let currentView = "overall";
+    let currentLimit = 25;
+    let currentSort = "desc";
+
+
+    function getTitle() {
+      if (currentView === "hitters") return "Hitter Leaders";
+      if (currentView === "pitchers") return "Pitcher Leaders";
+      return "Overall Leaders";
+    }
+
+
+    function getList() {
+      if (currentView === "hitters") return archiveData.hitterLeaders || [];
+      if (currentView === "pitchers") return archiveData.pitcherLeaders || [];
+      return archiveData.overallLeaders || [];
+    }
+
+
+    function getPoints(player) {
+      if (currentView === "hitters") return Number(player.battingPoints || 0);
+      if (currentView === "pitchers") return Number(player.pitchingPoints || 0);
+      return Number(player.totalPoints || 0);
+    }
+
+
+    function getSortedList(players) {
+      return [...players].sort((a, b) => {
+        const aPts = getPoints(a);
+        const bPts = getPoints(b);
+        return currentSort === "asc" ? aPts - bPts : bPts - aPts;
+      });
+    }
+
+
+    function getLimitedList(players) {
+      if (currentLimit === "all") return players;
+      return players.slice(0, Number(currentLimit));
+    }
+
+
+    function renderArchive() {
+      const board = document.getElementById("archive-board");
+
+
+      if (archiveData.joke) {
+        board.innerHTML = `
+          <div class="leaders-table-card">
+            <div class="leaders-table-header">
+              <div>
+                <h2>Week ${archiveData.week}</h2>
+                <p>${archiveData.scoringPeriod.start} through ${archiveData.scoringPeriod.end}</p>
+              </div>
+              <strong>0 players</strong>
+            </div>
+
+
+            <div class="card">
+              <h2>${archiveData.message}</h2>
+              <p>Week 4 archive data has not been loaded yet.</p>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+
+      const fullList = getSortedList(getList());
+      const players = getLimitedList(fullList);
+
+
+      board.innerHTML = `
+        <div class="leaders-table-card">
+          <div class="leaders-table-header">
+            <div>
+              <h2>Week ${archiveData.week}: ${getTitle()}</h2>
+              <p>${archiveData.scoringPeriod.start} through ${archiveData.scoringPeriod.end}</p>
+            </div>
+            <strong>${fullList.length} players</strong>
+          </div>
+
+
+          <div class="leaders-table-wrap">
+            <table class="leaders-table">
+              <thead>
+                <tr>
+                  <th>RK</th>
+                  <th>PLAYER</th>
+                  <th>TEAM</th>
+                  <th>POS</th>
+                  <th>PTS</th>
+                  <th>G</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${players.map((p, i) => `
+                  <tr>
+                    <td class="rank">#${i + 1}</td>
+                    <td class="player-name">
+                      ${p.name}
+                      <span>${p.teamName || "Unknown Team"}</span>
+                    </td>
+                    <td class="team-name">${p.teamName || "Unknown Team"}</td>
+                    <td>${p.position || "UTIL"}</td>
+                    <td class="points">${getPoints(p)}</td>
+                    <td>${p.games?.length || 0}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+
+    async function loadArchive() {
+      try {
+        const res = await fetch(`data/archive/week-${currentWeek}.json?v=${Date.now()}`, {
+          cache: "no-store"
+        });
+
+
+        archiveData = await res.json();
+        renderArchive();
+      } catch (err) {
+        document.getElementById("archive-board").innerHTML = `
+          <div class="card">
+            <h2>Archive unavailable</h2>
+            <p>This week has not been archived yet.</p>
+          </div>
+        `;
+      }
+    }
+
+
+    document.getElementById("week-select").addEventListener("change", (e) => {
+      currentWeek = e.target.value;
+      loadArchive();
+    });
+
+
+    document.getElementById("limit-select").addEventListener("change", (e) => {
+      currentLimit = e.target.value;
+      renderArchive();
+    });
+
+
+    document.getElementById("sort-select").addEventListener("change", (e) => {
+      currentSort = e.target.value;
+      renderArchive();
+    });
+
+
+    document.addEventListener("click", (e) => {
+      if (e.target.classList.contains("leader-tab")) {
+        document.querySelectorAll(".leader-tab").forEach(btn => btn.classList.remove("active"));
+        e.target.classList.add("active");
+        currentView = e.target.dataset.view;
+        renderArchive();
+      }
+    });
+
+
+    loadArchive();
+  </script>
+</body>
+</html>
+
