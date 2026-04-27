@@ -38,7 +38,6 @@
 
         <a href="standings.html">Standings</a>
         <a href="leaders.html">Scoring Leaders</a>
-
       </nav>
     </div>
   </header>
@@ -97,6 +96,8 @@
 
     function formatDateTime(value) {
       const date = new Date(value);
+
+
       return date.toLocaleString("en-US", {
         timeZone: "America/New_York",
         weekday: "short",
@@ -110,40 +111,18 @@
 
     function nextUpdateCountdown() {
       const now = new Date();
+      const interval = 5;
+
+
       const next = new Date(now);
       const currentMinutes = now.getMinutes();
-      function nextUpdateCountdown() {
-  const now = new Date();
-  const next = new Date(now);
+      const nextInterval = Math.ceil((currentMinutes + 1) / interval) * interval;
 
 
-  const interval = 5;
-  const currentMinutes = now.getMinutes();
-  const nextInterval = Math.ceil((currentMinutes + 1) / interval) * interval;
-
-
-  if (nextInterval >= 60) {
-    next.setHours(now.getHours() + 1, 0, 0, 0);
-  } else {
-    next.setMinutes(nextInterval, 0, 0);
-  }
-
-
-  const diff = next - now;
-  const mins = Math.floor(diff / 60000);
-  const secs = Math.floor((diff % 60000) / 1000);
-
-
-  return `${mins}m ${secs}s`;
-}
-
-
-
-
-      if (nextQuarter >= 60) {
+      if (nextInterval >= 60) {
         next.setHours(now.getHours() + 1, 0, 0, 0);
       } else {
-        next.setMinutes(nextQuarter, 0, 0);
+        next.setMinutes(nextInterval, 0, 0);
       }
 
 
@@ -157,8 +136,11 @@
 
 
     function renderCountdown() {
-      document.getElementById("update-status").textContent =
-        `Next scheduled refresh in ~${nextUpdateCountdown()}`;
+      const el = document.getElementById("update-status");
+      if (!el) return;
+
+
+      el.textContent = `Next refresh in ${nextUpdateCountdown()}`;
     }
 
 
@@ -278,7 +260,11 @@
 
     async function loadLeaders() {
       try {
-        const res = await fetch("data/weekly-leaders.json?v=" + Date.now());
+        const res = await fetch("data/weekly-leaders.json?v=" + Date.now(), {
+          cache: "no-store"
+        });
+
+
         leadersData = await res.json();
 
 
@@ -316,7 +302,13 @@
 
     loadLeaders();
     renderCountdown();
+
+
     setInterval(renderCountdown, 1000);
+
+
+    // Refresh the JSON every 5 minutes while the page is open
+    setInterval(loadLeaders, 5 * 60 * 1000);
   </script>
 </body>
 </html>
