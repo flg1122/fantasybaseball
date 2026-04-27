@@ -3,24 +3,50 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Standings & Power Rankings</title>
+<title>Standings & Power Rankings | Dugout Dispatch</title>
 <link rel="stylesheet" href="style.css" />
+
+
+<style>
+.team-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.team-trend {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+
+.trend-up { color: #45d483; }
+.trend-down { color: #ff6b6b; }
+.trend-flat { color: #f4b400; }
+</style>
+
+
 </head>
 
+
 <body>
+
 
 <header class="navbar">
 <div class="nav-container">
 <h1 class="logo">
-    <span class ="logo-ball">⚾</span>
-    <span class="logo-text">
-        <span class ="logo-top"> FG's Fantasy League</span>
-        <span class="logo-main">Dugout <span class="logo-accent">Dispatch</span></span>
-    </span>
+  <span class="logo-ball">⚾</span>
+  <span class="logo-text">
+    <span class="logo-top">FG's Fantasy League</span>
+    <span class="logo-main">Dugout <span class="logo-accent">Dispatch</span></span>
+  </span>
 </h1>
+
 
 <nav class="main-nav">
 <a href="index.html">Home</a>
+
 
 <details class="dropdown-details">
 <summary>Weekly Recaps</summary>
@@ -33,71 +59,218 @@
 </div>
 </details>
 
+
 <a href="standings.html">Standings</a>
 <a href="leaders.html">Scoring Leaders</a>
-
+<a href="history.html">Archives</a>
 </nav>
 </div>
 </header>
 
-<div class="container">
+
+<main class="page-wrap">
+
+
+<section class="feature-article">
+<span class="feature-kicker">Post Week 5</span>
+<h1 class="feature-title">Standings & Power Rankings</h1>
+<p class="feature-dek">
+Bryce, Justin, and Wagner sit at the top at 4–1, but momentum is shifting fast.
+</p>
+</section>
+
 
 <!-- STANDINGS -->
+<section class="story-card">
 <h2>📊 League Standings</h2>
 
+
 <table class="standings-table">
-<tr><th>Rank</th><th>Team</th><th>Record</th><th>Points</th></tr>
-<tr><td>1</td><td>Bryce</td><td>3-1</td><td>2638</td></tr>
-<tr><td>2</td><td>Justin</td><td>3-1</td><td>2460</td></tr>
-<tr><td>3</td><td>Wagner</td><td>3-1</td><td>2373</td></tr>
-<tr><td>4</td><td>Team Lill</td><td>3-1</td><td>2205</td></tr>
-<tr><td>5</td><td>Moltisantis Mistress</td><td>2-2</td><td>2276</td></tr>
-<tr><td>6</td><td>Slammingmuff</td><td>2-2</td><td>2108</td></tr>
-<tr><td>7</td><td>VinSalv</td><td>2-2</td><td>1802</td></tr>
-<tr><td>8</td><td>Johnny Sack</td><td>1-3</td><td>2385</td></tr>
-<tr><td>9</td><td>Ice</td><td>1-3</td><td>1968</td></tr>
-<tr><td>10</td><td>Sarrel</td><td>0-4</td><td>1776</td></tr>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Team</th>
+<th>Record</th>
+<th>PF</th>
+<th>PA</th>
+<th>Streak</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Bryce</td><td>4–1</td><td>3246.7</td><td>2434.4</td><td>W1</td></tr>
+<tr><td>2</td><td>Justin</td><td>4–1</td><td>3181.4</td><td>2809.2</td><td>W3</td></tr>
+<tr><td>3</td><td>Wagner</td><td>4–1</td><td>3031.5</td><td>2647.1</td><td>W4</td></tr>
+<tr><td>4</td><td>Moltisanti’s Mistress</td><td>3–2</td><td>2851.9</td><td>2559.6</td><td>W2</td></tr>
+<tr><td>5</td><td>Team Lill</td><td>3–2</td><td>2777.2</td><td>2931.6</td><td>L1</td></tr>
+<tr><td>6</td><td>SlammingMuff</td><td>2–3</td><td>2702.6</td><td>3048.1</td><td>L2</td></tr>
+<tr><td>7</td><td>Ice</td><td>2–3</td><td>2555.7</td><td>2693.9</td><td>W1</td></tr>
+<tr><td>8</td><td>VinSalv</td><td>2–3</td><td>2161.1</td><td>2728.0</td><td>L1</td></tr>
+<tr><td>9</td><td>Johnny Sack</td><td>1–4</td><td>2877.1</td><td>3134.2</td><td>L4</td></tr>
+<tr><td>10</td><td>Sarrel</td><td>0–5</td><td>2306.6</td><td>2705.7</td><td>L5</td></tr>
+</tbody>
 </table>
+</section>
+
 
 <!-- POWER RANKINGS -->
-<h2 style="margin-top:40px;">🔥 Power Rankings</h2>
+<section class="story-card">
+<h2>🔥 Power Rankings</h2>
 
-<div class="ranking">
-<div>#1 Moltisantis Mistress ⬆️5</div>
-<div>#2 Bryce ⬇️1</div>
-<div>#3 Justin ⬆️2</div>
-<div>#4 Wagner ⬆️1</div>
-<div>#5 Team Lill ⬆️2</div>
-<div>#6 Johnny Sack ⬆️3</div>
-<div>#7 Slammingmuff ⬇️3</div>
-<div>#8 Ice ⬆️1</div>
-<div>#9 VinSalv ⬇️1</div>
-<div>#10 Sarrel —</div>
-</div>
+
+<table class="standings-table">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Team</th>
+<th>Record</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+
+
+<tr>
+<td>1</td>
+<td class="team-cell">
+  Justin
+  <span class="team-trend trend-up">⬆️</span>
+</td>
+<td>4–1</td>
+<td>3181.4</td>
+</tr>
+
+
+<tr>
+<td>2</td>
+<td class="team-cell">
+  Bryce
+  <span class="team-trend trend-down">⬇️</span>
+</td>
+<td>4–1</td>
+<td>3246.7</td>
+</tr>
+
+
+<tr>
+<td>3</td>
+<td class="team-cell">
+  Wagner
+  <span class="team-trend trend-up">⬆️</span>
+</td>
+<td>4–1</td>
+<td>3031.5</td>
+</tr>
+
+
+<tr>
+<td>4</td>
+<td class="team-cell">
+  Moltisanti’s Mistress
+  <span class="team-trend trend-up">⬆️</span>
+</td>
+<td>3–2</td>
+<td>2851.9</td>
+</tr>
+
+
+<tr>
+<td>5</td>
+<td class="team-cell">
+  Team Lill
+  <span class="team-trend trend-flat">—</span>
+</td>
+<td>3–2</td>
+<td>2777.2</td>
+</tr>
+
+
+<tr>
+<td>6</td>
+<td class="team-cell">
+  Ice
+  <span class="team-trend trend-up">⬆️</span>
+</td>
+<td>2–3</td>
+<td>2555.7</td>
+</tr>
+
+
+<tr>
+<td>7</td>
+<td class="team-cell">
+  SlammingMuff
+  <span class="team-trend trend-down">⬇️</span>
+</td>
+<td>2–3</td>
+<td>2702.6</td>
+</tr>
+
+
+<tr>
+<td>8</td>
+<td class="team-cell">
+  Johnny Sack
+  <span class="team-trend trend-down">⬇️⬇️</span>
+</td>
+<td>1–4</td>
+<td>2877.1</td>
+</tr>
+
+
+<tr>
+<td>9</td>
+<td class="team-cell">
+  VinSalv
+  <span class="team-trend trend-flat">—</span>
+</td>
+<td>2–3</td>
+<td>2161.1</td>
+</tr>
+
+
+<tr>
+<td>10</td>
+<td class="team-cell">
+  Sarrel
+  <span class="team-trend trend-flat">—</span>
+</td>
+<td>0–5</td>
+<td>2306.6</td>
+</tr>
+
+
+</tbody>
+</table>
+</section>
+
 
 <!-- EXPLANATIONS -->
-<h2 style="margin-top:40px;">Why They Moved</h2>
+<section class="story-card">
+<h2>Why They Moved</h2>
 
-<div class="card">
-<p><strong>#1 Moltisantis Mistress:</strong> Dropped 820 and instantly became the scariest team in the league.</p>
-<p><strong>#2 Bryce:</strong> Still top scorer overall, but Justin continues to haunt him.</p>
-<p><strong>#3 Justin:</strong> Beat Bryce again—even with 48.5 points benched. Problem.</p>
-<p><strong>#4 Wagner:</strong> Quiet consistency. Nobody talking about him, but they should be.</p>
-<p><strong>#5 Team Lill:</strong> Revenge win + big week. Week 5 will define him.</p>
-<p><strong>#6 Johnny Sack:</strong> 1-3 record, but top-tier scoring. Unluckiest team in the league.</p>
-<p><strong>#7 Slammingmuff:</strong> From 713 to 547. Inconsistency showing.</p>
-<p><strong>#8 Ice:</strong> Stable, but needs a breakout.</p>
-<p><strong>#9 VinSalv:</strong> Winning, but not convincing.</p>
-<p><strong>#10 Sarrel:</strong> Still searching. Time to shake things up.</p>
-</div>
 
-<h2 style="margin-top:40px;">📐 How It’s Calculated</h2>
+<p><strong>#1 Justin:</strong> Bitched and moaned all week, then dropped 780. Highest ceiling team right now.</p>
+<p><strong>#2 Bryce:</strong> Still the total points king, just edged slightly this week.</p>
+<p><strong>#3 Wagner:</strong> Quietly on a 4-game heater. Nobody talking about it.</p>
+<p><strong>#4 Molti:</strong> Took advantage of Johnny Sack collapsing. Trending up.</p>
+<p><strong>#5 Lill:</strong> Good team, ran into a buzzsaw this week.</p>
+<p><strong>#6 Ice:</strong> Needed win secured. Stability incoming?</p>
+<p><strong>#7 Slamming:</strong> 6 pitchers Sunday… still lost. Not ideal.</p>
+<p><strong>#8 Johnny Sack:</strong> Roster talent wasted. Two bottom-5 players rostered says it all.</p>
+<p><strong>#9 VinSalv:</strong> Honestly shit.</p>
+<p><strong>#10 Sarrel:</strong> Still searching for a win. Time for changes.</p>
+</section>
 
-<div class="card">
+
+<section class="story-card">
+<h2>📐 How It’s Calculated</h2>
+
+
 <p>
 Power rankings are not just based on record. They reflect overall team strength,
-performance trends, and a little bit of commissioner judgment. (this does not count for anything - it's just for fun)
+performance trends, and a little bit of commissioner judgment.
 </p>
+
 
 <ul class="formula-list">
 <li><strong>35%</strong> — Record</li>
@@ -107,12 +280,15 @@ performance trends, and a little bit of commissioner judgment. (this does not co
 <li><strong>5%</strong> — Eye Test</li>
 </ul>
 
+
 <p class="note">
-If you have a problem with the rankings, win more games, score more points, or as Uncle Paulie would say "Shut the fuck up about it!".
+If you have a problem with the rankings, win more games, score more points,
+or as Uncle Paulie would say “Shut the fuck up about it!”.
 </p>
-</div>
+</section>
 
-</div>
 
+</main>
 </body>
 </html>
+
