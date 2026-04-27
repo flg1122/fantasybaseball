@@ -11,6 +11,11 @@ permissions:
   contents: write
 
 
+concurrency:
+  group: update-leaders-main
+  cancel-in-progress: true
+
+
 jobs:
   update-leaders:
     runs-on: ubuntu-latest
@@ -20,6 +25,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
+          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
@@ -27,6 +33,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+
+      - name: Sync latest main
+        run: |
+          git pull --rebase origin main
 
 
       - name: Run weekly leaders script
@@ -39,12 +50,11 @@ jobs:
           git config user.email "github-actions@github.com"
 
 
-          git pull --rebase origin main
-
-
-          git add data/weekly-leaders.json
-          git commit -m "Update weekly leaders data" || echo "No changes"
-
-
-          git push
+          if [[ -n "$(git status --porcelain data/weekly-leaders.json)" ]]; then
+            git add data/weekly-leaders.json
+            git commit -m "Update weekly leaders data"
+            git push
+          else
+            echo "No leaderboard changes to commit"
+          fi
 
