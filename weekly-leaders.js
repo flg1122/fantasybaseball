@@ -246,6 +246,19 @@ function addToLeaderboard(leaderboard, playerGame) {
   const p = leaderboard[key];
 
 
+  const alreadyCounted = p.games.some(
+    (game) => Number(game.gamePk) === Number(playerGame.gamePk)
+  );
+
+
+  if (alreadyCounted) {
+    console.log(
+      `Skipping duplicate player game: ${playerGame.name} ${playerGame.gamePk}`
+    );
+    return;
+  }
+
+
   p.battingPoints = round(p.battingPoints + playerGame.battingPoints);
   p.pitchingPoints = round(p.pitchingPoints + playerGame.pitchingPoints);
   p.totalPoints = round(p.totalPoints + playerGame.totalPoints);
@@ -279,6 +292,7 @@ function addToLeaderboard(leaderboard, playerGame) {
 async function run() {
   const dates = getCurrentWeekDatesET();
   const leaderboard = {};
+  const processedGamePks = new Set();
 
 
   console.log("Scoring dates:", dates.join(", "));
@@ -297,6 +311,15 @@ async function run() {
       if (!["Final", "Live"].includes(status)) {
         continue;
       }
+
+
+      if (processedGamePks.has(gamePk)) {
+        console.log(`Skipping duplicate gamePk: ${gamePk}`);
+        continue;
+      }
+
+
+      processedGamePks.add(gamePk);
 
 
       const scoredPlayers = await scoreGame(gamePk, date);
@@ -327,8 +350,12 @@ async function run() {
     .sort((a, b) => b.pitchingPoints - a.pitchingPoints);
 
 
+  const now = new Date();
+
+
   const output = {
-    generatedAt: new Date().toLocaleString("en-US", {
+    generatedAt: now.toISOString(),
+    generatedAtET: now.toLocaleString("en-US", {
       timeZone: "America/New_York",
     }),
     scoringPeriod: {
