@@ -5,7 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Quarter Season Update | Dugout Dispatch</title>
   <link rel="stylesheet" href="style.css" />
+
+
+  <style>
+    .draft-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+
+    .draft-player-cell {
+      font-weight: 800;
+      white-space: normal;
+      line-height: 1.25;
+    }
+
+
+    .draft-player-cell span {
+      display: none;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-top: 5px;
+      line-height: 1.35;
+    }
+
+
+    @media (max-width: 700px) {
+      .draft-table {
+        width: 100%;
+        min-width: 0;
+        table-layout: fixed;
+      }
+
+
+      .draft-table th,
+      .draft-table td {
+        font-size: 0.86rem;
+        padding: 12px 8px;
+      }
+
+
+      .draft-table th:nth-child(1),
+      .draft-table td:nth-child(1) {
+        width: 48px;
+      }
+
+
+      .draft-table th:nth-child(2),
+      .draft-table td:nth-child(2) {
+        width: auto;
+      }
+
+
+      .draft-table th:nth-child(3),
+      .draft-table td:nth-child(3) {
+        width: 115px;
+      }
+
+
+      .draft-table th:nth-child(4),
+      .draft-table td:nth-child(4),
+      .draft-table th:nth-child(5),
+      .draft-table td:nth-child(5) {
+        display: none;
+      }
+
+
+      .draft-player-cell span {
+        display: block;
+      }
+    }
+  </style>
 </head>
+
 
 <body>
   <header class="navbar">
@@ -18,8 +91,10 @@
         </span>
       </h1>
 
+
       <nav class="main-nav">
         <a href="index.html">Home</a>
+
 
         <details class="dropdown-details">
           <summary>Weekly Recaps</summary>
@@ -34,6 +109,7 @@
           </div>
         </details>
 
+
         <a href="standings.html">Standings</a>
         <a href="leaders.html">Scoring Leaders</a>
         <a href="history.html">Archives</a>
@@ -41,174 +117,172 @@
     </div>
   </header>
 
+
   <main class="page-wrap">
     <section class="feature-article">
       <p class="feature-kicker">Week 6 Feature</p>
       <h1 class="feature-title">Quarter-Season Draft Check-In</h1>
       <p class="feature-dek">
-        We are just over a quarter of the way through the regular season (27.3% to be exact). I decided to 
-        do a quick recap on our draft and some players who are sticking out. Some draft picks are aging beautifully.
-        Others already look painful.
+        We are just over a quarter of the way through the regular season, 27.3% to be exact.
+        Some draft picks are aging beautifully. Others already look painful.
       </p>
     </section>
 
+
     <section class="story-card draft-feature">
-  <p class="section-label">📊 Draft Check-In</p>
-  <h2>27% Through the Season: Hits, Misses & Surprises</h2>
+      <p class="section-label">📊 Draft Check-In</p>
+      <h2>27% Through the Season: Hits, Misses & Surprises</h2>
 
 
+      <div class="draft-grid">
+        <div class="draft-mini-card">
+          <h3>💎 Best Value</h3>
+          <p><strong>Yordan Alvarez</strong> at Pick 45 by Moltisanti's Mistress might be the best value in the draft so far. Yordan is currently the number 1 overall player in our league.</p>
+        </div>
 
 
+        <div class="draft-mini-card">
+          <h3>🚨 Biggest Surprise</h3>
+          <p><strong>Sal Stewart</strong> was VinSalv’s final pick and somehow became his best player.</p>
+        </div>
 
 
+        <div class="draft-mini-card">
+          <h3>🤔 Under the Microscope</h3>
+          <p><strong>Shohei Ohtani</strong> has been great, but Pick 2 overall comes with unfair expectations.</p>
+        </div>
 
 
-
-  <div class="draft-grid">
-    <div class="draft-mini-card">
-      <h3>💎 Best Value</h3>
-      <p><strong>Yordan Alvarez</strong> at Pick 45 by Moltisanti's Mistress might be the best value in the draft so far. Yordan is currently the Number 1 overall player in our league.</p>
-    </div>
-
+        <div class="draft-mini-card">
+          <h3>📉 Early Concern</h3>
+          <p><strong>Aaron Judge</strong> is reliable, but managers expect league-breaking numbers from Pick 1.</p>
+        </div>
+      </div>
 
 
-
-    <div class="draft-mini-card">
-      <h3>🚨 Biggest Surprise</h3>
-      <p><strong>Sal Stewart</strong> was VinSalv’s final pick and somehow became his best player.</p>
-    </div>
+      <h3>🏆 Top Draft Steals So Far</h3>
 
 
+      <div class="draft-table-wrap">
+        <table class="draft-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player</th>
+              <th>Draft Spot</th>
+              <th>Team</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1</strong></td>
+              <td class="draft-player-cell">Yordan Alvarez<span>Elite production at a mid-round price.</span></td>
+              <td>Round 5, Pick 45</td>
+              <td>Moltisanti’s Mistress</td>
+              <td>Elite production at a mid-round price.</td>
+            </tr>
 
 
-    <div class="draft-mini-card">
-      <h3>🤔 Under the Microscope</h3>
-      <p><strong>Shohei Ohtani</strong> has been great, but Pick 2 overall comes with unfair expectations.</p>
-    </div>
+            <tr>
+              <td><strong>2</strong></td>
+              <td class="draft-player-cell">Sal Stewart<span>Last pick turned into his best player.</span></td>
+              <td>Round 24, Pick 234</td>
+              <td>VinSalv</td>
+              <td>Last pick turned into his best player.</td>
+            </tr>
 
 
+            <tr>
+              <td><strong>3</strong></td>
+              <td class="draft-player-cell">Mike Trout<span>Massive value, even if Ice has not fully capitalized.</span></td>
+              <td>Round 12, Pick 112</td>
+              <td>Ice</td>
+              <td>Massive value, even if Ice has not fully capitalized.</td>
+            </tr>
 
 
-    <div class="draft-mini-card">
-      <h3>📉 Early Concern</h3>
-      <p><strong>Aaron Judge</strong> is reliable, but managers expect league-breaking numbers from Pick 1.</p>
-    </div>
-  </div>
+            <tr>
+              <td><strong>4</strong></td>
+              <td class="draft-player-cell">Cam Schlittler<span>Fantastic late-round pitching value.</span></td>
+              <td>Round 12, Pick 115</td>
+              <td>Team Lill</td>
+              <td>Fantastic late-round pitching value.</td>
+            </tr>
 
 
+            <tr>
+              <td><strong>5</strong></td>
+              <td class="draft-player-cell">Nolan McLean<span>Great value. Unfortunately, Johnny Sack has wasted some of it.</span></td>
+              <td>Round 10, Pick 93</td>
+              <td>Johnny Sack</td>
+              <td>Great value. Unfortunately, Johnny Sack has wasted some of it.</td>
+            </tr>
 
 
-  <h3>🏆 Top Draft Steals So Far</h3>
+            <tr>
+              <td><strong>6</strong></td>
+              <td class="draft-player-cell">Jose Soriano<span>Quietly strong production from a late-round arm.</span></td>
+              <td>Round 16, Pick 159</td>
+              <td>Bryce</td>
+              <td>Quietly strong production from a late-round arm.</td>
+            </tr>
 
 
+            <tr>
+              <td><strong>7</strong></td>
+              <td class="draft-player-cell">Ben Rice<span>Strong return from a middle-round bat.</span></td>
+              <td>Round 7, Pick 67</td>
+              <td>VinSalv</td>
+              <td>Strong return from a middle-round bat.</td>
+            </tr>
 
 
-  <table class="draft-table">
-    <thead>
-      <tr>
-        <th>Rank</th>
-        <th>Player</th>
-        <th>Draft Spot</th>
-        <th>Team</th>
-        <th>Why It Matters</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>1</strong></td>
-        <td>Yordan Alvarez</td>
-        <td>Round 5, Pick 45</td>
-        <td>Moltisanti’s Mistress</td>
-        <td>Elite production at a mid-round price.</td>
-      </tr>
-      <tr>
-        <td><strong>2</strong></td>
-        <td>Sal Stewart</td>
-        <td>Round 24, Pick 234</td>
-        <td>VinSalv</td>
-        <td>Last pick turned into his best player.</td>
-      </tr>
-      <tr>
-        <td><strong>3</strong></td>
-        <td>Mike Trout</td>
-        <td>Round 12, Pick 112</td>
-        <td>Ice</td>
-        <td>Massive value, even if Ice has not fully capitalized.</td>
-      </tr>
-      <tr>
-        <td><strong>4</strong></td>
-        <td>Cam Schlittler</td>
-        <td>Round 12, Pick 115</td>
-        <td>Team Lill</td>
-        <td>Fantastic late-round pitching value.</td>
-      </tr>
-      <tr>
-        <td><strong>5</strong></td>
-        <td>Nolan McLean</td>
-        <td>Round 10, Pick 93</td>
-        <td>Johnny Sack</td>
-        <td>Great value. Unfortunately, JohnnySack has wasted some of it.</td>
-      </tr>
-      <tr>
-        <td><strong>6</strong></td>
-        <td>Jose Soriano</td>
-        <td>Round 16, Pick 159</td>
-        <td>Bryce</td>
-        <td>Quietly strong production from a late-round arm.</td>
-      </tr>
-      <tr>
-        <td><strong>7</strong></td>
-        <td>Ben Rice</td>
-        <td>Round 7, Pick 67</td>
-        <td>VinSalv</td>
-        <td>Strong return from a middle-round bat.</td>
-      </tr>
-      <tr>
-        <td><strong>8</strong></td>
-        <td>Max Fried</td>
-        <td>Round 3, Pick 21</td>
-        <td>Wagner</td>
-        <td>Not cheap, but still delivering reliable ace value.</td>
-      </tr>
-      <tr>
-        <td><strong>9</strong></td>
-        <td>James Wood</td>
-        <td>Round 4, Pick 39</td>
-        <td>Bryce</td>
-        <td>Breakout profile is paying off.</td>
-      </tr>
-      <tr>
-        <td><strong>10</strong></td>
-        <td>Matt Olson</td>
-        <td>Round 4, Pick 40</td>
-        <td>Wagner</td>
-        <td>Steady production from a proven bat.</td>
-      </tr>
-    </tbody>
-  </table>
+            <tr>
+              <td><strong>8</strong></td>
+              <td class="draft-player-cell">Max Fried<span>Not cheap, but still delivering reliable ace value.</span></td>
+              <td>Round 3, Pick 21</td>
+              <td>Wagner</td>
+              <td>Not cheap, but still delivering reliable ace value.</td>
+            </tr>
 
 
+            <tr>
+              <td><strong>9</strong></td>
+              <td class="draft-player-cell">James Wood<span>Breakout profile is paying off.</span></td>
+              <td>Round 4, Pick 39</td>
+              <td>Bryce</td>
+              <td>Breakout profile is paying off.</td>
+            </tr>
 
 
-  
-
-  <h2><br>🚑 Injury Impact</h2>
-  <p>
-    Max Muncy (A's), Garret Crochet, Eugenio Suarez, Hunter Greene, Jackson Chourio, Juan Soto, Francisco Lindor, and Spencer Strider have already missed time —
-    testing depth much earlier than expected.
-  </p>
-
-
-
-
-  <h2><br>🎯 Final Takeaway</h2>
-  <p>
-    Value was everywhere in this years draft, if you hit on your mid-to-late rounds. Top picks are not guaranteeing wins,
-    and some teams are maximizing their draft far better than others.
-  </p>
-</section>
+            <tr>
+              <td><strong>10</strong></td>
+              <td class="draft-player-cell">Matt Olson<span>Steady production from a proven bat.</span></td>
+              <td>Round 4, Pick 40</td>
+              <td>Wagner</td>
+              <td>Steady production from a proven bat.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
 
+      <h2><br>🚑 Injury Impact</h2>
+      <p>
+        Max Muncy (A's), Garrett Crochet, Eugenio Suarez, Hunter Greene, Jackson Chourio,
+        Juan Soto, Francisco Lindor, and Spencer Strider have already missed time —
+        testing depth much earlier than expected.
+      </p>
+
+
+      <h2><br>🎯 Final Takeaway</h2>
+      <p>
+        Value was everywhere in this year’s draft if you hit on your mid-to-late rounds.
+        Top picks are not guaranteeing wins, and some teams are maximizing their draft far better than others.
+      </p>
+    </section>
   </main>
 </body>
 </html>
+

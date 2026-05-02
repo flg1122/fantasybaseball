@@ -1146,3 +1146,79 @@ padding: 32px 16px;
   }
 }
 
+/* ===== Draft Table Mobile Fix ===== */
+
+
+.draft-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+.draft-player-cell {
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+
+.draft-player-cell span {
+  display: none;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 5px;
+  line-height: 1.35;
+}
+
+
+/* MOBILE */
+@media (max-width: 700px) {
+
+
+  .draft-table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+
+  .draft-table th,
+  .draft-table td {
+    font-size: 0.86rem;
+    padding: 12px 8px;
+  }
+
+
+  /* keep only important columns */
+  .draft-table th:nth-child(1),
+  .draft-table td:nth-child(1) {
+    width: 48px;
+  }
+
+
+  .draft-table th:nth-child(2),
+  .draft-table td:nth-child(2) {
+    width: auto;
+  }
+
+
+  .draft-table th:nth-child(3),
+  .draft-table td:nth-child(3) {
+    width: 115px;
+  }
+
+
+  /* hide these on mobile */
+  .draft-table th:nth-child(4),
+  .draft-table td:nth-child(4),
+  .draft-table th:nth-child(5),
+  .draft-table td:nth-child(5) {
+    display: none;
+  }
+
+
+  /* show reasoning under player name */
+  .draft-player-cell span {
+    display: block;
+  }
+}
+
