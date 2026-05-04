@@ -59,6 +59,7 @@
         <label class="leader-limit">
           Select Week
           <select id="week-select">
+            <option value="6" selected>Week 6</option>
             <option value="5">Week 5</option>
             <option value="4">Week 4</option>
           </select>
@@ -104,7 +105,7 @@
 
   <script>
     let archiveData = null;
-    let currentWeek = "5";
+    let currentWeek = "6";
     let currentView = "overall";
     let currentLimit = 25;
     let currentSort = "desc";
@@ -234,7 +235,7 @@
         document.getElementById("archive-board").innerHTML = `
           <div class="card">
             <h2>Archive unavailable</h2>
-            <p>This week has not been archived yet.</p>
+            <p>This week was not archived. Archive began Week 5.</p>
           </div>
         `;
       }
