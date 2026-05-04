@@ -1222,3 +1222,68 @@ padding: 32px 16px;
   }
 }
 
+/* ===== MATCHUP CARD STYLES ===== */
+
+
+.matchup-card {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Championship / Main Event */
+.championship-card {
+  border-left: 5px solid #f4b400;
+  background: linear-gradient(180deg, rgba(244, 180, 0, 0.08), transparent 65%), var(--panel);
+}
+
+
+/* Crying / League drama */
+.crying-card {
+  border-left: 5px solid #60a5fa;
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.08), transparent 65%), var(--panel);
+}
+
+
+/* First win / breakthrough */
+.first-win-card {
+  border-left: 5px solid #45d483;
+  background: linear-gradient(180deg, rgba(69, 212, 131, 0.08), transparent 65%), var(--panel);
+}
+
+
+/* Pitching bounceback / analytical */
+.pitching-card {
+  border-left: 5px solid #a78bfa;
+  background: linear-gradient(180deg, rgba(167, 139, 250, 0.08), transparent 65%), var(--panel);
+}
+
+
+/* Slugfest / chaos matchup */
+.slugfest-card {
+  border-left: 5px solid #ff6b6b;
+  background: linear-gradient(180deg, rgba(255, 107, 107, 0.08), transparent 65%), var(--panel);
+}
+
+.stat-list li strong {
+  font-weight: 700;
+}
+
+
+.stat-list.negative li strong {
+  color: #ff6b6b;
+}
+
+
+.matchup-card {
+  border-left: 3px solid rgba(255,255,255,0.1);
+  padding-left: 16px;
+  margin-bottom: 18px;
+}
+
+
+.matchup-card h3 {
+  margin-bottom: 6px;
+}
+
+

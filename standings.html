@@ -16,14 +16,92 @@
 
 
 .team-trend {
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
 
 .trend-up { color: #45d483; }
 .trend-down { color: #ff6b6b; }
 .trend-flat { color: #f4b400; }
+
+
+.power-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+.power-card {
+  background: #0f172a;
+  border: 1px solid #24314b;
+  border-left: 5px solid #60a5fa;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+
+.power-card.top-tier {
+  border-left-color: #f4b400;
+}
+
+
+.power-card.danger-tier {
+  border-left-color: #ff6b6b;
+}
+
+
+.power-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+
+.power-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+
+.power-rank {
+  color: var(--accent);
+  font-weight: 900;
+}
+
+
+.power-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+
+.power-note {
+  margin: 10px 0 0;
+}
+
+
+@media (max-width: 700px) {
+  .standings-table th,
+  .standings-table td {
+    font-size: 0.88rem;
+    padding: 10px 8px;
+  }
+
+
+  .standings-table th:nth-child(5),
+  .standings-table td:nth-child(5) {
+    display: none;
+  }
+
+
+  .power-card {
+    padding: 14px;
+  }
+}
 </style>
 
 
@@ -52,18 +130,19 @@
 <summary>Weekly Recaps</summary>
 <div class="dropdown-panel">
 <a href="placeholder.html">Week 1</a>
-            <a href="placeholder.html">Week 2</a>
-            <a href="placeholder.html">Week 3</a>
-            <a href="week4.html">Week 4</a>
-            <a href="week5.html">Week 5</a>
-            <a href="quarterseason.html">Quarter Season Update</a>
-            <a href="week6.html">Week 6</a>
-          </div>
-        </details>
+<a href="placeholder.html">Week 2</a>
+<a href="placeholder.html">Week 3</a>
+<a href="week4.html">Week 4</a>
+<a href="week5.html">Week 5</a>
+<a href="quarterseason.html">Quarter Season Update</a>
+<a href="week6.html">Week 6</a>
+</div>
+</details>
 
-        <a href="standings.html">Standings</a>
-        <a href="leaders.html">Scoring Leaders</a>
-        <a href="history.html">Archives</a>
+
+<a href="standings.html">Standings</a>
+<a href="leaders.html">Scoring Leaders</a>
+<a href="history.html">Archives</a>
 </nav>
 </div>
 </header>
@@ -73,15 +152,14 @@
 
 
 <section class="feature-article">
-<span class="feature-kicker">Post Week 5</span>
+<span class="feature-kicker">Post Week 6</span>
 <h1 class="feature-title">Standings & Power Rankings</h1>
 <p class="feature-dek">
-Bryce, Justin, and Wagner sit at the top at 4–1, but momentum is shifting fast.
+Bryce, Justin, and Wagner are all 5–1 at the top. The records are tight, the points are tighter, and the league is starting to separate.
 </p>
 </section>
 
 
-<!-- STANDINGS -->
 <section class="story-card">
 <h2>📊 League Standings</h2>
 
@@ -93,175 +171,152 @@ Bryce, Justin, and Wagner sit at the top at 4–1, but momentum is shifting fast
 <th>Team</th>
 <th>Record</th>
 <th>PF</th>
-<th>PA</th>
-<th>Streak</th>
+<th>Last 2</th>
 </tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Bryce</td><td>4–1</td><td>3246.7</td><td>2434.4</td><td>W1</td></tr>
-<tr><td>2</td><td>Justin</td><td>4–1</td><td>3181.4</td><td>2809.2</td><td>W3</td></tr>
-<tr><td>3</td><td>Wagner</td><td>4–1</td><td>3031.5</td><td>2647.1</td><td>W4</td></tr>
-<tr><td>4</td><td>Moltisanti’s Mistress</td><td>3–2</td><td>2851.9</td><td>2559.6</td><td>W2</td></tr>
-<tr><td>5</td><td>Team Lill</td><td>3–2</td><td>2777.2</td><td>2931.6</td><td>L1</td></tr>
-<tr><td>6</td><td>SlammingMuff</td><td>2–3</td><td>2702.6</td><td>3048.1</td><td>L2</td></tr>
-<tr><td>7</td><td>Ice</td><td>2–3</td><td>2555.7</td><td>2693.9</td><td>W1</td></tr>
-<tr><td>8</td><td>VinSalv</td><td>2–3</td><td>2161.1</td><td>2728.0</td><td>L1</td></tr>
-<tr><td>9</td><td>Johnny Sack</td><td>1–4</td><td>2877.1</td><td>3134.2</td><td>L4</td></tr>
-<tr><td>10</td><td>Sarrel</td><td>0–5</td><td>2306.6</td><td>2705.7</td><td>L5</td></tr>
+<tr><td>1</td><td>Bryce</td><td>5–1</td><td>3885.9</td><td>1328</td></tr>
+<tr><td>2</td><td>Justin</td><td>5–1</td><td>3884.8</td><td>1483</td></tr>
+<tr><td>3</td><td>Wagner</td><td>5–1</td><td>3848.6</td><td>1570</td></tr>
+<tr><td>4</td><td>Moltisanti’s Mistress</td><td>3–3</td><td>3654.2</td><td>1421</td></tr>
+<tr><td>5</td><td>Team Lill</td><td>3–3</td><td>3336.1</td><td>1176</td></tr>
+<tr><td>6</td><td>VinSalv</td><td>3–3</td><td>2842.1</td><td>1066</td></tr>
+<tr><td>7</td><td>SlammingMuff</td><td>2–4</td><td>3202.8</td><td>1102</td></tr>
+<tr><td>8</td><td>Ice</td><td>2–4</td><td>3118.2</td><td>1188</td></tr>
+<tr><td>9</td><td>Johnny Sack</td><td>1–5</td><td>3469.5</td><td>1124</td></tr>
+<tr><td>10</td><td>Sarrel</td><td>1–5</td><td>2851.9</td><td>1090</td></tr>
 </tbody>
 </table>
 </section>
 
-
-<!-- POWER RANKINGS -->
+<br>
 <section class="story-card">
 <h2>🔥 Power Rankings</h2>
 
 
-<table class="standings-table">
-<thead>
-<tr>
-<th>Rank</th>
-<th>Team</th>
-<th>Record</th>
-<th>PF</th>
-</tr>
-</thead>
-<tbody>
+<div class="power-card-list">
 
 
-<tr>
-<td>1</td>
-<td class="team-cell">
-  Justin
-  <span class="team-trend trend-up">⬆️</span>
-</td>
-<td>4–1</td>
-<td>3181.4</td>
-</tr>
+<div class="power-card top-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#1</span> Wagner</h3>
+    <span class="team-trend trend-up">⬆️</span>
+  </div>
+  <p class="power-meta">Record: 5–1 | PF: 3848.6 | Last 2: 1570 | Best Week: 817</p>
+  <p class="power-note">Tough team. Just dropped 817 and looks like one of the scariest rosters in the league.</p>
+</div>
 
 
-<tr>
-<td>2</td>
-<td class="team-cell">
-  Bryce
-  <span class="team-trend trend-down">⬇️</span>
-</td>
-<td>4–1</td>
-<td>3246.7</td>
-</tr>
+<div class="power-card top-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#2</span> Bryce</h3>
+    <span class="team-trend trend-flat">—</span>
+  </div>
+  <p class="power-meta">Record: 5–1 | PF: 3885.9 | Last 2: 1328 | Best Week: 797</p>
+  <p class="power-note">Still technically the total points king. Strong record, strong roster, still elite.</p>
+</div>
 
 
-<tr>
-<td>3</td>
-<td class="team-cell">
-  Wagner
-  <span class="team-trend trend-up">⬆️</span>
-</td>
-<td>4–1</td>
-<td>3031.5</td>
-</tr>
+<div class="power-card top-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#3</span> Justin</h3>
+    <span class="team-trend trend-down">⬇️</span>
+  </div>
+  <p class="power-meta">Record: 5–1 | PF: 3884.8 | Last 2: 1483 | Best Week: 780</p>
+  <p class="power-note">Lucky? Absolutely. But 5–1 with elite points is still 5–1 with elite points.</p>
+</div>
 
 
-<tr>
-<td>4</td>
-<td class="team-cell">
-  Moltisanti’s Mistress
-  <span class="team-trend trend-up">⬆️</span>
-</td>
-<td>3–2</td>
-<td>2851.9</td>
-</tr>
+<div class="power-card">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#4</span> Moltisanti’s Mistress</h3>
+    <span class="team-trend trend-flat">—</span>
+  </div>
+  <p class="power-meta">Record: 3–3 | PF: 3654.2 | Last 2: 1421 | Best Week: 820</p>
+  <p class="power-note">Tough team. Record is only 3–3, but the points say this team is dangerous.</p>
+</div>
 
 
-<tr>
-<td>5</td>
-<td class="team-cell">
-  Team Lill
-  <span class="team-trend trend-flat">—</span>
-</td>
-<td>3–2</td>
-<td>2777.2</td>
-</tr>
+<div class="power-card">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#5</span> Team Lill</h3>
+    <span class="team-trend trend-flat">—</span>
+  </div>
+  <p class="power-meta">Record: 3–3 | PF: 3336.1 | Last 2: 1176 | Best Week: 722</p>
+  <p class="power-note">Unlucky week. Still has enough talent to be a problem if the lineup heats up.</p>
+</div>
 
 
-<tr>
-<td>6</td>
-<td class="team-cell">
-  Ice
-  <span class="team-trend trend-up">⬆️</span>
-</td>
-<td>2–3</td>
-<td>2555.7</td>
-</tr>
+<div class="power-card">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#6</span> Johnny Sack</h3>
+    <span class="team-trend trend-up">⬆️</span>
+  </div>
+  <p class="power-meta">Record: 1–5 | PF: 3469.5 | Last 2: 1124 | Best Week: 692</p>
+  <p class="power-note">Unlucky as hell. The record is ugly, but the points say this team is not dead yet.</p>
+</div>
 
 
-<tr>
-<td>7</td>
-<td class="team-cell">
-  SlammingMuff
-  <span class="team-trend trend-down">⬇️</span>
-</td>
-<td>2–3</td>
-<td>2702.6</td>
-</tr>
+<div class="power-card">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#7</span> VinSalv</h3>
+    <span class="team-trend trend-up">⬆️</span>
+  </div>
+  <p class="power-meta">Record: 3–3 | PF: 2842.1 | Last 2: 1066 | Best Week: 680</p>
+  <p class="power-note">Won this week, but it was not overly impressive. Pitching finally showed up though.</p>
+</div>
 
 
-<tr>
-<td>8</td>
-<td class="team-cell">
-  Johnny Sack
-  <span class="team-trend trend-down">⬇️⬇️</span>
-</td>
-<td>1–4</td>
-<td>2877.1</td>
-</tr>
+<div class="power-card danger-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#8</span> Ice</h3>
+    <span class="team-trend trend-down">⬇️</span>
+  </div>
+  <p class="power-meta">Record: 2–4 | PF: 3118.2 | Last 2: 1188 | Best Week: 626</p>
+  <p class="power-note">Nothing to write home about. Not terrible, not scary, just floating around.</p>
+</div>
 
 
-<tr>
-<td>9</td>
-<td class="team-cell">
-  VinSalv
-  <span class="team-trend trend-flat">—</span>
-</td>
-<td>2–3</td>
-<td>2161.1</td>
-</tr>
+<div class="power-card danger-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#9</span> SlammingMuff</h3>
+    <span class="team-trend trend-down">⬇️</span>
+  </div>
+  <p class="power-meta">Record: 2–4 | PF: 3202.8 | Last 2: 1102 | Best Week: 713</p>
+  <p class="power-note">Slipping badly. Losing to Sarrel is the kind of thing that gets mentioned in documentaries.</p>
+</div>
 
 
-<tr>
-<td>10</td>
-<td class="team-cell">
-  Sarrel
-  <span class="team-trend trend-flat">—</span>
-</td>
-<td>0–5</td>
-<td>2306.6</td>
-</tr>
+<div class="power-card danger-tier">
+  <div class="power-card-header">
+    <h3><span class="power-rank">#10</span> Sarrel</h3>
+    <span class="team-trend trend-up">⬆️</span>
+  </div>
+  <p class="power-meta">Record: 1–5 | PF: 2851.9 | Last 2: 1090 | Best Week: 560</p>
+  <p class="power-note">Finally won, but still not great. The losing streak is dead, but the climb is just beginning.</p>
+</div>
 
 
-</tbody>
-</table>
+</div>
 </section>
+<br>
 
-
-<!-- EXPLANATIONS -->
 <section class="story-card">
 <h2>Why They Moved</h2>
 
 
-<p><strong>#1 Justin:</strong> Bitched and moaned all week, then dropped 780. Highest ceiling team right now.</p>
-<p><strong>#2 Bryce:</strong> Still the total points king, just edged slightly this week.</p>
-<p><strong>#3 Wagner:</strong> Quietly on a 4-game heater. Nobody talking about it.</p>
-<p><strong>#4 Molti:</strong> Took advantage of Johnny Sack collapsing. Trending up.</p>
-<p><strong>#5 Lill:</strong> Good team, ran into a buzzsaw this week.</p>
-<p><strong>#6 Ice:</strong> Needed win secured. Stability incoming?</p>
-<p><strong>#7 Slamming:</strong> 6 pitchers Sunday… still lost. Not ideal.</p>
-<p><strong>#8 Johnny Sack:</strong> Roster talent wasted. Two bottom-5 players rostered says it all.</p>
-<p><strong>#9 VinSalv:</strong> Honestly shit.</p>
-<p><strong>#10 Sarrel:</strong> Still searching for a win. Time for changes.</p>
+<p><strong>#1 Wagner:</strong> Last two weeks are strong, best Week 6 score, and the eye test says this team is real.</p>
+<p><strong>#2 Bryce:</strong> Best overall points total and 5–1. Still elite, just slightly behind Wagner’s momentum.</p>
+<p><strong>#3 Justin:</strong> 5–1 and scoring like a monster, but the luck tax is real.</p>
+<p><strong>#4 Moltisanti's Mistress:</strong> 3–3 record does not tell the full story. This team can score with anyone.</p>
+<p><strong>#5 Team Lill:</strong> Unlucky, but still firmly in the dangerous middle tier.</p>
+<p><strong>#6 Johnny Sack:</strong> Terrible record, good points. The league’s unluckiest disaster.</p>
+<p><strong>#7 VinSalv:</strong> Got the win, but still needs to prove it consistently.</p>
+<p><strong>#8 Ice:</strong> Nothing terrible, nothing exciting.</p>
+<p><strong>#9 SlammingMuff:</strong> Slipping. Badly. Muff offically slammed.</p>
+<p><strong>#10 Sarrel:</strong> Got win number one, but the rankings are not giving out charity yet.</p>
 </section>
-
+<br>
 
 <section class="story-card">
 <h2>📐 How It’s Calculated</h2>
@@ -292,4 +347,5 @@ or as Uncle Paulie would say “Shut the fuck up about it!”.
 </main>
 </body>
 </html>
+
 
