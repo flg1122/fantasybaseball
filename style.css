@@ -1527,4 +1527,528 @@ padding: 32px 16px;
 }
 
 
+/* ===== RIVALRIES PAGE ===== */
+
+
+.rivalries-page {
+  background:
+    radial-gradient(circle at top left, rgba(255, 107, 107, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(244, 180, 0, 0.12), transparent 30%),
+    linear-gradient(180deg, #09060a 0%, #12070b 45%, #050508 100%);
+}
+
+
+.rivalry-hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(255, 107, 107, 0.22), transparent 35%),
+    linear-gradient(180deg, rgba(244, 64, 0, 0.15), rgba(10, 15, 26, 0.95)),
+    #111827;
+  border: 1px solid rgba(255, 107, 107, 0.35);
+  border-radius: 28px;
+  padding: 52px 24px;
+  box-shadow: 0 0 45px rgba(255, 64, 0, 0.18);
+}
+
+
+.rivalry-hero::before {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  background:
+    linear-gradient(90deg, transparent, rgba(255, 107, 107, 0.12), transparent);
+  transform: rotate(14deg);
+  animation: rivalry-flare 4s infinite;
+}
+
+
+.rivalry-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.rivalry-kicker {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 107, 107, 0.14);
+  color: #ffb199;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+
+.rivalry-hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2.4rem, 8vw, 5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 30px rgba(255, 107, 107, 0.35);
+}
+
+
+.rivalry-hero p {
+  max-width: 850px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  font-size: 1.05rem;
+}
+
+
+.rivalry-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  margin-top: 28px;
+}
+
+
+.rivalry-card {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.015)),
+    #111827;
+  border: 1px solid #24314b;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+
+.rivalry-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -60px -20%;
+  height: 120px;
+  background: radial-gradient(circle, rgba(255, 107, 107, 0.18), transparent 65%);
+  pointer-events: none;
+}
+
+
+.rivalry-card h2 {
+  margin: 10px 0 12px;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.05;
+}
+
+
+.rivalry-card p {
+  color: #cbd5e1;
+}
+
+
+.rivalry-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.rivalry-label,
+.rivalry-record {
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+
+.rivalry-label {
+  background: rgba(255, 107, 107, 0.14);
+  color: #ffb199;
+}
+
+
+.rivalry-record {
+  background: rgba(244, 180, 0, 0.12);
+  color: var(--accent);
+}
+
+
+.rivalry-results {
+  list-style: none;
+  margin: 18px 0;
+  padding: 0;
+  border: 1px solid #24314b;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+
+.rivalry-results li {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.75);
+}
+
+
+.rivalry-results li:last-child {
+  border-bottom: none;
+}
+
+
+.rivalry-meter {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 16px;
+}
+
+
+.rivalry-meter span {
+  color: var(--muted);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+}
+
+
+.rivalry-meter strong {
+  font-size: 1.15rem;
+}
+
+
+.inferno-card {
+  border-left: 6px solid #ff3b30;
+  box-shadow: 0 0 34px rgba(255, 59, 48, 0.12);
+}
+
+
+.fire-card {
+  border-left: 6px solid #f97316;
+}
+
+
+.ember-card {
+  border-left: 6px solid #f4b400;
+}
+
+
+.newcomer-card {
+  border-left: 6px solid #60a5fa;
+}
+
+
+@keyframes rivalry-flare {
+  0% {
+    transform: translateX(-120%) rotate(14deg);
+  }
+  100% {
+    transform: translateX(120%) rotate(14deg);
+  }
+}
+
+
+@media (max-width: 700px) {
+  .rivalry-hero {
+    padding: 38px 18px;
+    border-radius: 22px;
+  }
+
+
+  .rivalry-card {
+    padding: 20px;
+  }
+
+
+  .rivalry-header {
+    align-items: flex-start;
+  }
+
+
+  .rivalry-meter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+/* ===== RIVALRY HEAT SCALE ===== */
+
+
+.heat-scale-card {
+  margin-top: 26px;
+  padding: 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 107, 107, 0.25);
+  background:
+    linear-gradient(180deg, rgba(255, 107, 107, 0.06), rgba(17, 24, 39, 0.92)),
+    #111827;
+  box-shadow: 0 0 30px rgba(255, 59, 48, 0.08);
+}
+
+
+.heat-scale-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+
+.heat-scale-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+
+.heat-level {
+  position: relative;
+  overflow: hidden;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(15, 23, 42, 0.82);
+  text-align: center;
+}
+
+
+.heat-level strong {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+
+.heat-level span {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.92rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+.heat-level p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+
+.nuclear {
+  border-color: rgba(255, 59, 48, 0.45);
+  box-shadow: 0 0 20px rgba(255, 59, 48, 0.15);
+}
+
+
+.raging {
+  border-color: rgba(249, 115, 22, 0.35);
+}
+
+
+.heating {
+  border-color: rgba(244, 180, 0, 0.35);
+}
+
+
+.simmering {
+  border-color: rgba(96, 165, 250, 0.28);
+}
+
+
+.mild {
+  border-color: rgba(148, 163, 184, 0.22);
+}
+
+
+@media (max-width: 1100px) {
+  .heat-scale-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .heat-scale-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.heat-scale-details {
+  cursor: pointer;
+}
+
+
+.heat-scale-details summary {
+  list-style: none;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 900;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.heat-scale-details summary::after {
+  content: "Open Scale ↓";
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+.heat-scale-details[open] summary::after {
+  content: "Close Scale ↑";
+}
+
+
+.heat-scale-details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.heat-scale-details .heat-scale-grid {
+  margin-top: 22px;
+}
+
+
+@media (max-width: 650px) {
+  .heat-scale-details {
+    padding: 18px;
+  }
+
+
+  .heat-scale-details summary {
+    font-size: 1.55rem;
+  }
+
+
+  .heat-scale-details summary::after {
+    font-size: 0.7rem;
+  }
+
+
+  .heat-level {
+    padding: 14px;
+  }
+}
+
+
+
+/* ===== COMPACT COLLAPSIBLE HEAT SCALE OVERRIDE ===== */
+
+
+.heat-scale-details {
+  margin-top: 22px;
+  padding: 18px 20px;
+  cursor: pointer;
+}
+
+
+.heat-scale-details summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: clamp(1.35rem, 4vw, 1.8rem);
+  font-weight: 900;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+
+.heat-scale-details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.heat-scale-details summary::after {
+  content: "Open ↓";
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+
+.heat-scale-details[open] summary::after {
+  content: "Close ↑";
+}
+
+
+.heat-scale-details .heat-scale-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+
+.heat-scale-details .heat-level {
+  padding: 12px 14px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 90px 115px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.heat-scale-details .heat-level strong {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.heat-scale-details .heat-level span {
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+
+.heat-scale-details .heat-level p {
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+
+@media (max-width: 650px) {
+  .heat-scale-details {
+    padding: 14px;
+  }
+
+
+  .heat-scale-details summary {
+    font-size: 1.35rem;
+  }
+
+
+  .heat-scale-details .heat-level {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 6px;
+  }
+
+
+  .heat-scale-details .heat-level p {
+    font-size: 0.8rem;
+  }
+}
+
+
 
