@@ -1286,4 +1286,245 @@ padding: 32px 16px;
   margin-bottom: 6px;
 }
 
+/* ===== WAITING / RECAP LOADING PAGE ===== */
+
+
+.waiting-hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(96, 165, 250, 0.18), transparent 35%),
+    linear-gradient(180deg, rgba(244, 180, 0, 0.08), transparent 70%),
+    #111827;
+  border: 1px solid #24314b;
+  border-radius: 24px;
+  padding: 44px 24px;
+  box-shadow: var(--shadow);
+}
+
+
+.waiting-hero::before {
+  content: "";
+  position: absolute;
+  inset: -60px;
+  background:
+    linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+  transform: rotate(12deg);
+  animation: waiting-shine 3.5s infinite;
+}
+
+
+.waiting-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.waiting-badge {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(244, 180, 0, 0.12);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+.loading-diamond {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 22px;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(135deg, rgba(244, 180, 0, 0.18), rgba(96, 165, 250, 0.18)),
+    #0f172a;
+  border: 1px solid #24314b;
+  border-radius: 24px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 40px rgba(96, 165, 250, 0.18);
+  animation: diamond-pulse 1.8s infinite ease-in-out;
+}
+
+
+.loading-diamond span {
+  display: block;
+  transform: rotate(-45deg);
+  font-size: 2.4rem;
+  animation: ball-spin 2.4s linear infinite;
+}
+
+
+.waiting-hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2.4rem, 8vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+
+.waiting-hero p {
+  max-width: 780px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+
+.waiting-ticker {
+  margin: 26px auto 20px;
+  max-width: 850px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e5e7eb;
+}
+
+
+.waiting-ticker span {
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, #24314b, transparent);
+}
+
+
+.waiting-ticker strong {
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+
+.loading-bar {
+  max-width: 620px;
+  height: 12px;
+  margin: 24px auto 16px;
+  background: #0f172a;
+  border: 1px solid #24314b;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+
+.loading-progress {
+  height: 100%;
+  width: 40%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  animation: loading-slide 2.2s infinite ease-in-out;
+}
+
+
+.waiting-small {
+  font-size: 0.92rem !important;
+  opacity: 0.9;
+}
+
+
+.waiting-actions {
+  margin-top: 24px;
+}
+
+
+.waiting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+
+.waiting-card {
+  background: #111827;
+  border: 1px solid #24314b;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+
+.waiting-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+
+.waiting-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+
+@keyframes waiting-shine {
+  0% {
+    transform: translateX(-120%) rotate(12deg);
+  }
+  100% {
+    transform: translateX(120%) rotate(12deg);
+  }
+}
+
+
+@keyframes diamond-pulse {
+  0%, 100% {
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(1.06);
+  }
+}
+
+
+@keyframes ball-spin {
+  from {
+    transform: rotate(-45deg) rotate(0deg);
+  }
+  to {
+    transform: rotate(-45deg) rotate(360deg);
+  }
+}
+
+
+@keyframes loading-slide {
+  0% {
+    transform: translateX(-120%);
+    width: 35%;
+  }
+  50% {
+    width: 55%;
+  }
+  100% {
+    transform: translateX(260%);
+    width: 35%;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .waiting-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .waiting-hero {
+    padding: 34px 18px;
+  }
+
+
+  .waiting-ticker {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  .waiting-ticker span {
+    width: 100%;
+  }
+}
+
+
 
