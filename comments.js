@@ -1,4 +1,6 @@
 const COMMENTS_API = "https://dugout-comments-api.flg.workers.dev/comments";
+const IS_ADMIN = new URLSearchParams(window.location.search).get("admin") === "1";
+
 
 
 const DEFAULT_NAMES = [
@@ -151,8 +153,54 @@ async function loadComments(widget, page, section) {
           <span>${formatCommentDate(comment.created_at)}</span>
         </div>
         <p>${escapeHtml(comment.comment_text)}</p>
+${IS_ADMIN ? `<button class="delete-comment-btn" data-id="${comment.id}">Delete</button>` : ""}
+
+
+
       </div>
     `).join("");
+    if (IS_ADMIN) {
+  list.querySelectorAll(".delete-comment-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const password = prompt("Admin password:");
+
+
+      if (!password) return;
+
+
+      const confirmed = confirm("Delete this comment?");
+      if (!confirmed) return;
+
+
+      try {
+        const res = await fetch(COMMENTS_API, {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Admin-Password": password
+          },
+          body: JSON.stringify({
+            id: btn.dataset.id
+          })
+        });
+
+
+        if (!res.ok) {
+          alert("Delete failed. Wrong password?");
+          return;
+        }
+
+
+        await loadComments(widget, page, section);
+      } catch (err) {
+        alert("Delete failed.");
+      }
+    });
+  });
+}
+
+
+
   } catch (err) {
     count.textContent = "Unavailable";
     list.innerHTML = `<p class="comments-muted">Comments could not load.</p>`;
