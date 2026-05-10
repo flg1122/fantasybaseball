@@ -162,7 +162,11 @@ async function loadComments(widget, page, section) {
 
 function formatCommentDate(value) {
   const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "";
+
+
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
 
 
   return date.toLocaleString("en-US", {
@@ -173,6 +177,9 @@ function formatCommentDate(value) {
     minute: "2-digit"
   });
 }
+
+
+
 
 
 function escapeHtml(value) {
