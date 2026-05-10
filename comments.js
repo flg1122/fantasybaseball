@@ -161,7 +161,17 @@ async function loadComments(widget, page, section) {
 
 
 function formatCommentDate(value) {
-  const date = new Date(value);
+  if (!value) return "";
+
+
+  // D1 CURRENT_TIMESTAMP returns UTC like: "2026-05-10 03:56:00"
+  // JavaScript needs the "Z" to understand it is UTC.
+  const normalizedValue = String(value).includes("T")
+    ? value
+    : String(value).replace(" ", "T") + "Z";
+
+
+  const date = new Date(normalizedValue);
 
 
   if (Number.isNaN(date.getTime())) {
@@ -177,9 +187,6 @@ function formatCommentDate(value) {
     minute: "2-digit"
   });
 }
-
-
-
 
 
 function escapeHtml(value) {
