@@ -2227,5 +2227,658 @@ padding: 32px 16px;
 }
 
 
+/* ===== WEEK 7 CHAOS RECAP THEME ===== */
+
+
+.week7-recap-page {
+  background:
+    radial-gradient(circle at top left, rgba(255, 107, 107, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(244, 180, 0, 0.12), transparent 32%),
+    linear-gradient(180deg, #07070b 0%, #111827 42%, #050508 100%);
+}
+
+
+.week7-chaos-hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(255, 107, 107, 0.24), transparent 34%),
+    linear-gradient(180deg, rgba(244, 64, 0, 0.16), rgba(10, 15, 26, 0.96)),
+    #111827;
+  border: 1px solid rgba(255, 107, 107, 0.34);
+  border-radius: 28px;
+  padding: 52px 24px;
+  box-shadow: 0 0 45px rgba(255, 64, 0, 0.18);
+}
+
+
+.week7-chaos-hero::before {
+  content: "";
+  position: absolute;
+  inset: -90px;
+  background:
+    linear-gradient(90deg, transparent, rgba(255, 107, 107, 0.13), transparent);
+  transform: rotate(14deg);
+  animation: week7-flare 4s infinite;
+}
+
+
+.week7-chaos-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.week7-chaos-hero .feature-kicker {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 107, 107, 0.14);
+  color: #ffb199;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+
+.week7-chaos-hero .feature-title {
+  margin: 0 0 14px;
+  font-size: clamp(2.5rem, 8vw, 5.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+  text-shadow: 0 0 30px rgba(255, 107, 107, 0.35);
+}
+
+
+.week7-chaos-hero .feature-dek {
+  max-width: 870px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  font-size: 1.05rem;
+}
+
+
+.week7-recap-page .update-reminder {
+  border-color: rgba(255, 107, 107, 0.35);
+  background:
+    linear-gradient(90deg, rgba(255, 107, 107, 0.14), rgba(244, 180, 0, 0.08)),
+    #111827;
+  box-shadow: 0 0 22px rgba(255, 107, 107, 0.12);
+}
+
+
+.week7-recap-page .story-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+  box-shadow: var(--shadow);
+}
+
+
+.week7-recap-page .story-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -70px -20%;
+  height: 130px;
+  background: radial-gradient(circle, rgba(255, 107, 107, 0.10), transparent 68%);
+  pointer-events: none;
+}
+
+
+.week7-recap-page .story-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.week7-recap-page .section-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(255, 107, 107, 0.13);
+  color: #ffb199;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+.week7-recap-page .story-card h2:not(.section-label) {
+  font-size: clamp(1.65rem, 4vw, 2.55rem);
+  line-height: 1.05;
+  margin-top: 4px;
+}
+
+
+.week7-recap-page .story-card p {
+  color: #d5dbe8;
+}
+
+
+.week7-recap-page .story-card strong {
+  color: #fff3c4;
+}
+
+
+.week7-recap-page .comments-box {
+  border-color: rgba(255, 107, 107, 0.26);
+  background: rgba(10, 15, 26, 0.72);
+}
+
+
+.week7-recap-page .comments-box summary strong {
+  color: #ffb199;
+}
+
+
+@keyframes week7-flare {
+  0% {
+    transform: translateX(-125%) rotate(14deg);
+  }
+  100% {
+    transform: translateX(125%) rotate(14deg);
+  }
+}
+
+
+@media (max-width: 700px) {
+  .week7-chaos-hero {
+    padding: 38px 18px;
+    border-radius: 22px;
+  }
+
+
+  .week7-recap-page .story-card {
+    border-radius: 18px;
+  }
+}
+
+
+
+/* ===== WEEK 7 MATCHUP CARD POLISH ===== */
+
+
+.week7-recap-page .matchup-card {
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  border-left: 6px solid rgba(96, 165, 250, 0.65);
+  padding: clamp(22px, 4vw, 32px);
+}
+
+
+.week7-recap-page .matchup-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 107, 107, 0.9), rgba(244, 180, 0, 0.7), transparent);
+  opacity: 0.75;
+}
+
+
+.week7-recap-page .matchup-card h2:not(.section-label) {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+
+.week7-recap-page .matchup-card p {
+  font-size: clamp(1rem, 2.5vw, 1.08rem);
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+
+
+.week7-recap-page .matchup-card p:first-of-type strong {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(244, 180, 0, 0.08);
+  border: 1px solid rgba(244, 180, 0, 0.22);
+  color: #fff3c4;
+}
+
+
+.week7-recap-page .matchup-card ul {
+  margin: 16px 0 20px;
+  padding: 0;
+  list-style: none;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+
+.week7-recap-page .matchup-card li {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  background: rgba(10, 15, 26, 0.55);
+}
+
+
+.week7-recap-page .matchup-card li:last-child {
+  border-bottom: none;
+}
+
+
+/* Different card flavors */
+.week7-recap-page .first-win-card {
+  border-left-color: #f4b400;
+}
+
+
+.week7-recap-page .danger-card {
+  border-left-color: #ff3b30;
+  box-shadow: 0 0 34px rgba(255, 59, 48, 0.12);
+}
+
+
+.week7-recap-page .pitching-card {
+  border-left-color: #60a5fa;
+}
+
+
+.week7-recap-page .slugfest-card {
+  border-left-color: #f97316;
+}
+
+
+.week7-recap-page .crying-card {
+  border-left-color: #45d483;
+}
+
+
+.week7-recap-page .championship-card {
+  border-left-color: #a78bfa;
+}
+
+
+.week7-recap-page .comments-widget {
+  margin-top: 24px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+
+@media (max-width: 700px) {
+  .week7-recap-page .matchup-card {
+    padding: 20px 18px;
+    border-left-width: 4px;
+  }
+
+
+  .week7-recap-page .matchup-card p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+
+  .week7-recap-page .section-label {
+    font-size: 0.72rem;
+  }
+}
+
+/* ===== WEEK 7 MATCHUP CARD THEME OVERRIDE ===== */
+
+
+/* Remove the thick left bars */
+.week7-recap-page .matchup-card {
+  border-left: 1px solid rgba(96, 165, 250, 0.22) !important;
+}
+
+
+/* Make the top sweep the main visual identity */
+.week7-recap-page .matchup-card::before {
+  height: 6px;
+  opacity: 0.9;
+}
+
+
+/* Base card glow */
+.week7-recap-page .matchup-card {
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.08), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* League Chaos — purple/blue storm */
+.week7-recap-page .championship-card {
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow: 0 0 28px rgba(167, 139, 250, 0.10);
+}
+
+
+.week7-recap-page .championship-card::before {
+  background: linear-gradient(90deg, #a78bfa, #60a5fa, transparent);
+}
+
+
+/* Sarrel upset — gold miracle */
+.week7-recap-page .first-win-card {
+  border-color: rgba(244, 180, 0, 0.38);
+  box-shadow: 0 0 30px rgba(244, 180, 0, 0.12);
+}
+
+
+.week7-recap-page .first-win-card::before {
+  background: linear-gradient(90deg, #f4b400, #fff3c4, transparent);
+}
+
+
+/* Trade alert — red robbery */
+.week7-recap-page .danger-card {
+  border-color: rgba(255, 59, 48, 0.42);
+  box-shadow: 0 0 34px rgba(255, 59, 48, 0.14);
+}
+
+
+.week7-recap-page .danger-card::before {
+  background: linear-gradient(90deg, #ff3b30, #f97316, transparent);
+}
+
+
+/* Lill rotation — icy blue pitching machine */
+.week7-recap-page .pitching-card {
+  border-color: rgba(96, 165, 250, 0.38);
+  box-shadow: 0 0 28px rgba(96, 165, 250, 0.11);
+}
+
+
+.week7-recap-page .pitching-card::before {
+  background: linear-gradient(90deg, #60a5fa, #38bdf8, transparent);
+}
+
+
+/* Slamming upset — orange fraud alert */
+.week7-recap-page .slugfest-card {
+  border-color: rgba(249, 115, 22, 0.42);
+  box-shadow: 0 0 30px rgba(249, 115, 22, 0.12);
+}
+
+
+.week7-recap-page .slugfest-card::before {
+  background: linear-gradient(90deg, #f97316, #f4b400, transparent);
+}
+
+
+/* Justin/Vin — green money/luck merchant */
+.week7-recap-page .crying-card {
+  border-color: rgba(69, 212, 131, 0.36);
+  box-shadow: 0 0 28px rgba(69, 212, 131, 0.10);
+}
+
+
+.week7-recap-page .crying-card::before {
+  background: linear-gradient(90deg, #45d483, #60a5fa, transparent);
+}
+
+
+/* Tone down the old bottom glow slightly */
+.week7-recap-page .story-card::after {
+  opacity: 0.65;
+}
+
+
+/* Keep the score box bold but less huge on mobile */
+@media (max-width: 700px) {
+  .week7-recap-page .matchup-card p:first-of-type strong {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+}
+
+
+/* ===== WEEK 7 SOFT GLOW MATCHUP CARDS ===== */
+
+
+/* Kill top bars and left bars */
+.week7-recap-page .matchup-card {
+  border-left: 1px solid rgba(96, 165, 250, 0.22) !important;
+}
+
+
+.week7-recap-page .matchup-card::before {
+  display: none !important;
+}
+
+
+/* Base soft glow */
+.week7-recap-page .matchup-card {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 107, 107, 0.08), transparent 38%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* League Chaos */
+.week7-recap-page .championship-card {
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow:
+    inset 0 0 70px rgba(167, 139, 250, 0.07),
+    0 0 24px rgba(167, 139, 250, 0.10);
+  background:
+    radial-gradient(circle at top center, rgba(167, 139, 250, 0.16), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Sarrel upset */
+.week7-recap-page .first-win-card {
+  border-color: rgba(244, 180, 0, 0.35);
+  box-shadow:
+    inset 0 0 75px rgba(244, 180, 0, 0.075),
+    0 0 24px rgba(244, 180, 0, 0.10);
+  background:
+    radial-gradient(circle at top center, rgba(244, 180, 0, 0.15), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Trade alert */
+.week7-recap-page .danger-card {
+  border-color: rgba(255, 59, 48, 0.36);
+  box-shadow:
+    inset 0 0 75px rgba(255, 59, 48, 0.085),
+    0 0 26px rgba(255, 59, 48, 0.12);
+  background:
+    radial-gradient(circle at top center, rgba(255, 59, 48, 0.17), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Team Lill pitching */
+.week7-recap-page .pitching-card {
+  border-color: rgba(96, 165, 250, 0.34);
+  box-shadow:
+    inset 0 0 75px rgba(96, 165, 250, 0.075),
+    0 0 24px rgba(96, 165, 250, 0.10);
+  background:
+    radial-gradient(circle at top center, rgba(96, 165, 250, 0.15), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Slamming upset */
+.week7-recap-page .slugfest-card {
+  border-color: rgba(249, 115, 22, 0.36);
+  box-shadow:
+    inset 0 0 75px rgba(249, 115, 22, 0.08),
+    0 0 24px rgba(249, 115, 22, 0.10);
+  background:
+    radial-gradient(circle at top center, rgba(249, 115, 22, 0.16), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Justin/Vin */
+.week7-recap-page .crying-card {
+  border-color: rgba(69, 212, 131, 0.32);
+  box-shadow:
+    inset 0 0 75px rgba(69, 212, 131, 0.07),
+    0 0 24px rgba(69, 212, 131, 0.09);
+  background:
+    radial-gradient(circle at top center, rgba(69, 212, 131, 0.13), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Keep score/result callout strong */
+.week7-recap-page .matchup-card p:first-of-type strong {
+  box-shadow: inset 0 0 35px rgba(244, 180, 0, 0.06);
+}
+
+
+/* ===== FIX WEEK 7 LEFT BORDER COLORS ===== */
+
+
+.week7-recap-page .championship-card {
+  border-left: 1px solid rgba(167, 139, 250, 0.35) !important;
+}
+
+
+.week7-recap-page .first-win-card {
+  border-left: 1px solid rgba(244, 180, 0, 0.35) !important;
+}
+
+
+.week7-recap-page .danger-card {
+  border-left: 1px solid rgba(255, 59, 48, 0.36) !important;
+}
+
+
+.week7-recap-page .pitching-card {
+  border-left: 1px solid rgba(96, 165, 250, 0.34) !important;
+}
+
+
+.week7-recap-page .slugfest-card {
+  border-left: 1px solid rgba(249, 115, 22, 0.36) !important;
+}
+
+
+.week7-recap-page .crying-card {
+  border-left: 1px solid rgba(69, 212, 131, 0.32) !important;
+}
+
+
+/* ===== BLOCKBUSTER TRADE PACKAGE ===== */
+
+
+.trade-package {
+  margin: 2rem 0;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 59, 48, 0.22);
+
+
+  background:
+    radial-gradient(circle at top center,
+      rgba(255, 59, 48, 0.14),
+      transparent 60%),
+    rgba(5, 10, 25, 0.92);
+
+
+  box-shadow:
+    inset 0 0 60px rgba(255, 59, 48, 0.08),
+    0 0 30px rgba(255, 59, 48, 0.10);
+
+
+  backdrop-filter: blur(10px);
+}
+
+
+.trade-side {
+  padding: 1.4rem 1.6rem;
+}
+
+
+.trade-label {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffb4ac;
+
+
+  background: rgba(255, 59, 48, 0.14);
+  border: 1px solid rgba(255, 59, 48, 0.18);
+
+
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+}
+
+
+.trade-side p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+
+.trade-divider {
+  height: 1px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.12),
+      transparent
+    );
+}
+
+.trade-package {
+  padding: 14px 18px;
+  gap: 10px;
+}
+
+
+.trade-side {
+  padding: 10px 0;
+}
+
+
+.trade-side p {
+  margin: 10px 0 0;
+  line-height: 1.45;
+  font-size: 1.05rem;
+}
+
+
+.trade-label {
+  padding: 8px 18px;
+  font-size: 0.95rem;
+}
+
+
+.trade-divider {
+  margin: 10px 0;
+}
+
+
+
 
 
