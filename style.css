@@ -2878,7 +2878,527 @@ padding: 32px 16px;
   margin: 10px 0;
 }
 
+/* =========================================================
+   STANDINGS / POWER RANKINGS PAGE — WEEK 7 GLOW STYLE
+   ========================================================= */
+
+
+.power-ranking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+
+.power-row {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 18px;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015)),
+    #111827;
+  border: 1px solid rgba(96, 165, 250, 0.18);
+  box-shadow:
+    inset 0 0 40px rgba(96, 165, 250, 0.035),
+    0 10px 30px rgba(0,0,0,0.22);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+
+.power-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255,255,255,0.055) 42%,
+    transparent 58%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.8s ease;
+  pointer-events: none;
+}
+
+
+.power-row:hover {
+  transform: translateY(-3px);
+  border-color: rgba(96, 165, 250, 0.45);
+  box-shadow:
+    inset 0 0 55px rgba(96, 165, 250, 0.055),
+    0 16px 40px rgba(0,0,0,0.34);
+}
+
+
+.power-row:hover::before {
+  transform: translateX(120%);
+}
+
+
+.power-rank-number {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-weight: 1000;
+  font-size: 1.15rem;
+  color: #06111f;
+  background: linear-gradient(135deg, #60a5fa, #93c5fd);
+  box-shadow: 0 0 24px rgba(96, 165, 250, 0.35);
+}
+
+
+.power-row h3 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: clamp(1.15rem, 3.4vw, 1.6rem);
+  letter-spacing: -0.03em;
+}
+
+
+.power-row p {
+  margin: 5px 0 0;
+  color: #94a3b8;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+
+.team-trend {
+  font-size: 0.8rem;
+  font-weight: 1000;
+  padding: 7px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+
+.trend-up {
+  color: #45d483;
+  background: rgba(69, 212, 131, 0.12);
+  box-shadow: 0 0 18px rgba(69, 212, 131, 0.12);
+}
+
+
+.trend-down {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.12);
+  box-shadow: 0 0 18px rgba(255, 107, 107, 0.12);
+}
+
+
+.trend-flat {
+  color: #f4b400;
+  background: rgba(244, 180, 0, 0.12);
+  box-shadow: 0 0 18px rgba(244, 180, 0, 0.12);
+}
+
+
+/* Top 3 special treatment */
+.power-row:nth-child(1) {
+  border-color: rgba(244, 180, 0, 0.42);
+  background:
+    radial-gradient(circle at top right, rgba(244, 180, 0, 0.20), transparent 36%),
+    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015)),
+    #111827;
+  box-shadow:
+    inset 0 0 65px rgba(244, 180, 0, 0.07),
+    0 0 34px rgba(244, 180, 0, 0.13);
+}
+
+
+.power-row:nth-child(1) .power-rank-number {
+  background: linear-gradient(135deg, #e5e7eb, #ffffff);
+  color: #111827;
+  box-shadow:
+    0 0 30px rgba(255,255,255,0.55),
+    0 0 55px rgba(255,255,255,0.18);
+}
 
 
 
+.power-row:nth-child(2) {
+  border-color: rgba(69, 212, 131, 0.35);
+  background:
+    radial-gradient(circle at top right, rgba(69, 212, 131, 0.16), transparent 36%),
+    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015)),
+    #111827;
+}
 
+
+.power-row:nth-child(2) .power-rank-number {
+  background: linear-gradient(135deg, #45d483, #bbf7d0);
+  box-shadow: 0 0 26px rgba(69, 212, 131, 0.36);
+}
+
+
+.power-row:nth-child(3) {
+  border-color: rgba(96, 165, 250, 0.35);
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.16), transparent 36%),
+    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015)),
+    #111827;
+}
+
+
+/* Danger zone */
+.power-row:nth-child(n+8) {
+  border-color: rgba(255, 107, 107, 0.24);
+  background:
+    radial-gradient(circle at top right, rgba(255, 107, 107, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.012)),
+    #111827;
+}
+
+
+/* Standings table polish */
+.standings-table {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+
+.standings-table tbody tr {
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+
+.standings-table tbody tr:hover {
+  background: rgba(96, 165, 250, 0.08);
+}
+
+
+.standings-table tbody tr:first-child {
+  background: rgba(244, 180, 0, 0.075);
+}
+
+
+.standings-table tbody tr:nth-child(2) {
+  background: rgba(96, 165, 250, 0.055);
+}
+
+
+.standings-table tbody tr:last-child {
+  background: rgba(255, 107, 107, 0.07);
+}
+
+
+/* Why They Moved polish */
+.story-card h2 + p strong {
+  color: #fff3c4;
+}
+
+
+.formula-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+.formula-list li {
+  background: rgba(10, 15, 26, 0.72);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+  .power-row {
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+
+
+  .power-row .team-trend {
+    grid-column: 1 / -1;
+    width: fit-content;
+    margin-left: 64px;
+  }
+
+
+  .power-rank-number {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+  }
+
+
+  .power-row p {
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+
+  .standings-table th,
+  .standings-table td {
+    font-size: 0.84rem;
+    padding: 10px 8px;
+  }
+
+
+  .standings-table th:nth-child(5),
+  .standings-table td:nth-child(5) {
+    display: none;
+  }
+}
+
+/* Fix standings table mobile spacing */
+@media (max-width: 700px) {
+  .standings-table {
+    width: 100%;
+    table-layout: auto;
+  }
+
+
+  .standings-table th,
+  .standings-table td {
+    padding: 12px 8px;
+    white-space: nowrap;
+  }
+
+
+  .standings-table th:nth-child(5),
+  .standings-table td:nth-child(5) {
+    display: none;
+  }
+
+
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    min-width: 150px;
+  }
+
+
+  .standings-table th:nth-child(4),
+  .standings-table td:nth-child(4) {
+    text-align: right;
+  }
+}
+
+@media (max-width: 700px) {
+  .story-card {
+    padding: 20px 14px;
+  }
+}
+
+/* CLEANER MOBILE STANDINGS TABLE */
+@media (max-width: 700px) {
+
+
+  .standings-table {
+    width: 100% !important;
+    table-layout: auto !important;
+    border-collapse: collapse;
+  }
+
+
+  .standings-table th,
+  .standings-table td {
+    padding: 14px 10px !important;
+    font-size: 0.92rem !important;
+    white-space: nowrap !important;
+  }
+
+
+  /* Hide Last 2 column */
+  .standings-table th:nth-child(5),
+  .standings-table td:nth-child(5) {
+    display: none !important;
+  }
+
+
+  /* Tighten rank column */
+  .standings-table th:nth-child(1),
+  .standings-table td:nth-child(1) {
+    width: 40px;
+    padding-left: 12px !important;
+  }
+
+
+  /* Team column */
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    width: auto;
+  }
+
+
+  /* Record column */
+  .standings-table th:nth-child(3),
+  .standings-table td:nth-child(3) {
+    text-align: center;
+    width: 70px;
+  }
+
+
+  /* PF column */
+  .standings-table th:nth-child(4),
+  .standings-table td:nth-child(4) {
+    text-align: right;
+    width: 82px;
+    padding-right: 14px !important;
+  }
+
+
+  /* Remove weird row coloring */
+  .standings-table tbody tr:first-child,
+  .standings-table tbody tr:nth-child(2),
+  .standings-table tbody tr:last-child {
+    background: transparent !important;
+  }
+
+
+  /* Slight hover only */
+  .standings-table tbody tr:hover {
+    background: rgba(96, 165, 250, 0.05);
+  }
+}
+
+
+/* ===== MOBILE POWER RANKINGS AUTO-GLOW ===== */
+
+
+.power-row {
+  --rank-glow: rgba(96, 165, 250, 0.16);
+  --rank-border: rgba(96, 165, 250, 0.35);
+  --rank-main: #60a5fa;
+  --rank-soft: #93c5fd;
+}
+
+
+.power-row:nth-child(1) {
+  --rank-glow: rgba(244, 180, 0, 0.24);
+  --rank-border: rgba(244, 180, 0, 0.5);
+  --rank-main: #f4b400;
+  --rank-soft: #fff3c4;
+}
+
+
+.power-row:nth-child(2) {
+  --rank-glow: rgba(69, 212, 131, 0.22);
+  --rank-border: rgba(69, 212, 131, 0.45);
+  --rank-main: #45d483;
+  --rank-soft: #bbf7d0;
+}
+
+
+.power-row:nth-child(3) {
+  --rank-glow: rgba(96, 165, 250, 0.22);
+  --rank-border: rgba(96, 165, 250, 0.45);
+  --rank-main: #60a5fa;
+  --rank-soft: #bfdbfe;
+}
+
+
+.power-row:nth-child(4),
+.power-row:nth-child(5),
+.power-row:nth-child(6) {
+  --rank-glow: rgba(244, 180, 0, 0.16);
+  --rank-border: rgba(244, 180, 0, 0.32);
+  --rank-main: #f4b400;
+  --rank-soft: #fde68a;
+}
+
+
+.power-row:nth-child(7),
+.power-row:nth-child(8),
+.power-row:nth-child(9) {
+  --rank-glow: rgba(249, 115, 22, 0.18);
+  --rank-border: rgba(249, 115, 22, 0.34);
+  --rank-main: #f97316;
+  --rank-soft: #fed7aa;
+}
+
+
+.power-row:nth-child(10) {
+  --rank-glow: rgba(255, 107, 107, 0.24);
+  --rank-border: rgba(255, 107, 107, 0.5);
+  --rank-main: #ff6b6b;
+  --rank-soft: #fecaca;
+}
+
+
+.power-row {
+  border-color: var(--rank-border);
+  background:
+    radial-gradient(circle at top right, var(--rank-glow), transparent 36%),
+    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015)),
+    #111827;
+}
+
+
+.power-rank-number {
+  background: linear-gradient(135deg, var(--rank-main), var(--rank-soft));
+  box-shadow: 0 0 24px var(--rank-glow);
+}
+
+
+/* Mobile gets automatic glow because hover does not really exist */
+@media (max-width: 700px) {
+  .power-row {
+    animation: powerPulse 3.8s ease-in-out infinite;
+  }
+
+
+  .power-row::before {
+    animation: powerShimmer 4.5s ease-in-out infinite;
+  }
+
+
+  .power-row:nth-child(2) { animation-delay: 0.2s; }
+  .power-row:nth-child(3) { animation-delay: 0.4s; }
+  .power-row:nth-child(4) { animation-delay: 0.6s; }
+  .power-row:nth-child(5) { animation-delay: 0.8s; }
+  .power-row:nth-child(6) { animation-delay: 1s; }
+  .power-row:nth-child(7) { animation-delay: 1.2s; }
+  .power-row:nth-child(8) { animation-delay: 1.4s; }
+  .power-row:nth-child(9) { animation-delay: 1.6s; }
+  .power-row:nth-child(10) { animation-delay: 1.8s; }
+}
+
+
+@keyframes powerPulse {
+  0%, 100% {
+    box-shadow:
+      inset 0 0 42px var(--rank-glow),
+      0 8px 24px rgba(0,0,0,0.22);
+  }
+
+
+  50% {
+    box-shadow:
+      inset 0 0 70px var(--rank-glow),
+      0 0 28px var(--rank-glow),
+      0 12px 32px rgba(0,0,0,0.3);
+  }
+}
+
+
+@keyframes powerShimmer {
+  0% {
+    transform: translateX(-130%);
+  }
+
+
+  55% {
+    transform: translateX(130%);
+  }
+
+
+  100% {
+    transform: translateX(130%);
+  }
+}
