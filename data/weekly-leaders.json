@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-11T23:05:22.219Z",
-  "generatedAtET": "5/11/2026, 7:05:22 PM",
+  "generatedAt": "2026-05-11T23:10:31.906Z",
+  "generatedAtET": "5/11/2026, 7:10:31 PM",
   "scoringPeriod": {
     "start": "2026-05-11",
     "end": "2026-05-11",
@@ -10,8 +10,8 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 35,
-    "hitters": 30,
+    "overall": 38,
+    "hitters": 33,
     "pitchers": 5
   },
   "overallLeaders": [
@@ -94,6 +94,88 @@
           "battingPoints": 0,
           "pitchingPoints": 15.2,
           "totalPoints": 15.2
+        }
+      ]
+    },
+    {
+      "id": 677960,
+      "name": "Ryan Weathers",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.33,
+      "totalPoints": 13.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": 0,
+          "pitchingPoints": 13.33,
+          "totalPoints": 13.33
+        }
+      ]
+    },
+    {
+      "id": 700932,
+      "name": "Kyle Manzardo",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824441,
+          "gameDate": "2026-05-11",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
         }
       ]
     },
@@ -299,88 +381,6 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 700932,
-      "name": "Kyle Manzardo",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "1B",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824441,
-          "gameDate": "2026-05-11",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 677960,
-      "name": "Ryan Weathers",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.4,
-      "totalPoints": 4.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824844,
-          "gameDate": "2026-05-11",
-          "battingPoints": 0,
-          "pitchingPoints": 4.4,
-          "totalPoints": 4.4
         }
       ]
     },
@@ -759,6 +759,47 @@
       "teamId": 147,
       "teamName": "New York Yankees",
       "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 641933,
+      "name": "Tyler O'Neill",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -1197,6 +1238,88 @@
       "games": [
         {
           "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 691723,
+      "name": "Coby Mayo",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 802415,
+      "name": "Chandler Simpson",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
           "gameDate": "2026-05-11",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -1416,8 +1539,8 @@
       "teamName": "Los Angeles Angels",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": -3.67,
-      "totalPoints": -3.67,
+      "pitchingPoints": -6.67,
+      "totalPoints": -6.67,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -1433,7 +1556,7 @@
         "outs": 2,
         "inningsPitched": "0.2",
         "hitsAllowed": 1,
-        "walksAllowed": 2,
+        "walksAllowed": 3,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
         "strikeOuts": 0,
@@ -1445,13 +1568,54 @@
           "gamePk": 824441,
           "gameDate": "2026-05-11",
           "battingPoints": 0,
-          "pitchingPoints": -3.67,
-          "totalPoints": -3.67
+          "pitchingPoints": -6.67,
+          "totalPoints": -6.67
         }
       ]
     }
   ],
   "hitterLeaders": [
+    {
+      "id": 700932,
+      "name": "Kyle Manzardo",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824441,
+          "gameDate": "2026-05-11",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
+        }
+      ]
+    },
     {
       "id": 677587,
       "name": "Brayan Rocchio",
@@ -1609,47 +1773,6 @@
       "games": [
         {
           "gamePk": 824844,
-          "gameDate": "2026-05-11",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 700932,
-      "name": "Kyle Manzardo",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "1B",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824441,
           "gameDate": "2026-05-11",
           "battingPoints": 4.6,
           "pitchingPoints": 0,
@@ -2032,6 +2155,47 @@
       "teamId": 147,
       "teamName": "New York Yankees",
       "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 641933,
+      "name": "Tyler O'Neill",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -2470,6 +2634,88 @@
       "games": [
         {
           "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 691723,
+      "name": "Coby Mayo",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 802415,
+      "name": "Chandler Simpson",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
           "gameDate": "2026-05-11",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -2767,6 +3013,47 @@
       ]
     },
     {
+      "id": 677960,
+      "name": "Ryan Weathers",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.33,
+      "totalPoints": 13.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": 0,
+          "pitchingPoints": 13.33,
+          "totalPoints": 13.33
+        }
+      ]
+    },
+    {
       "id": 608718,
       "name": "Brent Suter",
       "teamId": 108,
@@ -2808,55 +3095,14 @@
       ]
     },
     {
-      "id": 677960,
-      "name": "Ryan Weathers",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.4,
-      "totalPoints": 4.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824844,
-          "gameDate": "2026-05-11",
-          "battingPoints": 0,
-          "pitchingPoints": 4.4,
-          "totalPoints": 4.4
-        }
-      ]
-    },
-    {
       "id": 820862,
       "name": "José Fermin",
       "teamId": 108,
       "teamName": "Los Angeles Angels",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": -3.67,
-      "totalPoints": -3.67,
+      "pitchingPoints": -6.67,
+      "totalPoints": -6.67,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -2872,7 +3118,7 @@
         "outs": 2,
         "inningsPitched": "0.2",
         "hitsAllowed": 1,
-        "walksAllowed": 2,
+        "walksAllowed": 3,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
         "strikeOuts": 0,
@@ -2884,8 +3130,8 @@
           "gamePk": 824441,
           "gameDate": "2026-05-11",
           "battingPoints": 0,
-          "pitchingPoints": -3.67,
-          "totalPoints": -3.67
+          "pitchingPoints": -6.67,
+          "totalPoints": -6.67
         }
       ]
     }
@@ -2970,6 +3216,88 @@
           "battingPoints": 0,
           "pitchingPoints": 15.2,
           "totalPoints": 15.2
+        }
+      ]
+    },
+    {
+      "id": 677960,
+      "name": "Ryan Weathers",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.33,
+      "totalPoints": 13.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824844,
+          "gameDate": "2026-05-11",
+          "battingPoints": 0,
+          "pitchingPoints": 13.33,
+          "totalPoints": 13.33
+        }
+      ]
+    },
+    {
+      "id": 700932,
+      "name": "Kyle Manzardo",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824441,
+          "gameDate": "2026-05-11",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
         }
       ]
     },
@@ -3175,88 +3503,6 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 700932,
-      "name": "Kyle Manzardo",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "1B",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824441,
-          "gameDate": "2026-05-11",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 677960,
-      "name": "Ryan Weathers",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.4,
-      "totalPoints": 4.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824844,
-          "gameDate": "2026-05-11",
-          "battingPoints": 0,
-          "pitchingPoints": 4.4,
-          "totalPoints": 4.4
         }
       ]
     },
@@ -3671,11 +3917,11 @@
       ]
     },
     {
-      "id": 663757,
-      "name": "Trent Grisham",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "CF",
+      "id": 641933,
+      "name": "Tyler O'Neill",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
