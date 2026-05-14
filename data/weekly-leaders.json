@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-14T04:26:07.184Z",
-  "generatedAtET": "5/14/2026, 12:26:07 AM",
+  "generatedAt": "2026-05-14T04:31:13.647Z",
+  "generatedAtET": "5/14/2026, 12:31:13 AM",
   "scoringPeriod": {
     "start": "2026-05-11",
     "end": "2026-05-14",
@@ -13,9 +13,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 621,
+    "overall": 622,
     "hitters": 355,
-    "pitchers": 267
+    "pitchers": 268
   },
   "overallLeaders": [
     {
@@ -1073,6 +1073,61 @@
       ]
     },
     {
+      "id": 646240,
+      "name": "Rafael Devers",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "DH",
+      "battingPoints": 35.3,
+      "pitchingPoints": 0,
+      "totalPoints": 35.3,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823953,
+          "gameDate": "2026-05-11",
+          "battingPoints": 23.6,
+          "pitchingPoints": 0,
+          "totalPoints": 23.6
+        },
+        {
+          "gamePk": 823951,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        }
+      ]
+    },
+    {
       "id": 682657,
       "name": "Angel Martínez",
       "teamId": 114,
@@ -1816,61 +1871,6 @@
           "battingPoints": 0,
           "pitchingPoints": 28,
           "totalPoints": 28
-        }
-      ]
-    },
-    {
-      "id": 646240,
-      "name": "Rafael Devers",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "DH",
-      "battingPoints": 27.8,
-      "pitchingPoints": 0,
-      "totalPoints": 27.8,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823953,
-          "gameDate": "2026-05-11",
-          "battingPoints": 23.6,
-          "pitchingPoints": 0,
-          "totalPoints": 23.6
-        },
-        {
-          "gamePk": 823951,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
         }
       ]
     },
@@ -11623,6 +11623,47 @@
       ]
     },
     {
+      "id": 663941,
+      "name": "Tristan Beck",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.6,
+      "totalPoints": 9.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 9.6,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
       "id": 668939,
       "name": "Adley Rutschman",
       "teamId": 110,
@@ -14735,47 +14776,6 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
-        }
-      ]
-    },
-    {
-      "id": 663941,
-      "name": "Tristan Beck",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 7.13,
-          "totalPoints": 7.13
         }
       ]
     },
@@ -19971,47 +19971,6 @@
       ]
     },
     {
-      "id": 669743,
-      "name": "Alex Call",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "LF",
-      "battingPoints": 2,
-      "pitchingPoints": 0,
-      "totalPoints": 2,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 676914,
       "name": "Davis Schneider",
       "teamId": 141,
@@ -20127,6 +20086,47 @@
       "games": [
         {
           "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 1.87,
+          "totalPoints": 1.87
+        }
+      ]
+    },
+    {
+      "id": 669165,
+      "name": "Kyle Hurt",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 1.87,
+      "totalPoints": 1.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
           "pitchingPoints": 1.87,
@@ -21274,6 +21274,47 @@
           "battingPoints": 3,
           "pitchingPoints": 0,
           "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 669743,
+      "name": "Alex Call",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "LF",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -26434,54 +26475,6 @@
       ]
     },
     {
-      "id": 805811,
-      "name": "Bryce Eldridge",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "1B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823951,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 808975,
       "name": "Hyeseong Kim",
       "teamId": 119,
@@ -26837,6 +26830,54 @@
         },
         {
           "gamePk": 824928,
+          "gameDate": "2026-05-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 805811,
+      "name": "Bryce Eldridge",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "1B",
+      "battingPoints": -7,
+      "pitchingPoints": 0,
+      "totalPoints": -7,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823951,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823952,
           "gameDate": "2026-05-13",
           "battingPoints": -4,
           "pitchingPoints": 0,
@@ -28285,6 +28326,61 @@
       ]
     },
     {
+      "id": 646240,
+      "name": "Rafael Devers",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "DH",
+      "battingPoints": 35.3,
+      "pitchingPoints": 0,
+      "totalPoints": 35.3,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823953,
+          "gameDate": "2026-05-11",
+          "battingPoints": 23.6,
+          "pitchingPoints": 0,
+          "totalPoints": 23.6
+        },
+        {
+          "gamePk": 823951,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        }
+      ]
+    },
+    {
       "id": 682657,
       "name": "Angel Martínez",
       "teamId": 114,
@@ -28734,61 +28830,6 @@
           "battingPoints": 5.6,
           "pitchingPoints": 0,
           "totalPoints": 5.6
-        }
-      ]
-    },
-    {
-      "id": 646240,
-      "name": "Rafael Devers",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "DH",
-      "battingPoints": 27.8,
-      "pitchingPoints": 0,
-      "totalPoints": 27.8,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823953,
-          "gameDate": "2026-05-11",
-          "battingPoints": 23.6,
-          "pitchingPoints": 0,
-          "totalPoints": 23.6
-        },
-        {
-          "gamePk": 823951,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
         }
       ]
     },
@@ -39183,47 +39224,6 @@
       ]
     },
     {
-      "id": 669743,
-      "name": "Alex Call",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "LF",
-      "battingPoints": 2,
-      "pitchingPoints": 0,
-      "totalPoints": 2,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 676914,
       "name": "Davis Schneider",
       "teamId": 141,
@@ -40096,6 +40096,47 @@
           "battingPoints": 3,
           "pitchingPoints": 0,
           "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 669743,
+      "name": "Alex Call",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "LF",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -44278,54 +44319,6 @@
       ]
     },
     {
-      "id": 805811,
-      "name": "Bryce Eldridge",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "1B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823951,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 808975,
       "name": "Hyeseong Kim",
       "teamId": 119,
@@ -44558,6 +44551,54 @@
         },
         {
           "gamePk": 824928,
+          "gameDate": "2026-05-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 805811,
+      "name": "Bryce Eldridge",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "1B",
+      "battingPoints": -7,
+      "pitchingPoints": 0,
+      "totalPoints": -7,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823951,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823952,
           "gameDate": "2026-05-13",
           "battingPoints": -4,
           "pitchingPoints": 0,
@@ -50334,6 +50375,47 @@
       ]
     },
     {
+      "id": 663941,
+      "name": "Tristan Beck",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.6,
+      "totalPoints": 9.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 9.6,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
       "id": 643410,
       "name": "Mark Leiter Jr.",
       "teamId": 133,
@@ -52026,47 +52108,6 @@
           "battingPoints": 0,
           "pitchingPoints": 7.2,
           "totalPoints": 7.2
-        }
-      ]
-    },
-    {
-      "id": 663941,
-      "name": "Tristan Beck",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823952,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 7.13,
-          "totalPoints": 7.13
         }
       ]
     },
@@ -53854,6 +53895,47 @@
       "games": [
         {
           "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 1.87,
+          "totalPoints": 1.87
+        }
+      ]
+    },
+    {
+      "id": 669165,
+      "name": "Kyle Hurt",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 1.87,
+      "totalPoints": 1.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823952,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
           "pitchingPoints": 1.87,
