@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-14T01:06:07.200Z",
-  "generatedAtET": "5/13/2026, 9:06:07 PM",
+  "generatedAt": "2026-05-14T01:11:15.157Z",
+  "generatedAtET": "5/13/2026, 9:11:15 PM",
   "scoringPeriod": {
     "start": "2026-05-11",
     "end": "2026-05-13",
@@ -12,9 +12,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 569,
+    "overall": 570,
     "hitters": 348,
-    "pitchers": 221
+    "pitchers": 222
   },
   "overallLeaders": [
     {
@@ -229,6 +229,47 @@
       "games": [
         {
           "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 50,
+          "totalPoints": 50
+        }
+      ]
+    },
+    {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 50,
+      "totalPoints": 50,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 18,
+        "inningsPitched": "6.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823791,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
           "pitchingPoints": 50,
@@ -561,47 +602,6 @@
           "battingPoints": 0,
           "pitchingPoints": 41.1,
           "totalPoints": 41.1
-        }
-      ]
-    },
-    {
-      "id": 694819,
-      "name": "Jacob Misiorowski",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 40.6,
-      "totalPoints": 40.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 40.6,
-          "totalPoints": 40.6
         }
       ]
     },
@@ -969,6 +969,54 @@
       ]
     },
     {
+      "id": 671277,
+      "name": "Luis García Jr.",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 34.2,
+      "pitchingPoints": 0,
+      "totalPoints": 34.2,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 30.6,
+          "pitchingPoints": 0,
+          "totalPoints": 30.6
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        }
+      ]
+    },
+    {
       "id": 663567,
       "name": "Peter Lambert",
       "teamId": 117,
@@ -1191,54 +1239,6 @@
           "battingPoints": 6.6,
           "pitchingPoints": 0,
           "totalPoints": 6.6
-        }
-      ]
-    },
-    {
-      "id": 671277,
-      "name": "Luis García Jr.",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "1B",
-      "battingPoints": 29.6,
-      "pitchingPoints": 0,
-      "totalPoints": 29.6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
-          "gameDate": "2026-05-12",
-          "battingPoints": 30.6,
-          "pitchingPoints": 0,
-          "totalPoints": 30.6
-        },
-        {
-          "gamePk": 824519,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -1592,50 +1592,43 @@
       ]
     },
     {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 26.1,
-      "pitchingPoints": 0,
-      "totalPoints": 26.1,
+      "id": 650633,
+      "name": "Michael King",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 26.6,
+      "totalPoints": 26.6,
       "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 1,
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
         "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
+        "homeRuns": 0,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 2,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 3,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
-          "gamePk": 823632,
-          "gameDate": "2026-05-12",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        },
-        {
-          "gamePk": 823631,
+          "gamePk": 823791,
           "gameDate": "2026-05-13",
-          "battingPoints": 11.1,
-          "pitchingPoints": 0,
-          "totalPoints": 11.1
+          "battingPoints": 0,
+          "pitchingPoints": 26.6,
+          "totalPoints": 26.6
         }
       ]
     },
@@ -2003,6 +1996,54 @@
       ]
     },
     {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "C",
+      "battingPoints": 25.1,
+      "pitchingPoints": 0,
+      "totalPoints": 25.1,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823632,
+          "gameDate": "2026-05-12",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        }
+      ]
+    },
+    {
       "id": 642547,
       "name": "Freddy Peralta",
       "teamId": 121,
@@ -2040,47 +2081,6 @@
           "battingPoints": 0,
           "pitchingPoints": 24.9,
           "totalPoints": 24.9
-        }
-      ]
-    },
-    {
-      "id": 650633,
-      "name": "Michael King",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 24.13,
-      "totalPoints": 24.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 14,
-        "inningsPitched": "4.2",
-        "hitsAllowed": 4,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 24.13,
-          "totalPoints": 24.13
         }
       ]
     },
@@ -2366,54 +2366,6 @@
       ]
     },
     {
-      "id": 805808,
-      "name": "Kevin McGonigle",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "SS",
-      "battingPoints": 22.6,
-      "pitchingPoints": 0,
-      "totalPoints": 22.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823632,
-          "gameDate": "2026-05-12",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
-        },
-        {
-          "gamePk": 823631,
-          "gameDate": "2026-05-13",
-          "battingPoints": 6.6,
-          "pitchingPoints": 0,
-          "totalPoints": 6.6
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -2633,6 +2585,95 @@
       ]
     },
     {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "SS",
+      "battingPoints": 21.6,
+      "pitchingPoints": 0,
+      "totalPoints": 21.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823632,
+          "gameDate": "2026-05-12",
+          "battingPoints": 16,
+          "pitchingPoints": 0,
+          "totalPoints": 16
+        },
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        }
+      ]
+    },
+    {
+      "id": 623211,
+      "name": "Huascar Brazobán",
+      "teamId": 121,
+      "teamName": "New York Mets",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 21.27,
+      "totalPoints": 21.27,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 21.27,
+          "totalPoints": 21.27
+        }
+      ]
+    },
+    {
       "id": 677649,
       "name": "Ezequiel Duran",
       "teamId": 140,
@@ -2821,6 +2862,54 @@
           "battingPoints": 0,
           "pitchingPoints": 21.13,
           "totalPoints": 21.13
+        }
+      ]
+    },
+    {
+      "id": 681198,
+      "name": "TJ Rumfield",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "1B",
+      "battingPoints": 21.1,
+      "pitchingPoints": 0,
+      "totalPoints": 21.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823385,
+          "gameDate": "2026-05-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 25.1,
+          "pitchingPoints": 0,
+          "totalPoints": 25.1
         }
       ]
     },
@@ -3462,47 +3551,6 @@
       ]
     },
     {
-      "id": 607625,
-      "name": "Seth Lugo",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 19,
-      "totalPoints": 19,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 12,
-        "inningsPitched": "4.0",
-        "hitsAllowed": 6,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 4,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 19,
-          "totalPoints": 19
-        }
-      ]
-    },
-    {
       "id": 663757,
       "name": "Trent Grisham",
       "teamId": 147,
@@ -3547,95 +3595,6 @@
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
-        }
-      ]
-    },
-    {
-      "id": 677958,
-      "name": "Kumar Rocker",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 18.93,
-      "totalPoints": 18.93,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 11,
-        "inningsPitched": "3.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 3,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 18.93,
-          "totalPoints": 18.93
-        }
-      ]
-    },
-    {
-      "id": 678246,
-      "name": "Miguel Vargas",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "3B",
-      "battingPoints": 18.8,
-      "pitchingPoints": 0,
-      "totalPoints": 18.8,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 7.6,
-          "pitchingPoints": 0,
-          "totalPoints": 7.6
         }
       ]
     },
@@ -3841,6 +3800,95 @@
           "battingPoints": 18.4,
           "pitchingPoints": 0,
           "totalPoints": 18.4
+        }
+      ]
+    },
+    {
+      "id": 607625,
+      "name": "Seth Lugo",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
+        }
+      ]
+    },
+    {
+      "id": 608324,
+      "name": "Alex Bregman",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "3B",
+      "battingPoints": 18.2,
+      "pitchingPoints": 0,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824927,
+          "gameDate": "2026-05-12",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824928,
+          "gameDate": "2026-05-13",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
         }
       ]
     },
@@ -4071,6 +4119,54 @@
       ]
     },
     {
+      "id": 678246,
+      "name": "Miguel Vargas",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "3B",
+      "battingPoints": 17.8,
+      "pitchingPoints": 0,
+      "totalPoints": 17.8,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
+        }
+      ]
+    },
+    {
       "id": 641487,
       "name": "J.P. Crawford",
       "teamId": 136,
@@ -4266,54 +4362,6 @@
           "battingPoints": 0,
           "pitchingPoints": 17.57,
           "totalPoints": 17.57
-        }
-      ]
-    },
-    {
-      "id": 609280,
-      "name": "Miguel Andujar",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "DH",
-      "battingPoints": 17.5,
-      "pitchingPoints": 0,
-      "totalPoints": 17.5,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 19.5,
-          "pitchingPoints": 0,
-          "totalPoints": 19.5
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -4770,6 +4818,54 @@
       ]
     },
     {
+      "id": 609280,
+      "name": "Miguel Andujar",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "DH",
+      "battingPoints": 16.5,
+      "pitchingPoints": 0,
+      "totalPoints": 16.5,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 19.5,
+          "pitchingPoints": 0,
+          "totalPoints": 19.5
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 656811,
       "name": "Ryan O'Hearn",
       "teamId": 134,
@@ -4910,47 +5006,6 @@
           "battingPoints": 12,
           "pitchingPoints": 0,
           "totalPoints": 12
-        }
-      ]
-    },
-    {
-      "id": 641329,
-      "name": "Bryan Baker",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 16.4,
-      "totalPoints": 16.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 1,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": 0,
-          "pitchingPoints": 16.4,
-          "totalPoints": 16.4
         }
       ]
     },
@@ -5465,54 +5520,6 @@
           "battingPoints": 15.6,
           "pitchingPoints": 0,
           "totalPoints": 15.6
-        }
-      ]
-    },
-    {
-      "id": 660688,
-      "name": "Keibert Ruiz",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "C",
-      "battingPoints": 15.5,
-      "pitchingPoints": 0,
-      "totalPoints": 15.5,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
-          "gameDate": "2026-05-12",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 824519,
-          "gameDate": "2026-05-13",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
         }
       ]
     },
@@ -6038,6 +6045,54 @@
       ]
     },
     {
+      "id": 660688,
+      "name": "Keibert Ruiz",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "C",
+      "battingPoints": 14.5,
+      "pitchingPoints": 0,
+      "totalPoints": 14.5,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
       "id": 656605,
       "name": "Mitch Keller",
       "teamId": 134,
@@ -6264,47 +6319,6 @@
       ]
     },
     {
-      "id": 623211,
-      "name": "Huascar Brazobán",
-      "teamId": 121,
-      "teamName": "New York Mets",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 14.33,
-      "totalPoints": 14.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823631,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 14.33,
-          "totalPoints": 14.33
-        }
-      ]
-    },
-    {
       "id": 687330,
       "name": "Kevin Kelly",
       "teamId": 139,
@@ -6353,6 +6367,47 @@
       ]
     },
     {
+      "id": 656271,
+      "name": "Brock Burke",
+      "teamId": 113,
+      "teamName": "Cincinnati Reds",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 14.2,
+      "totalPoints": 14.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 14.2,
+          "totalPoints": 14.2
+        }
+      ]
+    },
+    {
       "id": 656537,
       "name": "Derek Hill",
       "teamId": 145,
@@ -6386,47 +6441,6 @@
       "games": [
         {
           "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        }
-      ]
-    },
-    {
-      "id": 695578,
-      "name": "James Wood",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": 14,
-      "pitchingPoints": 0,
-      "totalPoints": 14,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
           "gameDate": "2026-05-12",
           "battingPoints": 14,
           "pitchingPoints": 0,
@@ -6627,54 +6641,6 @@
       ]
     },
     {
-      "id": 608324,
-      "name": "Alex Bregman",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "3B",
-      "battingPoints": 13.6,
-      "pitchingPoints": 0,
-      "totalPoints": 13.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824927,
-          "gameDate": "2026-05-12",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824928,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 622088,
       "name": "Tejay Antone",
       "teamId": 113,
@@ -6808,6 +6774,54 @@
           "battingPoints": 0,
           "pitchingPoints": 8.8,
           "totalPoints": 8.8
+        }
+      ]
+    },
+    {
+      "id": 641329,
+      "name": "Bryan Baker",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.4,
+      "totalPoints": 13.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 1,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": 0,
+          "pitchingPoints": 16.4,
+          "totalPoints": 16.4
+        },
+        {
+          "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": -3,
+          "totalPoints": -3
         }
       ]
     },
@@ -7024,6 +7038,47 @@
       ]
     },
     {
+      "id": 677958,
+      "name": "Kumar Rocker",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.33,
+      "totalPoints": 13.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 11,
+        "inningsPitched": "3.2",
+        "hitsAllowed": 3,
+        "walksAllowed": 4,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 13.33,
+          "totalPoints": 13.33
+        }
+      ]
+    },
+    {
       "id": 670042,
       "name": "Luke Raley",
       "teamId": 136,
@@ -7116,6 +7171,54 @@
           "battingPoints": 0,
           "pitchingPoints": 13.1,
           "totalPoints": 13.1
+        }
+      ]
+    },
+    {
+      "id": 695578,
+      "name": "James Wood",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": 13,
+      "pitchingPoints": 0,
+      "totalPoints": 13,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -7921,54 +8024,6 @@
       ]
     },
     {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "2B",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 2.8,
-          "pitchingPoints": 0,
-          "totalPoints": 2.8
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
       "id": 518585,
       "name": "Fernando Cruz",
       "teamId": 147,
@@ -8656,6 +8711,54 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "2B",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 2.8,
+          "pitchingPoints": 0,
+          "totalPoints": 2.8
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
         }
       ]
     },
@@ -9694,47 +9797,6 @@
       ]
     },
     {
-      "id": 656271,
-      "name": "Brock Burke",
-      "teamId": 113,
-      "teamName": "Cincinnati Reds",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.87,
-      "totalPoints": 9.87,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824519,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 9.87,
-          "totalPoints": 9.87
-        }
-      ]
-    },
-    {
       "id": 682985,
       "name": "Riley Greene",
       "teamId": 116,
@@ -9834,6 +9896,54 @@
           "battingPoints": 12,
           "pitchingPoints": 0,
           "totalPoints": 12
+        }
+      ]
+    },
+    {
+      "id": 686973,
+      "name": "Louis Varland",
+      "teamId": 141,
+      "teamName": "Toronto Blue Jays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.6,
+      "totalPoints": 9.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822817,
+          "gameDate": "2026-05-12",
+          "battingPoints": 0,
+          "pitchingPoints": 3.8,
+          "totalPoints": 3.8
+        },
+        {
+          "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 5.8,
+          "totalPoints": 5.8
         }
       ]
     },
@@ -10303,54 +10413,6 @@
       ]
     },
     {
-      "id": 687859,
-      "name": "Troy Johnston",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "DH",
-      "battingPoints": 9.3,
-      "pitchingPoints": 0,
-      "totalPoints": 9.3,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823385,
-          "gameDate": "2026-05-12",
-          "battingPoints": 6.7,
-          "pitchingPoints": 0,
-          "totalPoints": 6.7
-        },
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 666974,
       "name": "Yennier Cano",
       "teamId": 110,
@@ -10789,6 +10851,47 @@
       ]
     },
     {
+      "id": 621121,
+      "name": "Lance McCullers Jr.",
+      "teamId": 117,
+      "teamName": "Houston Astros",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.7,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 12,
+        "inningsPitched": "4.0",
+        "hitsAllowed": 6,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 8.7,
+          "totalPoints": 8.7
+        }
+      ]
+    },
+    {
       "id": 680757,
       "name": "Steven Kwan",
       "teamId": 114,
@@ -11083,6 +11186,54 @@
       ]
     },
     {
+      "id": 687859,
+      "name": "Troy Johnston",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "DH",
+      "battingPoints": 8.3,
+      "pitchingPoints": 0,
+      "totalPoints": 8.3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823385,
+          "gameDate": "2026-05-12",
+          "battingPoints": 6.7,
+          "pitchingPoints": 0,
+          "totalPoints": 6.7
+        },
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
       "id": 664076,
       "name": "Garrett Cleavinger",
       "teamId": 139,
@@ -11223,6 +11374,47 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 695657,
+      "name": "Colson Montgomery",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "SS",
+      "battingPoints": 8.2,
+      "pitchingPoints": 0,
+      "totalPoints": 8.2,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
         }
       ]
     },
@@ -11456,6 +11648,54 @@
           "battingPoints": 6.5,
           "pitchingPoints": 0,
           "totalPoints": 6.5
+        }
+      ]
+    },
+    {
+      "id": 672284,
+      "name": "Jarred Kelenic",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "RF",
+      "battingPoints": 8.1,
+      "pitchingPoints": 0,
+      "totalPoints": 8.1,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -12282,54 +12522,6 @@
       ]
     },
     {
-      "id": 686973,
-      "name": "Louis Varland",
-      "teamId": 141,
-      "teamName": "Toronto Blue Jays",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822817,
-          "gameDate": "2026-05-12",
-          "battingPoints": 0,
-          "pitchingPoints": 3.8,
-          "totalPoints": 3.8
-        },
-        {
-          "gamePk": 822815,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 3.33,
-          "totalPoints": 3.33
-        }
-      ]
-    },
-    {
       "id": 666176,
       "name": "Jo Adell",
       "teamId": 108,
@@ -12429,54 +12621,6 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
-        }
-      ]
-    },
-    {
-      "id": 681198,
-      "name": "TJ Rumfield",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "1B",
-      "battingPoints": 7.1,
-      "pitchingPoints": 0,
-      "totalPoints": 7.1,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823385,
-          "gameDate": "2026-05-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 11.1,
-          "pitchingPoints": 0,
-          "totalPoints": 11.1
         }
       ]
     },
@@ -12734,54 +12878,6 @@
       ]
     },
     {
-      "id": 661388,
-      "name": "William Contreras",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "C",
-      "battingPoints": 6.5,
-      "pitchingPoints": 0,
-      "totalPoints": 6.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 682626,
       "name": "Francisco Alvarez",
       "teamId": 121,
@@ -12956,6 +13052,61 @@
           "battingPoints": 0,
           "pitchingPoints": 6.23,
           "totalPoints": 6.23
+        }
+      ]
+    },
+    {
+      "id": 543807,
+      "name": "George Springer",
+      "teamId": 141,
+      "teamName": "Toronto Blue Jays",
+      "position": "DH",
+      "battingPoints": 6.2,
+      "pitchingPoints": 0,
+      "totalPoints": 6.2,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 822817,
+          "gameDate": "2026-05-12",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
         }
       ]
     },
@@ -13460,11 +13611,11 @@
       ]
     },
     {
-      "id": 641584,
-      "name": "Jake Fraley",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "RF",
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
       "battingPoints": 5.5,
       "pitchingPoints": 0,
       "totalPoints": 5.5,
@@ -13492,18 +13643,18 @@
       },
       "games": [
         {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": 4.5,
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 8.5,
           "pitchingPoints": 0,
-          "totalPoints": 4.5
+          "totalPoints": 8.5
         },
         {
-          "gamePk": 822815,
+          "gamePk": 823791,
           "gameDate": "2026-05-13",
-          "battingPoints": 1,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": 1
+          "totalPoints": -3
         }
       ]
     },
@@ -14104,6 +14255,47 @@
       ]
     },
     {
+      "id": 641584,
+      "name": "Jake Fraley",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "RF",
+      "battingPoints": 4.5,
+      "pitchingPoints": 0,
+      "totalPoints": 4.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        }
+      ]
+    },
+    {
       "id": 664983,
       "name": "Jake McCarthy",
       "teamId": 115,
@@ -14404,6 +14596,47 @@
       "games": [
         {
           "gamePk": 824763,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 4.33,
+          "totalPoints": 4.33
+        }
+      ]
+    },
+    {
+      "id": 663158,
+      "name": "Robert Suarez",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.33,
+      "totalPoints": 4.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824928,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
           "pitchingPoints": 4.33,
@@ -15816,47 +16049,6 @@
       ]
     },
     {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "SS",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 807799,
       "name": "Masataka Yoshida",
       "teamId": 111,
@@ -15990,61 +16182,6 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
-        }
-      ]
-    },
-    {
-      "id": 543807,
-      "name": "George Springer",
-      "teamId": 141,
-      "teamName": "Toronto Blue Jays",
-      "position": "DH",
-      "battingPoints": 3.2,
-      "pitchingPoints": 0,
-      "totalPoints": 3.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 822817,
-          "gameDate": "2026-05-12",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 822815,
-          "gameDate": "2026-05-13",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
         }
       ]
     },
@@ -16487,47 +16624,6 @@
       ]
     },
     {
-      "id": 663538,
-      "name": "Nico Hoerner",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "2B",
-      "battingPoints": 2.6,
-      "pitchingPoints": 0,
-      "totalPoints": 2.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824928,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 665966,
       "name": "Carlos Narváez",
       "teamId": 111,
@@ -16863,47 +16959,6 @@
       ]
     },
     {
-      "id": 684049,
-      "name": "Brandan Bidois",
-      "teamId": 134,
-      "teamName": "Pittsburgh Pirates",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 2.33,
-      "totalPoints": 2.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 2.33,
-          "totalPoints": 2.33
-        }
-      ]
-    },
-    {
       "id": 647304,
       "name": "Josh Naylor",
       "teamId": 136,
@@ -16955,6 +17010,95 @@
           "battingPoints": 3.6,
           "pitchingPoints": 0,
           "totalPoints": 3.6
+        }
+      ]
+    },
+    {
+      "id": 605170,
+      "name": "Victor Caratini",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "C",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
+          "gameDate": "2026-05-13",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "DH",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -17342,47 +17486,6 @@
       ]
     },
     {
-      "id": 621121,
-      "name": "Lance McCullers Jr.",
-      "teamId": 117,
-      "teamName": "Houston Astros",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 1.77,
-      "totalPoints": 1.77,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 6,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 4,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824195,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 1.77,
-          "totalPoints": 1.77
-        }
-      ]
-    },
-    {
       "id": 666157,
       "name": "Nick Lodolo",
       "teamId": 113,
@@ -17499,6 +17602,47 @@
         {
           "gamePk": 825011,
           "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 663538,
+      "name": "Nico Hoerner",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "2B",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824928,
+          "gameDate": "2026-05-13",
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
@@ -17951,6 +18095,47 @@
       ]
     },
     {
+      "id": 676974,
+      "name": "Max Meyer",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 1.13,
+      "totalPoints": 1.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 11,
+        "inningsPitched": "3.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 6,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 1.13,
+          "totalPoints": 1.13
+        }
+      ]
+    },
+    {
       "id": 657041,
       "name": "Lane Thomas",
       "teamId": 118,
@@ -18396,54 +18581,6 @@
       ]
     },
     {
-      "id": 672284,
-      "name": "Jarred Kelenic",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "RF",
-      "battingPoints": 0.6,
-      "pitchingPoints": 0,
-      "totalPoints": 0.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 676475,
       "name": "Alec Burleson",
       "teamId": 138,
@@ -18618,61 +18755,6 @@
           "battingPoints": 3.6,
           "pitchingPoints": 0,
           "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
-      "battingPoints": 0.6,
-      "pitchingPoints": 0,
-      "totalPoints": 0.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824199,
-          "gameDate": "2026-05-11",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 824197,
-          "gameDate": "2026-05-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824195,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -18965,100 +19047,11 @@
       ]
     },
     {
-      "id": 676974,
-      "name": "Max Meyer",
-      "teamId": 146,
-      "teamName": "Miami Marlins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -0.33,
-      "totalPoints": -0.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 2,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": -0.33,
-          "totalPoints": -0.33
-        }
-      ]
-    },
-    {
       "id": 592206,
       "name": "Nick Castellanos",
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "RF",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 592518,
-      "name": "Manny Machado",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "3B",
       "battingPoints": -0.4,
       "pitchingPoints": 0,
       "totalPoints": -0.4,
@@ -19397,6 +19390,61 @@
       ]
     },
     {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": -0.4,
+      "pitchingPoints": 0,
+      "totalPoints": -0.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824199,
+          "gameDate": "2026-05-11",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 824197,
+          "gameDate": "2026-05-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 657044,
       "name": "Ryan Thompson",
       "teamId": 109,
@@ -19513,47 +19561,6 @@
         {
           "gamePk": 824604,
           "gameDate": "2026-05-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 605170,
-      "name": "Victor Caratini",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "C",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -19684,54 +19691,6 @@
       ]
     },
     {
-      "id": 643217,
-      "name": "Andrew Benintendi",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "DH",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 643376,
       "name": "Danny Jansen",
       "teamId": 140,
@@ -19806,47 +19765,6 @@
       "games": [
         {
           "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 660844,
-      "name": "Leo Rivas",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "3B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824195,
           "gameDate": "2026-05-13",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -19944,47 +19862,6 @@
       ]
     },
     {
-      "id": 670242,
-      "name": "Matt Wallner",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "RF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 679822,
       "name": "Justin Foscue",
       "teamId": 140,
@@ -20022,6 +19899,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 680728,
+      "name": "Adrian Del Castillo",
+      "teamId": 109,
+      "teamName": "Arizona Diamondbacks",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822901,
+          "gameDate": "2026-05-11",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
         }
       ]
     },
@@ -20474,6 +20399,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 592518,
+      "name": "Manny Machado",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "3B",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -21156,6 +21129,47 @@
       ]
     },
     {
+      "id": 660844,
+      "name": "Leo Rivas",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "3B",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 663330,
       "name": "Jahmai Jones",
       "teamId": 116,
@@ -21271,6 +21285,47 @@
       "games": [
         {
           "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 670242,
+      "name": "Matt Wallner",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "RF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
           "gameDate": "2026-05-13",
           "battingPoints": -2,
           "pitchingPoints": 0,
@@ -22627,6 +22682,61 @@
       ]
     },
     {
+      "id": 672515,
+      "name": "Gabriel Moreno",
+      "teamId": 109,
+      "teamName": "Arizona Diamondbacks",
+      "position": "C",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822901,
+          "gameDate": "2026-05-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 822903,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        }
+      ]
+    },
+    {
       "id": 673962,
       "name": "Josh Jung",
       "teamId": 140,
@@ -23034,54 +23144,6 @@
           "battingPoints": 0,
           "pitchingPoints": -4,
           "totalPoints": -4
-        }
-      ]
-    },
-    {
-      "id": 680728,
-      "name": "Adrian Del Castillo",
-      "teamId": 109,
-      "teamName": "Arizona Diamondbacks",
-      "position": "DH",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822901,
-          "gameDate": "2026-05-11",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -23846,11 +23908,11 @@
       ]
     },
     {
-      "id": 694208,
-      "name": "Moisés Ballesteros",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "C",
+      "id": 671289,
+      "name": "Tyler Freeman",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "RF",
       "battingPoints": -6,
       "pitchingPoints": 0,
       "totalPoints": -6,
@@ -23878,14 +23940,14 @@
       },
       "games": [
         {
-          "gamePk": 824927,
+          "gamePk": 823385,
           "gameDate": "2026-05-12",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
         },
         {
-          "gamePk": 824928,
+          "gamePk": 823386,
           "gameDate": "2026-05-13",
           "battingPoints": -3,
           "pitchingPoints": 0,
@@ -24298,11 +24360,11 @@
       ]
     },
     {
-      "id": 671289,
-      "name": "Tyler Freeman",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "RF",
+      "id": 694208,
+      "name": "Moisés Ballesteros",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "C",
       "battingPoints": -7,
       "pitchingPoints": 0,
       "totalPoints": -7,
@@ -24330,14 +24392,14 @@
       },
       "games": [
         {
-          "gamePk": 823385,
+          "gamePk": 824927,
           "gameDate": "2026-05-12",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
         },
         {
-          "gamePk": 823386,
+          "gamePk": 824928,
           "gameDate": "2026-05-13",
           "battingPoints": -4,
           "pitchingPoints": 0,
@@ -24534,61 +24596,6 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
-        }
-      ]
-    },
-    {
-      "id": 672515,
-      "name": "Gabriel Moreno",
-      "teamId": 109,
-      "teamName": "Arizona Diamondbacks",
-      "position": "C",
-      "battingPoints": -8,
-      "pitchingPoints": 0,
-      "totalPoints": -8,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822901,
-          "gameDate": "2026-05-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 822903,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -24815,6 +24822,47 @@
           "battingPoints": 0,
           "pitchingPoints": -9.27,
           "totalPoints": -9.27
+        }
+      ]
+    },
+    {
+      "id": 684049,
+      "name": "Brandan Bidois",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -10.1,
+      "totalPoints": -10.1,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": -10.1,
+          "totalPoints": -10.1
         }
       ]
     },
@@ -25725,6 +25773,54 @@
       ]
     },
     {
+      "id": 671277,
+      "name": "Luis García Jr.",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 34.2,
+      "pitchingPoints": 0,
+      "totalPoints": 34.2,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 30.6,
+          "pitchingPoints": 0,
+          "totalPoints": 30.6
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        }
+      ]
+    },
+    {
       "id": 621439,
       "name": "Byron Buxton",
       "teamId": 142,
@@ -25828,54 +25924,6 @@
       ]
     },
     {
-      "id": 671277,
-      "name": "Luis García Jr.",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "1B",
-      "battingPoints": 29.6,
-      "pitchingPoints": 0,
-      "totalPoints": 29.6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
-          "gameDate": "2026-05-12",
-          "battingPoints": 30.6,
-          "pitchingPoints": 0,
-          "totalPoints": 30.6
-        },
-        {
-          "gamePk": 824519,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 691723,
       "name": "Coby Mayo",
       "teamId": 110,
@@ -25975,54 +26023,6 @@
           "battingPoints": 12.5,
           "pitchingPoints": 0,
           "totalPoints": 12.5
-        }
-      ]
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 26.1,
-      "pitchingPoints": 0,
-      "totalPoints": 26.1,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823632,
-          "gameDate": "2026-05-12",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        },
-        {
-          "gamePk": 823631,
-          "gameDate": "2026-05-13",
-          "battingPoints": 11.1,
-          "pitchingPoints": 0,
-          "totalPoints": 11.1
         }
       ]
     },
@@ -26171,6 +26171,54 @@
       ]
     },
     {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "C",
+      "battingPoints": 25.1,
+      "pitchingPoints": 0,
+      "totalPoints": 25.1,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823632,
+          "gameDate": "2026-05-12",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        }
+      ]
+    },
+    {
       "id": 502671,
       "name": "Paul Goldschmidt",
       "teamId": 147,
@@ -26315,54 +26363,6 @@
       ]
     },
     {
-      "id": 805808,
-      "name": "Kevin McGonigle",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "SS",
-      "battingPoints": 22.6,
-      "pitchingPoints": 0,
-      "totalPoints": 22.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823632,
-          "gameDate": "2026-05-12",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
-        },
-        {
-          "gamePk": 823631,
-          "gameDate": "2026-05-13",
-          "battingPoints": 6.6,
-          "pitchingPoints": 0,
-          "totalPoints": 6.6
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -26496,6 +26496,54 @@
           "battingPoints": 19.5,
           "pitchingPoints": 0,
           "totalPoints": 19.5
+        }
+      ]
+    },
+    {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "SS",
+      "battingPoints": 21.6,
+      "pitchingPoints": 0,
+      "totalPoints": 21.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823632,
+          "gameDate": "2026-05-12",
+          "battingPoints": 16,
+          "pitchingPoints": 0,
+          "totalPoints": 16
+        },
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
         }
       ]
     },
@@ -26647,6 +26695,54 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 681198,
+      "name": "TJ Rumfield",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "1B",
+      "battingPoints": 21.1,
+      "pitchingPoints": 0,
+      "totalPoints": 21.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823385,
+          "gameDate": "2026-05-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 25.1,
+          "pitchingPoints": 0,
+          "totalPoints": 25.1
         }
       ]
     },
@@ -27131,54 +27227,6 @@
       ]
     },
     {
-      "id": 678246,
-      "name": "Miguel Vargas",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "3B",
-      "battingPoints": 18.8,
-      "pitchingPoints": 0,
-      "totalPoints": 18.8,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 7.6,
-          "pitchingPoints": 0,
-          "totalPoints": 7.6
-        }
-      ]
-    },
-    {
       "id": 573262,
       "name": "Mike Yastrzemski",
       "teamId": 144,
@@ -27302,6 +27350,54 @@
       ]
     },
     {
+      "id": 608324,
+      "name": "Alex Bregman",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "3B",
+      "battingPoints": 18.2,
+      "pitchingPoints": 0,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824927,
+          "gameDate": "2026-05-12",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824928,
+          "gameDate": "2026-05-13",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        }
+      ]
+    },
+    {
       "id": 663656,
       "name": "Kyle Tucker",
       "teamId": 119,
@@ -27401,6 +27497,54 @@
           "battingPoints": 6.5,
           "pitchingPoints": 0,
           "totalPoints": 6.5
+        }
+      ]
+    },
+    {
+      "id": 678246,
+      "name": "Miguel Vargas",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "3B",
+      "battingPoints": 17.8,
+      "pitchingPoints": 0,
+      "totalPoints": 17.8,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
         }
       ]
     },
@@ -27559,54 +27703,6 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 609280,
-      "name": "Miguel Andujar",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "DH",
-      "battingPoints": 17.5,
-      "pitchingPoints": 0,
-      "totalPoints": 17.5,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 19.5,
-          "pitchingPoints": 0,
-          "totalPoints": 19.5
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -27854,6 +27950,54 @@
           "battingPoints": 1.9,
           "pitchingPoints": 0,
           "totalPoints": 1.9
+        }
+      ]
+    },
+    {
+      "id": 609280,
+      "name": "Miguel Andujar",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "DH",
+      "battingPoints": 16.5,
+      "pitchingPoints": 0,
+      "totalPoints": 16.5,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 19.5,
+          "pitchingPoints": 0,
+          "totalPoints": 19.5
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -28345,54 +28489,6 @@
       ]
     },
     {
-      "id": 660688,
-      "name": "Keibert Ruiz",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "C",
-      "battingPoints": 15.5,
-      "pitchingPoints": 0,
-      "totalPoints": 15.5,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
-          "gameDate": "2026-05-12",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 824519,
-          "gameDate": "2026-05-13",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        }
-      ]
-    },
-    {
       "id": 514888,
       "name": "Jose Altuve",
       "teamId": 117,
@@ -28750,6 +28846,54 @@
       ]
     },
     {
+      "id": 660688,
+      "name": "Keibert Ruiz",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "C",
+      "battingPoints": 14.5,
+      "pitchingPoints": 0,
+      "totalPoints": 14.5,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
       "id": 677800,
       "name": "Wilyer Abreu",
       "teamId": 111,
@@ -28886,47 +29030,6 @@
       "games": [
         {
           "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        }
-      ]
-    },
-    {
-      "id": 695578,
-      "name": "James Wood",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": 14,
-      "pitchingPoints": 0,
-      "totalPoints": 14,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824521,
           "gameDate": "2026-05-12",
           "battingPoints": 14,
           "pitchingPoints": 0,
@@ -29086,54 +29189,6 @@
       ]
     },
     {
-      "id": 608324,
-      "name": "Alex Bregman",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "3B",
-      "battingPoints": 13.6,
-      "pitchingPoints": 0,
-      "totalPoints": 13.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824927,
-          "gameDate": "2026-05-12",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824928,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 663586,
       "name": "Austin Riley",
       "teamId": 144,
@@ -29281,6 +29336,54 @@
           "battingPoints": 3.6,
           "pitchingPoints": 0,
           "totalPoints": 3.6
+        }
+      ]
+    },
+    {
+      "id": 695578,
+      "name": "James Wood",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": 13,
+      "pitchingPoints": 0,
+      "totalPoints": 13,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824521,
+          "gameDate": "2026-05-12",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -29717,54 +29820,6 @@
       ]
     },
     {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "2B",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 2.8,
-          "pitchingPoints": 0,
-          "totalPoints": 2.8
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
       "id": 677942,
       "name": "Blaze Alexander",
       "teamId": 110,
@@ -30001,6 +30056,54 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "2B",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 2.8,
+          "pitchingPoints": 0,
+          "totalPoints": 2.8
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
         }
       ]
     },
@@ -30705,54 +30808,6 @@
       ]
     },
     {
-      "id": 687859,
-      "name": "Troy Johnston",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "DH",
-      "battingPoints": 9.3,
-      "pitchingPoints": 0,
-      "totalPoints": 9.3,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823385,
-          "gameDate": "2026-05-12",
-          "battingPoints": 6.7,
-          "pitchingPoints": 0,
-          "totalPoints": 6.7
-        },
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 701678,
       "name": "Hao-Yu  Lee",
       "teamId": 116,
@@ -31109,6 +31164,54 @@
       ]
     },
     {
+      "id": 687859,
+      "name": "Troy Johnston",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "DH",
+      "battingPoints": 8.3,
+      "pitchingPoints": 0,
+      "totalPoints": 8.3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823385,
+          "gameDate": "2026-05-12",
+          "battingPoints": 6.7,
+          "pitchingPoints": 0,
+          "totalPoints": 6.7
+        },
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
       "id": 668804,
       "name": "Bryan Reynolds",
       "teamId": 134,
@@ -31201,6 +31304,47 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 695657,
+      "name": "Colson Montgomery",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "SS",
+      "battingPoints": 8.2,
+      "pitchingPoints": 0,
+      "totalPoints": 8.2,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
         }
       ]
     },
@@ -31393,6 +31537,54 @@
           "battingPoints": 6.5,
           "pitchingPoints": 0,
           "totalPoints": 6.5
+        }
+      ]
+    },
+    {
+      "id": 672284,
+      "name": "Jarred Kelenic",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "RF",
+      "battingPoints": 8.1,
+      "pitchingPoints": 0,
+      "totalPoints": 8.1,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -31987,54 +32179,6 @@
       ]
     },
     {
-      "id": 681198,
-      "name": "TJ Rumfield",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "1B",
-      "battingPoints": 7.1,
-      "pitchingPoints": 0,
-      "totalPoints": 7.1,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823385,
-          "gameDate": "2026-05-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 11.1,
-          "pitchingPoints": 0,
-          "totalPoints": 11.1
-        }
-      ]
-    },
-    {
       "id": 664040,
       "name": "Brandon Lowe",
       "teamId": 134,
@@ -32079,54 +32223,6 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
-        }
-      ]
-    },
-    {
-      "id": 661388,
-      "name": "William Contreras",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "C",
-      "battingPoints": 6.5,
-      "pitchingPoints": 0,
-      "totalPoints": 6.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -32223,6 +32319,61 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 543807,
+      "name": "George Springer",
+      "teamId": 141,
+      "teamName": "Toronto Blue Jays",
+      "position": "DH",
+      "battingPoints": 6.2,
+      "pitchingPoints": 0,
+      "totalPoints": 6.2,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 822817,
+          "gameDate": "2026-05-12",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
         }
       ]
     },
@@ -32645,11 +32796,11 @@
       ]
     },
     {
-      "id": 641584,
-      "name": "Jake Fraley",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "RF",
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
       "battingPoints": 5.5,
       "pitchingPoints": 0,
       "totalPoints": 5.5,
@@ -32677,18 +32828,18 @@
       },
       "games": [
         {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": 4.5,
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 8.5,
           "pitchingPoints": 0,
-          "totalPoints": 4.5
+          "totalPoints": 8.5
         },
         {
-          "gamePk": 822815,
+          "gamePk": 823791,
           "gameDate": "2026-05-13",
-          "battingPoints": 1,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": 1
+          "totalPoints": -3
         }
       ]
     },
@@ -33162,6 +33313,47 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 641584,
+      "name": "Jake Fraley",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "RF",
+      "battingPoints": 4.5,
+      "pitchingPoints": 0,
+      "totalPoints": 4.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -34249,47 +34441,6 @@
       ]
     },
     {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "SS",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 807799,
       "name": "Masataka Yoshida",
       "teamId": 111,
@@ -34423,61 +34574,6 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
-        }
-      ]
-    },
-    {
-      "id": 543807,
-      "name": "George Springer",
-      "teamId": 141,
-      "teamName": "Toronto Blue Jays",
-      "position": "DH",
-      "battingPoints": 3.2,
-      "pitchingPoints": 0,
-      "totalPoints": 3.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 822817,
-          "gameDate": "2026-05-12",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 822815,
-          "gameDate": "2026-05-13",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
         }
       ]
     },
@@ -34879,47 +34975,6 @@
       ]
     },
     {
-      "id": 663538,
-      "name": "Nico Hoerner",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "2B",
-      "battingPoints": 2.6,
-      "pitchingPoints": 0,
-      "totalPoints": 2.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824928,
-          "gameDate": "2026-05-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 665966,
       "name": "Carlos Narváez",
       "teamId": 111,
@@ -35142,6 +35197,95 @@
           "battingPoints": 3.6,
           "pitchingPoints": 0,
           "totalPoints": 3.6
+        }
+      ]
+    },
+    {
+      "id": 605170,
+      "name": "Victor Caratini",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "C",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
+          "gameDate": "2026-05-13",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "DH",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824604,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -35440,6 +35584,47 @@
         {
           "gamePk": 825011,
           "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 663538,
+      "name": "Nico Hoerner",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "2B",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824928,
+          "gameDate": "2026-05-13",
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
@@ -36166,54 +36351,6 @@
       ]
     },
     {
-      "id": 672284,
-      "name": "Jarred Kelenic",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "RF",
-      "battingPoints": 0.6,
-      "pitchingPoints": 0,
-      "totalPoints": 0.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 676475,
       "name": "Alec Burleson",
       "teamId": 138,
@@ -36388,61 +36525,6 @@
           "battingPoints": 3.6,
           "pitchingPoints": 0,
           "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
-      "battingPoints": 0.6,
-      "pitchingPoints": 0,
-      "totalPoints": 0.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824199,
-          "gameDate": "2026-05-11",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 824197,
-          "gameDate": "2026-05-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824195,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -36658,54 +36740,6 @@
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "RF",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823790,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 592518,
-      "name": "Manny Machado",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "3B",
       "battingPoints": -0.4,
       "pitchingPoints": 0,
       "totalPoints": -0.4,
@@ -37044,6 +37078,61 @@
       ]
     },
     {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": -0.4,
+      "pitchingPoints": 0,
+      "totalPoints": -0.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824199,
+          "gameDate": "2026-05-11",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 824197,
+          "gameDate": "2026-05-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 457705,
       "name": "Andrew McCutchen",
       "teamId": 140,
@@ -37119,47 +37208,6 @@
         {
           "gamePk": 824604,
           "gameDate": "2026-05-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 605170,
-      "name": "Victor Caratini",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "C",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -37290,54 +37338,6 @@
       ]
     },
     {
-      "id": 643217,
-      "name": "Andrew Benintendi",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "DH",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824604,
-          "gameDate": "2026-05-12",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 643376,
       "name": "Danny Jansen",
       "teamId": 140,
@@ -37412,47 +37412,6 @@
       "games": [
         {
           "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 660844,
-      "name": "Leo Rivas",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "3B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824195,
           "gameDate": "2026-05-13",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -37550,47 +37509,6 @@
       ]
     },
     {
-      "id": 670242,
-      "name": "Matt Wallner",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "RF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 679822,
       "name": "Justin Foscue",
       "teamId": 140,
@@ -37628,6 +37546,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 680728,
+      "name": "Adrian Del Castillo",
+      "teamId": 109,
+      "teamName": "Arizona Diamondbacks",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822901,
+          "gameDate": "2026-05-11",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
         }
       ]
     },
@@ -38039,6 +38005,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 592518,
+      "name": "Manny Machado",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "3B",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823790,
+          "gameDate": "2026-05-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -38680,6 +38694,47 @@
       ]
     },
     {
+      "id": 660844,
+      "name": "Leo Rivas",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "3B",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 663330,
       "name": "Jahmai Jones",
       "teamId": 116,
@@ -38795,6 +38850,47 @@
       "games": [
         {
           "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 670242,
+      "name": "Matt Wallner",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "RF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
           "gameDate": "2026-05-13",
           "battingPoints": -2,
           "pitchingPoints": 0,
@@ -40021,6 +40117,61 @@
       ]
     },
     {
+      "id": 672515,
+      "name": "Gabriel Moreno",
+      "teamId": 109,
+      "teamName": "Arizona Diamondbacks",
+      "position": "C",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822901,
+          "gameDate": "2026-05-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 822903,
+          "gameDate": "2026-05-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        }
+      ]
+    },
+    {
       "id": 673962,
       "name": "Josh Jung",
       "teamId": 140,
@@ -40346,54 +40497,6 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
-        }
-      ]
-    },
-    {
-      "id": 680728,
-      "name": "Adrian Del Castillo",
-      "teamId": 109,
-      "teamName": "Arizona Diamondbacks",
-      "position": "DH",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822901,
-          "gameDate": "2026-05-11",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -41035,11 +41138,11 @@
       ]
     },
     {
-      "id": 694208,
-      "name": "Moisés Ballesteros",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "C",
+      "id": 671289,
+      "name": "Tyler Freeman",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "RF",
       "battingPoints": -6,
       "pitchingPoints": 0,
       "totalPoints": -6,
@@ -41067,14 +41170,14 @@
       },
       "games": [
         {
-          "gamePk": 824927,
+          "gamePk": 823385,
           "gameDate": "2026-05-12",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
         },
         {
-          "gamePk": 824928,
+          "gamePk": 823386,
           "gameDate": "2026-05-13",
           "battingPoints": -3,
           "pitchingPoints": 0,
@@ -41323,11 +41426,11 @@
       ]
     },
     {
-      "id": 671289,
-      "name": "Tyler Freeman",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "RF",
+      "id": 694208,
+      "name": "Moisés Ballesteros",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "C",
       "battingPoints": -7,
       "pitchingPoints": 0,
       "totalPoints": -7,
@@ -41355,14 +41458,14 @@
       },
       "games": [
         {
-          "gamePk": 823385,
+          "gamePk": 824927,
           "gameDate": "2026-05-12",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
         },
         {
-          "gamePk": 823386,
+          "gamePk": 824928,
           "gameDate": "2026-05-13",
           "battingPoints": -4,
           "pitchingPoints": 0,
@@ -41518,61 +41621,6 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
-        }
-      ]
-    },
-    {
-      "id": 672515,
-      "name": "Gabriel Moreno",
-      "teamId": 109,
-      "teamName": "Arizona Diamondbacks",
-      "position": "C",
-      "battingPoints": -8,
-      "pitchingPoints": 0,
-      "totalPoints": -8,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822901,
-          "gameDate": "2026-05-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 822903,
-          "gameDate": "2026-05-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -42011,6 +42059,47 @@
       ]
     },
     {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 50,
+      "totalPoints": 50,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 18,
+        "inningsPitched": "6.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 50,
+          "totalPoints": 50
+        }
+      ]
+    },
+    {
       "id": 680694,
       "name": "Kyle Bradish",
       "teamId": 110,
@@ -42335,47 +42424,6 @@
           "battingPoints": 0,
           "pitchingPoints": 41.1,
           "totalPoints": 41.1
-        }
-      ]
-    },
-    {
-      "id": 694819,
-      "name": "Jacob Misiorowski",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 40.6,
-      "totalPoints": 40.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 40.6,
-          "totalPoints": 40.6
         }
       ]
     },
@@ -42961,6 +43009,47 @@
       ]
     },
     {
+      "id": 650633,
+      "name": "Michael King",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 26.6,
+      "totalPoints": 26.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 26.6,
+          "totalPoints": 26.6
+        }
+      ]
+    },
+    {
       "id": 702275,
       "name": "JR Ritchie",
       "teamId": 144,
@@ -43221,47 +43310,6 @@
       ]
     },
     {
-      "id": 650633,
-      "name": "Michael King",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 24.13,
-      "totalPoints": 24.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 14,
-        "inningsPitched": "4.2",
-        "hitsAllowed": 4,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 24.13,
-          "totalPoints": 24.13
-        }
-      ]
-    },
-    {
       "id": 680730,
       "name": "Mitchell Parker",
       "teamId": 120,
@@ -43477,6 +43525,47 @@
           "battingPoints": 0,
           "pitchingPoints": 21.9,
           "totalPoints": 21.9
+        }
+      ]
+    },
+    {
+      "id": 623211,
+      "name": "Huascar Brazobán",
+      "teamId": 121,
+      "teamName": "New York Mets",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 21.27,
+      "totalPoints": 21.27,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823631,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 21.27,
+          "totalPoints": 21.27
         }
       ]
     },
@@ -43727,88 +43816,6 @@
       ]
     },
     {
-      "id": 607625,
-      "name": "Seth Lugo",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 19,
-      "totalPoints": 19,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 12,
-        "inningsPitched": "4.0",
-        "hitsAllowed": 6,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 4,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824603,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 19,
-          "totalPoints": 19
-        }
-      ]
-    },
-    {
-      "id": 677958,
-      "name": "Kumar Rocker",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 18.93,
-      "totalPoints": 18.93,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 11,
-        "inningsPitched": "3.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 3,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822900,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 18.93,
-          "totalPoints": 18.93
-        }
-      ]
-    },
-    {
       "id": 695380,
       "name": "Alex Hoppe",
       "teamId": 136,
@@ -43887,6 +43894,47 @@
           "battingPoints": 0,
           "pitchingPoints": 18.53,
           "totalPoints": 18.53
+        }
+      ]
+    },
+    {
+      "id": 607625,
+      "name": "Seth Lugo",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824603,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
         }
       ]
     },
@@ -44256,47 +44304,6 @@
           "battingPoints": 0,
           "pitchingPoints": 16.6,
           "totalPoints": 16.6
-        }
-      ]
-    },
-    {
-      "id": 641329,
-      "name": "Bryan Baker",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 16.4,
-      "totalPoints": 16.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 1,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822818,
-          "gameDate": "2026-05-11",
-          "battingPoints": 0,
-          "pitchingPoints": 16.4,
-          "totalPoints": 16.4
         }
       ]
     },
@@ -44759,47 +44766,6 @@
       ]
     },
     {
-      "id": 623211,
-      "name": "Huascar Brazobán",
-      "teamId": 121,
-      "teamName": "New York Mets",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 14.33,
-      "totalPoints": 14.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823631,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 14.33,
-          "totalPoints": 14.33
-        }
-      ]
-    },
-    {
       "id": 687330,
       "name": "Kevin Kelly",
       "teamId": 139,
@@ -44844,6 +44810,47 @@
           "battingPoints": 0,
           "pitchingPoints": 4.93,
           "totalPoints": 4.93
+        }
+      ]
+    },
+    {
+      "id": 656271,
+      "name": "Brock Burke",
+      "teamId": 113,
+      "teamName": "Cincinnati Reds",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 14.2,
+      "totalPoints": 14.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824519,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 14.2,
+          "totalPoints": 14.2
         }
       ]
     },
@@ -44974,6 +44981,54 @@
           "battingPoints": 0,
           "pitchingPoints": 8.8,
           "totalPoints": 8.8
+        }
+      ]
+    },
+    {
+      "id": 641329,
+      "name": "Bryan Baker",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.4,
+      "totalPoints": 13.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 1,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822818,
+          "gameDate": "2026-05-11",
+          "battingPoints": 0,
+          "pitchingPoints": 16.4,
+          "totalPoints": 16.4
+        },
+        {
+          "gamePk": 822815,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": -3,
+          "totalPoints": -3
         }
       ]
     },
@@ -45138,6 +45193,47 @@
           "battingPoints": 0,
           "pitchingPoints": 13.4,
           "totalPoints": 13.4
+        }
+      ]
+    },
+    {
+      "id": 677958,
+      "name": "Kumar Rocker",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.33,
+      "totalPoints": 13.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 11,
+        "inningsPitched": "3.2",
+        "hitsAllowed": 3,
+        "walksAllowed": 4,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822900,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 13.33,
+          "totalPoints": 13.33
         }
       ]
     },
@@ -46495,14 +46591,14 @@
       ]
     },
     {
-      "id": 656271,
-      "name": "Brock Burke",
-      "teamId": 113,
-      "teamName": "Cincinnati Reds",
+      "id": 686973,
+      "name": "Louis Varland",
+      "teamId": 141,
+      "teamName": "Toronto Blue Jays",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 9.87,
-      "totalPoints": 9.87,
+      "pitchingPoints": 9.6,
+      "totalPoints": 9.6,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -46515,23 +46611,30 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 2,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 3,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
-          "gamePk": 824519,
+          "gamePk": 822817,
+          "gameDate": "2026-05-12",
+          "battingPoints": 0,
+          "pitchingPoints": 3.8,
+          "totalPoints": 3.8
+        },
+        {
+          "gamePk": 822815,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
-          "pitchingPoints": 9.87,
-          "totalPoints": 9.87
+          "pitchingPoints": 5.8,
+          "totalPoints": 5.8
         }
       ]
     },
@@ -47199,6 +47302,47 @@
       ]
     },
     {
+      "id": 621121,
+      "name": "Lance McCullers Jr.",
+      "teamId": 117,
+      "teamName": "Houston Astros",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.7,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 12,
+        "inningsPitched": "4.0",
+        "hitsAllowed": 6,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824195,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 8.7,
+          "totalPoints": 8.7
+        }
+      ]
+    },
+    {
       "id": 668984,
       "name": "Casey Legumina",
       "teamId": 139,
@@ -47742,54 +47886,6 @@
           "battingPoints": 0,
           "pitchingPoints": 7.2,
           "totalPoints": 7.2
-        }
-      ]
-    },
-    {
-      "id": 686973,
-      "name": "Louis Varland",
-      "teamId": 141,
-      "teamName": "Toronto Blue Jays",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822817,
-          "gameDate": "2026-05-12",
-          "battingPoints": 0,
-          "pitchingPoints": 3.8,
-          "totalPoints": 3.8
-        },
-        {
-          "gamePk": 822815,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 3.33,
-          "totalPoints": 3.33
         }
       ]
     },
@@ -48360,6 +48456,47 @@
       "games": [
         {
           "gamePk": 824763,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 4.33,
+          "totalPoints": 4.33
+        }
+      ]
+    },
+    {
+      "id": 663158,
+      "name": "Robert Suarez",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.33,
+      "totalPoints": 4.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824928,
           "gameDate": "2026-05-13",
           "battingPoints": 0,
           "pitchingPoints": 4.33,
@@ -49120,47 +49257,6 @@
       ]
     },
     {
-      "id": 684049,
-      "name": "Brandan Bidois",
-      "teamId": 134,
-      "teamName": "Pittsburgh Pirates",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 2.33,
-      "totalPoints": 2.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823386,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 2.33,
-          "totalPoints": 2.33
-        }
-      ]
-    },
-    {
       "id": 666711,
       "name": "Joel Peguero",
       "teamId": 137,
@@ -49325,47 +49421,6 @@
       ]
     },
     {
-      "id": 621121,
-      "name": "Lance McCullers Jr.",
-      "teamId": 117,
-      "teamName": "Houston Astros",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 1.77,
-      "totalPoints": 1.77,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 6,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 4,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824195,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 1.77,
-          "totalPoints": 1.77
-        }
-      ]
-    },
-    {
       "id": 666157,
       "name": "Nick Lodolo",
       "teamId": 113,
@@ -49485,6 +49540,47 @@
           "battingPoints": 0,
           "pitchingPoints": 1.2,
           "totalPoints": 1.2
+        }
+      ]
+    },
+    {
+      "id": 676974,
+      "name": "Max Meyer",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 1.13,
+      "totalPoints": 1.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 11,
+        "inningsPitched": "3.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 6,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823710,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 1.13,
+          "totalPoints": 1.13
         }
       ]
     },
@@ -49656,47 +49752,6 @@
           "battingPoints": 0,
           "pitchingPoints": -0.07,
           "totalPoints": -0.07
-        }
-      ]
-    },
-    {
-      "id": 676974,
-      "name": "Max Meyer",
-      "teamId": 146,
-      "teamName": "Miami Marlins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -0.33,
-      "totalPoints": -0.33,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 2,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823710,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": -0.33,
-          "totalPoints": -0.33
         }
       ]
     },
@@ -50487,6 +50542,47 @@
       ]
     },
     {
+      "id": 684049,
+      "name": "Brandan Bidois",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -10.1,
+      "totalPoints": -10.1,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823386,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": -10.1,
+          "totalPoints": -10.1
+        }
+      ]
+    },
+    {
       "id": 670090,
       "name": "Wyatt Mills",
       "teamId": 119,
@@ -51241,6 +51337,47 @@
       ]
     },
     {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 50,
+      "totalPoints": 50,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 18,
+        "inningsPitched": "6.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823791,
+          "gameDate": "2026-05-13",
+          "battingPoints": 0,
+          "pitchingPoints": 50,
+          "totalPoints": 50
+        }
+      ]
+    },
+    {
       "id": 680694,
       "name": "Kyle Bradish",
       "teamId": 110,
@@ -51565,47 +51702,6 @@
           "battingPoints": 0,
           "pitchingPoints": 41.1,
           "totalPoints": 41.1
-        }
-      ]
-    },
-    {
-      "id": 694819,
-      "name": "Jacob Misiorowski",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 40.6,
-      "totalPoints": 40.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823791,
-          "gameDate": "2026-05-13",
-          "battingPoints": 0,
-          "pitchingPoints": 40.6,
-          "totalPoints": 40.6
         }
       ]
     },
