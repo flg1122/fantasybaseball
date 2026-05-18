@@ -3511,3 +3511,100 @@ padding: 32px 16px;
     padding: 10px 18px;
   }
 }
+/* ================================
+   WEEK 8 UNIQUE COLOR OVERRIDES
+   ================================ */
+
+
+/* Week 8 hero: blue/purple glow instead of red */
+.week8-recap-page .week7-chaos-hero {
+  background:
+    radial-gradient(circle at top, rgba(96, 165, 250, 0.30), transparent 38%),
+    radial-gradient(circle at bottom left, rgba(168, 85, 247, 0.22), transparent 42%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.94), rgba(10, 15, 26, 0.98));
+  border-color: rgba(96, 165, 250, 0.42);
+  box-shadow:
+    0 0 45px rgba(96, 165, 250, 0.22),
+    inset 0 0 70px rgba(168, 85, 247, 0.08);
+}
+
+
+/* Week 8 hero kicker */
+.week8-recap-page .week7-chaos-hero .feature-kicker {
+  background: rgba(96, 165, 250, 0.18);
+  color: #bfdbfe;
+  border-color: rgba(96, 165, 250, 0.32);
+}
+
+
+/* Trade Market section: purple/blue instead of red */
+.week8-recap-page .danger-card {
+  background:
+    radial-gradient(circle at top left, rgba(168, 85, 247, 0.18), transparent 38%),
+    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.16), transparent 42%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(10, 15, 26, 0.98));
+  border-color: rgba(168, 85, 247, 0.42);
+  box-shadow:
+    0 0 35px rgba(168, 85, 247, 0.18),
+    inset 0 0 55px rgba(96, 165, 250, 0.06);
+}
+
+
+/* Trade label pill */
+.week8-recap-page .danger-card .section-label {
+  background: rgba(168, 85, 247, 0.20);
+  color: #ddd6fe;
+}
+
+
+/* Trade package box only */
+.week8-recap-page .danger-card .trade-package {
+  border-color: rgba(96, 165, 250, 0.34);
+  background:
+    radial-gradient(circle at top, rgba(96, 165, 250, 0.12), transparent 55%),
+    rgba(5, 10, 25, 0.92);
+  box-shadow:
+    inset 0 0 50px rgba(96, 165, 250, 0.07),
+    0 0 24px rgba(168, 85, 247, 0.12);
+}
+
+
+/* Trade 1 / Trade 2 / Trade 3 pills */
+.week8-recap-page .danger-card .trade-label {
+  background: rgba(96, 165, 250, 0.14);
+  color: #bfdbfe;
+  border-color: rgba(96, 165, 250, 0.28);
+}
+
+
+/* Trade dividers */
+.week8-recap-page .danger-card .trade-divider {
+  background: rgba(96, 165, 250, 0.18);
+}
+
+.recap-photo {
+  margin: 22px 0 4px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  background: rgba(5, 10, 25, 0.75);
+  box-shadow: 0 0 28px rgba(0,0,0,0.22);
+}
+
+
+.recap-photo img {
+  width: 100%;
+  display: block;
+}
+
+
+.recap-photo figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
