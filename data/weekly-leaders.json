@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-19T21:11:06.336Z",
-  "generatedAtET": "5/19/2026, 5:11:06 PM",
+  "generatedAt": "2026-05-19T21:16:09.068Z",
+  "generatedAtET": "5/19/2026, 5:16:09 PM",
   "scoringPeriod": {
     "start": "2026-05-18",
     "end": "2026-05-19",
@@ -11,9 +11,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 402,
+    "overall": 403,
     "hitters": 288,
-    "pitchers": 117
+    "pitchers": 118
   },
   "overallLeaders": [
     {
@@ -4664,6 +4664,47 @@
         {
           "gamePk": 824357,
           "gameDate": "2026-05-18",
+          "battingPoints": 0,
+          "pitchingPoints": 9.4,
+          "totalPoints": 9.4
+        }
+      ]
+    },
+    {
+      "id": 669622,
+      "name": "Anthony Bender",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.4,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
           "battingPoints": 0,
           "pitchingPoints": 9.4,
           "totalPoints": 9.4
@@ -11328,47 +11369,6 @@
       ]
     },
     {
-      "id": 573262,
-      "name": "Mike Yastrzemski",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": 1,
-      "pitchingPoints": 0,
-      "totalPoints": 1,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823867,
-          "gameDate": "2026-05-18",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 592518,
       "name": "Manny Machado",
       "teamId": 135,
@@ -12476,6 +12476,54 @@
       ]
     },
     {
+      "id": 673490,
+      "name": "Ha-Seong Kim",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823867,
+          "gameDate": "2026-05-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 678489,
       "name": "Jorge Barrosa",
       "teamId": 109,
@@ -13046,54 +13094,6 @@
           "battingPoints": 0,
           "pitchingPoints": -1.3,
           "totalPoints": -1.3
-        }
-      ]
-    },
-    {
-      "id": 506702,
-      "name": "Sandy León",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823867,
-          "gameDate": "2026-05-18",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823865,
-          "gameDate": "2026-05-19",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -13682,6 +13682,54 @@
           "battingPoints": 0,
           "pitchingPoints": -2.4,
           "totalPoints": -2.4
+        }
+      ]
+    },
+    {
+      "id": 506702,
+      "name": "Sandy León",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "C",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823867,
+          "gameDate": "2026-05-18",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -24145,47 +24193,6 @@
       ]
     },
     {
-      "id": 573262,
-      "name": "Mike Yastrzemski",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": 1,
-      "pitchingPoints": 0,
-      "totalPoints": 1,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823867,
-          "gameDate": "2026-05-18",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 592518,
       "name": "Manny Machado",
       "teamId": 135,
@@ -25211,6 +25218,54 @@
       ]
     },
     {
+      "id": 673490,
+      "name": "Ha-Seong Kim",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823867,
+          "gameDate": "2026-05-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 678489,
       "name": "Jorge Barrosa",
       "teamId": 109,
@@ -25740,54 +25795,6 @@
           "battingPoints": -1.2,
           "pitchingPoints": 0,
           "totalPoints": -1.2
-        }
-      ]
-    },
-    {
-      "id": 506702,
-      "name": "Sandy León",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823867,
-          "gameDate": "2026-05-18",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823865,
-          "gameDate": "2026-05-19",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -26332,6 +26339,54 @@
         {
           "gamePk": 823465,
           "gameDate": "2026-05-18",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 506702,
+      "name": "Sandy León",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "C",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823867,
+          "gameDate": "2026-05-18",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
@@ -30523,6 +30578,47 @@
         {
           "gamePk": 824357,
           "gameDate": "2026-05-18",
+          "battingPoints": 0,
+          "pitchingPoints": 9.4,
+          "totalPoints": 9.4
+        }
+      ]
+    },
+    {
+      "id": 669622,
+      "name": "Anthony Bender",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.4,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823865,
+          "gameDate": "2026-05-19",
           "battingPoints": 0,
           "pitchingPoints": 9.4,
           "totalPoints": 9.4
