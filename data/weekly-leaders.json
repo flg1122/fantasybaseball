@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T17:40:52.071Z",
-  "generatedAtET": "5/25/2026, 1:40:52 PM",
+  "generatedAt": "2026-05-25T17:45:52.611Z",
+  "generatedAtET": "5/25/2026, 1:45:52 PM",
   "scoringPeriod": {
     "start": "2026-05-25",
     "end": "2026-05-25",
@@ -10,9 +10,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 6,
-    "hitters": 4,
-    "pitchers": 2
+    "overall": 12,
+    "hitters": 9,
+    "pitchers": 3
   },
   "overallLeaders": [
     {
@@ -63,8 +63,8 @@
       "teamName": "Pittsburgh Pirates",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.47,
-      "totalPoints": 2.47,
+      "pitchingPoints": 7.4,
+      "totalPoints": 7.4,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -77,8 +77,8 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 1,
-        "inningsPitched": "0.1",
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -92,20 +92,20 @@
           "gamePk": 823380,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.47,
-          "totalPoints": 2.47
+          "pitchingPoints": 7.4,
+          "totalPoints": 7.4
         }
       ]
     },
     {
-      "id": 680694,
-      "name": "Kyle Bradish",
-      "teamId": 110,
-      "teamName": "Baltimore Orioles",
+      "id": 663556,
+      "name": "Shane McClanahan",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.33,
-      "totalPoints": 2.33,
+      "pitchingPoints": 4.93,
+      "totalPoints": 4.93,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -120,6 +120,47 @@
       "pitchingStats": {
         "outs": 2,
         "inningsPitched": "0.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": 0,
+          "pitchingPoints": 4.93,
+          "totalPoints": 4.93
+        }
+      ]
+    },
+    {
+      "id": 680694,
+      "name": "Kyle Bradish",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -133,8 +174,213 @@
           "gamePk": 824838,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.33,
-          "totalPoints": 2.33
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
+        }
+      ]
+    },
+    {
+      "id": 621493,
+      "name": "Taylor Ward",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 664023,
+      "name": "Ian Happ",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683737,
+      "name": "Michael Busch",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -305,6 +551,211 @@
       ]
     },
     {
+      "id": 621493,
+      "name": "Taylor Ward",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 664023,
+      "name": "Ian Happ",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683737,
+      "name": "Michael Busch",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691406,
       "name": "Junior Caminero",
       "teamId": 139,
@@ -436,8 +887,8 @@
       "teamName": "Pittsburgh Pirates",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.47,
-      "totalPoints": 2.47,
+      "pitchingPoints": 7.4,
+      "totalPoints": 7.4,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -450,8 +901,8 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 1,
-        "inningsPitched": "0.1",
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -465,20 +916,20 @@
           "gamePk": 823380,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.47,
-          "totalPoints": 2.47
+          "pitchingPoints": 7.4,
+          "totalPoints": 7.4
         }
       ]
     },
     {
-      "id": 680694,
-      "name": "Kyle Bradish",
-      "teamId": 110,
-      "teamName": "Baltimore Orioles",
+      "id": 663556,
+      "name": "Shane McClanahan",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.33,
-      "totalPoints": 2.33,
+      "pitchingPoints": 4.93,
+      "totalPoints": 4.93,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -493,6 +944,47 @@
       "pitchingStats": {
         "outs": 2,
         "inningsPitched": "0.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": 0,
+          "pitchingPoints": 4.93,
+          "totalPoints": 4.93
+        }
+      ]
+    },
+    {
+      "id": 680694,
+      "name": "Kyle Bradish",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -506,8 +998,8 @@
           "gamePk": 824838,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.33,
-          "totalPoints": 2.33
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
         }
       ]
     }
@@ -561,8 +1053,8 @@
       "teamName": "Pittsburgh Pirates",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.47,
-      "totalPoints": 2.47,
+      "pitchingPoints": 7.4,
+      "totalPoints": 7.4,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -575,8 +1067,8 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 1,
-        "inningsPitched": "0.1",
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -590,20 +1082,20 @@
           "gamePk": 823380,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.47,
-          "totalPoints": 2.47
+          "pitchingPoints": 7.4,
+          "totalPoints": 7.4
         }
       ]
     },
     {
-      "id": 680694,
-      "name": "Kyle Bradish",
-      "teamId": 110,
-      "teamName": "Baltimore Orioles",
+      "id": 663556,
+      "name": "Shane McClanahan",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 2.33,
-      "totalPoints": 2.33,
+      "pitchingPoints": 4.93,
+      "totalPoints": 4.93,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -618,6 +1110,47 @@
       "pitchingStats": {
         "outs": 2,
         "inningsPitched": "0.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": 0,
+          "pitchingPoints": 4.93,
+          "totalPoints": 4.93
+        }
+      ]
+    },
+    {
+      "id": 680694,
+      "name": "Kyle Bradish",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
         "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
@@ -631,8 +1164,213 @@
           "gamePk": 824838,
           "gameDate": "2026-05-25",
           "battingPoints": 0,
-          "pitchingPoints": 2.33,
-          "totalPoints": 2.33
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
+        }
+      ]
+    },
+    {
+      "id": 621493,
+      "name": "Taylor Ward",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 664023,
+      "name": "Ian Happ",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "teamId": 110,
+      "teamName": "Baltimore Orioles",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824838,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683737,
+      "name": "Michael Busch",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823380,
+          "gameDate": "2026-05-25",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
