@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-28T02:20:53.580Z",
-  "generatedAtET": "5/27/2026, 10:20:53 PM",
+  "generatedAt": "2026-05-28T02:25:53.056Z",
+  "generatedAtET": "5/27/2026, 10:25:53 PM",
   "scoringPeriod": {
     "start": "2026-05-25",
     "end": "2026-05-27",
@@ -13,7 +13,7 @@
   },
   "counts": {
     "overall": 650,
-    "hitters": 368,
+    "hitters": 369,
     "pitchers": 287
   },
   "overallLeaders": [
@@ -516,11 +516,11 @@
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "CF",
-      "battingPoints": 44.6,
+      "battingPoints": 43.6,
       "pitchingPoints": 0,
-      "totalPoints": 44.6,
+      "totalPoints": 43.6,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 6,
         "doubles": 3,
         "triples": 0,
@@ -555,6 +555,13 @@
           "battingPoints": 34.5,
           "pitchingPoints": 0,
           "totalPoints": 34.5
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2628,6 +2635,61 @@
       ]
     },
     {
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "1B",
+      "battingPoints": 29.7,
+      "pitchingPoints": 0,
+      "totalPoints": 29.7,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823948,
+          "gameDate": "2026-05-25",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823949,
+          "gameDate": "2026-05-26",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 677952,
       "name": "Braxton Ashcraft",
       "teamId": 134,
@@ -3273,54 +3335,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 27.6,
-      "pitchingPoints": 0,
-      "totalPoints": 27.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823948,
-          "gameDate": "2026-05-25",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823949,
-          "gameDate": "2026-05-26",
-          "battingPoints": 30.6,
-          "pitchingPoints": 0,
-          "totalPoints": 30.6
-        }
-      ]
-    },
-    {
       "id": 671106,
       "name": "Logan Allen",
       "teamId": 114,
@@ -3776,6 +3790,61 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 26.6,
+      "pitchingPoints": 0,
+      "totalPoints": 26.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823948,
+          "gameDate": "2026-05-25",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823949,
+          "gameDate": "2026-05-26",
+          "battingPoints": 30.6,
+          "pitchingPoints": 0,
+          "totalPoints": 30.6
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -8480,54 +8549,6 @@
           "battingPoints": 0,
           "pitchingPoints": 15.87,
           "totalPoints": 15.87
-        }
-      ]
-    },
-    {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "1B",
-      "battingPoints": 15.7,
-      "pitchingPoints": 0,
-      "totalPoints": 15.7,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823948,
-          "gameDate": "2026-05-25",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823949,
-          "gameDate": "2026-05-26",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
         }
       ]
     },
@@ -14184,61 +14205,6 @@
       ]
     },
     {
-      "id": 607043,
-      "name": "Brandon Nimmo",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "DH",
-      "battingPoints": 8.2,
-      "pitchingPoints": 0,
-      "totalPoints": 8.2,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822899,
-          "gameDate": "2026-05-25",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
-        },
-        {
-          "gamePk": 822898,
-          "gameDate": "2026-05-26",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 822897,
-          "gameDate": "2026-05-27",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 667472,
       "name": "Dane Myers",
       "teamId": 113,
@@ -15336,6 +15302,54 @@
       ]
     },
     {
+      "id": 664059,
+      "name": "Sam Haggerty",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "P",
+      "battingPoints": 3,
+      "pitchingPoints": 4.4,
+      "totalPoints": 7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822899,
+          "gameDate": "2026-05-25",
+          "battingPoints": 0,
+          "pitchingPoints": 4.4,
+          "totalPoints": 4.4
+        },
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 666808,
       "name": "Camilo Doval",
       "teamId": 147,
@@ -15619,6 +15633,61 @@
           "battingPoints": 0,
           "pitchingPoints": 7.27,
           "totalPoints": 7.27
+        }
+      ]
+    },
+    {
+      "id": 607043,
+      "name": "Brandon Nimmo",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "DH",
+      "battingPoints": 7.2,
+      "pitchingPoints": 0,
+      "totalPoints": 7.2,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822899,
+          "gameDate": "2026-05-25",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 822898,
+          "gameDate": "2026-05-26",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
         }
       ]
     },
@@ -19586,47 +19655,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 664059,
-      "name": "Sam Haggerty",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.4,
-      "totalPoints": 4.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 1,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822899,
-          "gameDate": "2026-05-25",
-          "battingPoints": 0,
-          "pitchingPoints": 4.4,
-          "totalPoints": 4.4
         }
       ]
     },
@@ -29332,6 +29360,47 @@
       ]
     },
     {
+      "id": 687911,
+      "name": "Bryan King",
+      "teamId": 117,
+      "teamName": "Houston Astros",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -13.43,
+      "totalPoints": -13.43,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 0,
+          "pitchingPoints": -13.43,
+          "totalPoints": -13.43
+        }
+      ]
+    },
+    {
       "id": 676684,
       "name": "Will Vest",
       "teamId": 116,
@@ -29458,88 +29527,6 @@
           "battingPoints": -1,
           "pitchingPoints": -15.7,
           "totalPoints": -16.7
-        }
-      ]
-    },
-    {
-      "id": 608372,
-      "name": "Tomoyuki Sugano",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.9,
-      "totalPoints": -14.9,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823947,
-          "gameDate": "2026-05-27",
-          "battingPoints": 0,
-          "pitchingPoints": -14.9,
-          "totalPoints": -14.9
-        }
-      ]
-    },
-    {
-      "id": 687911,
-      "name": "Bryan King",
-      "teamId": 117,
-      "teamName": "Houston Astros",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.9,
-      "totalPoints": -14.9,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822897,
-          "gameDate": "2026-05-27",
-          "battingPoints": 0,
-          "pitchingPoints": -14.9,
-          "totalPoints": -14.9
         }
       ]
     },
@@ -29704,6 +29691,47 @@
           "battingPoints": 0,
           "pitchingPoints": -20.63,
           "totalPoints": -20.63
+        }
+      ]
+    },
+    {
+      "id": 608372,
+      "name": "Tomoyuki Sugano",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -24.87,
+      "totalPoints": -24.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": 0,
+          "pitchingPoints": -24.87,
+          "totalPoints": -24.87
         }
       ]
     },
@@ -30256,11 +30284,11 @@
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "CF",
-      "battingPoints": 44.6,
+      "battingPoints": 43.6,
       "pitchingPoints": 0,
-      "totalPoints": 44.6,
+      "totalPoints": 43.6,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 6,
         "doubles": 3,
         "triples": 0,
@@ -30295,6 +30323,13 @@
           "battingPoints": 34.5,
           "pitchingPoints": 0,
           "totalPoints": 34.5
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -31144,6 +31179,61 @@
       ]
     },
     {
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "1B",
+      "battingPoints": 29.7,
+      "pitchingPoints": 0,
+      "totalPoints": 29.7,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823948,
+          "gameDate": "2026-05-25",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823949,
+          "gameDate": "2026-05-26",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 691016,
       "name": "Tyler Soderstrom",
       "teamId": 133,
@@ -31577,54 +31667,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 27.6,
-      "pitchingPoints": 0,
-      "totalPoints": 27.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823948,
-          "gameDate": "2026-05-25",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823949,
-          "gameDate": "2026-05-26",
-          "battingPoints": 30.6,
-          "pitchingPoints": 0,
-          "totalPoints": 30.6
-        }
-      ]
-    },
-    {
       "id": 683737,
       "name": "Michael Busch",
       "teamId": 112,
@@ -31875,6 +31917,61 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 26.6,
+      "pitchingPoints": 0,
+      "totalPoints": 26.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823948,
+          "gameDate": "2026-05-25",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823949,
+          "gameDate": "2026-05-26",
+          "battingPoints": 30.6,
+          "pitchingPoints": 0,
+          "totalPoints": 30.6
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -34945,54 +35042,6 @@
           "battingPoints": 10.2,
           "pitchingPoints": 0,
           "totalPoints": 10.2
-        }
-      ]
-    },
-    {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "1B",
-      "battingPoints": 15.7,
-      "pitchingPoints": 0,
-      "totalPoints": 15.7,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823948,
-          "gameDate": "2026-05-25",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823949,
-          "gameDate": "2026-05-26",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
         }
       ]
     },
@@ -38256,61 +38305,6 @@
       ]
     },
     {
-      "id": 607043,
-      "name": "Brandon Nimmo",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "DH",
-      "battingPoints": 8.2,
-      "pitchingPoints": 0,
-      "totalPoints": 8.2,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822899,
-          "gameDate": "2026-05-25",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
-        },
-        {
-          "gamePk": 822898,
-          "gameDate": "2026-05-26",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 822897,
-          "gameDate": "2026-05-27",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 667472,
       "name": "Dane Myers",
       "teamId": 113,
@@ -39028,6 +39022,61 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
+        }
+      ]
+    },
+    {
+      "id": 607043,
+      "name": "Brandon Nimmo",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "DH",
+      "battingPoints": 7.2,
+      "pitchingPoints": 0,
+      "totalPoints": 7.2,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822899,
+          "gameDate": "2026-05-25",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 822898,
+          "gameDate": "2026-05-26",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
         }
       ]
     },
@@ -42095,6 +42144,54 @@
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
+        }
+      ]
+    },
+    {
+      "id": 664059,
+      "name": "Sam Haggerty",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "P",
+      "battingPoints": 3,
+      "pitchingPoints": 4.4,
+      "totalPoints": 7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822899,
+          "gameDate": "2026-05-25",
+          "battingPoints": 0,
+          "pitchingPoints": 4.4,
+          "totalPoints": 4.4
+        },
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -56666,16 +56763,16 @@
       "teamId": 140,
       "teamName": "Texas Rangers",
       "position": "P",
-      "battingPoints": 0,
+      "battingPoints": 3,
       "pitchingPoints": 4.4,
-      "totalPoints": 4.4,
+      "totalPoints": 7.4,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -56698,6 +56795,13 @@
           "battingPoints": 0,
           "pitchingPoints": 4.4,
           "totalPoints": 4.4
+        },
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -59649,6 +59753,47 @@
       ]
     },
     {
+      "id": 687911,
+      "name": "Bryan King",
+      "teamId": 117,
+      "teamName": "Houston Astros",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -13.43,
+      "totalPoints": -13.43,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822897,
+          "gameDate": "2026-05-27",
+          "battingPoints": 0,
+          "pitchingPoints": -13.43,
+          "totalPoints": -13.43
+        }
+      ]
+    },
+    {
       "id": 676684,
       "name": "Will Vest",
       "teamId": 116,
@@ -59727,88 +59872,6 @@
           "battingPoints": 0,
           "pitchingPoints": -14.77,
           "totalPoints": -14.77
-        }
-      ]
-    },
-    {
-      "id": 608372,
-      "name": "Tomoyuki Sugano",
-      "teamId": 115,
-      "teamName": "Colorado Rockies",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.9,
-      "totalPoints": -14.9,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823947,
-          "gameDate": "2026-05-27",
-          "battingPoints": 0,
-          "pitchingPoints": -14.9,
-          "totalPoints": -14.9
-        }
-      ]
-    },
-    {
-      "id": 687911,
-      "name": "Bryan King",
-      "teamId": 117,
-      "teamName": "Houston Astros",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.9,
-      "totalPoints": -14.9,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822897,
-          "gameDate": "2026-05-27",
-          "battingPoints": 0,
-          "pitchingPoints": -14.9,
-          "totalPoints": -14.9
         }
       ]
     },
@@ -60021,6 +60084,47 @@
           "battingPoints": 0,
           "pitchingPoints": -20.63,
           "totalPoints": -20.63
+        }
+      ]
+    },
+    {
+      "id": 608372,
+      "name": "Tomoyuki Sugano",
+      "teamId": 115,
+      "teamName": "Colorado Rockies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -24.87,
+      "totalPoints": -24.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": 0,
+          "pitchingPoints": -24.87,
+          "totalPoints": -24.87
         }
       ]
     },
@@ -60901,11 +61005,11 @@
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "CF",
-      "battingPoints": 44.6,
+      "battingPoints": 43.6,
       "pitchingPoints": 0,
-      "totalPoints": 44.6,
+      "totalPoints": 43.6,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 6,
         "doubles": 3,
         "triples": 0,
@@ -60940,6 +61044,13 @@
           "battingPoints": 34.5,
           "pitchingPoints": 0,
           "totalPoints": 34.5
+        },
+        {
+          "gamePk": 823947,
+          "gameDate": "2026-05-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
