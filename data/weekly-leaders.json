@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-19T03:01:10.915Z",
-  "generatedAtET": "6/18/2026, 11:01:10 PM",
+  "generatedAt": "2026-06-19T03:31:14.764Z",
+  "generatedAtET": "6/18/2026, 11:31:14 PM",
   "scoringPeriod": {
     "start": "2026-06-15",
     "end": "2026-06-18",
@@ -13,9 +13,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 678,
+    "overall": 679,
     "hitters": 372,
-    "pitchers": 310
+    "pitchers": 311
   },
   "overallLeaders": [
     {
@@ -382,6 +382,47 @@
       ]
     },
     {
+      "id": 695611,
+      "name": "Gage Jump",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 51.73,
+      "totalPoints": 51.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 7,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": 51.73,
+          "totalPoints": 51.73
+        }
+      ]
+    },
+    {
       "id": 592662,
       "name": "Robbie Ray",
       "teamId": 137,
@@ -711,68 +752,6 @@
       ]
     },
     {
-      "id": 680869,
-      "name": "Zack Gelof",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "3B",
-      "battingPoints": 47.3,
-      "pitchingPoints": 0,
-      "totalPoints": 47.3,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": 28.1,
-          "pitchingPoints": 0,
-          "totalPoints": 28.1
-        },
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 6.6,
-          "pitchingPoints": 0,
-          "totalPoints": 6.6
-        }
-      ]
-    },
-    {
       "id": 663616,
       "name": "Trevor Larnach",
       "teamId": 142,
@@ -858,6 +837,68 @@
           "battingPoints": 0,
           "pitchingPoints": 46.6,
           "totalPoints": 46.6
+        }
+      ]
+    },
+    {
+      "id": 680869,
+      "name": "Zack Gelof",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "3B",
+      "battingPoints": 46.3,
+      "pitchingPoints": 0,
+      "totalPoints": 46.3,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": 28.1,
+          "pitchingPoints": 0,
+          "totalPoints": 28.1
+        },
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
         }
       ]
     },
@@ -1815,47 +1856,6 @@
       ]
     },
     {
-      "id": 695611,
-      "name": "Gage Jump",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 38.4,
-      "totalPoints": 38.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 0,
-          "pitchingPoints": 38.4,
-          "totalPoints": 38.4
-        }
-      ]
-    },
-    {
       "id": 656876,
       "name": "Drew Rasmussen",
       "teamId": 139,
@@ -2364,16 +2364,64 @@
       ]
     },
     {
+      "id": 669065,
+      "name": "Kyle Stowers",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "1B",
+      "battingPoints": 35.1,
+      "pitchingPoints": 0,
+      "totalPoints": 35.1,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823452,
+          "gameDate": "2026-06-15",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823450,
+          "gameDate": "2026-06-17",
+          "battingPoints": 39.1,
+          "pitchingPoints": 0,
+          "totalPoints": 39.1
+        }
+      ]
+    },
+    {
       "id": 687263,
       "name": "Zach Neto",
       "teamId": 108,
       "teamName": "Los Angeles Angels",
       "position": "SS",
-      "battingPoints": 35.9,
+      "battingPoints": 34.9,
       "pitchingPoints": 0,
-      "totalPoints": 35.9,
+      "totalPoints": 34.9,
       "battingStats": {
-        "atBats": 14,
+        "atBats": 15,
         "hits": 4,
         "doubles": 0,
         "triples": 1,
@@ -2419,57 +2467,9 @@
         {
           "gamePk": 824989,
           "gameDate": "2026-06-18",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 669065,
-      "name": "Kyle Stowers",
-      "teamId": 146,
-      "teamName": "Miami Marlins",
-      "position": "1B",
-      "battingPoints": 35.1,
-      "pitchingPoints": 0,
-      "totalPoints": 35.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823452,
-          "gameDate": "2026-06-15",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823450,
-          "gameDate": "2026-06-17",
-          "battingPoints": 39.1,
-          "pitchingPoints": 0,
-          "totalPoints": 39.1
+          "totalPoints": -3
         }
       ]
     },
@@ -4621,68 +4621,6 @@
       ]
     },
     {
-      "id": 643446,
-      "name": "Jeff McNeil",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "2B",
-      "battingPoints": 25.8,
-      "pitchingPoints": 0,
-      "totalPoints": 25.8,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": 22.2,
-          "pitchingPoints": 0,
-          "totalPoints": 22.2
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        },
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 670231,
       "name": "John Rave",
       "teamId": 118,
@@ -4816,6 +4754,68 @@
           "battingPoints": 0,
           "pitchingPoints": 24.9,
           "totalPoints": 24.9
+        }
+      ]
+    },
+    {
+      "id": 643446,
+      "name": "Jeff McNeil",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "2B",
+      "battingPoints": 24.8,
+      "pitchingPoints": 0,
+      "totalPoints": 24.8,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": 22.2,
+          "pitchingPoints": 0,
+          "totalPoints": 22.2
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        },
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -5383,68 +5383,6 @@
       ]
     },
     {
-      "id": 703607,
-      "name": "Henry Bolte",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "CF",
-      "battingPoints": 23.6,
-      "pitchingPoints": 0,
-      "totalPoints": 23.6,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": -2.1,
-          "pitchingPoints": 0,
-          "totalPoints": -2.1
-        },
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
       "id": 682987,
       "name": "Spencer Jones",
       "teamId": 147,
@@ -5900,6 +5838,68 @@
           "battingPoints": 0,
           "pitchingPoints": 22.67,
           "totalPoints": 22.67
+        }
+      ]
+    },
+    {
+      "id": 703607,
+      "name": "Henry Bolte",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "CF",
+      "battingPoints": 22.6,
+      "pitchingPoints": 0,
+      "totalPoints": 22.6,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": -2.1,
+          "pitchingPoints": 0,
+          "totalPoints": -2.1
+        },
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
         }
       ]
     },
@@ -10638,54 +10638,6 @@
       ]
     },
     {
-      "id": 641680,
-      "name": "Jonah Heim",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "C",
-      "battingPoints": 14.8,
-      "pitchingPoints": 0,
-      "totalPoints": 14.8,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 694361,
       "name": "Will Klein",
       "teamId": 119,
@@ -11334,6 +11286,54 @@
           "battingPoints": 0,
           "pitchingPoints": 13.8,
           "totalPoints": 13.8
+        }
+      ]
+    },
+    {
+      "id": 641680,
+      "name": "Jonah Heim",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "C",
+      "battingPoints": 13.8,
+      "pitchingPoints": 0,
+      "totalPoints": 13.8,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -13478,6 +13478,47 @@
       ]
     },
     {
+      "id": 608718,
+      "name": "Brent Suter",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.4,
+      "totalPoints": 11.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
+        }
+      ]
+    },
+    {
       "id": 642528,
       "name": "Jonathan Loáisiga",
       "teamId": 109,
@@ -15540,61 +15581,6 @@
       ]
     },
     {
-      "id": 672724,
-      "name": "Oswald Peraza",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": 9.7,
-      "pitchingPoints": 0,
-      "totalPoints": 9.7,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825071,
-          "gameDate": "2026-06-15",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 663554,
       "name": "Casey Mize",
       "teamId": 116,
@@ -16656,6 +16642,61 @@
       ]
     },
     {
+      "id": 672724,
+      "name": "Oswald Peraza",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": 8.7,
+      "pitchingPoints": 0,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825071,
+          "gameDate": "2026-06-15",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        }
+      ]
+    },
+    {
       "id": 672456,
       "name": "Keider Montero",
       "teamId": 116,
@@ -17681,68 +17722,6 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
-        }
-      ]
-    },
-    {
-      "id": 666176,
-      "name": "Jo Adell",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "RF",
-      "battingPoints": 7.6,
-      "pitchingPoints": 0,
-      "totalPoints": 7.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825071,
-          "gameDate": "2026-06-15",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 825070,
-          "gameDate": "2026-06-16",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -18880,6 +18859,68 @@
           "battingPoints": 6.6,
           "pitchingPoints": 0,
           "totalPoints": 6.6
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "RF",
+      "battingPoints": 6.6,
+      "pitchingPoints": 0,
+      "totalPoints": 6.6,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825071,
+          "gameDate": "2026-06-15",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 825070,
+          "gameDate": "2026-06-16",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -26848,47 +26889,6 @@
       ]
     },
     {
-      "id": 695681,
-      "name": "Christian Moore",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "LF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 696131,
       "name": "Mason Black",
       "teamId": 118,
@@ -27492,54 +27492,6 @@
       ]
     },
     {
-      "id": 663611,
-      "name": "Nick Madrigal",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825070,
-          "gameDate": "2026-06-16",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 667472,
       "name": "Dane Myers",
       "teamId": 113,
@@ -27625,6 +27577,54 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 687093,
+      "name": "Vaughn Grissom",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "1B",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -27762,6 +27762,47 @@
           "battingPoints": 2,
           "pitchingPoints": 0,
           "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 695681,
+      "name": "Christian Moore",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "LF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -28262,6 +28303,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663611,
+      "name": "Nick Madrigal",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": -4,
+      "pitchingPoints": 0,
+      "totalPoints": -4,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825070,
+          "gameDate": "2026-06-16",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -29438,54 +29527,6 @@
       ]
     },
     {
-      "id": 687093,
-      "name": "Vaughn Grissom",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "1B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 694410,
       "name": "LuJames Groover",
       "teamId": 109,
@@ -30076,6 +30117,47 @@
       ]
     },
     {
+      "id": 696270,
+      "name": "Ryan Johnson",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.4,
+      "totalPoints": -7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": -7.4,
+          "totalPoints": -7.4
+        }
+      ]
+    },
+    {
       "id": 665660,
       "name": "Elvis Alvarado",
       "teamId": 133,
@@ -30439,102 +30521,6 @@
       ]
     },
     {
-      "id": 696270,
-      "name": "Ryan Johnson",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -9.87,
-      "totalPoints": -9.87,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 14,
-        "inningsPitched": "4.2",
-        "hitsAllowed": 8,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 2,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 0,
-          "pitchingPoints": -9.87,
-          "totalPoints": -9.87
-        }
-      ]
-    },
-    {
-      "id": 666126,
-      "name": "Carlos Cortes",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "DH",
-      "battingPoints": -10,
-      "pitchingPoints": 0,
-      "totalPoints": -10,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 676391,
       "name": "Ernie Clement",
       "teamId": 141,
@@ -30682,6 +30668,61 @@
           "battingPoints": 0,
           "pitchingPoints": -10.8,
           "totalPoints": -10.8
+        }
+      ]
+    },
+    {
+      "id": 666126,
+      "name": "Carlos Cortes",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "DH",
+      "battingPoints": -11,
+      "pitchingPoints": 0,
+      "totalPoints": -11,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -32139,16 +32180,64 @@
       ]
     },
     {
+      "id": 663616,
+      "name": "Trevor Larnach",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "LF",
+      "battingPoints": 47,
+      "pitchingPoints": 0,
+      "totalPoints": 47,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822888,
+          "gameDate": "2026-06-16",
+          "battingPoints": 25.8,
+          "pitchingPoints": 0,
+          "totalPoints": 25.8
+        },
+        {
+          "gamePk": 822889,
+          "gameDate": "2026-06-18",
+          "battingPoints": 21.2,
+          "pitchingPoints": 0,
+          "totalPoints": 21.2
+        }
+      ]
+    },
+    {
       "id": 680869,
       "name": "Zack Gelof",
       "teamId": 133,
       "teamName": "Athletics",
       "position": "3B",
-      "battingPoints": 47.3,
+      "battingPoints": 46.3,
       "pitchingPoints": 0,
-      "totalPoints": 47.3,
+      "totalPoints": 46.3,
       "battingStats": {
-        "atBats": 13,
+        "atBats": 14,
         "hits": 6,
         "doubles": 0,
         "triples": 0,
@@ -32194,57 +32283,9 @@
         {
           "gamePk": 824989,
           "gameDate": "2026-06-18",
-          "battingPoints": 6.6,
+          "battingPoints": 5.6,
           "pitchingPoints": 0,
-          "totalPoints": 6.6
-        }
-      ]
-    },
-    {
-      "id": 663616,
-      "name": "Trevor Larnach",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "LF",
-      "battingPoints": 47,
-      "pitchingPoints": 0,
-      "totalPoints": 47,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 7,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822888,
-          "gameDate": "2026-06-16",
-          "battingPoints": 25.8,
-          "pitchingPoints": 0,
-          "totalPoints": 25.8
-        },
-        {
-          "gamePk": 822889,
-          "gameDate": "2026-06-18",
-          "battingPoints": 21.2,
-          "pitchingPoints": 0,
-          "totalPoints": 21.2
+          "totalPoints": 5.6
         }
       ]
     },
@@ -33081,16 +33122,64 @@
       ]
     },
     {
+      "id": 669065,
+      "name": "Kyle Stowers",
+      "teamId": 146,
+      "teamName": "Miami Marlins",
+      "position": "1B",
+      "battingPoints": 35.1,
+      "pitchingPoints": 0,
+      "totalPoints": 35.1,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823452,
+          "gameDate": "2026-06-15",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823450,
+          "gameDate": "2026-06-17",
+          "battingPoints": 39.1,
+          "pitchingPoints": 0,
+          "totalPoints": 39.1
+        }
+      ]
+    },
+    {
       "id": 687263,
       "name": "Zach Neto",
       "teamId": 108,
       "teamName": "Los Angeles Angels",
       "position": "SS",
-      "battingPoints": 35.9,
+      "battingPoints": 34.9,
       "pitchingPoints": 0,
-      "totalPoints": 35.9,
+      "totalPoints": 34.9,
       "battingStats": {
-        "atBats": 14,
+        "atBats": 15,
         "hits": 4,
         "doubles": 0,
         "triples": 1,
@@ -33136,57 +33225,9 @@
         {
           "gamePk": 824989,
           "gameDate": "2026-06-18",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 669065,
-      "name": "Kyle Stowers",
-      "teamId": 146,
-      "teamName": "Miami Marlins",
-      "position": "1B",
-      "battingPoints": 35.1,
-      "pitchingPoints": 0,
-      "totalPoints": 35.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823452,
-          "gameDate": "2026-06-15",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823450,
-          "gameDate": "2026-06-17",
-          "battingPoints": 39.1,
-          "pitchingPoints": 0,
-          "totalPoints": 39.1
+          "totalPoints": -3
         }
       ]
     },
@@ -34483,16 +34524,64 @@
       ]
     },
     {
+      "id": 670231,
+      "name": "John Rave",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "DH",
+      "battingPoints": 25.3,
+      "pitchingPoints": 0,
+      "totalPoints": 25.3,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 1,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822724,
+          "gameDate": "2026-06-15",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        },
+        {
+          "gamePk": 822721,
+          "gameDate": "2026-06-17",
+          "battingPoints": 22.3,
+          "pitchingPoints": 0,
+          "totalPoints": 22.3
+        }
+      ]
+    },
+    {
       "id": 643446,
       "name": "Jeff McNeil",
       "teamId": 133,
       "teamName": "Athletics",
       "position": "2B",
-      "battingPoints": 25.8,
+      "battingPoints": 24.8,
       "pitchingPoints": 0,
-      "totalPoints": 25.8,
+      "totalPoints": 24.8,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 4,
         "doubles": 0,
         "triples": 0,
@@ -34538,57 +34627,9 @@
         {
           "gamePk": 824989,
           "gameDate": "2026-06-18",
-          "battingPoints": 3.6,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 670231,
-      "name": "John Rave",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "DH",
-      "battingPoints": 25.3,
-      "pitchingPoints": 0,
-      "totalPoints": 25.3,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 1,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822724,
-          "gameDate": "2026-06-15",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
-        },
-        {
-          "gamePk": 822721,
-          "gameDate": "2026-06-17",
-          "battingPoints": 22.3,
-          "pitchingPoints": 0,
-          "totalPoints": 22.3
+          "totalPoints": 2.6
         }
       ]
     },
@@ -35033,68 +35074,6 @@
       ]
     },
     {
-      "id": 703607,
-      "name": "Henry Bolte",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "CF",
-      "battingPoints": 23.6,
-      "pitchingPoints": 0,
-      "totalPoints": 23.6,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": -2.1,
-          "pitchingPoints": 0,
-          "totalPoints": -2.1
-        },
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
       "id": 682987,
       "name": "Spencer Jones",
       "teamId": 147,
@@ -35249,6 +35228,68 @@
           "battingPoints": 6.5,
           "pitchingPoints": 0,
           "totalPoints": 6.5
+        }
+      ]
+    },
+    {
+      "id": 703607,
+      "name": "Henry Bolte",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "CF",
+      "battingPoints": 22.6,
+      "pitchingPoints": 0,
+      "totalPoints": 22.6,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": -2.1,
+          "pitchingPoints": 0,
+          "totalPoints": -2.1
+        },
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
         }
       ]
     },
@@ -38105,54 +38146,6 @@
       ]
     },
     {
-      "id": 641680,
-      "name": "Jonah Heim",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "C",
-      "battingPoints": 14.8,
-      "pitchingPoints": 0,
-      "totalPoints": 14.8,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 656577,
       "name": "Alex Jackson",
       "teamId": 142,
@@ -38575,6 +38568,54 @@
           "battingPoints": 16,
           "pitchingPoints": 0,
           "totalPoints": 16
+        }
+      ]
+    },
+    {
+      "id": 641680,
+      "name": "Jonah Heim",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "C",
+      "battingPoints": 13.8,
+      "pitchingPoints": 0,
+      "totalPoints": 13.8,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -40996,61 +41037,6 @@
       ]
     },
     {
-      "id": 672724,
-      "name": "Oswald Peraza",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": 9.7,
-      "pitchingPoints": 0,
-      "totalPoints": 9.7,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825071,
-          "gameDate": "2026-06-15",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 682515,
       "name": "Logan Porter",
       "teamId": 108,
@@ -41493,6 +41479,61 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 672724,
+      "name": "Oswald Peraza",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": 8.7,
+      "pitchingPoints": 0,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825071,
+          "gameDate": "2026-06-15",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -42273,68 +42314,6 @@
       ]
     },
     {
-      "id": 666176,
-      "name": "Jo Adell",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "RF",
-      "battingPoints": 7.6,
-      "pitchingPoints": 0,
-      "totalPoints": 7.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825071,
-          "gameDate": "2026-06-15",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 825070,
-          "gameDate": "2026-06-16",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 680779,
       "name": "Henry Davis",
       "teamId": 134,
@@ -43017,6 +42996,68 @@
           "battingPoints": 6.6,
           "pitchingPoints": 0,
           "totalPoints": 6.6
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "RF",
+      "battingPoints": 6.6,
+      "pitchingPoints": 0,
+      "totalPoints": 6.6,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825071,
+          "gameDate": "2026-06-15",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 825070,
+          "gameDate": "2026-06-16",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -48148,47 +48189,6 @@
       ]
     },
     {
-      "id": 695681,
-      "name": "Christian Moore",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "LF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 545341,
       "name": "Randal Grichuk",
       "teamId": 145,
@@ -48573,54 +48573,6 @@
       ]
     },
     {
-      "id": 663611,
-      "name": "Nick Madrigal",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825070,
-          "gameDate": "2026-06-16",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 667472,
       "name": "Dane Myers",
       "teamId": 113,
@@ -48706,6 +48658,54 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 687093,
+      "name": "Vaughn Grissom",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "1B",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825072,
+          "gameDate": "2026-06-17",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -48843,6 +48843,47 @@
           "battingPoints": 2,
           "pitchingPoints": 0,
           "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 695681,
+      "name": "Christian Moore",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "LF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -49138,6 +49179,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663611,
+      "name": "Nick Madrigal",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": -4,
+      "pitchingPoints": 0,
+      "totalPoints": -4,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 825070,
+          "gameDate": "2026-06-16",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -49972,54 +50061,6 @@
       ]
     },
     {
-      "id": 687093,
-      "name": "Vaughn Grissom",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "1B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 825072,
-          "gameDate": "2026-06-17",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 694410,
       "name": "LuJames Groover",
       "teamId": 109,
@@ -50624,61 +50665,6 @@
       ]
     },
     {
-      "id": 666126,
-      "name": "Carlos Cortes",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "DH",
-      "battingPoints": -10,
-      "pitchingPoints": 0,
-      "totalPoints": -10,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 676391,
       "name": "Ernie Clement",
       "teamId": 141,
@@ -50730,6 +50716,61 @@
           "battingPoints": -1.2,
           "pitchingPoints": 0,
           "totalPoints": -1.2
+        }
+      ]
+    },
+    {
+      "id": 666126,
+      "name": "Carlos Cortes",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "DH",
+      "battingPoints": -11,
+      "pitchingPoints": 0,
+      "totalPoints": -11,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     }
@@ -50978,6 +51019,47 @@
           "battingPoints": 0,
           "pitchingPoints": 53.4,
           "totalPoints": 53.4
+        }
+      ]
+    },
+    {
+      "id": 695611,
+      "name": "Gage Jump",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 51.73,
+      "totalPoints": 51.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 7,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": 51.73,
+          "totalPoints": 51.73
         }
       ]
     },
@@ -51634,47 +51716,6 @@
           "battingPoints": 0,
           "pitchingPoints": 38.5,
           "totalPoints": 38.5
-        }
-      ]
-    },
-    {
-      "id": 695611,
-      "name": "Gage Jump",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 38.4,
-      "totalPoints": 38.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 0,
-          "pitchingPoints": 38.4,
-          "totalPoints": 38.4
         }
       ]
     },
@@ -56280,6 +56321,47 @@
           "battingPoints": 0,
           "pitchingPoints": 2.47,
           "totalPoints": 2.47
+        }
+      ]
+    },
+    {
+      "id": 608718,
+      "name": "Brent Suter",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.4,
+      "totalPoints": 11.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
         }
       ]
     },
@@ -62424,6 +62506,47 @@
       ]
     },
     {
+      "id": 696270,
+      "name": "Ryan Johnson",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.4,
+      "totalPoints": -7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": -7.4,
+          "totalPoints": -7.4
+        }
+      ]
+    },
+    {
       "id": 665660,
       "name": "Elvis Alvarado",
       "teamId": 133,
@@ -62584,47 +62707,6 @@
           "battingPoints": 0,
           "pitchingPoints": -9.1,
           "totalPoints": -9.1
-        }
-      ]
-    },
-    {
-      "id": 696270,
-      "name": "Ryan Johnson",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -9.87,
-      "totalPoints": -9.87,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 14,
-        "inningsPitched": "4.2",
-        "hitsAllowed": 8,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 2,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 0,
-          "pitchingPoints": -9.87,
-          "totalPoints": -9.87
         }
       ]
     },
@@ -64259,6 +64341,47 @@
       ]
     },
     {
+      "id": 695611,
+      "name": "Gage Jump",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 51.73,
+      "totalPoints": 51.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 7,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 0,
+          "pitchingPoints": 51.73,
+          "totalPoints": 51.73
+        }
+      ]
+    },
+    {
       "id": 592662,
       "name": "Robbie Ray",
       "teamId": 137,
@@ -64588,68 +64711,6 @@
       ]
     },
     {
-      "id": 680869,
-      "name": "Zack Gelof",
-      "teamId": 133,
-      "teamName": "Athletics",
-      "position": "3B",
-      "battingPoints": 47.3,
-      "pitchingPoints": 0,
-      "totalPoints": 47.3,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824993,
-          "gameDate": "2026-06-15",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824991,
-          "gameDate": "2026-06-16",
-          "battingPoints": 28.1,
-          "pitchingPoints": 0,
-          "totalPoints": 28.1
-        },
-        {
-          "gamePk": 824992,
-          "gameDate": "2026-06-17",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824989,
-          "gameDate": "2026-06-18",
-          "battingPoints": 6.6,
-          "pitchingPoints": 0,
-          "totalPoints": 6.6
-        }
-      ]
-    },
-    {
       "id": 663616,
       "name": "Trevor Larnach",
       "teamId": 142,
@@ -64739,6 +64800,68 @@
       ]
     },
     {
+      "id": 680869,
+      "name": "Zack Gelof",
+      "teamId": 133,
+      "teamName": "Athletics",
+      "position": "3B",
+      "battingPoints": 46.3,
+      "pitchingPoints": 0,
+      "totalPoints": 46.3,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824993,
+          "gameDate": "2026-06-15",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824991,
+          "gameDate": "2026-06-16",
+          "battingPoints": 28.1,
+          "pitchingPoints": 0,
+          "totalPoints": 28.1
+        },
+        {
+          "gamePk": 824992,
+          "gameDate": "2026-06-17",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824989,
+          "gameDate": "2026-06-18",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        }
+      ]
+    },
+    {
       "id": 701762,
       "name": "Nick Kurtz",
       "teamId": 133,
@@ -64797,54 +64920,6 @@
           "battingPoints": 5.5,
           "pitchingPoints": 0,
           "totalPoints": 5.5
-        }
-      ]
-    },
-    {
-      "id": 690993,
-      "name": "Colt Keith",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "3B",
-      "battingPoints": 45,
-      "pitchingPoints": 0,
-      "totalPoints": 45,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 3,
-        "walks": 0,
-        "hitByPitch": 2,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824181,
-          "gameDate": "2026-06-15",
-          "battingPoints": 44,
-          "pitchingPoints": 0,
-          "totalPoints": 44
-        },
-        {
-          "gamePk": 824178,
-          "gameDate": "2026-06-17",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
         }
       ]
     }
