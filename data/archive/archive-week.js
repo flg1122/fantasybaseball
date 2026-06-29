@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 
-const WEEK_NUMBER = 11;
+const WEEK_NUMBER = 14;
 
 
 const inputPath = path.join(__dirname, "..", "weekly-leaders.json");
