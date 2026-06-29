@@ -424,6 +424,10 @@ color: #60a5fa;
 
 /* Vertical dropdown menu */
 .dropdown-panel {
+   max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
 position: absolute;
 top: calc(100% + 10px);
 left: 0;
@@ -452,6 +456,7 @@ white-space: nowrap;
 }
 
 .dropdown-panel a:hover {
+  
 background: #1f2937;
 color: #60a5fa;
 text-decoration: none;
@@ -625,6 +630,10 @@ width: 100%;
 }
 
 .dropdown-panel {
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
 position: static;
 margin-top: 8px;
 width: 100%;
