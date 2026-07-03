@@ -1,21 +1,22 @@
 {
-  "generatedAt": "2026-07-03T03:30:50.005Z",
-  "generatedAtET": "7/2/2026, 11:30:50 PM",
+  "generatedAt": "2026-07-03T04:00:50.444Z",
+  "generatedAtET": "7/3/2026, 12:00:50 AM",
   "scoringPeriod": {
     "start": "2026-06-29",
-    "end": "2026-07-02",
+    "end": "2026-07-03",
     "dates": [
       "2026-06-29",
       "2026-06-30",
       "2026-07-01",
-      "2026-07-02"
+      "2026-07-02",
+      "2026-07-03"
     ],
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 696,
+    "overall": 698,
     "hitters": 373,
-    "pitchers": 327
+    "pitchers": 329
   },
   "overallLeaders": [
     {
@@ -218,6 +219,47 @@
       ]
     },
     {
+      "id": 682243,
+      "name": "Bryce Miller",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 62.6,
+      "totalPoints": 62.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 62.6,
+          "totalPoints": 62.6
+        }
+      ]
+    },
+    {
       "id": 691594,
       "name": "Javier Sanoja",
       "teamId": 146,
@@ -317,47 +359,6 @@
           "battingPoints": 0,
           "pitchingPoints": 56,
           "totalPoints": 56
-        }
-      ]
-    },
-    {
-      "id": 682243,
-      "name": "Bryce Miller",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 53.2,
-      "totalPoints": 53.2,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 53.2,
-          "totalPoints": 53.2
         }
       ]
     },
@@ -1213,68 +1214,6 @@
       ]
     },
     {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "1B",
-      "battingPoints": 40.8,
-      "pitchingPoints": 0,
-      "totalPoints": 40.8,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 17.9,
-          "pitchingPoints": 0,
-          "totalPoints": 17.9
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 593958,
       "name": "Eduardo Rodriguez",
       "teamId": 109,
@@ -1449,6 +1388,68 @@
           "battingPoints": 0,
           "pitchingPoints": 40.1,
           "totalPoints": 40.1
+        }
+      ]
+    },
+    {
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "1B",
+      "battingPoints": 39.8,
+      "pitchingPoints": 0,
+      "totalPoints": 39.8,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 17.9,
+          "pitchingPoints": 0,
+          "totalPoints": 17.9
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -1926,6 +1927,54 @@
       ]
     },
     {
+      "id": 669242,
+      "name": "Tommy Edman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "3B",
+      "battingPoints": 37.9,
+      "pitchingPoints": 0,
+      "totalPoints": 37.9,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 26.8,
+          "pitchingPoints": 0,
+          "totalPoints": 26.8
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
+        }
+      ]
+    },
+    {
       "id": 691720,
       "name": "Kyle Karros",
       "teamId": 115,
@@ -2066,6 +2115,68 @@
           "battingPoints": 0,
           "pitchingPoints": 37.3,
           "totalPoints": 37.3
+        }
+      ]
+    },
+    {
+      "id": 664034,
+      "name": "Ty France",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "1B",
+      "battingPoints": 37.1,
+      "pitchingPoints": 0,
+      "totalPoints": 37.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 7,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 2,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.2,
+          "pitchingPoints": 0,
+          "totalPoints": 14.2
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -2235,61 +2346,6 @@
       ]
     },
     {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
-      "battingPoints": 36.2,
-      "pitchingPoints": 0,
-      "totalPoints": 36.2,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 32.6,
-          "pitchingPoints": 0,
-          "totalPoints": 32.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 553869,
       "name": "Elias Díaz",
       "teamId": 140,
@@ -2441,6 +2497,68 @@
       ]
     },
     {
+      "id": 687221,
+      "name": "Dalton Rushing",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": 35.9,
+      "pitchingPoints": 0,
+      "totalPoints": 35.9,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 26.1,
+          "pitchingPoints": 0,
+          "totalPoints": 26.1
+        }
+      ]
+    },
+    {
       "id": 669016,
       "name": "Brandon Marsh",
       "teamId": 143,
@@ -2540,6 +2658,123 @@
           "battingPoints": 0,
           "pitchingPoints": 35.33,
           "totalPoints": 35.33
+        }
+      ]
+    },
+    {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": 35.2,
+      "pitchingPoints": 0,
+      "totalPoints": 35.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 32.6,
+          "pitchingPoints": 0,
+          "totalPoints": 32.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "RF",
+      "battingPoints": 35,
+      "pitchingPoints": 0,
+      "totalPoints": 35,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 6,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 13.8,
+          "pitchingPoints": 0,
+          "totalPoints": 13.8
         }
       ]
     },
@@ -2839,68 +3074,6 @@
       ]
     },
     {
-      "id": 664034,
-      "name": "Ty France",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "1B",
-      "battingPoints": 32.5,
-      "pitchingPoints": 0,
-      "totalPoints": 32.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 2,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.2,
-          "pitchingPoints": 0,
-          "totalPoints": 14.2
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 607536,
       "name": "Kyle Freeland",
       "teamId": 115,
@@ -3137,6 +3310,68 @@
           "battingPoints": 13.7,
           "pitchingPoints": 0,
           "totalPoints": 13.7
+        }
+      ]
+    },
+    {
+      "id": 681624,
+      "name": "Andy Pages",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "CF",
+      "battingPoints": 31.8,
+      "pitchingPoints": 0,
+      "totalPoints": 31.8,
+      "battingStats": {
+        "atBats": 17,
+        "hits": 6,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -3453,6 +3688,61 @@
           "battingPoints": 7.3,
           "pitchingPoints": 0,
           "totalPoints": 7.3
+        }
+      ]
+    },
+    {
+      "id": 571970,
+      "name": "Max Muncy",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "3B",
+      "battingPoints": 31.2,
+      "pitchingPoints": 0,
+      "totalPoints": 31.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -3787,68 +4077,6 @@
       ]
     },
     {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "RF",
-      "battingPoints": 30.4,
-      "pitchingPoints": 0,
-      "totalPoints": 30.4,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 6,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
       "id": 683003,
       "name": "Jared Jones",
       "teamId": 134,
@@ -4110,68 +4338,6 @@
       ]
     },
     {
-      "id": 657757,
-      "name": "Gavin Sheets",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "PH",
-      "battingPoints": 30,
-      "pitchingPoints": 0,
-      "totalPoints": 30,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 11.5,
-          "pitchingPoints": 0,
-          "totalPoints": 11.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 688642,
       "name": "Zach Agnos",
       "teamId": 115,
@@ -4271,6 +4437,68 @@
           "battingPoints": 14,
           "pitchingPoints": 0,
           "totalPoints": 14
+        }
+      ]
+    },
+    {
+      "id": 657757,
+      "name": "Gavin Sheets",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "PH",
+      "battingPoints": 29,
+      "pitchingPoints": 0,
+      "totalPoints": 29,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 13,
+          "pitchingPoints": 0,
+          "totalPoints": 13
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 11.5,
+          "pitchingPoints": 0,
+          "totalPoints": 11.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -4927,61 +5155,6 @@
       ]
     },
     {
-      "id": 571970,
-      "name": "Max Muncy",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "3B",
-      "battingPoints": 26.6,
-      "pitchingPoints": 0,
-      "totalPoints": 26.6,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 691788,
       "name": "Joe Mack",
       "teamId": 146,
@@ -5074,6 +5247,61 @@
           "battingPoints": 0,
           "pitchingPoints": 26.6,
           "totalPoints": 26.6
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 26.4,
+      "pitchingPoints": 0,
+      "totalPoints": 26.4,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 6,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -5239,54 +5467,6 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
-        }
-      ]
-    },
-    {
-      "id": 669242,
-      "name": "Tommy Edman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "3B",
-      "battingPoints": 25.8,
-      "pitchingPoints": 0,
-      "totalPoints": 25.8,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 26.8,
-          "pitchingPoints": 0,
-          "totalPoints": 26.8
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -6129,68 +6309,6 @@
       ]
     },
     {
-      "id": 681624,
-      "name": "Andy Pages",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "CF",
-      "battingPoints": 24.3,
-      "pitchingPoints": 0,
-      "totalPoints": 24.3,
-      "battingStats": {
-        "atBats": 16,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 691023,
       "name": "Jordan Walker",
       "teamId": 138,
@@ -6283,68 +6401,6 @@
           "battingPoints": 10,
           "pitchingPoints": 0,
           "totalPoints": 10
-        }
-      ]
-    },
-    {
-      "id": 687221,
-      "name": "Dalton Rushing",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": 23.8,
-      "pitchingPoints": 0,
-      "totalPoints": 23.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
         }
       ]
     },
@@ -6624,68 +6680,6 @@
       ]
     },
     {
-      "id": 593428,
-      "name": "Xander Bogaerts",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "SS",
-      "battingPoints": 23.2,
-      "pitchingPoints": 0,
-      "totalPoints": 23.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14.1,
-          "pitchingPoints": 0,
-          "totalPoints": 14.1
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 575929,
       "name": "Willson Contreras",
       "teamId": 111,
@@ -6950,68 +6944,6 @@
           "battingPoints": 20.6,
           "pitchingPoints": 0,
           "totalPoints": 20.6
-        }
-      ]
-    },
-    {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 22.8,
-      "pitchingPoints": 0,
-      "totalPoints": 22.8,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 7.6,
-          "pitchingPoints": 0,
-          "totalPoints": 7.6
         }
       ]
     },
@@ -7294,6 +7226,68 @@
           "battingPoints": 8.5,
           "pitchingPoints": 0,
           "totalPoints": 8.5
+        }
+      ]
+    },
+    {
+      "id": 593428,
+      "name": "Xander Bogaerts",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "SS",
+      "battingPoints": 22.2,
+      "pitchingPoints": 0,
+      "totalPoints": 22.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14.1,
+          "pitchingPoints": 0,
+          "totalPoints": 14.1
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -7617,6 +7611,68 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 21.8,
+      "pitchingPoints": 0,
+      "totalPoints": 21.8,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
         }
       ]
     },
@@ -8775,6 +8831,54 @@
       ]
     },
     {
+      "id": 668227,
+      "name": "Randy Arozarena",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "DH",
+      "battingPoints": 19.7,
+      "pitchingPoints": 0,
+      "totalPoints": 19.7,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 9.6,
+          "pitchingPoints": 0,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
       "id": 687859,
       "name": "Troy Johnston",
       "teamId": 115,
@@ -9228,61 +9332,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 18.9,
-      "pitchingPoints": 0,
-      "totalPoints": 18.9,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.7,
-          "pitchingPoints": 0,
-          "totalPoints": 14.7
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 628452,
       "name": "Raisel Iglesias",
       "teamId": 144,
@@ -9646,6 +9695,47 @@
       ]
     },
     {
+      "id": 694361,
+      "name": "Will Klein",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
+        }
+      ]
+    },
+    {
       "id": 696136,
       "name": "Jordan Wicks",
       "teamId": 112,
@@ -9731,68 +9821,6 @@
           "battingPoints": 0,
           "pitchingPoints": 0.8,
           "totalPoints": 0.8
-        }
-      ]
-    },
-    {
-      "id": 701538,
-      "name": "Jackson Merrill",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "CF",
-      "battingPoints": 18.1,
-      "pitchingPoints": 0,
-      "totalPoints": 18.1,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
         }
       ]
     },
@@ -10170,61 +10198,6 @@
           "battingPoints": 13,
           "pitchingPoints": 0,
           "totalPoints": 13
-        }
-      ]
-    },
-    {
-      "id": 666139,
-      "name": "Josh Lowe",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "CF",
-      "battingPoints": 17.6,
-      "pitchingPoints": 0,
-      "totalPoints": 17.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -10826,6 +10799,68 @@
       ]
     },
     {
+      "id": 701538,
+      "name": "Jackson Merrill",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "CF",
+      "battingPoints": 17.1,
+      "pitchingPoints": 0,
+      "totalPoints": 17.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        }
+      ]
+    },
+    {
       "id": 571578,
       "name": "Patrick Corbin",
       "teamId": 141,
@@ -11144,6 +11179,61 @@
           "battingPoints": 0,
           "pitchingPoints": 11.87,
           "totalPoints": 11.87
+        }
+      ]
+    },
+    {
+      "id": 666139,
+      "name": "Josh Lowe",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "CF",
+      "battingPoints": 16.6,
+      "pitchingPoints": 0,
+      "totalPoints": 16.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -11868,6 +11958,47 @@
       ]
     },
     {
+      "id": 696519,
+      "name": "Samy Natera Jr.",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 15.87,
+      "totalPoints": 15.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 15.87,
+          "totalPoints": 15.87
+        }
+      ]
+    },
+    {
       "id": 554430,
       "name": "Zack Wheeler",
       "teamId": 143,
@@ -12536,54 +12667,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 668227,
-      "name": "Randy Arozarena",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "DH",
-      "battingPoints": 15.1,
-      "pitchingPoints": 0,
-      "totalPoints": 15.1,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 5,
-          "pitchingPoints": 0,
-          "totalPoints": 5
         }
       ]
     },
@@ -15174,54 +15257,6 @@
       ]
     },
     {
-      "id": 686527,
-      "name": "Dominic Canzone",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "DH",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 696030,
       "name": "Alejandro Osuna",
       "teamId": 140,
@@ -16037,6 +16072,47 @@
         {
           "gamePk": 824819,
           "gameDate": "2026-06-30",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
+      "id": 686527,
+      "name": "Dominic Canzone",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "DH",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
           "battingPoints": 11,
           "pitchingPoints": 0,
           "totalPoints": 11
@@ -16955,61 +17031,6 @@
       ]
     },
     {
-      "id": 806068,
-      "name": "Colt Emerson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "SS",
-      "battingPoints": 9.7,
-      "pitchingPoints": 0,
-      "totalPoints": 9.7,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.7,
-          "pitchingPoints": 0,
-          "totalPoints": 14.7
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 660787,
       "name": "Yerry De los Santos",
       "teamId": 147,
@@ -17346,47 +17367,6 @@
       ]
     },
     {
-      "id": 694361,
-      "name": "Will Klein",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.4,
-      "totalPoints": 9.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 9.4,
-          "totalPoints": 9.4
-        }
-      ]
-    },
-    {
       "id": 670329,
       "name": "Rico Garcia",
       "teamId": 110,
@@ -17623,61 +17603,6 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 647304,
-      "name": "Josh Naylor",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "1B",
-      "battingPoints": 9.1,
-      "pitchingPoints": 0,
-      "totalPoints": 9.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 1.9,
-          "pitchingPoints": 0,
-          "totalPoints": 1.9
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -18021,6 +17946,61 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 806068,
+      "name": "Colt Emerson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "SS",
+      "battingPoints": 8.7,
+      "pitchingPoints": 0,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -18429,6 +18409,109 @@
       ]
     },
     {
+      "id": 660825,
+      "name": "Eduard Bazardo",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.13,
+      "totalPoints": 8.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": -3.27,
+          "totalPoints": -3.27
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
+        }
+      ]
+    },
+    {
+      "id": 647304,
+      "name": "Josh Naylor",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "1B",
+      "battingPoints": 8.1,
+      "pitchingPoints": 0,
+      "totalPoints": 8.1,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 1.9,
+          "pitchingPoints": 0,
+          "totalPoints": 1.9
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
       "id": 682177,
       "name": "Daniel Schneemann",
       "teamId": 114,
@@ -18672,61 +18755,6 @@
           "battingPoints": 0,
           "pitchingPoints": 7.8,
           "totalPoints": 7.8
-        }
-      ]
-    },
-    {
-      "id": 685133,
-      "name": "Wade Meckler",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "LF",
-      "battingPoints": 7.8,
-      "pitchingPoints": 0,
-      "totalPoints": 7.8,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -19429,47 +19457,6 @@
       ]
     },
     {
-      "id": 593974,
-      "name": "Wandy Peralta",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": 7.13,
-          "totalPoints": 7.13
-        }
-      ]
-    },
-    {
       "id": 672275,
       "name": "Patrick Bailey",
       "teamId": 114,
@@ -19689,6 +19676,61 @@
       ]
     },
     {
+      "id": 685133,
+      "name": "Wade Meckler",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "LF",
+      "battingPoints": 6.8,
+      "pitchingPoints": 0,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 686560,
       "name": "Gavin Collyer",
       "teamId": 140,
@@ -19722,6 +19764,47 @@
       "games": [
         {
           "gamePk": 822884,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 6.8,
+          "totalPoints": 6.8
+        }
+      ]
+    },
+    {
+      "id": 696147,
+      "name": "Sam Bachman",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.8,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
           "gameDate": "2026-07-02",
           "battingPoints": 0,
           "pitchingPoints": 6.8,
@@ -22375,47 +22458,6 @@
       ]
     },
     {
-      "id": 696519,
-      "name": "Samy Natera Jr.",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.47,
-      "totalPoints": 4.47,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 1,
-        "inningsPitched": "0.1",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 4.47,
-          "totalPoints": 4.47
-        }
-      ]
-    },
-    {
       "id": 621074,
       "name": "Michael Rucker",
       "teamId": 136,
@@ -22583,54 +22625,6 @@
           "battingPoints": 0,
           "pitchingPoints": 4.2,
           "totalPoints": 4.2
-        }
-      ]
-    },
-    {
-      "id": 606192,
-      "name": "Teoscar Hernández",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "LF",
-      "battingPoints": 4.2,
-      "pitchingPoints": 0,
-      "totalPoints": 4.2,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -23567,54 +23561,6 @@
       ]
     },
     {
-      "id": 624585,
-      "name": "Jorge Soler",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "DH",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 671289,
       "name": "Tyler Freeman",
       "teamId": 115,
@@ -23889,6 +23835,54 @@
       ]
     },
     {
+      "id": 606192,
+      "name": "Teoscar Hernández",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "LF",
+      "battingPoints": 3.2,
+      "pitchingPoints": 0,
+      "totalPoints": 3.2,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 668952,
       "name": "Ryan Kreidler",
       "teamId": 142,
@@ -24070,6 +24064,54 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 593974,
+      "name": "Wandy Peralta",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 2.93,
+      "totalPoints": 2.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 8,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": 7.13,
+          "totalPoints": 7.13
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": -4.2,
+          "totalPoints": -4.2
         }
       ]
     },
@@ -24382,6 +24424,54 @@
       ]
     },
     {
+      "id": 624585,
+      "name": "Jorge Soler",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "DH",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 663728,
       "name": "Cal Raleigh",
       "teamId": 136,
@@ -24529,54 +24619,6 @@
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
-        }
-      ]
-    },
-    {
-      "id": 642215,
-      "name": "Weston Wilson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "RF",
-      "battingPoints": 2.5,
-      "pitchingPoints": 0,
-      "totalPoints": 2.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -25317,6 +25359,54 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 642215,
+      "name": "Weston Wilson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "RF",
+      "battingPoints": 1.5,
+      "pitchingPoints": 0,
+      "totalPoints": 1.5,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -29227,47 +29317,6 @@
       ]
     },
     {
-      "id": 660825,
-      "name": "Eduard Bazardo",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -3.27,
-      "totalPoints": -3.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": -3.27,
-          "totalPoints": -3.27
-        }
-      ]
-    },
-    {
       "id": 689520,
       "name": "Cody Laweryson",
       "teamId": 142,
@@ -29305,116 +29354,6 @@
           "battingPoints": 0,
           "pitchingPoints": -3.27,
           "totalPoints": -3.27
-        }
-      ]
-    },
-    {
-      "id": 681351,
-      "name": "Logan O'Hoppe",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "C",
-      "battingPoints": -3.4,
-      "pitchingPoints": 0,
-      "totalPoints": -3.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 641487,
-      "name": "J.P. Crawford",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "3B",
-      "battingPoints": -3.5,
-      "pitchingPoints": 0,
-      "totalPoints": -3.5,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
         }
       ]
     },
@@ -30008,61 +29947,6 @@
       ]
     },
     {
-      "id": 666176,
-      "name": "Jo Adell",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "RF",
-      "battingPoints": -4.4,
-      "pitchingPoints": 0,
-      "totalPoints": -4.4,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 676609,
       "name": "José Caballero",
       "teamId": 147,
@@ -30114,6 +29998,116 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 681351,
+      "name": "Logan O'Hoppe",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "C",
+      "battingPoints": -4.4,
+      "pitchingPoints": 0,
+      "totalPoints": -4.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 641487,
+      "name": "J.P. Crawford",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "3B",
+      "battingPoints": -4.5,
+      "pitchingPoints": 0,
+      "totalPoints": -4.5,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -30365,6 +30359,47 @@
       ]
     },
     {
+      "id": 673513,
+      "name": "Yuki Matsui",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -5.2,
+      "totalPoints": -5.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": -5.2,
+          "totalPoints": -5.2
+        }
+      ]
+    },
+    {
       "id": 642152,
       "name": "Lou Trivino",
       "teamId": 143,
@@ -30409,6 +30444,61 @@
           "battingPoints": 0,
           "pitchingPoints": -12.1,
           "totalPoints": -12.1
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "RF",
+      "battingPoints": -5.4,
+      "pitchingPoints": 0,
+      "totalPoints": -5.4,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -30580,54 +30670,6 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
-        }
-      ]
-    },
-    {
-      "id": 672724,
-      "name": "Oswald Peraza",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -31087,6 +31129,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 672724,
+      "name": "Oswald Peraza",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": -7,
+      "pitchingPoints": 0,
+      "totalPoints": -7,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -33997,68 +34087,6 @@
       ]
     },
     {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "1B",
-      "battingPoints": 40.8,
-      "pitchingPoints": 0,
-      "totalPoints": 40.8,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 17.9,
-          "pitchingPoints": 0,
-          "totalPoints": 17.9
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 672640,
       "name": "Otto Lopez",
       "teamId": 146,
@@ -34110,6 +34138,68 @@
           "battingPoints": 20.4,
           "pitchingPoints": 0,
           "totalPoints": 20.4
+        }
+      ]
+    },
+    {
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "1B",
+      "battingPoints": 39.8,
+      "pitchingPoints": 0,
+      "totalPoints": 39.8,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 17.9,
+          "pitchingPoints": 0,
+          "totalPoints": 17.9
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -34327,6 +34417,54 @@
       ]
     },
     {
+      "id": 669242,
+      "name": "Tommy Edman",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "3B",
+      "battingPoints": 37.9,
+      "pitchingPoints": 0,
+      "totalPoints": 37.9,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 26.8,
+          "pitchingPoints": 0,
+          "totalPoints": 26.8
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
+        }
+      ]
+    },
+    {
       "id": 691720,
       "name": "Kyle Karros",
       "teamId": 115,
@@ -34385,6 +34523,68 @@
           "battingPoints": 3,
           "pitchingPoints": 0,
           "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 664034,
+      "name": "Ty France",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "1B",
+      "battingPoints": 37.1,
+      "pitchingPoints": 0,
+      "totalPoints": 37.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 7,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 2,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.2,
+          "pitchingPoints": 0,
+          "totalPoints": 14.2
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -34513,61 +34713,6 @@
       ]
     },
     {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
-      "battingPoints": 36.2,
-      "pitchingPoints": 0,
-      "totalPoints": 36.2,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 32.6,
-          "pitchingPoints": 0,
-          "totalPoints": 32.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 553869,
       "name": "Elias Díaz",
       "teamId": 140,
@@ -34678,6 +34823,68 @@
       ]
     },
     {
+      "id": 687221,
+      "name": "Dalton Rushing",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": 35.9,
+      "pitchingPoints": 0,
+      "totalPoints": 35.9,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 26.1,
+          "pitchingPoints": 0,
+          "totalPoints": 26.1
+        }
+      ]
+    },
+    {
       "id": 669016,
       "name": "Brandon Marsh",
       "teamId": 143,
@@ -34736,6 +34943,123 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": 35.2,
+      "pitchingPoints": 0,
+      "totalPoints": 35.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 32.6,
+          "pitchingPoints": 0,
+          "totalPoints": 32.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "RF",
+      "battingPoints": 35,
+      "pitchingPoints": 0,
+      "totalPoints": 35,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 6,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 13.8,
+          "pitchingPoints": 0,
+          "totalPoints": 13.8
         }
       ]
     },
@@ -34953,68 +35277,6 @@
       ]
     },
     {
-      "id": 664034,
-      "name": "Ty France",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "1B",
-      "battingPoints": 32.5,
-      "pitchingPoints": 0,
-      "totalPoints": 32.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 2,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.2,
-          "pitchingPoints": 0,
-          "totalPoints": 14.2
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 701358,
       "name": "Cam Smith",
       "teamId": 117,
@@ -35128,6 +35390,68 @@
           "battingPoints": 13.7,
           "pitchingPoints": 0,
           "totalPoints": 13.7
+        }
+      ]
+    },
+    {
+      "id": 681624,
+      "name": "Andy Pages",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "CF",
+      "battingPoints": 31.8,
+      "pitchingPoints": 0,
+      "totalPoints": 31.8,
+      "battingStats": {
+        "atBats": 17,
+        "hits": 6,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -35362,6 +35686,61 @@
           "battingPoints": 7.3,
           "pitchingPoints": 0,
           "totalPoints": 7.3
+        }
+      ]
+    },
+    {
+      "id": 571970,
+      "name": "Max Muncy",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "3B",
+      "battingPoints": 31.2,
+      "pitchingPoints": 0,
+      "totalPoints": 31.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -35655,68 +36034,6 @@
       ]
     },
     {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "RF",
-      "battingPoints": 30.4,
-      "pitchingPoints": 0,
-      "totalPoints": 30.4,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 6,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
       "id": 671218,
       "name": "Heliot Ramos",
       "teamId": 137,
@@ -35896,68 +36213,6 @@
       ]
     },
     {
-      "id": 657757,
-      "name": "Gavin Sheets",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "PH",
-      "battingPoints": 30,
-      "pitchingPoints": 0,
-      "totalPoints": 30,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 11.5,
-          "pitchingPoints": 0,
-          "totalPoints": 11.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 605137,
       "name": "Josh Bell",
       "teamId": 142,
@@ -36009,6 +36264,68 @@
           "battingPoints": 14,
           "pitchingPoints": 0,
           "totalPoints": 14
+        }
+      ]
+    },
+    {
+      "id": 657757,
+      "name": "Gavin Sheets",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "PH",
+      "battingPoints": 29,
+      "pitchingPoints": 0,
+      "totalPoints": 29,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 13,
+          "pitchingPoints": 0,
+          "totalPoints": 13
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 11.5,
+          "pitchingPoints": 0,
+          "totalPoints": 11.5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
         }
       ]
     },
@@ -36371,61 +36688,6 @@
       ]
     },
     {
-      "id": 571970,
-      "name": "Max Muncy",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "3B",
-      "battingPoints": 26.6,
-      "pitchingPoints": 0,
-      "totalPoints": 26.6,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 691788,
       "name": "Joe Mack",
       "teamId": 146,
@@ -36477,6 +36739,61 @@
           "battingPoints": 14,
           "pitchingPoints": 0,
           "totalPoints": 14
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 26.4,
+      "pitchingPoints": 0,
+      "totalPoints": 26.4,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 6,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
         }
       ]
     },
@@ -36642,54 +36959,6 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
-        }
-      ]
-    },
-    {
-      "id": 669242,
-      "name": "Tommy Edman",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "3B",
-      "battingPoints": 25.8,
-      "pitchingPoints": 0,
-      "totalPoints": 25.8,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 26.8,
-          "pitchingPoints": 0,
-          "totalPoints": 26.8
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -37313,68 +37582,6 @@
       ]
     },
     {
-      "id": 681624,
-      "name": "Andy Pages",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "CF",
-      "battingPoints": 24.3,
-      "pitchingPoints": 0,
-      "totalPoints": 24.3,
-      "battingStats": {
-        "atBats": 16,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 691023,
       "name": "Jordan Walker",
       "teamId": 138,
@@ -37467,68 +37674,6 @@
           "battingPoints": 10,
           "pitchingPoints": 0,
           "totalPoints": 10
-        }
-      ]
-    },
-    {
-      "id": 687221,
-      "name": "Dalton Rushing",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": 23.8,
-      "pitchingPoints": 0,
-      "totalPoints": 23.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
         }
       ]
     },
@@ -37767,68 +37912,6 @@
       ]
     },
     {
-      "id": 593428,
-      "name": "Xander Bogaerts",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "SS",
-      "battingPoints": 23.2,
-      "pitchingPoints": 0,
-      "totalPoints": 23.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14.1,
-          "pitchingPoints": 0,
-          "totalPoints": 14.1
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
       "id": 575929,
       "name": "Willson Contreras",
       "teamId": 111,
@@ -38052,68 +38135,6 @@
           "battingPoints": 20.6,
           "pitchingPoints": 0,
           "totalPoints": 20.6
-        }
-      ]
-    },
-    {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 22.8,
-      "pitchingPoints": 0,
-      "totalPoints": 22.8,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 824985,
-          "gameDate": "2026-07-01",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 7.6,
-          "pitchingPoints": 0,
-          "totalPoints": 7.6
         }
       ]
     },
@@ -38400,6 +38421,68 @@
       ]
     },
     {
+      "id": 593428,
+      "name": "Xander Bogaerts",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "SS",
+      "battingPoints": 22.2,
+      "pitchingPoints": 0,
+      "totalPoints": 22.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14.1,
+          "pitchingPoints": 0,
+          "totalPoints": 14.1
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        }
+      ]
+    },
+    {
       "id": 669701,
       "name": "Josh Smith",
       "teamId": 140,
@@ -38671,6 +38754,68 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 21.8,
+      "pitchingPoints": 0,
+      "totalPoints": 21.8,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 824984,
+          "gameDate": "2026-06-30",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 824985,
+          "gameDate": "2026-07-01",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
         }
       ]
     },
@@ -39569,6 +39714,54 @@
       ]
     },
     {
+      "id": 668227,
+      "name": "Randy Arozarena",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "DH",
+      "battingPoints": 19.7,
+      "pitchingPoints": 0,
+      "totalPoints": 19.7,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 9.6,
+          "pitchingPoints": 0,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
       "id": 687859,
       "name": "Troy Johnston",
       "teamId": 115,
@@ -39940,61 +40133,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 18.9,
-      "pitchingPoints": 0,
-      "totalPoints": 18.9,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824984,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.7,
-          "pitchingPoints": 0,
-          "totalPoints": 14.7
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
       "id": 665750,
       "name": "Leody Taveras",
       "teamId": 110,
@@ -40087,68 +40225,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 701538,
-      "name": "Jackson Merrill",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "CF",
-      "battingPoints": 18.1,
-      "pitchingPoints": 0,
-      "totalPoints": 18.1,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824662,
-          "gameDate": "2026-06-29",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824660,
-          "gameDate": "2026-07-01",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
         }
       ]
     },
@@ -40307,61 +40383,6 @@
           "battingPoints": 13,
           "pitchingPoints": 0,
           "totalPoints": 13
-        }
-      ]
-    },
-    {
-      "id": 666139,
-      "name": "Josh Lowe",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "CF",
-      "battingPoints": 17.6,
-      "pitchingPoints": 0,
-      "totalPoints": 17.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -40744,6 +40765,68 @@
       ]
     },
     {
+      "id": 701538,
+      "name": "Jackson Merrill",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "CF",
+      "battingPoints": 17.1,
+      "pitchingPoints": 0,
+      "totalPoints": 17.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824662,
+          "gameDate": "2026-06-29",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824660,
+          "gameDate": "2026-07-01",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        }
+      ]
+    },
+    {
       "id": 643289,
       "name": "Mauricio Dubón",
       "teamId": 144,
@@ -40891,6 +40974,61 @@
           "battingPoints": 14.1,
           "pitchingPoints": 0,
           "totalPoints": 14.1
+        }
+      ]
+    },
+    {
+      "id": 666139,
+      "name": "Josh Lowe",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "CF",
+      "battingPoints": 16.6,
+      "pitchingPoints": 0,
+      "totalPoints": 16.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -41551,54 +41689,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 668227,
-      "name": "Randy Arozarena",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "DH",
-      "battingPoints": 15.1,
-      "pitchingPoints": 0,
-      "totalPoints": 15.1,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 5,
-          "pitchingPoints": 0,
-          "totalPoints": 5
         }
       ]
     },
@@ -42923,54 +43013,6 @@
       ]
     },
     {
-      "id": 686527,
-      "name": "Dominic Canzone",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "DH",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 696030,
       "name": "Alejandro Osuna",
       "teamId": 140,
@@ -43266,6 +43308,47 @@
         {
           "gamePk": 824819,
           "gameDate": "2026-06-30",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
+      "id": 686527,
+      "name": "Dominic Canzone",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "DH",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
           "battingPoints": 11,
           "pitchingPoints": 0,
           "totalPoints": 11
@@ -43589,61 +43672,6 @@
       ]
     },
     {
-      "id": 806068,
-      "name": "Colt Emerson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "SS",
-      "battingPoints": 9.7,
-      "pitchingPoints": 0,
-      "totalPoints": 9.7,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 14.7,
-          "pitchingPoints": 0,
-          "totalPoints": 14.7
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 681546,
       "name": "James Outman",
       "teamId": 116,
@@ -43867,61 +43895,6 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 647304,
-      "name": "Josh Naylor",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "1B",
-      "battingPoints": 9.1,
-      "pitchingPoints": 0,
-      "totalPoints": 9.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 1.9,
-          "pitchingPoints": 0,
-          "totalPoints": 1.9
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 10.2,
-          "pitchingPoints": 0,
-          "totalPoints": 10.2
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -44187,6 +44160,61 @@
       ]
     },
     {
+      "id": 806068,
+      "name": "Colt Emerson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "SS",
+      "battingPoints": 8.7,
+      "pitchingPoints": 0,
+      "totalPoints": 8.7,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 676356,
       "name": "Jonny DeLuca",
       "teamId": 139,
@@ -44372,6 +44400,61 @@
       ]
     },
     {
+      "id": 647304,
+      "name": "Josh Naylor",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "1B",
+      "battingPoints": 8.1,
+      "pitchingPoints": 0,
+      "totalPoints": 8.1,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 1.9,
+          "pitchingPoints": 0,
+          "totalPoints": 1.9
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 10.2,
+          "pitchingPoints": 0,
+          "totalPoints": 10.2
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
       "id": 682177,
       "name": "Daniel Schneemann",
       "teamId": 114,
@@ -44533,61 +44616,6 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
-        }
-      ]
-    },
-    {
-      "id": 685133,
-      "name": "Wade Meckler",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "LF",
-      "battingPoints": 7.8,
-      "pitchingPoints": 0,
-      "totalPoints": 7.8,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -44924,6 +44952,61 @@
           "battingPoints": 11,
           "pitchingPoints": 0,
           "totalPoints": 11
+        }
+      ]
+    },
+    {
+      "id": 685133,
+      "name": "Wade Meckler",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "LF",
+      "battingPoints": 6.8,
+      "pitchingPoints": 0,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -46376,54 +46459,6 @@
       ]
     },
     {
-      "id": 606192,
-      "name": "Teoscar Hernández",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "LF",
-      "battingPoints": 4.2,
-      "pitchingPoints": 0,
-      "totalPoints": 4.2,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824986,
-          "gameDate": "2026-06-29",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 663743,
       "name": "Nick Fortes",
       "teamId": 139,
@@ -46850,54 +46885,6 @@
       ]
     },
     {
-      "id": 624585,
-      "name": "Jorge Soler",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "DH",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 671289,
       "name": "Tyler Freeman",
       "teamId": 115,
@@ -47079,6 +47066,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 606192,
+      "name": "Teoscar Hernández",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "LF",
+      "battingPoints": 3.2,
+      "pitchingPoints": 0,
+      "totalPoints": 3.2,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824986,
+          "gameDate": "2026-06-29",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -47405,6 +47440,54 @@
       ]
     },
     {
+      "id": 624585,
+      "name": "Jorge Soler",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "DH",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 663728,
       "name": "Cal Raleigh",
       "teamId": 136,
@@ -47552,54 +47635,6 @@
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
-        }
-      ]
-    },
-    {
-      "id": 642215,
-      "name": "Weston Wilson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "RF",
-      "battingPoints": 2.5,
-      "pitchingPoints": 0,
-      "totalPoints": 2.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 3.5,
-          "pitchingPoints": 0,
-          "totalPoints": 3.5
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -48258,6 +48293,54 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 642215,
+      "name": "Weston Wilson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "RF",
+      "battingPoints": 1.5,
+      "pitchingPoints": 0,
+      "totalPoints": 1.5,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 3.5,
+          "pitchingPoints": 0,
+          "totalPoints": 3.5
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -50936,116 +51019,6 @@
       ]
     },
     {
-      "id": 681351,
-      "name": "Logan O'Hoppe",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "C",
-      "battingPoints": -3.4,
-      "pitchingPoints": 0,
-      "totalPoints": -3.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 641487,
-      "name": "J.P. Crawford",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "3B",
-      "battingPoints": -3.5,
-      "pitchingPoints": 0,
-      "totalPoints": -3.5,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 543309,
       "name": "Kyle Higashioka",
       "teamId": 140,
@@ -51594,61 +51567,6 @@
       ]
     },
     {
-      "id": 666176,
-      "name": "Jo Adell",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "RF",
-      "battingPoints": -4.4,
-      "pitchingPoints": 0,
-      "totalPoints": -4.4,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 676609,
       "name": "José Caballero",
       "teamId": 147,
@@ -51700,6 +51618,116 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 681351,
+      "name": "Logan O'Hoppe",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "C",
+      "battingPoints": -4.4,
+      "pitchingPoints": 0,
+      "totalPoints": -4.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 641487,
+      "name": "J.P. Crawford",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "3B",
+      "battingPoints": -4.5,
+      "pitchingPoints": 0,
+      "totalPoints": -4.5,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -52006,6 +52034,61 @@
       ]
     },
     {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "RF",
+      "battingPoints": -5.4,
+      "pitchingPoints": 0,
+      "totalPoints": -5.4,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 682668,
       "name": "Luisangel Acuña",
       "teamId": 145,
@@ -52091,54 +52174,6 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
-        }
-      ]
-    },
-    {
-      "id": 672724,
-      "name": "Oswald Peraza",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "2B",
-      "battingPoints": -6,
-      "pitchingPoints": 0,
-      "totalPoints": -6,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823121,
-          "gameDate": "2026-06-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -52386,6 +52421,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 672724,
+      "name": "Oswald Peraza",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "2B",
+      "battingPoints": -7,
+      "pitchingPoints": 0,
+      "totalPoints": -7,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823121,
+          "gameDate": "2026-06-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -52879,6 +52962,47 @@
       ]
     },
     {
+      "id": 682243,
+      "name": "Bryce Miller",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 62.6,
+      "totalPoints": 62.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 62.6,
+          "totalPoints": 62.6
+        }
+      ]
+    },
+    {
       "id": 650911,
       "name": "Cristopher Sánchez",
       "teamId": 143,
@@ -52916,47 +53040,6 @@
           "battingPoints": 0,
           "pitchingPoints": 56,
           "totalPoints": 56
-        }
-      ]
-    },
-    {
-      "id": 682243,
-      "name": "Bryce Miller",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 53.2,
-      "totalPoints": 53.2,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 53.2,
-          "totalPoints": 53.2
         }
       ]
     },
@@ -55628,6 +55711,47 @@
       ]
     },
     {
+      "id": 694361,
+      "name": "Will Klein",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
+        }
+      ]
+    },
+    {
       "id": 696136,
       "name": "Jordan Wicks",
       "teamId": 112,
@@ -56664,6 +56788,47 @@
           "battingPoints": 0,
           "pitchingPoints": 16.07,
           "totalPoints": 16.07
+        }
+      ]
+    },
+    {
+      "id": 696519,
+      "name": "Samy Natera Jr.",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 15.87,
+      "totalPoints": 15.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 15.87,
+          "totalPoints": 15.87
         }
       ]
     },
@@ -59603,47 +59768,6 @@
       ]
     },
     {
-      "id": 694361,
-      "name": "Will Klein",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.4,
-      "totalPoints": 9.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823935,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 9.4,
-          "totalPoints": 9.4
-        }
-      ]
-    },
-    {
       "id": 670329,
       "name": "Rico Garcia",
       "teamId": 110,
@@ -60126,6 +60250,54 @@
           "battingPoints": 0,
           "pitchingPoints": 8.2,
           "totalPoints": 8.2
+        }
+      ]
+    },
+    {
+      "id": 660825,
+      "name": "Eduard Bazardo",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.13,
+      "totalPoints": 8.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823122,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": -3.27,
+          "totalPoints": -3.27
+        },
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
         }
       ]
     },
@@ -60670,47 +60842,6 @@
       ]
     },
     {
-      "id": 593974,
-      "name": "Wandy Peralta",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 7.13,
-      "totalPoints": 7.13,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824661,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": 7.13,
-          "totalPoints": 7.13
-        }
-      ]
-    },
-    {
       "id": 675848,
       "name": "Juan Mejia",
       "teamId": 115,
@@ -60867,6 +60998,47 @@
       "games": [
         {
           "gamePk": 822884,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 6.8,
+          "totalPoints": 6.8
+        }
+      ]
+    },
+    {
+      "id": 696147,
+      "name": "Sam Bachman",
+      "teamId": 108,
+      "teamName": "Los Angeles Angels",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.8,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
           "gameDate": "2026-07-02",
           "battingPoints": 0,
           "pitchingPoints": 6.8,
@@ -62072,47 +62244,6 @@
       ]
     },
     {
-      "id": 696519,
-      "name": "Samy Natera Jr.",
-      "teamId": 108,
-      "teamName": "Los Angeles Angels",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 4.47,
-      "totalPoints": 4.47,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 1,
-        "inningsPitched": "0.1",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 4.47,
-          "totalPoints": 4.47
-        }
-      ]
-    },
-    {
       "id": 621074,
       "name": "Michael Rucker",
       "teamId": 136,
@@ -62827,6 +62958,54 @@
           "battingPoints": 0,
           "pitchingPoints": 6.8,
           "totalPoints": 6.8
+        }
+      ]
+    },
+    {
+      "id": 593974,
+      "name": "Wandy Peralta",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 2.93,
+      "totalPoints": 2.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 8,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824661,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": 7.13,
+          "totalPoints": 7.13
+        },
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": -4.2,
+          "totalPoints": -4.2
         }
       ]
     },
@@ -64412,47 +64591,6 @@
       ]
     },
     {
-      "id": 660825,
-      "name": "Eduard Bazardo",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -3.27,
-      "totalPoints": -3.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 2,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823122,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": -3.27,
-          "totalPoints": -3.27
-        }
-      ]
-    },
-    {
       "id": 689520,
       "name": "Cody Laweryson",
       "teamId": 142,
@@ -64634,6 +64772,47 @@
           "battingPoints": 0,
           "pitchingPoints": -4.07,
           "totalPoints": -4.07
+        }
+      ]
+    },
+    {
+      "id": 673513,
+      "name": "Yuki Matsui",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -5.2,
+      "totalPoints": -5.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823935,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": -5.2,
+          "totalPoints": -5.2
         }
       ]
     },
@@ -66978,6 +67157,47 @@
       ]
     },
     {
+      "id": 682243,
+      "name": "Bryce Miller",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 62.6,
+      "totalPoints": 62.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 8,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823119,
+          "gameDate": "2026-07-02",
+          "battingPoints": 0,
+          "pitchingPoints": 62.6,
+          "totalPoints": 62.6
+        }
+      ]
+    },
+    {
       "id": 691594,
       "name": "Javier Sanoja",
       "teamId": 146,
@@ -67077,47 +67297,6 @@
           "battingPoints": 0,
           "pitchingPoints": 56,
           "totalPoints": 56
-        }
-      ]
-    },
-    {
-      "id": 682243,
-      "name": "Bryce Miller",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 53.2,
-      "totalPoints": 53.2,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 7,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823119,
-          "gameDate": "2026-07-02",
-          "battingPoints": 0,
-          "pitchingPoints": 53.2,
-          "totalPoints": 53.2
         }
       ]
     },
