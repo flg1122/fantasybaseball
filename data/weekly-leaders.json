@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T19:30:52.794Z",
-  "generatedAtET": "7/4/2026, 3:30:52 PM",
+  "generatedAt": "2026-07-04T20:00:52.202Z",
+  "generatedAtET": "7/4/2026, 4:00:52 PM",
   "scoringPeriod": {
     "start": "2026-06-29",
     "end": "2026-07-04",
@@ -15,8 +15,8 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 763,
-    "hitters": 382,
+    "overall": 762,
+    "hitters": 381,
     "pitchers": 386
   },
   "overallLeaders": [
@@ -1377,6 +1377,68 @@
       ]
     },
     {
+      "id": 605137,
+      "name": "Josh Bell",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "DH",
+      "battingPoints": 49,
+      "pitchingPoints": 0,
+      "totalPoints": 49,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 3,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 19.5,
+          "pitchingPoints": 0,
+          "totalPoints": 19.5
+        }
+      ]
+    },
+    {
       "id": 670541,
       "name": "Yordan Alvarez",
       "teamId": 117,
@@ -1494,16 +1556,57 @@
       ]
     },
     {
+      "id": 594798,
+      "name": "Jacob deGrom",
+      "teamId": 140,
+      "teamName": "Texas Rangers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 47.1,
+      "totalPoints": 47.1,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 9,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824418,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": 47.1,
+          "totalPoints": 47.1
+        }
+      ]
+    },
+    {
       "id": 665019,
       "name": "Kody Clemens",
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "2B",
-      "battingPoints": 47.7,
+      "battingPoints": 46.7,
       "pitchingPoints": 0,
-      "totalPoints": 47.7,
+      "totalPoints": 46.7,
       "battingStats": {
-        "atBats": 20,
+        "atBats": 21,
         "hits": 6,
         "doubles": 1,
         "triples": 0,
@@ -1556,50 +1659,9 @@
         {
           "gamePk": 823526,
           "gameDate": "2026-07-04",
-          "battingPoints": 16,
+          "battingPoints": 15,
           "pitchingPoints": 0,
-          "totalPoints": 16
-        }
-      ]
-    },
-    {
-      "id": 594798,
-      "name": "Jacob deGrom",
-      "teamId": 140,
-      "teamName": "Texas Rangers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 47.1,
-      "totalPoints": 47.1,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 21,
-        "inningsPitched": "7.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 9,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824418,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": 47.1,
-          "totalPoints": 47.1
+          "totalPoints": 15
         }
       ]
     },
@@ -4215,68 +4277,6 @@
       ]
     },
     {
-      "id": 605137,
-      "name": "Josh Bell",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "DH",
-      "battingPoints": 35,
-      "pitchingPoints": 0,
-      "totalPoints": 35,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 571970,
       "name": "Max Muncy",
       "teamId": 119,
@@ -5505,6 +5505,68 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
+        }
+      ]
+    },
+    {
+      "id": 663616,
+      "name": "Trevor Larnach",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "LF",
+      "battingPoints": 32.5,
+      "pitchingPoints": 0,
+      "totalPoints": 32.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 11.9,
+          "pitchingPoints": 0,
+          "totalPoints": 11.9
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 19,
+          "pitchingPoints": 0,
+          "totalPoints": 19
         }
       ]
     },
@@ -7306,68 +7368,6 @@
           "battingPoints": 0,
           "pitchingPoints": 22.03,
           "totalPoints": 22.03
-        }
-      ]
-    },
-    {
-      "id": 663616,
-      "name": "Trevor Larnach",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "LF",
-      "battingPoints": 29.5,
-      "pitchingPoints": 0,
-      "totalPoints": 29.5,
-      "battingStats": {
-        "atBats": 14,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 11.9,
-          "pitchingPoints": 0,
-          "totalPoints": 11.9
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
         }
       ]
     },
@@ -10660,54 +10660,6 @@
       ]
     },
     {
-      "id": 642708,
-      "name": "Amed Rosario",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "PH",
-      "battingPoints": 24,
-      "pitchingPoints": 0,
-      "totalPoints": 24,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": 10,
-          "pitchingPoints": 0,
-          "totalPoints": 10
-        }
-      ]
-    },
-    {
       "id": 823550,
       "name": "Sung-Mun Song",
       "teamId": 135,
@@ -11206,6 +11158,61 @@
           "battingPoints": 0,
           "pitchingPoints": 17.8,
           "totalPoints": 17.8
+        }
+      ]
+    },
+    {
+      "id": 642708,
+      "name": "Amed Rosario",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "PH",
+      "battingPoints": 23,
+      "pitchingPoints": 0,
+      "totalPoints": 23,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823530,
+          "gameDate": "2026-07-01",
+          "battingPoints": 10,
+          "pitchingPoints": 0,
+          "totalPoints": 10
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -12505,6 +12512,54 @@
           "battingPoints": 0,
           "pitchingPoints": 21,
           "totalPoints": 21
+        }
+      ]
+    },
+    {
+      "id": 680474,
+      "name": "Max Schuemann",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "LF",
+      "battingPoints": 21,
+      "pitchingPoints": 0,
+      "totalPoints": 21,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 20,
+          "pitchingPoints": 0,
+          "totalPoints": 20
         }
       ]
     },
@@ -14365,54 +14420,6 @@
           "battingPoints": 18,
           "pitchingPoints": 0,
           "totalPoints": 18
-        }
-      ]
-    },
-    {
-      "id": 680474,
-      "name": "Max Schuemann",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "LF",
-      "battingPoints": 18,
-      "pitchingPoints": 0,
-      "totalPoints": 18,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 17,
-          "pitchingPoints": 0,
-          "totalPoints": 17
         }
       ]
     },
@@ -19438,54 +19445,6 @@
       ]
     },
     {
-      "id": 656577,
-      "name": "Alex Jackson",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "PH",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        }
-      ]
-    },
-    {
       "id": 696030,
       "name": "Alejandro Osuna",
       "teamId": 140,
@@ -19592,6 +19551,54 @@
           "battingPoints": 0,
           "pitchingPoints": -3.5,
           "totalPoints": -3.5
+        }
+      ]
+    },
+    {
+      "id": 573124,
+      "name": "Taylor Rogers",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.87,
+      "totalPoints": 11.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 0,
+          "pitchingPoints": 9.4,
+          "totalPoints": 9.4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
         }
       ]
     },
@@ -19969,54 +19976,6 @@
           "battingPoints": 0,
           "pitchingPoints": 11.6,
           "totalPoints": 11.6
-        }
-      ]
-    },
-    {
-      "id": 641857,
-      "name": "Ryan McMahon",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "3B",
-      "battingPoints": 11.5,
-      "pitchingPoints": 0,
-      "totalPoints": 11.5,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823527,
-          "gameDate": "2026-07-03",
-          "battingPoints": 9.5,
-          "pitchingPoints": 0,
-          "totalPoints": 9.5
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
         }
       ]
     },
@@ -20584,6 +20543,54 @@
       ]
     },
     {
+      "id": 656577,
+      "name": "Alex Jackson",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "PH",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        }
+      ]
+    },
+    {
       "id": 687377,
       "name": "Orlando Ribalta",
       "teamId": 120,
@@ -20923,6 +20930,116 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
+        }
+      ]
+    },
+    {
+      "id": 641857,
+      "name": "Ryan McMahon",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "3B",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823527,
+          "gameDate": "2026-07-03",
+          "battingPoints": 9.5,
+          "pitchingPoints": 0,
+          "totalPoints": 9.5
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "2B",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823530,
+          "gameDate": "2026-07-01",
+          "battingPoints": 12.9,
+          "pitchingPoints": 0,
+          "totalPoints": 12.9
+        },
+        {
+          "gamePk": 823527,
+          "gameDate": "2026-07-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -21921,88 +22038,6 @@
       ]
     },
     {
-      "id": 621439,
-      "name": "Byron Buxton",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "CF",
-      "battingPoints": 9.5,
-      "pitchingPoints": 0,
-      "totalPoints": 9.5,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 9.5,
-          "pitchingPoints": 0,
-          "totalPoints": 9.5
-        }
-      ]
-    },
-    {
-      "id": 573124,
-      "name": "Taylor Rogers",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.4,
-      "totalPoints": 9.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 0,
-          "pitchingPoints": 9.4,
-          "totalPoints": 9.4
-        }
-      ]
-    },
-    {
       "id": 592773,
       "name": "Ryne Stanek",
       "teamId": 138,
@@ -22040,6 +22075,61 @@
           "battingPoints": 0,
           "pitchingPoints": 9.4,
           "totalPoints": 9.4
+        }
+      ]
+    },
+    {
+      "id": 656234,
+      "name": "Jake Bird",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.4,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 9,
+        "inningsPitched": "3.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": 10.87,
+          "totalPoints": 10.87
+        },
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": 2.2,
+          "totalPoints": 2.2
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -3.67,
+          "totalPoints": -3.67
         }
       ]
     },
@@ -23014,6 +23104,47 @@
           "battingPoints": 8.6,
           "pitchingPoints": 0,
           "totalPoints": 8.6
+        }
+      ]
+    },
+    {
+      "id": 621439,
+      "name": "Byron Buxton",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "CF",
+      "battingPoints": 8.5,
+      "pitchingPoints": 0,
+      "totalPoints": 8.5,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
         }
       ]
     },
@@ -24515,61 +24646,6 @@
           "battingPoints": 10.1,
           "pitchingPoints": 0,
           "totalPoints": 10.1
-        }
-      ]
-    },
-    {
-      "id": 656234,
-      "name": "Jake Bird",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.94,
-      "totalPoints": 6.94,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 8,
-        "inningsPitched": "2.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 2,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": 10.87,
-          "totalPoints": 10.87
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": 2.2,
-          "totalPoints": 2.2
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 0,
-          "pitchingPoints": -6.13,
-          "totalPoints": -6.13
         }
       ]
     },
@@ -26237,68 +26313,6 @@
           "battingPoints": 0,
           "pitchingPoints": 5.9,
           "totalPoints": 5.9
-        }
-      ]
-    },
-    {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "2B",
-      "battingPoints": 5.9,
-      "pitchingPoints": 0,
-      "totalPoints": 5.9,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": 12.9,
-          "pitchingPoints": 0,
-          "totalPoints": 12.9
-        },
-        {
-          "gamePk": 823527,
-          "gameDate": "2026-07-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -32511,54 +32525,6 @@
       ]
     },
     {
-      "id": 642232,
-      "name": "Ryan Yarbrough",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -1.37,
-      "totalPoints": -1.37,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 8,
-        "inningsPitched": "2.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": 1.33,
-          "totalPoints": 1.33
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": -2.7,
-          "totalPoints": -2.7
-        }
-      ]
-    },
-    {
       "id": 545341,
       "name": "Randal Grichuk",
       "teamId": 145,
@@ -35089,68 +35055,6 @@
       ]
     },
     {
-      "id": 683011,
-      "name": "Anthony Volpe",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "SS",
-      "battingPoints": -4.6,
-      "pitchingPoints": 0,
-      "totalPoints": -4.6,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": -1.2,
-          "pitchingPoints": 0,
-          "totalPoints": -1.2
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 669477,
       "name": "Casey Schmitt",
       "teamId": 137,
@@ -36029,54 +35933,6 @@
       ]
     },
     {
-      "id": 701519,
-      "name": "Travis Adams",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -6.7,
-      "totalPoints": -6.7,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 6,
-        "inningsPitched": "2.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": -6.57,
-          "totalPoints": -6.57
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 0,
-          "pitchingPoints": -0.13,
-          "totalPoints": -0.13
-        }
-      ]
-    },
-    {
       "id": 672724,
       "name": "Oswald Peraza",
       "teamId": 108,
@@ -36381,6 +36237,54 @@
           "battingPoints": 0,
           "pitchingPoints": -7.83,
           "totalPoints": -7.83
+        }
+      ]
+    },
+    {
+      "id": 701519,
+      "name": "Travis Adams",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.97,
+      "totalPoints": -7.97,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": -6.57,
+          "totalPoints": -6.57
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -1.4,
+          "totalPoints": -1.4
         }
       ]
     },
@@ -37269,61 +37173,6 @@
       ]
     },
     {
-      "id": 502671,
-      "name": "Paul Goldschmidt",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "1B",
-      "battingPoints": -12,
-      "pitchingPoints": 0,
-      "totalPoints": -12,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823527,
-          "gameDate": "2026-07-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 669160,
       "name": "Dustin May",
       "teamId": 138,
@@ -37365,6 +37214,61 @@
       ]
     },
     {
+      "id": 642232,
+      "name": "Ryan Yarbrough",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -12.34,
+      "totalPoints": -12.34,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 10,
+        "inningsPitched": "3.1",
+        "hitsAllowed": 4,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": 1.33,
+          "totalPoints": 1.33
+        },
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": -2.7,
+          "totalPoints": -2.7
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -10.97,
+          "totalPoints": -10.97
+        }
+      ]
+    },
+    {
       "id": 687941,
       "name": "Alec Gamboa",
       "teamId": 111,
@@ -37402,6 +37306,68 @@
           "battingPoints": 0,
           "pitchingPoints": -12.83,
           "totalPoints": -12.83
+        }
+      ]
+    },
+    {
+      "id": 502671,
+      "name": "Paul Goldschmidt",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "1B",
+      "battingPoints": -13,
+      "pitchingPoints": 0,
+      "totalPoints": -13,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823527,
+          "gameDate": "2026-07-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -39556,6 +39522,68 @@
       ]
     },
     {
+      "id": 605137,
+      "name": "Josh Bell",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "DH",
+      "battingPoints": 49,
+      "pitchingPoints": 0,
+      "totalPoints": 49,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 3,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 19.5,
+          "pitchingPoints": 0,
+          "totalPoints": 19.5
+        }
+      ]
+    },
+    {
       "id": 670541,
       "name": "Yordan Alvarez",
       "teamId": 117,
@@ -39678,11 +39706,11 @@
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "2B",
-      "battingPoints": 47.7,
+      "battingPoints": 46.7,
       "pitchingPoints": 0,
-      "totalPoints": 47.7,
+      "totalPoints": 46.7,
       "battingStats": {
-        "atBats": 20,
+        "atBats": 21,
         "hits": 6,
         "doubles": 1,
         "triples": 0,
@@ -39735,9 +39763,9 @@
         {
           "gamePk": 823526,
           "gameDate": "2026-07-04",
-          "battingPoints": 16,
+          "battingPoints": 15,
           "pitchingPoints": 0,
-          "totalPoints": 16
+          "totalPoints": 15
         }
       ]
     },
@@ -41265,68 +41293,6 @@
       ]
     },
     {
-      "id": 605137,
-      "name": "Josh Bell",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "DH",
-      "battingPoints": 35,
-      "pitchingPoints": 0,
-      "totalPoints": 35,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 571970,
       "name": "Max Muncy",
       "teamId": 119,
@@ -42329,6 +42295,68 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
+        }
+      ]
+    },
+    {
+      "id": 663616,
+      "name": "Trevor Larnach",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "LF",
+      "battingPoints": 32.5,
+      "pitchingPoints": 0,
+      "totalPoints": 32.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 11.9,
+          "pitchingPoints": 0,
+          "totalPoints": 11.9
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 19,
+          "pitchingPoints": 0,
+          "totalPoints": 19
         }
       ]
     },
@@ -43459,68 +43487,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 663616,
-      "name": "Trevor Larnach",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "LF",
-      "battingPoints": 29.5,
-      "pitchingPoints": 0,
-      "totalPoints": 29.5,
-      "battingStats": {
-        "atBats": 14,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 11.9,
-          "pitchingPoints": 0,
-          "totalPoints": 11.9
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
         }
       ]
     },
@@ -45827,54 +45793,6 @@
       ]
     },
     {
-      "id": 642708,
-      "name": "Amed Rosario",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "PH",
-      "battingPoints": 24,
-      "pitchingPoints": 0,
-      "totalPoints": 24,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 2,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": 10,
-          "pitchingPoints": 0,
-          "totalPoints": 10
-        }
-      ]
-    },
-    {
       "id": 823550,
       "name": "Sung-Mun Song",
       "teamId": 135,
@@ -46284,6 +46202,61 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 642708,
+      "name": "Amed Rosario",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "PH",
+      "battingPoints": 23,
+      "pitchingPoints": 0,
+      "totalPoints": 23,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 2,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        },
+        {
+          "gamePk": 823530,
+          "gameDate": "2026-07-01",
+          "battingPoints": 10,
+          "pitchingPoints": 0,
+          "totalPoints": 10
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -47048,6 +47021,54 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 680474,
+      "name": "Max Schuemann",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "LF",
+      "battingPoints": 21,
+      "pitchingPoints": 0,
+      "totalPoints": 21,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 20,
+          "pitchingPoints": 0,
+          "totalPoints": 20
         }
       ]
     },
@@ -48080,54 +48101,6 @@
           "battingPoints": 18,
           "pitchingPoints": 0,
           "totalPoints": 18
-        }
-      ]
-    },
-    {
-      "id": 680474,
-      "name": "Max Schuemann",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "LF",
-      "battingPoints": 18,
-      "pitchingPoints": 0,
-      "totalPoints": 18,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 17,
-          "pitchingPoints": 0,
-          "totalPoints": 17
         }
       ]
     },
@@ -50437,54 +50410,6 @@
       ]
     },
     {
-      "id": 656577,
-      "name": "Alex Jackson",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "PH",
-      "battingPoints": 12,
-      "pitchingPoints": 0,
-      "totalPoints": 12,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824175,
-          "gameDate": "2026-06-30",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        }
-      ]
-    },
-    {
       "id": 696030,
       "name": "Alejandro Osuna",
       "teamId": 140,
@@ -50701,54 +50626,6 @@
           "battingPoints": 6.5,
           "pitchingPoints": 0,
           "totalPoints": 6.5
-        }
-      ]
-    },
-    {
-      "id": 641857,
-      "name": "Ryan McMahon",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "3B",
-      "battingPoints": 11.5,
-      "pitchingPoints": 0,
-      "totalPoints": 11.5,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823527,
-          "gameDate": "2026-07-03",
-          "battingPoints": 9.5,
-          "pitchingPoints": 0,
-          "totalPoints": 9.5
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
         }
       ]
     },
@@ -51056,6 +50933,54 @@
       ]
     },
     {
+      "id": 656577,
+      "name": "Alex Jackson",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "PH",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824175,
+          "gameDate": "2026-06-30",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        }
+      ]
+    },
+    {
       "id": 663538,
       "name": "Nico Hoerner",
       "teamId": 112,
@@ -51169,6 +51094,116 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
+        }
+      ]
+    },
+    {
+      "id": 641857,
+      "name": "Ryan McMahon",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "3B",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823527,
+          "gameDate": "2026-07-03",
+          "battingPoints": 9.5,
+          "pitchingPoints": 0,
+          "totalPoints": 9.5
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "2B",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823530,
+          "gameDate": "2026-07-01",
+          "battingPoints": 12.9,
+          "pitchingPoints": 0,
+          "totalPoints": 12.9
+        },
+        {
+          "gamePk": 823527,
+          "gameDate": "2026-07-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -51547,47 +51582,6 @@
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 621439,
-      "name": "Byron Buxton",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "CF",
-      "battingPoints": 9.5,
-      "pitchingPoints": 0,
-      "totalPoints": 9.5,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 9.5,
-          "pitchingPoints": 0,
-          "totalPoints": 9.5
         }
       ]
     },
@@ -52076,6 +52070,47 @@
           "battingPoints": 8.6,
           "pitchingPoints": 0,
           "totalPoints": 8.6
+        }
+      ]
+    },
+    {
+      "id": 621439,
+      "name": "Byron Buxton",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "CF",
+      "battingPoints": 8.5,
+      "pitchingPoints": 0,
+      "totalPoints": 8.5,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
         }
       ]
     },
@@ -53527,68 +53562,6 @@
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
-        }
-      ]
-    },
-    {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "2B",
-      "battingPoints": 5.9,
-      "pitchingPoints": 0,
-      "totalPoints": 5.9,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": 12.9,
-          "pitchingPoints": 0,
-          "totalPoints": 12.9
-        },
-        {
-          "gamePk": 823527,
-          "gameDate": "2026-07-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -59306,68 +59279,6 @@
       ]
     },
     {
-      "id": 683011,
-      "name": "Anthony Volpe",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "SS",
-      "battingPoints": -4.6,
-      "pitchingPoints": 0,
-      "totalPoints": -4.6,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823530,
-          "gameDate": "2026-07-01",
-          "battingPoints": -1.2,
-          "pitchingPoints": 0,
-          "totalPoints": -1.2
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 669477,
       "name": "Casey Schmitt",
       "teamId": 137,
@@ -60335,11 +60246,11 @@
       "teamId": 147,
       "teamName": "New York Yankees",
       "position": "1B",
-      "battingPoints": -12,
+      "battingPoints": -13,
       "pitchingPoints": 0,
-      "totalPoints": -12,
+      "totalPoints": -13,
       "battingStats": {
-        "atBats": 12,
+        "atBats": 13,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -60381,6 +60292,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     }
@@ -68026,6 +67944,54 @@
       ]
     },
     {
+      "id": 573124,
+      "name": "Taylor Rogers",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.87,
+      "totalPoints": 11.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824174,
+          "gameDate": "2026-07-01",
+          "battingPoints": 0,
+          "pitchingPoints": 9.4,
+          "totalPoints": 9.4
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
+        }
+      ]
+    },
+    {
       "id": 670036,
       "name": "Matt Festa",
       "teamId": 114,
@@ -69347,47 +69313,6 @@
       ]
     },
     {
-      "id": 573124,
-      "name": "Taylor Rogers",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.4,
-      "totalPoints": 9.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824174,
-          "gameDate": "2026-07-01",
-          "battingPoints": 0,
-          "pitchingPoints": 9.4,
-          "totalPoints": 9.4
-        }
-      ]
-    },
-    {
       "id": 592773,
       "name": "Ryne Stanek",
       "teamId": 138,
@@ -69425,6 +69350,61 @@
           "battingPoints": 0,
           "pitchingPoints": 9.4,
           "totalPoints": 9.4
+        }
+      ]
+    },
+    {
+      "id": 656234,
+      "name": "Jake Bird",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 9.4,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 9,
+        "inningsPitched": "3.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": 10.87,
+          "totalPoints": 10.87
+        },
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": 2.2,
+          "totalPoints": 2.2
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -3.67,
+          "totalPoints": -3.67
         }
       ]
     },
@@ -70848,61 +70828,6 @@
           "battingPoints": 0,
           "pitchingPoints": 12.8,
           "totalPoints": 12.8
-        }
-      ]
-    },
-    {
-      "id": 656234,
-      "name": "Jake Bird",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.94,
-      "totalPoints": 6.94,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 8,
-        "inningsPitched": "2.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 2,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": 10.87,
-          "totalPoints": 10.87
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": 2.2,
-          "totalPoints": 2.2
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 0,
-          "pitchingPoints": -6.13,
-          "totalPoints": -6.13
         }
       ]
     },
@@ -74426,54 +74351,6 @@
       ]
     },
     {
-      "id": 642232,
-      "name": "Ryan Yarbrough",
-      "teamId": 147,
-      "teamName": "New York Yankees",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -1.37,
-      "totalPoints": -1.37,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 8,
-        "inningsPitched": "2.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823529,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": 1.33,
-          "totalPoints": 1.33
-        },
-        {
-          "gamePk": 823528,
-          "gameDate": "2026-06-30",
-          "battingPoints": 0,
-          "pitchingPoints": -2.7,
-          "totalPoints": -2.7
-        }
-      ]
-    },
-    {
       "id": 664875,
       "name": "Justin Lawrence",
       "teamId": 120,
@@ -75357,54 +75234,6 @@
       ]
     },
     {
-      "id": 701519,
-      "name": "Travis Adams",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -6.7,
-      "totalPoints": -6.7,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 6,
-        "inningsPitched": "2.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824176,
-          "gameDate": "2026-06-29",
-          "battingPoints": 0,
-          "pitchingPoints": -6.57,
-          "totalPoints": -6.57
-        },
-        {
-          "gamePk": 823526,
-          "gameDate": "2026-07-04",
-          "battingPoints": 0,
-          "pitchingPoints": -0.13,
-          "totalPoints": -0.13
-        }
-      ]
-    },
-    {
       "id": 679775,
       "name": "Kyle Backhus",
       "teamId": 143,
@@ -75613,6 +75442,54 @@
           "battingPoints": 0,
           "pitchingPoints": -7.83,
           "totalPoints": -7.83
+        }
+      ]
+    },
+    {
+      "id": 701519,
+      "name": "Travis Adams",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.97,
+      "totalPoints": -7.97,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824176,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": -6.57,
+          "totalPoints": -6.57
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -1.4,
+          "totalPoints": -1.4
         }
       ]
     },
@@ -76201,6 +76078,61 @@
           "battingPoints": 0,
           "pitchingPoints": -12.07,
           "totalPoints": -12.07
+        }
+      ]
+    },
+    {
+      "id": 642232,
+      "name": "Ryan Yarbrough",
+      "teamId": 147,
+      "teamName": "New York Yankees",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -12.34,
+      "totalPoints": -12.34,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 10,
+        "inningsPitched": "3.1",
+        "hitsAllowed": 4,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823529,
+          "gameDate": "2026-06-29",
+          "battingPoints": 0,
+          "pitchingPoints": 1.33,
+          "totalPoints": 1.33
+        },
+        {
+          "gamePk": 823528,
+          "gameDate": "2026-06-30",
+          "battingPoints": 0,
+          "pitchingPoints": -2.7,
+          "totalPoints": -2.7
+        },
+        {
+          "gamePk": 823526,
+          "gameDate": "2026-07-04",
+          "battingPoints": 0,
+          "pitchingPoints": -10.97,
+          "totalPoints": -10.97
         }
       ]
     },
