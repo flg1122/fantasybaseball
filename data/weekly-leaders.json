@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T21:00:53.888Z",
-  "generatedAtET": "7/6/2026, 5:00:53 PM",
+  "generatedAt": "2026-07-06T21:30:53.747Z",
+  "generatedAtET": "7/6/2026, 5:30:53 PM",
   "scoringPeriod": {
     "start": "2026-07-06",
     "end": "2026-07-06",
@@ -10,11 +10,52 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 29,
-    "hitters": 20,
-    "pitchers": 9
+    "overall": 33,
+    "hitters": 24,
+    "pitchers": 10
   },
   "overallLeaders": [
+    {
+      "id": 686475,
+      "name": "Tyler Tolbert",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "SS",
+      "battingPoints": 32.5,
+      "pitchingPoints": 0,
+      "totalPoints": 32.5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 32.5,
+          "pitchingPoints": 0,
+          "totalPoints": 32.5
+        }
+      ]
+    },
     {
       "id": 521692,
       "name": "Salvador Perez",
@@ -53,47 +94,6 @@
           "battingPoints": 28.1,
           "pitchingPoints": 0,
           "totalPoints": 28.1
-        }
-      ]
-    },
-    {
-      "id": 686475,
-      "name": "Tyler Tolbert",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "SS",
-      "battingPoints": 27.9,
-      "pitchingPoints": 0,
-      "totalPoints": 27.9,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 27.9,
-          "pitchingPoints": 0,
-          "totalPoints": 27.9
         }
       ]
     },
@@ -180,33 +180,33 @@
       ]
     },
     {
-      "id": 679845,
-      "name": "Nick Loftin",
+      "id": 621016,
+      "name": "Jose Cuas",
       "teamId": 118,
       "teamName": "Kansas City Royals",
-      "position": "2B",
-      "battingPoints": 15.8,
-      "pitchingPoints": 0,
-      "totalPoints": 15.8,
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
       "battingStats": {
-        "atBats": 4,
-        "hits": 3,
+        "atBats": 0,
+        "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 3,
         "saves": 0,
         "holds": 0
       },
@@ -214,9 +214,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 15.8,
-          "pitchingPoints": 0,
-          "totalPoints": 15.8
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
         }
       ]
     },
@@ -262,16 +262,98 @@
       ]
     },
     {
+      "id": 679845,
+      "name": "Nick Loftin",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "2B",
+      "battingPoints": 14.8,
+      "pitchingPoints": 0,
+      "totalPoints": 14.8,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14.8,
+          "pitchingPoints": 0,
+          "totalPoints": 14.8
+        }
+      ]
+    },
+    {
+      "id": 571912,
+      "name": "Luke Maile",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "C",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "2B",
-      "battingPoints": 11.2,
+      "battingPoints": 10.2,
       "pitchingPoints": 0,
-      "totalPoints": 11.2,
+      "totalPoints": 10.2,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 4,
         "hits": 2,
         "doubles": 0,
         "triples": 0,
@@ -296,50 +378,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 11.2,
+          "battingPoints": 10.2,
           "pitchingPoints": 0,
-          "totalPoints": 11.2
-        }
-      ]
-    },
-    {
-      "id": 571912,
-      "name": "Luke Maile",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "C",
-      "battingPoints": 11,
-      "pitchingPoints": 0,
-      "totalPoints": 11,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
+          "totalPoints": 10.2
         }
       ]
     },
@@ -385,6 +426,47 @@
       ]
     },
     {
+      "id": 686681,
+      "name": "Michael Massey",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "DH",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
+        }
+      ]
+    },
+    {
       "id": 677951,
       "name": "Bobby Witt Jr.",
       "teamId": 118,
@@ -422,47 +504,6 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
-        }
-      ]
-    },
-    {
-      "id": 621016,
-      "name": "Jose Cuas",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.93,
-      "totalPoints": 6.93,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 0,
-          "pitchingPoints": 6.93,
-          "totalPoints": 6.93
         }
       ]
     },
@@ -549,6 +590,88 @@
       ]
     },
     {
+      "id": 695506,
+      "name": "Jac Caglianone",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "1B",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 5.2,
+          "pitchingPoints": 0,
+          "totalPoints": 5.2
+        }
+      ]
+    },
+    {
+      "id": 686555,
+      "name": "Isaac Collins",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "LF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 687282,
       "name": "Gabriel Rincones Jr.",
       "teamId": 143,
@@ -586,47 +709,6 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "3B",
-      "battingPoints": 4.5,
-      "pitchingPoints": 0,
-      "totalPoints": 4.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
         }
       ]
     },
@@ -672,21 +754,21 @@
       ]
     },
     {
-      "id": 670224,
-      "name": "Kameron Misner",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "CF",
-      "battingPoints": 3,
+      "id": 664761,
+      "name": "Alec Bohm",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "3B",
+      "battingPoints": 3.5,
       "pitchingPoints": 0,
-      "totalPoints": 3,
+      "totalPoints": 3.5,
       "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -706,50 +788,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 3,
+          "battingPoints": 3.5,
           "pitchingPoints": 0,
-          "totalPoints": 3
-        }
-      ]
-    },
-    {
-      "id": 686681,
-      "name": "Michael Massey",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "DH",
-      "battingPoints": 3,
-      "pitchingPoints": 0,
-      "totalPoints": 3,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 3.5
         }
       ]
     },
@@ -795,11 +836,52 @@
       ]
     },
     {
+      "id": 670224,
+      "name": "Kameron Misner",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "CF",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
       "id": 656537,
       "name": "Derek Hill",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "CF",
+      "position": "1B",
       "battingPoints": 1.6,
       "pitchingPoints": 0,
       "totalPoints": 1.6,
@@ -877,17 +959,58 @@
       ]
     },
     {
-      "id": 695506,
-      "name": "Jac Caglianone",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "1B",
-      "battingPoints": 0.6,
+      "id": 624641,
+      "name": "Edmundo Sosa",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": -1,
       "pitchingPoints": 0,
-      "totalPoints": 0.6,
+      "totalPoints": -1,
       "battingStats": {
-        "atBats": 5,
-        "hits": 1,
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 665561,
+      "name": "Rafael Marchán",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
@@ -911,28 +1034,28 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 0.6,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 0.6
+          "totalPoints": -1
         }
       ]
     },
     {
-      "id": 665561,
-      "name": "Rafael Marchán",
+      "id": 669016,
+      "name": "Brandon Marsh",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "C",
+      "position": "LF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 4,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -1004,7 +1127,7 @@
       "name": "Justin Crawford",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "PH",
+      "position": "CF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -1037,6 +1160,47 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 596117,
+      "name": "Garrett Stubbs",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 4.6,
+      "pitchingPoints": -6,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": -6,
+          "totalPoints": -1.4
         }
       ]
     },
@@ -1087,11 +1251,11 @@
       "teamId": 118,
       "teamName": "Kansas City Royals",
       "position": "3B",
-      "battingPoints": -4,
+      "battingPoints": -5,
       "pitchingPoints": 0,
-      "totalPoints": -4,
+      "totalPoints": -5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1116,9 +1280,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": -4,
+          "battingPoints": -5,
           "pitchingPoints": 0,
-          "totalPoints": -4
+          "totalPoints": -5
         }
       ]
     },
@@ -1207,6 +1371,47 @@
   ],
   "hitterLeaders": [
     {
+      "id": 686475,
+      "name": "Tyler Tolbert",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "SS",
+      "battingPoints": 32.5,
+      "pitchingPoints": 0,
+      "totalPoints": 32.5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 32.5,
+          "pitchingPoints": 0,
+          "totalPoints": 32.5
+        }
+      ]
+    },
+    {
       "id": 521692,
       "name": "Salvador Perez",
       "teamId": 118,
@@ -1244,47 +1449,6 @@
           "battingPoints": 28.1,
           "pitchingPoints": 0,
           "totalPoints": 28.1
-        }
-      ]
-    },
-    {
-      "id": 686475,
-      "name": "Tyler Tolbert",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "SS",
-      "battingPoints": 27.9,
-      "pitchingPoints": 0,
-      "totalPoints": 27.9,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 27.9,
-          "pitchingPoints": 0,
-          "totalPoints": 27.9
         }
       ]
     },
@@ -1330,47 +1494,6 @@
       ]
     },
     {
-      "id": 679845,
-      "name": "Nick Loftin",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "2B",
-      "battingPoints": 15.8,
-      "pitchingPoints": 0,
-      "totalPoints": 15.8,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 15.8,
-          "pitchingPoints": 0,
-          "totalPoints": 15.8
-        }
-      ]
-    },
-    {
       "id": 607208,
       "name": "Trea Turner",
       "teamId": 143,
@@ -1412,16 +1535,98 @@
       ]
     },
     {
+      "id": 679845,
+      "name": "Nick Loftin",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "2B",
+      "battingPoints": 14.8,
+      "pitchingPoints": 0,
+      "totalPoints": 14.8,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14.8,
+          "pitchingPoints": 0,
+          "totalPoints": 14.8
+        }
+      ]
+    },
+    {
+      "id": 571912,
+      "name": "Luke Maile",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "C",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "2B",
-      "battingPoints": 11.2,
+      "battingPoints": 10.2,
       "pitchingPoints": 0,
-      "totalPoints": 11.2,
+      "totalPoints": 10.2,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 4,
         "hits": 2,
         "doubles": 0,
         "triples": 0,
@@ -1446,50 +1651,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 11.2,
+          "battingPoints": 10.2,
           "pitchingPoints": 0,
-          "totalPoints": 11.2
-        }
-      ]
-    },
-    {
-      "id": 571912,
-      "name": "Luke Maile",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "C",
-      "battingPoints": 11,
-      "pitchingPoints": 0,
-      "totalPoints": 11,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
+          "totalPoints": 10.2
         }
       ]
     },
@@ -1531,6 +1695,47 @@
           "battingPoints": 8,
           "pitchingPoints": 0,
           "totalPoints": 8
+        }
+      ]
+    },
+    {
+      "id": 686681,
+      "name": "Michael Massey",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "DH",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
         }
       ]
     },
@@ -1617,6 +1822,129 @@
       ]
     },
     {
+      "id": 695506,
+      "name": "Jac Caglianone",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "1B",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 5.2,
+          "pitchingPoints": 0,
+          "totalPoints": 5.2
+        }
+      ]
+    },
+    {
+      "id": 596117,
+      "name": "Garrett Stubbs",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 4.6,
+      "pitchingPoints": -6,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": -6,
+          "totalPoints": -1.4
+        }
+      ]
+    },
+    {
+      "id": 686555,
+      "name": "Isaac Collins",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "LF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 687282,
       "name": "Gabriel Rincones Jr.",
       "teamId": 143,
@@ -1663,11 +1991,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "3B",
-      "battingPoints": 4.5,
+      "battingPoints": 3.5,
       "pitchingPoints": 0,
-      "totalPoints": 4.5,
+      "totalPoints": 3.5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -1692,91 +2020,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 4.5,
+          "battingPoints": 3.5,
           "pitchingPoints": 0,
-          "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 670224,
-      "name": "Kameron Misner",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "CF",
-      "battingPoints": 3,
-      "pitchingPoints": 0,
-      "totalPoints": 3,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
-        }
-      ]
-    },
-    {
-      "id": 686681,
-      "name": "Michael Massey",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "DH",
-      "battingPoints": 3,
-      "pitchingPoints": 0,
-      "totalPoints": 3,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 3.5
         }
       ]
     },
@@ -1822,11 +2068,52 @@
       ]
     },
     {
+      "id": 670224,
+      "name": "Kameron Misner",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "CF",
+      "battingPoints": 2,
+      "pitchingPoints": 0,
+      "totalPoints": 2,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
       "id": 656537,
       "name": "Derek Hill",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "CF",
+      "position": "1B",
       "battingPoints": 1.6,
       "pitchingPoints": 0,
       "totalPoints": 1.6,
@@ -1863,21 +2150,21 @@
       ]
     },
     {
-      "id": 695506,
-      "name": "Jac Caglianone",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "1B",
-      "battingPoints": 0.6,
+      "id": 624641,
+      "name": "Edmundo Sosa",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": -1,
       "pitchingPoints": 0,
-      "totalPoints": 0.6,
+      "totalPoints": -1,
       "battingStats": {
-        "atBats": 5,
-        "hits": 1,
+        "atBats": 4,
+        "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -1897,9 +2184,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 0.6,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 0.6
+          "totalPoints": -1
         }
       ]
     },
@@ -1945,11 +2232,52 @@
       ]
     },
     {
+      "id": 669016,
+      "name": "Brandon Marsh",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 702222,
       "name": "Justin Crawford",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "PH",
+      "position": "CF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -1991,11 +2319,11 @@
       "teamId": 118,
       "teamName": "Kansas City Royals",
       "position": "3B",
-      "battingPoints": -4,
+      "battingPoints": -5,
       "pitchingPoints": 0,
-      "totalPoints": -4,
+      "totalPoints": -5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -2020,9 +2348,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": -4,
+          "battingPoints": -5,
           "pitchingPoints": 0,
-          "totalPoints": -4
+          "totalPoints": -5
         }
       ]
     }
@@ -2076,8 +2404,8 @@
       "teamName": "Kansas City Royals",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 6.93,
-      "totalPoints": 6.93,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -2090,13 +2418,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 1,
+        "strikeOuts": 3,
         "saves": 0,
         "holds": 0
       },
@@ -2105,8 +2433,8 @@
           "gamePk": 824089,
           "gameDate": "2026-07-06",
           "battingPoints": 0,
-          "pitchingPoints": 6.93,
-          "totalPoints": 6.93
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
         }
       ]
     },
@@ -2357,6 +2685,47 @@
       ]
     },
     {
+      "id": 596117,
+      "name": "Garrett Stubbs",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 4.6,
+      "pitchingPoints": -6,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": -6,
+          "totalPoints": -1.4
+        }
+      ]
+    },
+    {
       "id": 650911,
       "name": "Cristopher Sánchez",
       "teamId": 143,
@@ -2400,6 +2769,47 @@
   ],
   "leaders": [
     {
+      "id": 686475,
+      "name": "Tyler Tolbert",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "SS",
+      "battingPoints": 32.5,
+      "pitchingPoints": 0,
+      "totalPoints": 32.5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 32.5,
+          "pitchingPoints": 0,
+          "totalPoints": 32.5
+        }
+      ]
+    },
+    {
       "id": 521692,
       "name": "Salvador Perez",
       "teamId": 118,
@@ -2437,47 +2847,6 @@
           "battingPoints": 28.1,
           "pitchingPoints": 0,
           "totalPoints": 28.1
-        }
-      ]
-    },
-    {
-      "id": 686475,
-      "name": "Tyler Tolbert",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "SS",
-      "battingPoints": 27.9,
-      "pitchingPoints": 0,
-      "totalPoints": 27.9,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 27.9,
-          "pitchingPoints": 0,
-          "totalPoints": 27.9
         }
       ]
     },
@@ -2564,33 +2933,33 @@
       ]
     },
     {
-      "id": 679845,
-      "name": "Nick Loftin",
+      "id": 621016,
+      "name": "Jose Cuas",
       "teamId": 118,
       "teamName": "Kansas City Royals",
-      "position": "2B",
-      "battingPoints": 15.8,
-      "pitchingPoints": 0,
-      "totalPoints": 15.8,
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.2,
+      "totalPoints": 18.2,
       "battingStats": {
-        "atBats": 4,
-        "hits": 3,
+        "atBats": 0,
+        "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 1,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 3,
         "saves": 0,
         "holds": 0
       },
@@ -2598,9 +2967,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 15.8,
-          "pitchingPoints": 0,
-          "totalPoints": 15.8
+          "battingPoints": 0,
+          "pitchingPoints": 18.2,
+          "totalPoints": 18.2
         }
       ]
     },
@@ -2646,16 +3015,98 @@
       ]
     },
     {
+      "id": 679845,
+      "name": "Nick Loftin",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "2B",
+      "battingPoints": 14.8,
+      "pitchingPoints": 0,
+      "totalPoints": 14.8,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14.8,
+          "pitchingPoints": 0,
+          "totalPoints": 14.8
+        }
+      ]
+    },
+    {
+      "id": 571912,
+      "name": "Luke Maile",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "C",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "2B",
-      "battingPoints": 11.2,
+      "battingPoints": 10.2,
       "pitchingPoints": 0,
-      "totalPoints": 11.2,
+      "totalPoints": 10.2,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 4,
         "hits": 2,
         "doubles": 0,
         "triples": 0,
@@ -2680,50 +3131,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 11.2,
+          "battingPoints": 10.2,
           "pitchingPoints": 0,
-          "totalPoints": 11.2
-        }
-      ]
-    },
-    {
-      "id": 571912,
-      "name": "Luke Maile",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "C",
-      "battingPoints": 11,
-      "pitchingPoints": 0,
-      "totalPoints": 11,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
+          "totalPoints": 10.2
         }
       ]
     },
@@ -2769,6 +3179,47 @@
       ]
     },
     {
+      "id": 686681,
+      "name": "Michael Massey",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "DH",
+      "battingPoints": 7.6,
+      "pitchingPoints": 0,
+      "totalPoints": 7.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 7.6,
+          "pitchingPoints": 0,
+          "totalPoints": 7.6
+        }
+      ]
+    },
+    {
       "id": 677951,
       "name": "Bobby Witt Jr.",
       "teamId": 118,
@@ -2806,47 +3257,6 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
-        }
-      ]
-    },
-    {
-      "id": 621016,
-      "name": "Jose Cuas",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.93,
-      "totalPoints": 6.93,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 0,
-          "pitchingPoints": 6.93,
-          "totalPoints": 6.93
         }
       ]
     },
@@ -2933,6 +3343,88 @@
       ]
     },
     {
+      "id": 695506,
+      "name": "Jac Caglianone",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "1B",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 5.2,
+          "pitchingPoints": 0,
+          "totalPoints": 5.2
+        }
+      ]
+    },
+    {
+      "id": 686555,
+      "name": "Isaac Collins",
+      "teamId": 118,
+      "teamName": "Kansas City Royals",
+      "position": "LF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824089,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 687282,
       "name": "Gabriel Rincones Jr.",
       "teamId": 143,
@@ -2970,47 +3462,6 @@
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "3B",
-      "battingPoints": 4.5,
-      "pitchingPoints": 0,
-      "totalPoints": 4.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
         }
       ]
     },
@@ -3056,21 +3507,21 @@
       ]
     },
     {
-      "id": 670224,
-      "name": "Kameron Misner",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "CF",
-      "battingPoints": 3,
+      "id": 664761,
+      "name": "Alec Bohm",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "3B",
+      "battingPoints": 3.5,
       "pitchingPoints": 0,
-      "totalPoints": 3,
+      "totalPoints": 3.5,
       "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -3090,50 +3541,9 @@
         {
           "gamePk": 824089,
           "gameDate": "2026-07-06",
-          "battingPoints": 3,
+          "battingPoints": 3.5,
           "pitchingPoints": 0,
-          "totalPoints": 3
-        }
-      ]
-    },
-    {
-      "id": 686681,
-      "name": "Michael Massey",
-      "teamId": 118,
-      "teamName": "Kansas City Royals",
-      "position": "DH",
-      "battingPoints": 3,
-      "pitchingPoints": 0,
-      "totalPoints": 3,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 3.5
         }
       ]
     },
@@ -3175,47 +3585,6 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
-        }
-      ]
-    },
-    {
-      "id": 656537,
-      "name": "Derek Hill",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "CF",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824089,
-          "gameDate": "2026-07-06",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
         }
       ]
     }
