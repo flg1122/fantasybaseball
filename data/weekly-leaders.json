@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T18:30:18.359Z",
-  "generatedAtET": "7/7/2026, 2:30:18 PM",
+  "generatedAt": "2026-07-07T19:00:18.401Z",
+  "generatedAtET": "7/7/2026, 3:00:18 PM",
   "scoringPeriod": {
     "start": "2026-07-06",
     "end": "2026-07-07",
@@ -11,9 +11,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 227,
-    "hitters": 161,
-    "pitchers": 67
+    "overall": 229,
+    "hitters": 162,
+    "pitchers": 68
   },
   "overallLeaders": [
     {
@@ -2115,47 +2115,6 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 11.2,
-      "pitchingPoints": 0,
-      "totalPoints": 11.2,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        }
-      ]
-    },
-    {
       "id": 701358,
       "name": "Cam Smith",
       "teamId": 117,
@@ -2197,21 +2156,21 @@
       ]
     },
     {
-      "id": 665877,
-      "name": "José Fermín",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "3B",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
       "battingPoints": 11.1,
       "pitchingPoints": 0,
       "totalPoints": 11.1,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 6,
         "hits": 2,
         "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -2231,9 +2190,16 @@
         {
           "gamePk": 823036,
           "gameDate": "2026-07-06",
-          "battingPoints": 11.1,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 11.1
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 12.1,
+          "pitchingPoints": 0,
+          "totalPoints": 12.1
         }
       ]
     },
@@ -2566,6 +2532,54 @@
       ]
     },
     {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 10.2,
+      "pitchingPoints": 0,
+      "totalPoints": 10.2,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 672515,
       "name": "Gabriel Moreno",
       "teamId": 109,
@@ -2685,6 +2699,54 @@
           "battingPoints": 10.2,
           "pitchingPoints": 0,
           "totalPoints": 10.2
+        }
+      ]
+    },
+    {
+      "id": 665877,
+      "name": "José Fermín",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "3B",
+      "battingPoints": 10.1,
+      "pitchingPoints": 0,
+      "totalPoints": 10.1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2935,6 +2997,54 @@
       ]
     },
     {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": 9,
+      "pitchingPoints": 0,
+      "totalPoints": 9,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 13,
+          "pitchingPoints": 0,
+          "totalPoints": 13
+        }
+      ]
+    },
+    {
       "id": 683618,
       "name": "Edgardo Henriquez",
       "teamId": 119,
@@ -2972,6 +3082,47 @@
           "battingPoints": 0,
           "pitchingPoints": 8.8,
           "totalPoints": 8.8
+        }
+      ]
+    },
+    {
+      "id": 669145,
+      "name": "Bruce Zimmermann",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.6,
+      "totalPoints": 8.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 0,
+          "pitchingPoints": 8.6,
+          "totalPoints": 8.6
         }
       ]
     },
@@ -3509,54 +3660,6 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 6.5,
-      "pitchingPoints": 0,
-      "totalPoints": 6.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        }
-      ]
-    },
-    {
       "id": 650333,
       "name": "Luis Arraez",
       "teamId": 137,
@@ -3603,6 +3706,54 @@
       "teamId": 138,
       "teamName": "St. Louis Cardinals",
       "position": "LF",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
+      "id": 687401,
+      "name": "Joey Ortiz",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "3B",
       "battingPoints": 6.5,
       "pitchingPoints": 0,
       "totalPoints": 6.5,
@@ -4384,6 +4535,54 @@
       ]
     },
     {
+      "id": 806198,
+      "name": "Cooper Pratt",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "SS",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 682998,
       "name": "Corbin Carroll",
       "teamId": 109,
@@ -4417,47 +4616,6 @@
       "games": [
         {
           "gamePk": 823282,
-          "gameDate": "2026-07-06",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 686217,
-      "name": "Sal Frelick",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": 4.5,
-      "pitchingPoints": 0,
-      "totalPoints": 4.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
           "gameDate": "2026-07-06",
           "battingPoints": 4.5,
           "pitchingPoints": 0,
@@ -4913,6 +5071,54 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        }
+      ]
+    },
+    {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": 3.5,
+      "pitchingPoints": 0,
+      "totalPoints": 3.5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -5532,47 +5738,6 @@
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "1B",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 656537,
       "name": "Derek Hill",
       "teamId": 143,
@@ -5983,47 +6148,6 @@
       ]
     },
     {
-      "id": 806198,
-      "name": "Cooper Pratt",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "SS",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 694360,
       "name": "Beck Way",
       "teamId": 118,
@@ -6270,11 +6394,11 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
+      "id": 641343,
+      "name": "Jake Bauers",
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
-      "position": "2B",
+      "position": "1B",
       "battingPoints": 0.6,
       "pitchingPoints": 0,
       "totalPoints": 0.6,
@@ -6478,6 +6602,54 @@
           "battingPoints": -0.2,
           "pitchingPoints": 0,
           "totalPoints": -0.2
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": -0.4,
+      "pitchingPoints": 0,
+      "totalPoints": -0.4,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -6892,47 +7064,6 @@
       ]
     },
     {
-      "id": 687401,
-      "name": "Joey Ortiz",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "3B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 687749,
       "name": "Jase Bowen",
       "teamId": 135,
@@ -7015,6 +7146,47 @@
       ]
     },
     {
+      "id": 699625,
+      "name": "Jimmy Crooks",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 702222,
       "name": "Justin Crawford",
       "teamId": 143,
@@ -7056,54 +7228,6 @@
       ]
     },
     {
-      "id": 802139,
-      "name": "JJ Wetherholt",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "2B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
-        }
-      ]
-    },
-    {
       "id": 805999,
       "name": "A.J. Ewing",
       "teamId": 121,
@@ -7141,47 +7265,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 701675,
-      "name": "Nathan Church",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "CF",
-      "battingPoints": -1.2,
-      "pitchingPoints": 0,
-      "totalPoints": -1.2,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1.2,
-          "pitchingPoints": 0,
-          "totalPoints": -1.2
         }
       ]
     },
@@ -7405,11 +7488,11 @@
       ]
     },
     {
-      "id": 694192,
-      "name": "Jackson Chourio",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "LF",
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "2B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -7419,8 +7502,8 @@
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
+        "walks": 0,
+        "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -7439,16 +7522,16 @@
         {
           "gamePk": 823036,
           "gameDate": "2026-07-06",
-          "battingPoints": -1,
+          "battingPoints": -4,
           "pitchingPoints": 0,
-          "totalPoints": -1
+          "totalPoints": -4
         },
         {
           "gamePk": 823062,
           "gameDate": "2026-07-07",
-          "battingPoints": -1,
+          "battingPoints": 2,
           "pitchingPoints": 0,
-          "totalPoints": -1
+          "totalPoints": 2
         }
       ]
     },
@@ -7490,6 +7573,54 @@
           "battingPoints": 0,
           "pitchingPoints": -2.2,
           "totalPoints": -2.2
+        }
+      ]
+    },
+    {
+      "id": 701675,
+      "name": "Nathan Church",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "CF",
+      "battingPoints": -2.2,
+      "pitchingPoints": 0,
+      "totalPoints": -2.2,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1.2,
+          "pitchingPoints": 0,
+          "totalPoints": -1.2
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -8023,6 +8154,54 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "LF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -8813,54 +8992,6 @@
       ]
     },
     {
-      "id": 671056,
-      "name": "Iván Herrera",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "DH",
-      "battingPoints": -5,
-      "pitchingPoints": 0,
-      "totalPoints": -5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 681198,
       "name": "TJ Rumfield",
       "teamId": 115,
@@ -9148,6 +9279,47 @@
       ]
     },
     {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -8.13,
+      "totalPoints": -8.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 3,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 0,
+          "pitchingPoints": -8.13,
+          "totalPoints": -8.13
+        }
+      ]
+    },
+    {
       "id": 671936,
       "name": "Adam Macko",
       "teamId": 141,
@@ -9226,47 +9398,6 @@
           "battingPoints": 0,
           "pitchingPoints": -10.7,
           "totalPoints": -10.7
-        }
-      ]
-    },
-    {
-      "id": 694819,
-      "name": "Jacob Misiorowski",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -11.1,
-      "totalPoints": -11.1,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 1,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 0,
-          "pitchingPoints": -11.1,
-          "totalPoints": -11.1
         }
       ]
     },
@@ -10551,47 +10682,6 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 11.2,
-      "pitchingPoints": 0,
-      "totalPoints": 11.2,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        }
-      ]
-    },
-    {
       "id": 701358,
       "name": "Cam Smith",
       "teamId": 117,
@@ -10633,21 +10723,21 @@
       ]
     },
     {
-      "id": 665877,
-      "name": "José Fermín",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "3B",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
       "battingPoints": 11.1,
       "pitchingPoints": 0,
       "totalPoints": 11.1,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 6,
         "hits": 2,
         "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -10667,9 +10757,16 @@
         {
           "gamePk": 823036,
           "gameDate": "2026-07-06",
-          "battingPoints": 11.1,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 11.1
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 12.1,
+          "pitchingPoints": 0,
+          "totalPoints": 12.1
         }
       ]
     },
@@ -10920,6 +11017,54 @@
       ]
     },
     {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 10.2,
+      "pitchingPoints": 0,
+      "totalPoints": 10.2,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 11.2,
+          "pitchingPoints": 0,
+          "totalPoints": 11.2
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 672515,
       "name": "Gabriel Moreno",
       "teamId": 109,
@@ -11039,6 +11184,54 @@
           "battingPoints": 10.2,
           "pitchingPoints": 0,
           "totalPoints": 10.2
+        }
+      ]
+    },
+    {
+      "id": 665877,
+      "name": "José Fermín",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "3B",
+      "battingPoints": 10.1,
+      "pitchingPoints": 0,
+      "totalPoints": 10.1,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 11.1,
+          "pitchingPoints": 0,
+          "totalPoints": 11.1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -11203,6 +11396,54 @@
           "battingPoints": 9.1,
           "pitchingPoints": 0,
           "totalPoints": 9.1
+        }
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": 9,
+      "pitchingPoints": 0,
+      "totalPoints": 9,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 13,
+          "pitchingPoints": 0,
+          "totalPoints": 13
         }
       ]
     },
@@ -11617,54 +11858,6 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 6.5,
-      "pitchingPoints": 0,
-      "totalPoints": 6.5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        }
-      ]
-    },
-    {
       "id": 650333,
       "name": "Luis Arraez",
       "teamId": 137,
@@ -11711,6 +11904,54 @@
       "teamId": 138,
       "teamName": "St. Louis Cardinals",
       "position": "LF",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
+      "id": 687401,
+      "name": "Joey Ortiz",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "3B",
       "battingPoints": 6.5,
       "pitchingPoints": 0,
       "totalPoints": 6.5,
@@ -12205,6 +12446,54 @@
       ]
     },
     {
+      "id": 806198,
+      "name": "Cooper Pratt",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "SS",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 682998,
       "name": "Corbin Carroll",
       "teamId": 109,
@@ -12238,47 +12527,6 @@
       "games": [
         {
           "gamePk": 823282,
-          "gameDate": "2026-07-06",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 686217,
-      "name": "Sal Frelick",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": 4.5,
-      "pitchingPoints": 0,
-      "totalPoints": 4.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
           "gameDate": "2026-07-06",
           "battingPoints": 4.5,
           "pitchingPoints": 0,
@@ -12529,6 +12777,54 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        }
+      ]
+    },
+    {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": 3.5,
+      "pitchingPoints": 0,
+      "totalPoints": 3.5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -13025,47 +13321,6 @@
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "1B",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 656537,
       "name": "Derek Hill",
       "teamId": 143,
@@ -13476,47 +13731,6 @@
       ]
     },
     {
-      "id": 806198,
-      "name": "Cooper Pratt",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "SS",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 663698,
       "name": "Joey Bart",
       "teamId": 144,
@@ -13722,11 +13936,11 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
+      "id": 641343,
+      "name": "Jake Bauers",
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
-      "position": "2B",
+      "position": "1B",
       "battingPoints": 0.6,
       "pitchingPoints": 0,
       "totalPoints": 0.6,
@@ -13889,6 +14103,54 @@
           "battingPoints": -0.2,
           "pitchingPoints": 0,
           "totalPoints": -0.2
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": -0.4,
+      "pitchingPoints": 0,
+      "totalPoints": -0.4,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -14262,47 +14524,6 @@
       ]
     },
     {
-      "id": 687401,
-      "name": "Joey Ortiz",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "3B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 687749,
       "name": "Jase Bowen",
       "teamId": 135,
@@ -14385,6 +14606,47 @@
       ]
     },
     {
+      "id": 699625,
+      "name": "Jimmy Crooks",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 702222,
       "name": "Justin Crawford",
       "teamId": 143,
@@ -14426,54 +14688,6 @@
       ]
     },
     {
-      "id": 802139,
-      "name": "JJ Wetherholt",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "2B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 3,
-          "pitchingPoints": 0,
-          "totalPoints": 3
-        }
-      ]
-    },
-    {
       "id": 805999,
       "name": "A.J. Ewing",
       "teamId": 121,
@@ -14511,47 +14725,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 701675,
-      "name": "Nathan Church",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "CF",
-      "battingPoints": -1.2,
-      "pitchingPoints": 0,
-      "totalPoints": -1.2,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -1.2,
-          "pitchingPoints": 0,
-          "totalPoints": -1.2
         }
       ]
     },
@@ -14693,11 +14866,11 @@
       ]
     },
     {
-      "id": 694192,
-      "name": "Jackson Chourio",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "LF",
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "2B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -14707,8 +14880,8 @@
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
+        "walks": 0,
+        "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -14727,9 +14900,57 @@
         {
           "gamePk": 823036,
           "gameDate": "2026-07-06",
-          "battingPoints": -1,
+          "battingPoints": -4,
           "pitchingPoints": 0,
-          "totalPoints": -1
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 701675,
+      "name": "Nathan Church",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "CF",
+      "battingPoints": -2.2,
+      "pitchingPoints": 0,
+      "totalPoints": -2.2,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1.2,
+          "pitchingPoints": 0,
+          "totalPoints": -1.2
         },
         {
           "gamePk": 823062,
@@ -15229,6 +15450,54 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "LF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823036,
+          "gameDate": "2026-07-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -15933,54 +16202,6 @@
           "battingPoints": -5,
           "pitchingPoints": 0,
           "totalPoints": -5
-        }
-      ]
-    },
-    {
-      "id": 671056,
-      "name": "Iván Herrera",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "DH",
-      "battingPoints": -5,
-      "pitchingPoints": 0,
-      "totalPoints": -5,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823036,
-          "gameDate": "2026-07-06",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -17213,6 +17434,47 @@
           "battingPoints": 0,
           "pitchingPoints": 8.8,
           "totalPoints": 8.8
+        }
+      ]
+    },
+    {
+      "id": 669145,
+      "name": "Bruce Zimmermann",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.6,
+      "totalPoints": 8.6,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 0,
+          "pitchingPoints": 8.6,
+          "totalPoints": 8.6
         }
       ]
     },
@@ -18570,6 +18832,47 @@
       ]
     },
     {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -8.13,
+      "totalPoints": -8.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 3,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 2,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823062,
+          "gameDate": "2026-07-07",
+          "battingPoints": 0,
+          "pitchingPoints": -8.13,
+          "totalPoints": -8.13
+        }
+      ]
+    },
+    {
       "id": 671936,
       "name": "Adam Macko",
       "teamId": 141,
@@ -18648,47 +18951,6 @@
           "battingPoints": 0,
           "pitchingPoints": -10.7,
           "totalPoints": -10.7
-        }
-      ]
-    },
-    {
-      "id": 694819,
-      "name": "Jacob Misiorowski",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -11.1,
-      "totalPoints": -11.1,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 0,
-        "hitBatsmen": 1,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823062,
-          "gameDate": "2026-07-07",
-          "battingPoints": 0,
-          "pitchingPoints": -11.1,
-          "totalPoints": -11.1
         }
       ]
     },
