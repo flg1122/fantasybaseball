@@ -33,6 +33,45 @@ function getCurrentWeekDatesET() {
   const now = new Date();
 
 
+  const todayET = formatDateET(now);
+
+
+  // MLB All-Star Break scoring period
+  const allStarStart = "2026-07-13";
+  const allStarEnd = "2026-07-26";
+
+
+  // During the extended scoring period always start on July 13
+  if (todayET >= allStarStart && todayET <= allStarEnd) {
+    const dates = [];
+
+
+    const start = new Date("2026-07-13T12:00:00");
+
+
+    while (true) {
+      const formatted = formatDateET(start);
+
+
+      dates.push(formatted);
+
+
+      if (formatted === todayET) {
+        break;
+      }
+
+
+      start.setDate(start.getDate() + 1);
+    }
+
+
+    return dates;
+  }
+
+
+  // ===== Normal weekly behavior =====
+
+
   const weekday = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
     weekday: "short",
@@ -70,6 +109,9 @@ function getCurrentWeekDatesET() {
 
   return dates;
 }
+
+
+
 
 
 function scoreBatting(b = {}) {
