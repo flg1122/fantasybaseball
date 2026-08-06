@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T22:01:09.900Z",
-  "generatedAtET": "8/6/2026, 6:01:09 PM",
+  "generatedAt": "2026-08-06T22:31:10.220Z",
+  "generatedAtET": "8/6/2026, 6:31:10 PM",
   "scoringPeriod": {
     "start": "2026-08-03",
     "end": "2026-08-06",
@@ -13,9 +13,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 668,
-    "hitters": 370,
-    "pitchers": 298
+    "overall": 672,
+    "hitters": 372,
+    "pitchers": 300
   },
   "overallLeaders": [
     {
@@ -97,6 +97,61 @@
           "battingPoints": 0,
           "pitchingPoints": 63.4,
           "totalPoints": 63.4
+        }
+      ]
+    },
+    {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "C",
+      "battingPoints": 58.4,
+      "pitchingPoints": 0,
+      "totalPoints": 58.4,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 3,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 20.6,
+          "pitchingPoints": 0,
+          "totalPoints": 20.6
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 22.2,
+          "pitchingPoints": 0,
+          "totalPoints": 22.2
         }
       ]
     },
@@ -241,61 +296,6 @@
           "battingPoints": 0,
           "pitchingPoints": 56.8,
           "totalPoints": 56.8
-        }
-      ]
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 53.8,
-      "pitchingPoints": 0,
-      "totalPoints": 53.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 6,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 3,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 20.6,
-          "pitchingPoints": 0,
-          "totalPoints": 20.6
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 17.6,
-          "pitchingPoints": 0,
-          "totalPoints": 17.6
         }
       ]
     },
@@ -841,6 +841,47 @@
       ]
     },
     {
+      "id": 664285,
+      "name": "Framber Valdez",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 42.8,
+      "totalPoints": 42.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 5,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": 42.8,
+          "totalPoints": 42.8
+        }
+      ]
+    },
+    {
       "id": 669432,
       "name": "Trevor Rogers",
       "teamId": 110,
@@ -1269,47 +1310,6 @@
           "battingPoints": 0,
           "pitchingPoints": 38.2,
           "totalPoints": 38.2
-        }
-      ]
-    },
-    {
-      "id": 664285,
-      "name": "Framber Valdez",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 38,
-      "totalPoints": 38,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 0,
-          "pitchingPoints": 38,
-          "totalPoints": 38
         }
       ]
     },
@@ -2527,61 +2527,6 @@
       ]
     },
     {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "SS",
-      "battingPoints": 30.4,
-      "pitchingPoints": 0,
-      "totalPoints": 30.4,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 1,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -2.1,
-          "pitchingPoints": 0,
-          "totalPoints": -2.1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 22.4,
-          "pitchingPoints": 0,
-          "totalPoints": 22.4
-        }
-      ]
-    },
-    {
       "id": 543760,
       "name": "Marcus Semien",
       "teamId": 121,
@@ -2825,6 +2770,68 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
+        }
+      ]
+    },
+    {
+      "id": 682928,
+      "name": "CJ Abrams",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "SS",
+      "battingPoints": 29.4,
+      "pitchingPoints": 0,
+      "totalPoints": 29.4,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 1,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -2.1,
+          "pitchingPoints": 0,
+          "totalPoints": -2.1
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 22.4,
+          "pitchingPoints": 0,
+          "totalPoints": 22.4
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3598,6 +3605,61 @@
       ]
     },
     {
+      "id": 650333,
+      "name": "Luis Arraez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "2B",
+      "battingPoints": 27.6,
+      "pitchingPoints": 0,
+      "totalPoints": 27.6,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 10,
+          "pitchingPoints": 0,
+          "totalPoints": 10
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
       "id": 665152,
       "name": "Dean Kremer",
       "teamId": 142,
@@ -3893,24 +3955,24 @@
       ]
     },
     {
-      "id": 682985,
-      "name": "Riley Greene",
+      "id": 690993,
+      "name": "Colt Keith",
       "teamId": 116,
       "teamName": "Detroit Tigers",
-      "position": "LF",
+      "position": "DH",
       "battingPoints": 26.7,
       "pitchingPoints": 0,
       "totalPoints": 26.7,
       "battingStats": {
-        "atBats": 8,
-        "hits": 4,
-        "doubles": 1,
+        "atBats": 12,
+        "hits": 5,
+        "doubles": 2,
         "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
+        "homeRuns": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
-        "stolenBases": 0
+        "stolenBases": 1
       },
       "pitchingStats": {
         "outs": 0,
@@ -3927,16 +3989,23 @@
         {
           "gamePk": 823108,
           "gameDate": "2026-08-04",
-          "battingPoints": 21.2,
+          "battingPoints": 20.6,
           "pitchingPoints": 0,
-          "totalPoints": 21.2
+          "totalPoints": 20.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
         },
         {
           "gamePk": 823105,
           "gameDate": "2026-08-06",
-          "battingPoints": 5.5,
+          "battingPoints": 10.1,
           "pitchingPoints": 0,
-          "totalPoints": 5.5
+          "totalPoints": 10.1
         }
       ]
     },
@@ -4033,6 +4102,54 @@
           "battingPoints": 19.6,
           "pitchingPoints": 0,
           "totalPoints": 19.6
+        }
+      ]
+    },
+    {
+      "id": 682985,
+      "name": "Riley Greene",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "LF",
+      "battingPoints": 25.7,
+      "pitchingPoints": 0,
+      "totalPoints": 25.7,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 21.2,
+          "pitchingPoints": 0,
+          "totalPoints": 21.2
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -4984,6 +5101,61 @@
       ]
     },
     {
+      "id": 656716,
+      "name": "Zach McKinstry",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "2B",
+      "battingPoints": 22.9,
+      "pitchingPoints": 0,
+      "totalPoints": 22.9,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 2,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 16.9,
+          "pitchingPoints": 0,
+          "totalPoints": 16.9
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        }
+      ]
+    },
+    {
       "id": 701656,
       "name": "Logan Henderson",
       "teamId": 158,
@@ -5247,61 +5419,6 @@
           "battingPoints": 17.6,
           "pitchingPoints": 0,
           "totalPoints": 17.6
-        }
-      ]
-    },
-    {
-      "id": 690993,
-      "name": "Colt Keith",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "DH",
-      "battingPoints": 22.1,
-      "pitchingPoints": 0,
-      "totalPoints": 22.1,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 20.6,
-          "pitchingPoints": 0,
-          "totalPoints": 20.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
         }
       ]
     },
@@ -5957,54 +6074,6 @@
       ]
     },
     {
-      "id": 650333,
-      "name": "Luis Arraez",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "2B",
-      "battingPoints": 20.1,
-      "pitchingPoints": 0,
-      "totalPoints": 20.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 10,
-          "pitchingPoints": 0,
-          "totalPoints": 10
-        }
-      ]
-    },
-    {
       "id": 802139,
       "name": "JJ Wetherholt",
       "teamId": 138,
@@ -6049,61 +6118,6 @@
           "battingPoints": 11.5,
           "pitchingPoints": 0,
           "totalPoints": 11.5
-        }
-      ]
-    },
-    {
-      "id": 656716,
-      "name": "Zach McKinstry",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "2B",
-      "battingPoints": 19.9,
-      "pitchingPoints": 0,
-      "totalPoints": 19.9,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 1,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 16.9,
-          "pitchingPoints": 0,
-          "totalPoints": 16.9
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
         }
       ]
     },
@@ -7267,6 +7281,68 @@
       ]
     },
     {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "1B",
+      "battingPoints": 18.2,
+      "pitchingPoints": 0,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 5,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 0.2,
+          "pitchingPoints": 0,
+          "totalPoints": 0.2
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 641312,
       "name": "Shaun Anderson",
       "teamId": 108,
@@ -7565,6 +7641,61 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
+        }
+      ]
+    },
+    {
+      "id": 695670,
+      "name": "Harry Ford",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "C",
+      "battingPoints": 18,
+      "pitchingPoints": 0,
+      "totalPoints": 18,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 2,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
         }
       ]
     },
@@ -9282,6 +9413,68 @@
       ]
     },
     {
+      "id": 664761,
+      "name": "Alec Bohm",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "3B",
+      "battingPoints": 16.3,
+      "pitchingPoints": 0,
+      "totalPoints": 16.3,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
       "id": 696519,
       "name": "Samy Natera Jr.",
       "teamId": 108,
@@ -9768,61 +9961,6 @@
       ]
     },
     {
-      "id": 691781,
-      "name": "Brady House",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "3B",
-      "battingPoints": 15.6,
-      "pitchingPoints": 0,
-      "totalPoints": 15.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        }
-      ]
-    },
-    {
       "id": 805808,
       "name": "Kevin McGonigle",
       "teamId": 116,
@@ -9963,61 +10101,6 @@
           "battingPoints": 0,
           "pitchingPoints": 15.27,
           "totalPoints": 15.27
-        }
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "1B",
-      "battingPoints": 15.2,
-      "pitchingPoints": 0,
-      "totalPoints": 15.2,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 4,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 0.2,
-          "pitchingPoints": 0,
-          "totalPoints": 0.2
         }
       ]
     },
@@ -10516,6 +10599,68 @@
       ]
     },
     {
+      "id": 691781,
+      "name": "Brady House",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "3B",
+      "battingPoints": 14.6,
+      "pitchingPoints": 0,
+      "totalPoints": 14.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 694384,
       "name": "Nolan Schanuel",
       "teamId": 108,
@@ -10807,6 +10952,47 @@
           "battingPoints": 14.8,
           "pitchingPoints": 0,
           "totalPoints": 14.8
+        }
+      ]
+    },
+    {
+      "id": 650911,
+      "name": "Cristopher Sánchez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.73,
+      "totalPoints": 13.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": 13.73,
+          "totalPoints": 13.73
         }
       ]
     },
@@ -13546,54 +13732,6 @@
       ]
     },
     {
-      "id": 695670,
-      "name": "Harry Ford",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "C",
-      "battingPoints": 10.5,
-      "pitchingPoints": 0,
-      "totalPoints": 10.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 605141,
       "name": "Mookie Betts",
       "teamId": 119,
@@ -14376,6 +14514,68 @@
       ]
     },
     {
+      "id": 607208,
+      "name": "Trea Turner",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": 9.4,
+      "pitchingPoints": 0,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 12.8,
+          "pitchingPoints": 0,
+          "totalPoints": 12.8
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 623352,
       "name": "Josh Hader",
       "teamId": 117,
@@ -15043,102 +15243,6 @@
           "battingPoints": 0,
           "pitchingPoints": 2.47,
           "totalPoints": 2.47
-        }
-      ]
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "3B",
-      "battingPoints": 8.8,
-      "pitchingPoints": 0,
-      "totalPoints": 8.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
-      "id": 681006,
-      "name": "Josh Simpson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 8.8,
-      "totalPoints": 8.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0,
-          "pitchingPoints": 8.8,
-          "totalPoints": 8.8
         }
       ]
     },
@@ -17500,6 +17604,54 @@
       ]
     },
     {
+      "id": 681006,
+      "name": "Josh Simpson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.93,
+      "totalPoints": 6.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0,
+          "pitchingPoints": 8.8,
+          "totalPoints": 8.8
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -1.87,
+          "totalPoints": -1.87
+        }
+      ]
+    },
+    {
       "id": 687377,
       "name": "Orlando Ribalta",
       "teamId": 120,
@@ -19384,61 +19536,6 @@
       ]
     },
     {
-      "id": 607208,
-      "name": "Trea Turner",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "SS",
-      "battingPoints": 4.8,
-      "pitchingPoints": 0,
-      "totalPoints": 4.8,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 12.8,
-          "pitchingPoints": 0,
-          "totalPoints": 12.8
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 642232,
       "name": "Ryan Yarbrough",
       "teamId": 147,
@@ -19877,6 +19974,47 @@
         {
           "gamePk": 824324,
           "gameDate": "2026-08-03",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 701162,
+      "name": "Ben Malgeri",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "PH",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
@@ -20359,61 +20497,6 @@
           "battingPoints": 0,
           "pitchingPoints": 4.2,
           "totalPoints": 4.2
-        }
-      ]
-    },
-    {
-      "id": 669016,
-      "name": "Brandon Marsh",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "LF",
-      "battingPoints": 4.1,
-      "pitchingPoints": 0,
-      "totalPoints": 4.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
         }
       ]
     },
@@ -21117,61 +21200,6 @@
       ]
     },
     {
-      "id": 665953,
-      "name": "Andrés Chaparro",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "1B",
-      "battingPoints": 3.5,
-      "pitchingPoints": 0,
-      "totalPoints": 3.5,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        }
-      ]
-    },
-    {
       "id": 678760,
       "name": "Eddys Leonard",
       "teamId": 137,
@@ -21597,22 +21625,22 @@
       ]
     },
     {
-      "id": 656941,
-      "name": "Kyle Schwarber",
+      "id": 669016,
+      "name": "Brandon Marsh",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "DH",
-      "battingPoints": 3,
+      "position": "LF",
+      "battingPoints": 3.1,
       "pitchingPoints": 0,
-      "totalPoints": 3,
+      "totalPoints": 3.1,
       "battingStats": {
-        "atBats": 9,
-        "hits": 0,
-        "doubles": 0,
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 1,
+        "walks": 0,
+        "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -21631,23 +21659,30 @@
         {
           "gamePk": 823431,
           "gameDate": "2026-08-03",
-          "battingPoints": 4,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 4
+          "totalPoints": -1
         },
         {
           "gamePk": 823432,
           "gameDate": "2026-08-04",
-          "battingPoints": -4,
+          "battingPoints": 4.5,
           "pitchingPoints": 0,
-          "totalPoints": -4
+          "totalPoints": 4.5
         },
         {
           "gamePk": 823429,
           "gameDate": "2026-08-05",
-          "battingPoints": 3,
+          "battingPoints": 0.6,
           "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -21871,6 +21906,47 @@
         {
           "gamePk": 824482,
           "gameDate": "2026-08-05",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 642215,
+      "name": "Weston Wilson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "1B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
@@ -22371,6 +22447,68 @@
       ]
     },
     {
+      "id": 665953,
+      "name": "Andrés Chaparro",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 2.5,
+      "pitchingPoints": 0,
+      "totalPoints": 2.5,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 687859,
       "name": "Troy Johnston",
       "teamId": 115,
@@ -22851,22 +22989,22 @@
       ]
     },
     {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
       "battingPoints": 2,
       "pitchingPoints": 0,
       "totalPoints": 2,
       "battingStats": {
-        "atBats": 7,
+        "atBats": 10,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
         "walks": 3,
-        "hitByPitch": 0,
+        "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -22883,25 +23021,32 @@
       },
       "games": [
         {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
         },
         {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
         },
         {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 2,
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 3,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 3
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -23248,6 +23393,47 @@
       ]
     },
     {
+      "id": 595879,
+      "name": "Javier Báez",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "SS",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
       "id": 669065,
       "name": "Kyle Stowers",
       "teamId": 146,
@@ -23545,61 +23731,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 703601,
-      "name": "Max Clark",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "CF",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -24077,6 +24208,61 @@
       ]
     },
     {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
       "id": 801501,
       "name": "Nate Furman",
       "teamId": 137,
@@ -24306,6 +24492,61 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 703601,
+      "name": "Max Clark",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "CF",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
         }
       ]
     },
@@ -24676,54 +24917,6 @@
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
         }
       ]
     },
@@ -25447,6 +25640,47 @@
       ]
     },
     {
+      "id": 687605,
+      "name": "Andrew Pinckney",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691373,
       "name": "Jhostynxon Garcia",
       "teamId": 134,
@@ -26049,6 +26283,61 @@
       ]
     },
     {
+      "id": 686611,
+      "name": "Dylan Crews",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691777,
       "name": "Max Muncy",
       "teamId": 133,
@@ -26330,47 +26619,6 @@
       ]
     },
     {
-      "id": 640902,
-      "name": "Jhonny Pereda",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 642086,
       "name": "Dominic Smith",
       "teamId": 144,
@@ -26405,47 +26653,6 @@
         {
           "gamePk": 824888,
           "gameDate": "2026-08-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 642215,
-      "name": "Weston Wilson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "1B",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
@@ -27172,61 +27379,6 @@
       ]
     },
     {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "1B",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 573262,
       "name": "Mike Yastrzemski",
       "teamId": 144,
@@ -27271,47 +27423,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 595879,
-      "name": "Javier Báez",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "SS",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -27391,6 +27502,47 @@
         {
           "gamePk": 824082,
           "gameDate": "2026-08-05",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 640902,
+      "name": "Jhonny Pereda",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "C",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
@@ -28199,6 +28351,47 @@
       ]
     },
     {
+      "id": 571945,
+      "name": "Miles Mikolas",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -3.4,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -3.4,
+          "totalPoints": -3.4
+        }
+      ]
+    },
+    {
       "id": 628452,
       "name": "Raisel Iglesias",
       "teamId": 144,
@@ -28336,6 +28529,54 @@
         {
           "gamePk": 824481,
           "gameDate": "2026-08-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 679529,
+      "name": "Spencer Torkelson",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "1B",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
@@ -29857,6 +30098,54 @@
       ]
     },
     {
+      "id": 677961,
+      "name": "Cole Wilcox",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.24,
+      "totalPoints": -7.24,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0,
+          "pitchingPoints": 8.93,
+          "totalPoints": 8.93
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -16.17,
+          "totalPoints": -16.17
+        }
+      ]
+    },
+    {
       "id": 621345,
       "name": "A.J. Minter",
       "teamId": 142,
@@ -30154,54 +30443,6 @@
           "battingPoints": 0,
           "pitchingPoints": 6.4,
           "totalPoints": 6.4
-        }
-      ]
-    },
-    {
-      "id": 677961,
-      "name": "Cole Wilcox",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -9.1,
-      "totalPoints": -9.1,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0,
-          "pitchingPoints": 8.93,
-          "totalPoints": 8.93
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 0,
-          "pitchingPoints": -18.03,
-          "totalPoints": -18.03
         }
       ]
     },
@@ -31132,6 +31373,61 @@
   ],
   "hitterLeaders": [
     {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "C",
+      "battingPoints": 58.4,
+      "pitchingPoints": 0,
+      "totalPoints": 58.4,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 3,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 20.6,
+          "pitchingPoints": 0,
+          "totalPoints": 20.6
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 22.2,
+          "pitchingPoints": 0,
+          "totalPoints": 22.2
+        }
+      ]
+    },
+    {
       "id": 691718,
       "name": "Pete Crow-Armstrong",
       "teamId": 112,
@@ -31190,61 +31486,6 @@
           "battingPoints": 8.1,
           "pitchingPoints": 0,
           "totalPoints": 8.1
-        }
-      ]
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 53.8,
-      "pitchingPoints": 0,
-      "totalPoints": 53.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 6,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 3,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 20.6,
-          "pitchingPoints": 0,
-          "totalPoints": 20.6
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 17.6,
-          "pitchingPoints": 0,
-          "totalPoints": 17.6
         }
       ]
     },
@@ -32232,61 +32473,6 @@
       ]
     },
     {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "SS",
-      "battingPoints": 30.4,
-      "pitchingPoints": 0,
-      "totalPoints": 30.4,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 1,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -2.1,
-          "pitchingPoints": 0,
-          "totalPoints": -2.1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 22.4,
-          "pitchingPoints": 0,
-          "totalPoints": 22.4
-        }
-      ]
-    },
-    {
       "id": 543760,
       "name": "Marcus Semien",
       "teamId": 121,
@@ -32441,6 +32627,68 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
+        }
+      ]
+    },
+    {
+      "id": 682928,
+      "name": "CJ Abrams",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "SS",
+      "battingPoints": 29.4,
+      "pitchingPoints": 0,
+      "totalPoints": 29.4,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 5,
+        "doubles": 1,
+        "triples": 1,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -2.1,
+          "pitchingPoints": 0,
+          "totalPoints": -2.1
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 22.4,
+          "pitchingPoints": 0,
+          "totalPoints": 22.4
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -32954,6 +33202,61 @@
       ]
     },
     {
+      "id": 650333,
+      "name": "Luis Arraez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "2B",
+      "battingPoints": 27.6,
+      "pitchingPoints": 0,
+      "totalPoints": 27.6,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 10,
+          "pitchingPoints": 0,
+          "totalPoints": 10
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "teamId": 143,
@@ -33071,24 +33374,24 @@
       ]
     },
     {
-      "id": 682985,
-      "name": "Riley Greene",
+      "id": 690993,
+      "name": "Colt Keith",
       "teamId": 116,
       "teamName": "Detroit Tigers",
-      "position": "LF",
+      "position": "DH",
       "battingPoints": 26.7,
       "pitchingPoints": 0,
       "totalPoints": 26.7,
       "battingStats": {
-        "atBats": 8,
-        "hits": 4,
-        "doubles": 1,
+        "atBats": 12,
+        "hits": 5,
+        "doubles": 2,
         "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
+        "homeRuns": 0,
+        "walks": 1,
         "hitByPitch": 0,
         "caughtStealing": 0,
-        "stolenBases": 0
+        "stolenBases": 1
       },
       "pitchingStats": {
         "outs": 0,
@@ -33105,16 +33408,23 @@
         {
           "gamePk": 823108,
           "gameDate": "2026-08-04",
-          "battingPoints": 21.2,
+          "battingPoints": 20.6,
           "pitchingPoints": 0,
-          "totalPoints": 21.2
+          "totalPoints": 20.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
         },
         {
           "gamePk": 823105,
           "gameDate": "2026-08-06",
-          "battingPoints": 5.5,
+          "battingPoints": 10.1,
           "pitchingPoints": 0,
-          "totalPoints": 5.5
+          "totalPoints": 10.1
         }
       ]
     },
@@ -33170,6 +33480,54 @@
           "battingPoints": 19.6,
           "pitchingPoints": 0,
           "totalPoints": 19.6
+        }
+      ]
+    },
+    {
+      "id": 682985,
+      "name": "Riley Greene",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "LF",
+      "battingPoints": 25.7,
+      "pitchingPoints": 0,
+      "totalPoints": 25.7,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 21.2,
+          "pitchingPoints": 0,
+          "totalPoints": 21.2
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -33717,6 +34075,61 @@
       ]
     },
     {
+      "id": 656716,
+      "name": "Zach McKinstry",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "2B",
+      "battingPoints": 22.9,
+      "pitchingPoints": 0,
+      "totalPoints": 22.9,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 2,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 16.9,
+          "pitchingPoints": 0,
+          "totalPoints": 16.9
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        }
+      ]
+    },
+    {
       "id": 665926,
       "name": "Andrés Giménez",
       "teamId": 141,
@@ -33816,61 +34229,6 @@
           "battingPoints": 17.6,
           "pitchingPoints": 0,
           "totalPoints": 17.6
-        }
-      ]
-    },
-    {
-      "id": 690993,
-      "name": "Colt Keith",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "DH",
-      "battingPoints": 22.1,
-      "pitchingPoints": 0,
-      "totalPoints": 22.1,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 20.6,
-          "pitchingPoints": 0,
-          "totalPoints": 20.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
         }
       ]
     },
@@ -34218,54 +34576,6 @@
       ]
     },
     {
-      "id": 650333,
-      "name": "Luis Arraez",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "2B",
-      "battingPoints": 20.1,
-      "pitchingPoints": 0,
-      "totalPoints": 20.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 10,
-          "pitchingPoints": 0,
-          "totalPoints": 10
-        }
-      ]
-    },
-    {
       "id": 802139,
       "name": "JJ Wetherholt",
       "teamId": 138,
@@ -34310,61 +34620,6 @@
           "battingPoints": 11.5,
           "pitchingPoints": 0,
           "totalPoints": 11.5
-        }
-      ]
-    },
-    {
-      "id": 656716,
-      "name": "Zach McKinstry",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "2B",
-      "battingPoints": 19.9,
-      "pitchingPoints": 0,
-      "totalPoints": 19.9,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 1,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 16.9,
-          "pitchingPoints": 0,
-          "totalPoints": 16.9
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
         }
       ]
     },
@@ -35008,6 +35263,68 @@
       ]
     },
     {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "1B",
+      "battingPoints": 18.2,
+      "pitchingPoints": 0,
+      "totalPoints": 18.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 5,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 0.2,
+          "pitchingPoints": 0,
+          "totalPoints": 0.2
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 661388,
       "name": "William Contreras",
       "teamId": 158,
@@ -35217,6 +35534,61 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
+        }
+      ]
+    },
+    {
+      "id": 695670,
+      "name": "Harry Ford",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "C",
+      "battingPoints": 18,
+      "pitchingPoints": 0,
+      "totalPoints": 18,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 2,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
         }
       ]
     },
@@ -35825,6 +36197,68 @@
       ]
     },
     {
+      "id": 664761,
+      "name": "Alec Bohm",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "3B",
+      "battingPoints": 16.3,
+      "pitchingPoints": 0,
+      "totalPoints": 16.3,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        }
+      ]
+    },
+    {
       "id": 664774,
       "name": "LaMonte Wade Jr.",
       "teamId": 117,
@@ -35921,61 +36355,6 @@
       ]
     },
     {
-      "id": 691781,
-      "name": "Brady House",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "3B",
-      "battingPoints": 15.6,
-      "pitchingPoints": 0,
-      "totalPoints": 15.6,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        }
-      ]
-    },
-    {
       "id": 805808,
       "name": "Kevin McGonigle",
       "teamId": 116,
@@ -36027,61 +36406,6 @@
           "battingPoints": 20.6,
           "pitchingPoints": 0,
           "totalPoints": 20.6
-        }
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "1B",
-      "battingPoints": 15.2,
-      "pitchingPoints": 0,
-      "totalPoints": 15.2,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 4,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 0.2,
-          "pitchingPoints": 0,
-          "totalPoints": 0.2
         }
       ]
     },
@@ -36480,6 +36804,68 @@
           "battingPoints": 14.7,
           "pitchingPoints": 0,
           "totalPoints": 14.7
+        }
+      ]
+    },
+    {
+      "id": 691781,
+      "name": "Brady House",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "3B",
+      "battingPoints": 14.6,
+      "pitchingPoints": 0,
+      "totalPoints": 14.6,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -38324,54 +38710,6 @@
       ]
     },
     {
-      "id": 695670,
-      "name": "Harry Ford",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "C",
-      "battingPoints": 10.5,
-      "pitchingPoints": 0,
-      "totalPoints": 10.5,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
       "id": 605141,
       "name": "Mookie Betts",
       "teamId": 119,
@@ -38983,6 +39321,68 @@
       ]
     },
     {
+      "id": 607208,
+      "name": "Trea Turner",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": 9.4,
+      "pitchingPoints": 0,
+      "totalPoints": 9.4,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": 12.8,
+          "pitchingPoints": 0,
+          "totalPoints": 12.8
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 694671,
       "name": "Wyatt Langford",
       "teamId": 140,
@@ -39233,61 +39633,6 @@
           "battingPoints": -0.2,
           "pitchingPoints": 0,
           "totalPoints": -0.2
-        }
-      ]
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "3B",
-      "battingPoints": 8.8,
-      "pitchingPoints": 0,
-      "totalPoints": 8.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
         }
       ]
     },
@@ -41721,61 +42066,6 @@
       ]
     },
     {
-      "id": 607208,
-      "name": "Trea Turner",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "SS",
-      "battingPoints": 4.8,
-      "pitchingPoints": 0,
-      "totalPoints": 4.8,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 12.8,
-          "pitchingPoints": 0,
-          "totalPoints": 12.8
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 695720,
       "name": "Tommy White",
       "teamId": 133,
@@ -41927,6 +42217,47 @@
       ]
     },
     {
+      "id": 701162,
+      "name": "Ben Malgeri",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "PH",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 649966,
       "name": "Luis Urías",
       "teamId": 141,
@@ -42060,61 +42391,6 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
-        }
-      ]
-    },
-    {
-      "id": 669016,
-      "name": "Brandon Marsh",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "LF",
-      "battingPoints": 4.1,
-      "pitchingPoints": 0,
-      "totalPoints": 4.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
         }
       ]
     },
@@ -42736,61 +43012,6 @@
       ]
     },
     {
-      "id": 665953,
-      "name": "Andrés Chaparro",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "1B",
-      "battingPoints": 3.5,
-      "pitchingPoints": 0,
-      "totalPoints": 3.5,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823431,
-          "gameDate": "2026-08-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        }
-      ]
-    },
-    {
       "id": 678760,
       "name": "Eddys Leonard",
       "teamId": 137,
@@ -43086,22 +43307,22 @@
       ]
     },
     {
-      "id": 656941,
-      "name": "Kyle Schwarber",
+      "id": 669016,
+      "name": "Brandon Marsh",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "DH",
-      "battingPoints": 3,
+      "position": "LF",
+      "battingPoints": 3.1,
       "pitchingPoints": 0,
-      "totalPoints": 3,
+      "totalPoints": 3.1,
       "battingStats": {
-        "atBats": 9,
-        "hits": 0,
-        "doubles": 0,
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 1,
+        "walks": 0,
+        "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -43120,23 +43341,30 @@
         {
           "gamePk": 823431,
           "gameDate": "2026-08-03",
-          "battingPoints": 4,
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 4
+          "totalPoints": -1
         },
         {
           "gamePk": 823432,
           "gameDate": "2026-08-04",
-          "battingPoints": -4,
+          "battingPoints": 4.5,
           "pitchingPoints": 0,
-          "totalPoints": -4
+          "totalPoints": 4.5
         },
         {
           "gamePk": 823429,
           "gameDate": "2026-08-05",
-          "battingPoints": 3,
+          "battingPoints": 0.6,
           "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -43278,6 +43506,47 @@
         {
           "gamePk": 824482,
           "gameDate": "2026-08-05",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 642215,
+      "name": "Weston Wilson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "1B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
@@ -43778,6 +44047,68 @@
       ]
     },
     {
+      "id": 665953,
+      "name": "Andrés Chaparro",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 2.5,
+      "pitchingPoints": 0,
+      "totalPoints": 2.5,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 687859,
       "name": "Troy Johnston",
       "teamId": 115,
@@ -44087,22 +44418,22 @@
       ]
     },
     {
-      "id": 702284,
-      "name": "Cole Young",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "2B",
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
       "battingPoints": 2,
       "pitchingPoints": 0,
       "totalPoints": 2,
       "battingStats": {
-        "atBats": 7,
+        "atBats": 10,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
         "walks": 3,
-        "hitByPitch": 0,
+        "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -44119,25 +44450,32 @@
       },
       "games": [
         {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
+          "gamePk": 823431,
+          "gameDate": "2026-08-03",
           "battingPoints": 4,
           "pitchingPoints": 0,
           "totalPoints": 4
         },
         {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
         },
         {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 2,
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 3,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 3
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -44227,6 +44565,47 @@
           "battingPoints": 4.5,
           "pitchingPoints": 0,
           "totalPoints": 4.5
+        }
+      ]
+    },
+    {
+      "id": 595879,
+      "name": "Javier Báez",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "SS",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
         }
       ]
     },
@@ -44487,61 +44866,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 703601,
-      "name": "Max Clark",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "CF",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -44882,6 +45206,61 @@
       ]
     },
     {
+      "id": 702284,
+      "name": "Cole Young",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "2B",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
       "id": 801501,
       "name": "Nate Furman",
       "teamId": 137,
@@ -45029,6 +45408,61 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 703601,
+      "name": "Max Clark",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "CF",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
         }
       ]
     },
@@ -45228,54 +45662,6 @@
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823432,
-          "gameDate": "2026-08-04",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823429,
-          "gameDate": "2026-08-05",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
         }
       ]
     },
@@ -45824,6 +46210,47 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 687605,
+      "name": "Andrew Pinckney",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -46389,6 +46816,61 @@
       ]
     },
     {
+      "id": 686611,
+      "name": "Dylan Crews",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823432,
+          "gameDate": "2026-08-04",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823429,
+          "gameDate": "2026-08-05",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        },
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691777,
       "name": "Max Muncy",
       "teamId": 133,
@@ -46499,47 +46981,6 @@
       ]
     },
     {
-      "id": 640902,
-      "name": "Jhonny Pereda",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 642086,
       "name": "Dominic Smith",
       "teamId": 144,
@@ -46574,47 +47015,6 @@
         {
           "gamePk": 824888,
           "gameDate": "2026-08-04",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 642215,
-      "name": "Weston Wilson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "1B",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
@@ -47300,61 +47700,6 @@
       ]
     },
     {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "1B",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        }
-      ]
-    },
-    {
       "id": 573262,
       "name": "Mike Yastrzemski",
       "teamId": 144,
@@ -47399,47 +47744,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 595879,
-      "name": "Javier Báez",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "SS",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
         }
       ]
     },
@@ -47519,6 +47823,47 @@
         {
           "gamePk": 824082,
           "gameDate": "2026-08-05",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 640902,
+      "name": "Jhonny Pereda",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "C",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
@@ -48375,6 +48720,54 @@
         {
           "gamePk": 824481,
           "gameDate": "2026-08-06",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 679529,
+      "name": "Spencer Torkelson",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "1B",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
@@ -49953,6 +50346,47 @@
       ]
     },
     {
+      "id": 664285,
+      "name": "Framber Valdez",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 42.8,
+      "totalPoints": 42.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 5,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": 42.8,
+          "totalPoints": 42.8
+        }
+      ]
+    },
+    {
       "id": 669432,
       "name": "Trevor Rogers",
       "teamId": 110,
@@ -50154,47 +50588,6 @@
           "battingPoints": 0,
           "pitchingPoints": 38.2,
           "totalPoints": 38.2
-        }
-      ]
-    },
-    {
-      "id": 664285,
-      "name": "Framber Valdez",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 38,
-      "totalPoints": 38,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 4,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 0,
-          "pitchingPoints": 38,
-          "totalPoints": 38
         }
       ]
     },
@@ -54736,6 +55129,47 @@
       ]
     },
     {
+      "id": 650911,
+      "name": "Cristopher Sánchez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 13.73,
+      "totalPoints": 13.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": 13.73,
+          "totalPoints": 13.73
+        }
+      ]
+    },
+    {
       "id": 693686,
       "name": "Spencer Miles",
       "teamId": 141,
@@ -56425,47 +56859,6 @@
       ]
     },
     {
-      "id": 681006,
-      "name": "Josh Simpson",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 8.8,
-      "totalPoints": 8.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0,
-          "pitchingPoints": 8.8,
-          "totalPoints": 8.8
-        }
-      ]
-    },
-    {
       "id": 680732,
       "name": "Sean Burke",
       "teamId": 145,
@@ -57481,6 +57874,54 @@
           "battingPoints": 0,
           "pitchingPoints": 2.47,
           "totalPoints": 2.47
+        }
+      ]
+    },
+    {
+      "id": 681006,
+      "name": "Josh Simpson",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.93,
+      "totalPoints": 6.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 4,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0,
+          "pitchingPoints": 8.8,
+          "totalPoints": 8.8
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -1.87,
+          "totalPoints": -1.87
         }
       ]
     },
@@ -60535,6 +60976,47 @@
       ]
     },
     {
+      "id": 571945,
+      "name": "Miles Mikolas",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -3.4,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823430,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -3.4,
+          "totalPoints": -3.4
+        }
+      ]
+    },
+    {
       "id": 628452,
       "name": "Raisel Iglesias",
       "teamId": 144,
@@ -61137,6 +61619,54 @@
       ]
     },
     {
+      "id": 677961,
+      "name": "Cole Wilcox",
+      "teamId": 136,
+      "teamName": "Seattle Mariners",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -7.24,
+      "totalPoints": -7.24,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 0,
+          "pitchingPoints": 8.93,
+          "totalPoints": 8.93
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": -16.17,
+          "totalPoints": -16.17
+        }
+      ]
+    },
+    {
       "id": 621345,
       "name": "A.J. Minter",
       "teamId": 142,
@@ -61386,54 +61916,6 @@
           "battingPoints": 0,
           "pitchingPoints": 6.4,
           "totalPoints": 6.4
-        }
-      ]
-    },
-    {
-      "id": 677961,
-      "name": "Cole Wilcox",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -9.1,
-      "totalPoints": -9.1,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 0,
-          "pitchingPoints": 8.93,
-          "totalPoints": 8.93
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 0,
-          "pitchingPoints": -18.03,
-          "totalPoints": -18.03
         }
       ]
     },
@@ -62329,6 +62811,61 @@
       ]
     },
     {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "C",
+      "battingPoints": 58.4,
+      "pitchingPoints": 0,
+      "totalPoints": 58.4,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 3,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823108,
+          "gameDate": "2026-08-04",
+          "battingPoints": 15.6,
+          "pitchingPoints": 0,
+          "totalPoints": 15.6
+        },
+        {
+          "gamePk": 823106,
+          "gameDate": "2026-08-05",
+          "battingPoints": 20.6,
+          "pitchingPoints": 0,
+          "totalPoints": 20.6
+        },
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 22.2,
+          "pitchingPoints": 0,
+          "totalPoints": 22.2
+        }
+      ]
+    },
+    {
       "id": 683352,
       "name": "Mitch Bratt",
       "teamId": 109,
@@ -62469,61 +63006,6 @@
           "battingPoints": 0,
           "pitchingPoints": 56.8,
           "totalPoints": 56.8
-        }
-      ]
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 53.8,
-      "pitchingPoints": 0,
-      "totalPoints": 53.8,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 6,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 3,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823108,
-          "gameDate": "2026-08-04",
-          "battingPoints": 15.6,
-          "pitchingPoints": 0,
-          "totalPoints": 15.6
-        },
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 20.6,
-          "pitchingPoints": 0,
-          "totalPoints": 20.6
-        },
-        {
-          "gamePk": 823105,
-          "gameDate": "2026-08-06",
-          "battingPoints": 17.6,
-          "pitchingPoints": 0,
-          "totalPoints": 17.6
         }
       ]
     },
@@ -63069,6 +63551,47 @@
       ]
     },
     {
+      "id": 664285,
+      "name": "Framber Valdez",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 42.8,
+      "totalPoints": 42.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 21,
+        "inningsPitched": "7.0",
+        "hitsAllowed": 5,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 5,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823105,
+          "gameDate": "2026-08-06",
+          "battingPoints": 0,
+          "pitchingPoints": 42.8,
+          "totalPoints": 42.8
+        }
+      ]
+    },
+    {
       "id": 669432,
       "name": "Trevor Rogers",
       "teamId": 110,
@@ -63106,47 +63629,6 @@
           "battingPoints": 0,
           "pitchingPoints": 42.3,
           "totalPoints": 42.3
-        }
-      ]
-    },
-    {
-      "id": 693433,
-      "name": "Bryan Woo",
-      "teamId": 136,
-      "teamName": "Seattle Mariners",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 42,
-      "totalPoints": 42,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 21,
-        "inningsPitched": "7.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 3,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 5,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823106,
-          "gameDate": "2026-08-05",
-          "battingPoints": 0,
-          "pitchingPoints": 42,
-          "totalPoints": 42
         }
       ]
     }
