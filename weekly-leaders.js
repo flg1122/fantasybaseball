@@ -2,9 +2,13 @@ const fs = require("fs");
 const path = require("path");
 
 
+
+
 function num(value) {
   return Number(value || 0);
 }
+
+
 
 
 function round(value) {
@@ -12,11 +16,15 @@ function round(value) {
 }
 
 
+
+
 function outsToInnings(outs) {
   const fullInnings = Math.floor(outs / 3);
   const remainder = outs % 3;
   return `${fullInnings}.${remainder}`;
 }
+
+
 
 
 function formatDateET(date) {
@@ -29,53 +37,20 @@ function formatDateET(date) {
 }
 
 
+
+
 function getCurrentWeekDatesET() {
   const now = new Date();
 
 
-  const todayET = formatDateET(now);
-
-
-  // MLB All-Star Break scoring period
-  const allStarStart = "2026-07-13";
-  const allStarEnd = "2026-07-26";
-
-
-  // During the extended scoring period always start on July 13
-  if (todayET >= allStarStart && todayET <= allStarEnd) {
-    const dates = [];
-
-
-    const start = new Date("2026-07-13T12:00:00");
-
-
-    while (true) {
-      const formatted = formatDateET(start);
-
-
-      dates.push(formatted);
-
-
-      if (formatted === todayET) {
-        break;
-      }
-
-
-      start.setDate(start.getDate() + 1);
-    }
-
-
-    return dates;
-  }
-
-
-  // ===== Normal weekly behavior =====
 
 
   const weekday = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
     weekday: "short",
   }).format(now);
+
+
 
 
   const dayMap = {
@@ -89,15 +64,23 @@ function getCurrentWeekDatesET() {
   };
 
 
+
+
   const currentDay = dayMap[weekday];
   const daysSinceMonday = currentDay === 0 ? 6 : currentDay - 1;
+
+
 
 
   const monday = new Date(now);
   monday.setDate(now.getDate() - daysSinceMonday);
 
 
+
+
   const dates = [];
+
+
 
 
   for (let i = 0; i <= daysSinceMonday; i++) {
@@ -107,9 +90,10 @@ function getCurrentWeekDatesET() {
   }
 
 
+
+
   return dates;
 }
-
 
 
 
@@ -129,8 +113,12 @@ function scoreBatting(b = {}) {
 }
 
 
+
+
 function scorePitching(p = {}) {
   const pointsPerOut = 7.4 / 3;
+
+
 
 
   return (
@@ -146,14 +134,20 @@ function scorePitching(p = {}) {
 }
 
 
+
+
 async function getGamesForDate(date) {
   const url = `https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=${date}`;
   const res = await fetch(url);
   const data = await res.json();
 
 
+
+
   return data.dates?.[0]?.games || [];
 }
+
+
 
 
 async function scoreGame(gamePk, gameDate) {
@@ -162,12 +156,18 @@ async function scoreGame(gamePk, gameDate) {
   const data = await res.json();
 
 
+
+
   const teams = data.liveData?.boxscore?.teams;
+
+
 
 
   if (!teams?.away?.players || !teams?.home?.players) {
     return [];
   }
+
+
 
 
   const teamNameMap = {
@@ -176,10 +176,14 @@ async function scoreGame(gamePk, gameDate) {
   };
 
 
+
+
   const players = {
     ...teams.away.players,
     ...teams.home.players,
   };
+
+
 
 
   return Object.values(players)
@@ -189,9 +193,13 @@ async function scoreGame(gamePk, gameDate) {
       const teamId = player.parentTeamId;
 
 
+
+
       const battingPoints = round(scoreBatting(batting));
       const pitchingPoints = round(scorePitching(pitching));
       const totalPoints = round(battingPoints + pitchingPoints);
+
+
 
 
       return {
@@ -202,6 +210,8 @@ async function scoreGame(gamePk, gameDate) {
         position: player.position?.abbreviation || "",
         gamePk,
         gameDate,
+
+
 
 
         battingStats: {
@@ -217,6 +227,8 @@ async function scoreGame(gamePk, gameDate) {
         },
 
 
+
+
         pitchingStats: {
           outs: num(pitching.outs),
           hitsAllowed: num(pitching.hits),
@@ -229,6 +241,8 @@ async function scoreGame(gamePk, gameDate) {
         },
 
 
+
+
         battingPoints,
         pitchingPoints,
         totalPoints,
@@ -238,8 +252,12 @@ async function scoreGame(gamePk, gameDate) {
 }
 
 
+
+
 function addToLeaderboard(leaderboard, playerGame) {
   const key = String(playerGame.id);
+
+
 
 
   if (!leaderboard[key]) {
@@ -252,6 +270,8 @@ function addToLeaderboard(leaderboard, playerGame) {
       battingPoints: 0,
       pitchingPoints: 0,
       totalPoints: 0,
+
+
 
 
       battingStats: {
@@ -267,6 +287,8 @@ function addToLeaderboard(leaderboard, playerGame) {
       },
 
 
+
+
       pitchingStats: {
         outs: 0,
         inningsPitched: "0.0",
@@ -280,17 +302,25 @@ function addToLeaderboard(leaderboard, playerGame) {
       },
 
 
+
+
       games: [],
     };
   }
 
 
+
+
   const p = leaderboard[key];
+
+
 
 
   const alreadyCounted = p.games.some(
     (game) => Number(game.gamePk) === Number(playerGame.gamePk)
   );
+
+
 
 
   if (alreadyCounted) {
@@ -301,9 +331,13 @@ function addToLeaderboard(leaderboard, playerGame) {
   }
 
 
+
+
   p.battingPoints = round(p.battingPoints + playerGame.battingPoints);
   p.pitchingPoints = round(p.pitchingPoints + playerGame.pitchingPoints);
   p.totalPoints = round(p.totalPoints + playerGame.totalPoints);
+
+
 
 
   for (const stat in playerGame.battingStats) {
@@ -312,13 +346,19 @@ function addToLeaderboard(leaderboard, playerGame) {
   }
 
 
+
+
   for (const stat in playerGame.pitchingStats) {
     p.pitchingStats[stat] =
       num(p.pitchingStats[stat]) + num(playerGame.pitchingStats[stat]);
   }
 
 
+
+
   p.pitchingStats.inningsPitched = outsToInnings(p.pitchingStats.outs);
+
+
 
 
   p.games.push({
@@ -331,13 +371,19 @@ function addToLeaderboard(leaderboard, playerGame) {
 }
 
 
+
+
 async function run() {
   const dates = getCurrentWeekDatesET();
   const leaderboard = {};
   const processedGamePks = new Set();
 
 
+
+
   console.log("Scoring dates:", dates.join(", "));
+
+
 
 
   for (const date of dates) {
@@ -345,14 +391,20 @@ async function run() {
     console.log(`${date}: ${games.length} games`);
 
 
+
+
     for (const game of games) {
       const gamePk = game.gamePk;
       const status = game.status?.abstractGameState;
 
 
+
+
       if (!["Final", "Live"].includes(status)) {
         continue;
       }
+
+
 
 
       if (processedGamePks.has(gamePk)) {
@@ -361,10 +413,16 @@ async function run() {
       }
 
 
+
+
       processedGamePks.add(gamePk);
 
 
+
+
       const scoredPlayers = await scoreGame(gamePk, date);
+
+
 
 
       for (const playerGame of scoredPlayers) {
@@ -374,7 +432,11 @@ async function run() {
   }
 
 
+
+
   const allPlayers = Object.values(leaderboard);
+
+
 
 
   const overallLeaders = allPlayers
@@ -382,9 +444,13 @@ async function run() {
     .sort((a, b) => b.totalPoints - a.totalPoints);
 
 
+
+
   const hitterLeaders = allPlayers
     .filter((p) => p.battingPoints !== 0)
     .sort((a, b) => b.battingPoints - a.battingPoints);
+
+
 
 
   const pitcherLeaders = allPlayers
@@ -392,7 +458,11 @@ async function run() {
     .sort((a, b) => b.pitchingPoints - a.pitchingPoints);
 
 
+
+
   const now = new Date();
+
+
 
 
   const output = {
@@ -418,8 +488,12 @@ async function run() {
   };
 
 
+
+
   const outPath = path.join(__dirname, "data", "weekly-leaders.json");
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
+
+
 
 
   console.log(`Wrote ${outPath}`);
@@ -429,5 +503,11 @@ async function run() {
 }
 
 
+
+
 run();
+
+
+
+
 
