@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T20:01:08.260Z",
-  "generatedAtET": "8/14/2026, 4:01:08 PM",
+  "generatedAt": "2026-08-14T20:31:07.553Z",
+  "generatedAtET": "8/14/2026, 4:31:07 PM",
   "scoringPeriod": {
     "start": "2026-08-10",
     "end": "2026-08-14",
@@ -14,9 +14,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 702,
+    "overall": 703,
     "hitters": 376,
-    "pitchers": 328
+    "pitchers": 329
   },
   "overallLeaders": [
     {
@@ -369,6 +369,47 @@
       ]
     },
     {
+      "id": 605280,
+      "name": "Clay Holmes",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 49.73,
+      "totalPoints": 49.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 49.73,
+          "totalPoints": 49.73
+        }
+      ]
+    },
+    {
       "id": 545361,
       "name": "Mike Trout",
       "teamId": 108,
@@ -530,47 +571,6 @@
           "battingPoints": 0,
           "pitchingPoints": 48,
           "totalPoints": 48
-        }
-      ]
-    },
-    {
-      "id": 605280,
-      "name": "Clay Holmes",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 47.8,
-      "totalPoints": 47.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 0,
-          "pitchingPoints": 47.8,
-          "totalPoints": 47.8
         }
       ]
     },
@@ -1611,68 +1611,6 @@
       ]
     },
     {
-      "id": 621020,
-      "name": "Dansby Swanson",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "SS",
-      "battingPoints": 37,
-      "pitchingPoints": 0,
-      "totalPoints": 37,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 4,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": 22.5,
-          "pitchingPoints": 0,
-          "totalPoints": 22.5
-        },
-        {
-          "gamePk": 822696,
-          "gameDate": "2026-08-13",
-          "battingPoints": 5,
-          "pitchingPoints": 0,
-          "totalPoints": 5
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 672282,
       "name": "Reid Detmers",
       "teamId": 108,
@@ -1840,6 +1778,68 @@
           "battingPoints": 0,
           "pitchingPoints": 36.07,
           "totalPoints": 36.07
+        }
+      ]
+    },
+    {
+      "id": 621020,
+      "name": "Dansby Swanson",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "SS",
+      "battingPoints": 36,
+      "pitchingPoints": 0,
+      "totalPoints": 36,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 4,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": 22.5,
+          "pitchingPoints": 0,
+          "totalPoints": 22.5
+        },
+        {
+          "gamePk": 822696,
+          "gameDate": "2026-08-13",
+          "battingPoints": 5,
+          "pitchingPoints": 0,
+          "totalPoints": 5
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -3737,68 +3737,6 @@
       ]
     },
     {
-      "id": 676475,
-      "name": "Alec Burleson",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "1B",
-      "battingPoints": 27.8,
-      "pitchingPoints": 0,
-      "totalPoints": 27.8,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 5,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 14.1,
-          "pitchingPoints": 0,
-          "totalPoints": 14.1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 663586,
       "name": "Austin Riley",
       "teamId": 144,
@@ -4042,6 +3980,68 @@
           "battingPoints": 3,
           "pitchingPoints": 0,
           "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 676475,
+      "name": "Alec Burleson",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "1B",
+      "battingPoints": 26.8,
+      "pitchingPoints": 0,
+      "totalPoints": 26.8,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 14.1,
+          "pitchingPoints": 0,
+          "totalPoints": 14.1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -6309,61 +6309,6 @@
       ]
     },
     {
-      "id": 663538,
-      "name": "Nico Hoerner",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "2B",
-      "battingPoints": 22.1,
-      "pitchingPoints": 0,
-      "totalPoints": 22.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 820862,
       "name": "José Fermin",
       "teamId": 108,
@@ -6758,6 +6703,61 @@
           "battingPoints": 0,
           "pitchingPoints": 21.13,
           "totalPoints": 21.13
+        }
+      ]
+    },
+    {
+      "id": 663538,
+      "name": "Nico Hoerner",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "2B",
+      "battingPoints": 21.1,
+      "pitchingPoints": 0,
+      "totalPoints": 21.1,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 16,
+          "pitchingPoints": 0,
+          "totalPoints": 16
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -10446,6 +10446,68 @@
       ]
     },
     {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "RF",
+      "battingPoints": 15.9,
+      "pitchingPoints": 0,
+      "totalPoints": 15.9,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 2.9,
+          "pitchingPoints": 0,
+          "totalPoints": 2.9
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 10.4,
+          "pitchingPoints": 0,
+          "totalPoints": 10.4
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
       "id": 656271,
       "name": "Brock Burke",
       "teamId": 113,
@@ -13737,68 +13799,6 @@
       ]
     },
     {
-      "id": 691023,
-      "name": "Jordan Walker",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "RF",
-      "battingPoints": 12.9,
-      "pitchingPoints": 0,
-      "totalPoints": 12.9,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 2.9,
-          "pitchingPoints": 0,
-          "totalPoints": 2.9
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 10.4,
-          "pitchingPoints": 0,
-          "totalPoints": 10.4
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 670059,
       "name": "Colin Holderman",
       "teamId": 114,
@@ -14652,6 +14652,54 @@
           "battingPoints": 0,
           "pitchingPoints": 11.8,
           "totalPoints": 11.8
+        }
+      ]
+    },
+    {
+      "id": 669020,
+      "name": "Ryan Rolison",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.74,
+      "totalPoints": 11.74,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": 9.27,
+          "totalPoints": 9.27
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
         }
       ]
     },
@@ -16247,68 +16295,6 @@
       ]
     },
     {
-      "id": 671056,
-      "name": "Iván Herrera",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "DH",
-      "battingPoints": 10.6,
-      "pitchingPoints": 0,
-      "totalPoints": 10.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 678391,
       "name": "Jorbit Vivas",
       "teamId": 120,
@@ -16696,6 +16682,68 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
+        }
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": 9.6,
+      "pitchingPoints": 0,
+      "totalPoints": 9.6,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -17161,47 +17209,6 @@
           "battingPoints": 0,
           "pitchingPoints": 9.33,
           "totalPoints": 9.33
-        }
-      ]
-    },
-    {
-      "id": 669020,
-      "name": "Ryan Rolison",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.27,
-      "totalPoints": 9.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": 9.27,
-          "totalPoints": 9.27
         }
       ]
     },
@@ -19302,68 +19309,6 @@
       ]
     },
     {
-      "id": 691026,
-      "name": "Masyn Winn",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "SS",
-      "battingPoints": 6.7,
-      "pitchingPoints": 0,
-      "totalPoints": 6.7,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 8.2,
-          "pitchingPoints": 0,
-          "totalPoints": 8.2
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 621097,
       "name": "Jacob Waguespack",
       "teamId": 116,
@@ -19878,68 +19823,6 @@
       ]
     },
     {
-      "id": 664023,
-      "name": "Ian Happ",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "LF",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 8.6,
-          "pitchingPoints": 0,
-          "totalPoints": 8.6
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 822696,
-          "gameDate": "2026-08-13",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 672695,
       "name": "Geraldo Perdomo",
       "teamId": 109,
@@ -20407,6 +20290,68 @@
       ]
     },
     {
+      "id": 691026,
+      "name": "Masyn Winn",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "SS",
+      "battingPoints": 5.7,
+      "pitchingPoints": 0,
+      "totalPoints": 5.7,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 702222,
       "name": "Justin Crawford",
       "teamId": 143,
@@ -20826,6 +20771,68 @@
       ]
     },
     {
+      "id": 664023,
+      "name": "Ian Happ",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 8.6,
+          "pitchingPoints": 0,
+          "totalPoints": 8.6
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 822696,
+          "gameDate": "2026-08-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 672284,
       "name": "Jarred Kelenic",
       "teamId": 140,
@@ -21122,61 +21129,6 @@
       ]
     },
     {
-      "id": 701675,
-      "name": "Nathan Church",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "CF",
-      "battingPoints": 5.1,
-      "pitchingPoints": 0,
-      "totalPoints": 5.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 805999,
       "name": "A.J. Ewing",
       "teamId": 121,
@@ -21396,6 +21348,47 @@
         {
           "gamePk": 824562,
           "gameDate": "2026-08-12",
+          "battingPoints": 0,
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
+        }
+      ]
+    },
+    {
+      "id": 657265,
+      "name": "Peter Strzelecki",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
           "battingPoints": 0,
           "pitchingPoints": 4.8,
           "totalPoints": 4.8
@@ -22201,6 +22194,61 @@
           "battingPoints": 1.9,
           "pitchingPoints": 0,
           "totalPoints": 1.9
+        }
+      ]
+    },
+    {
+      "id": 701675,
+      "name": "Nathan Church",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "CF",
+      "battingPoints": 4.1,
+      "pitchingPoints": 0,
+      "totalPoints": 4.1,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -24269,6 +24317,61 @@
       ]
     },
     {
+      "id": 608348,
+      "name": "Carson Kelly",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "C",
+      "battingPoints": 2.2,
+      "pitchingPoints": 0,
+      "totalPoints": 2.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
       "id": 682829,
       "name": "Elly De La Cruz",
       "teamId": 113,
@@ -24970,6 +25073,54 @@
           "battingPoints": 0,
           "pitchingPoints": 1.6,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 663494,
+      "name": "Bryan Torres",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "LF",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -25751,61 +25902,6 @@
           "battingPoints": 0,
           "pitchingPoints": 0.93,
           "totalPoints": 0.93
-        }
-      ]
-    },
-    {
-      "id": 621438,
-      "name": "Tyrone Taylor",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "LF",
-      "battingPoints": 0.9,
-      "pitchingPoints": 0,
-      "totalPoints": 0.9,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        },
-        {
-          "gamePk": 822696,
-          "gameDate": "2026-08-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 3.9,
-          "pitchingPoints": 0,
-          "totalPoints": 3.9
         }
       ]
     },
@@ -26636,6 +26732,61 @@
           "battingPoints": 0.1,
           "pitchingPoints": 0,
           "totalPoints": 0.1
+        }
+      ]
+    },
+    {
+      "id": 621438,
+      "name": "Tyrone Taylor",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": -0.1,
+      "pitchingPoints": 0,
+      "totalPoints": -0.1,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        },
+        {
+          "gamePk": 822696,
+          "gameDate": "2026-08-13",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.9,
+          "pitchingPoints": 0,
+          "totalPoints": 2.9
         }
       ]
     },
@@ -28663,61 +28814,6 @@
       ]
     },
     {
-      "id": 608348,
-      "name": "Carson Kelly",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "C",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 662139,
       "name": "Daulton Varsho",
       "teamId": 117,
@@ -29301,54 +29397,6 @@
         {
           "gamePk": 823508,
           "gameDate": "2026-08-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 663494,
-      "name": "Bryan Torres",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "LF",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
@@ -30500,6 +30548,54 @@
       ]
     },
     {
+      "id": 666171,
+      "name": "Ryan Zeferjahn",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -4,
+      "totalPoints": -4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": -5.87,
+          "totalPoints": -5.87
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 1.87,
+          "totalPoints": 1.87
+        }
+      ]
+    },
+    {
       "id": 687529,
       "name": "Grant McCray",
       "teamId": 137,
@@ -31380,47 +31476,6 @@
           "battingPoints": 0,
           "pitchingPoints": -5.5,
           "totalPoints": -5.5
-        }
-      ]
-    },
-    {
-      "id": 666171,
-      "name": "Ryan Zeferjahn",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -5.87,
-      "totalPoints": -5.87,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": -5.87,
-          "totalPoints": -5.87
         }
       ]
     },
@@ -32472,6 +32527,54 @@
       ]
     },
     {
+      "id": 666277,
+      "name": "George Soriano",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -9.77,
+      "totalPoints": -9.77,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 3,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": 5.8,
+          "totalPoints": 5.8
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": -15.57,
+          "totalPoints": -15.57
+        }
+      ]
+    },
+    {
       "id": 642100,
       "name": "Gabe Speier",
       "teamId": 136,
@@ -32954,54 +33057,6 @@
           "battingPoints": 0,
           "pitchingPoints": -14.6,
           "totalPoints": -14.6
-        }
-      ]
-    },
-    {
-      "id": 666277,
-      "name": "George Soriano",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.7,
-      "totalPoints": -14.7,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": 5.8,
-          "totalPoints": 5.8
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 0,
-          "pitchingPoints": -20.5,
-          "totalPoints": -20.5
         }
       ]
     },
@@ -34299,16 +34354,64 @@
       ]
     },
     {
+      "id": 805367,
+      "name": "Chase Meidroth",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "SS",
+      "battingPoints": 36.6,
+      "pitchingPoints": 0,
+      "totalPoints": 36.6,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824562,
+          "gameDate": "2026-08-12",
+          "battingPoints": 16.6,
+          "pitchingPoints": 0,
+          "totalPoints": 16.6
+        },
+        {
+          "gamePk": 824561,
+          "gameDate": "2026-08-13",
+          "battingPoints": 20,
+          "pitchingPoints": 0,
+          "totalPoints": 20
+        }
+      ]
+    },
+    {
       "id": 621020,
       "name": "Dansby Swanson",
       "teamId": 112,
       "teamName": "Chicago Cubs",
       "position": "SS",
-      "battingPoints": 37,
+      "battingPoints": 36,
       "pitchingPoints": 0,
-      "totalPoints": 37,
+      "totalPoints": 36,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 3,
         "doubles": 1,
         "triples": 0,
@@ -34354,57 +34457,9 @@
         {
           "gamePk": 824643,
           "gameDate": "2026-08-14",
-          "battingPoints": 5.5,
+          "battingPoints": 4.5,
           "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
-      "id": 805367,
-      "name": "Chase Meidroth",
-      "teamId": 145,
-      "teamName": "Chicago White Sox",
-      "position": "SS",
-      "battingPoints": 36.6,
-      "pitchingPoints": 0,
-      "totalPoints": 36.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 4,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824562,
-          "gameDate": "2026-08-12",
-          "battingPoints": 16.6,
-          "pitchingPoints": 0,
-          "totalPoints": 16.6
-        },
-        {
-          "gamePk": 824561,
-          "gameDate": "2026-08-13",
-          "battingPoints": 20,
-          "pitchingPoints": 0,
-          "totalPoints": 20
+          "totalPoints": 4.5
         }
       ]
     },
@@ -35447,68 +35502,6 @@
       ]
     },
     {
-      "id": 676475,
-      "name": "Alec Burleson",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "1B",
-      "battingPoints": 27.8,
-      "pitchingPoints": 0,
-      "totalPoints": 27.8,
-      "battingStats": {
-        "atBats": 12,
-        "hits": 5,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 13.1,
-          "pitchingPoints": 0,
-          "totalPoints": 13.1
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 14.1,
-          "pitchingPoints": 0,
-          "totalPoints": 14.1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 663586,
       "name": "Austin Riley",
       "teamId": 144,
@@ -35711,6 +35704,68 @@
           "battingPoints": 3,
           "pitchingPoints": 0,
           "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 676475,
+      "name": "Alec Burleson",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "1B",
+      "battingPoints": 26.8,
+      "pitchingPoints": 0,
+      "totalPoints": 26.8,
+      "battingStats": {
+        "atBats": 13,
+        "hits": 5,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 13.1,
+          "pitchingPoints": 0,
+          "totalPoints": 13.1
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 14.1,
+          "pitchingPoints": 0,
+          "totalPoints": 14.1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -36822,61 +36877,6 @@
       ]
     },
     {
-      "id": 663538,
-      "name": "Nico Hoerner",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "2B",
-      "battingPoints": 22.1,
-      "pitchingPoints": 0,
-      "totalPoints": 22.1,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 4,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 686948,
       "name": "Drake Baldwin",
       "teamId": 144,
@@ -37079,6 +37079,61 @@
           "battingPoints": 15.6,
           "pitchingPoints": 0,
           "totalPoints": 15.6
+        }
+      ]
+    },
+    {
+      "id": 663538,
+      "name": "Nico Hoerner",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "2B",
+      "battingPoints": 21.1,
+      "pitchingPoints": 0,
+      "totalPoints": 21.1,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 16,
+          "pitchingPoints": 0,
+          "totalPoints": 16
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -39206,6 +39261,68 @@
       ]
     },
     {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "RF",
+      "battingPoints": 15.9,
+      "pitchingPoints": 0,
+      "totalPoints": 15.9,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 2
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 2.9,
+          "pitchingPoints": 0,
+          "totalPoints": 2.9
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 10.4,
+          "pitchingPoints": 0,
+          "totalPoints": 10.4
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
       "id": 665926,
       "name": "Andrés Giménez",
       "teamId": 141,
@@ -40814,68 +40931,6 @@
       ]
     },
     {
-      "id": 691023,
-      "name": "Jordan Walker",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "RF",
-      "battingPoints": 12.9,
-      "pitchingPoints": 0,
-      "totalPoints": 12.9,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 2.9,
-          "pitchingPoints": 0,
-          "totalPoints": 2.9
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 10.4,
-          "pitchingPoints": 0,
-          "totalPoints": 10.4
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 672386,
       "name": "Alejandro Kirk",
       "teamId": 141,
@@ -42339,68 +42394,6 @@
       ]
     },
     {
-      "id": 671056,
-      "name": "Iván Herrera",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "DH",
-      "battingPoints": 10.6,
-      "pitchingPoints": 0,
-      "totalPoints": 10.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 678391,
       "name": "Jorbit Vivas",
       "teamId": 120,
@@ -42706,6 +42699,68 @@
           "battingPoints": 0.6,
           "pitchingPoints": 0,
           "totalPoints": 0.6
+        }
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": 9.6,
+      "pitchingPoints": 0,
+      "totalPoints": 9.6,
+      "battingStats": {
+        "atBats": 16,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -43712,68 +43767,6 @@
       ]
     },
     {
-      "id": 691026,
-      "name": "Masyn Winn",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "SS",
-      "battingPoints": 6.7,
-      "pitchingPoints": 0,
-      "totalPoints": 6.7,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 8.2,
-          "pitchingPoints": 0,
-          "totalPoints": 8.2
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 691788,
       "name": "Joe Mack",
       "teamId": 146,
@@ -44072,68 +44065,6 @@
           "battingPoints": 10.2,
           "pitchingPoints": 0,
           "totalPoints": 10.2
-        }
-      ]
-    },
-    {
-      "id": 664023,
-      "name": "Ian Happ",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "LF",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 8.6,
-          "pitchingPoints": 0,
-          "totalPoints": 8.6
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        },
-        {
-          "gamePk": 822696,
-          "gameDate": "2026-08-13",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -44605,6 +44536,68 @@
       ]
     },
     {
+      "id": 691026,
+      "name": "Masyn Winn",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "SS",
+      "battingPoints": 5.7,
+      "pitchingPoints": 0,
+      "totalPoints": 5.7,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 8.2,
+          "pitchingPoints": 0,
+          "totalPoints": 8.2
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 702222,
       "name": "Justin Crawford",
       "teamId": 143,
@@ -44942,6 +44935,68 @@
       ]
     },
     {
+      "id": 664023,
+      "name": "Ian Happ",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 8.6,
+          "pitchingPoints": 0,
+          "totalPoints": 8.6
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 822696,
+          "gameDate": "2026-08-13",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 672284,
       "name": "Jarred Kelenic",
       "teamId": 140,
@@ -45234,61 +45289,6 @@
           "battingPoints": 5.6,
           "pitchingPoints": 0,
           "totalPoints": 5.6
-        }
-      ]
-    },
-    {
-      "id": 701675,
-      "name": "Nathan Church",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "CF",
-      "battingPoints": 5.1,
-      "pitchingPoints": 0,
-      "totalPoints": 5.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 823017,
-          "gameDate": "2026-08-12",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
         }
       ]
     },
@@ -45893,6 +45893,61 @@
           "battingPoints": 1.9,
           "pitchingPoints": 0,
           "totalPoints": 1.9
+        }
+      ]
+    },
+    {
+      "id": 701675,
+      "name": "Nathan Church",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "CF",
+      "battingPoints": 4.1,
+      "pitchingPoints": 0,
+      "totalPoints": 4.1,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 823017,
+          "gameDate": "2026-08-12",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -47414,6 +47469,61 @@
       ]
     },
     {
+      "id": 608348,
+      "name": "Carson Kelly",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "C",
+      "battingPoints": 2.2,
+      "pitchingPoints": 0,
+      "totalPoints": 2.2,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
       "id": 682829,
       "name": "Elly De La Cruz",
       "teamId": 113,
@@ -47828,6 +47938,54 @@
           "battingPoints": 6.2,
           "pitchingPoints": 0,
           "totalPoints": 6.2
+        }
+      ]
+    },
+    {
+      "id": 663494,
+      "name": "Bryan Torres",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "LF",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823018,
+          "gameDate": "2026-08-10",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
         }
       ]
     },
@@ -48274,61 +48432,6 @@
           "battingPoints": 1,
           "pitchingPoints": 0,
           "totalPoints": 1
-        }
-      ]
-    },
-    {
-      "id": 621438,
-      "name": "Tyrone Taylor",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "LF",
-      "battingPoints": 0.9,
-      "pitchingPoints": 0,
-      "totalPoints": 0.9,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        },
-        {
-          "gamePk": 822696,
-          "gameDate": "2026-08-13",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 3.9,
-          "pitchingPoints": 0,
-          "totalPoints": 3.9
         }
       ]
     },
@@ -48851,6 +48954,61 @@
           "battingPoints": 0.1,
           "pitchingPoints": 0,
           "totalPoints": 0.1
+        }
+      ]
+    },
+    {
+      "id": 621438,
+      "name": "Tyrone Taylor",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "LF",
+      "battingPoints": -0.1,
+      "pitchingPoints": 0,
+      "totalPoints": -0.1,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822698,
+          "gameDate": "2026-08-12",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        },
+        {
+          "gamePk": 822696,
+          "gameDate": "2026-08-13",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 2.9,
+          "pitchingPoints": 0,
+          "totalPoints": 2.9
         }
       ]
     },
@@ -50536,61 +50694,6 @@
       ]
     },
     {
-      "id": 608348,
-      "name": "Carson Kelly",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "C",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 822698,
-          "gameDate": "2026-08-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
       "id": 662139,
       "name": "Daulton Varsho",
       "teamId": 117,
@@ -51133,54 +51236,6 @@
         {
           "gamePk": 823508,
           "gameDate": "2026-08-13",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 663494,
-      "name": "Bryan Torres",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "LF",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823018,
-          "gameDate": "2026-08-10",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
@@ -53322,6 +53377,47 @@
       ]
     },
     {
+      "id": 605280,
+      "name": "Clay Holmes",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 49.73,
+      "totalPoints": 49.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 49.73,
+          "totalPoints": 49.73
+        }
+      ]
+    },
+    {
       "id": 650911,
       "name": "Cristopher Sánchez",
       "teamId": 143,
@@ -53359,47 +53455,6 @@
           "battingPoints": 0,
           "pitchingPoints": 48,
           "totalPoints": 48
-        }
-      ]
-    },
-    {
-      "id": 605280,
-      "name": "Clay Holmes",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 47.8,
-      "totalPoints": 47.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 0,
-          "pitchingPoints": 47.8,
-          "totalPoints": 47.8
         }
       ]
     },
@@ -59788,6 +59843,54 @@
       ]
     },
     {
+      "id": 669020,
+      "name": "Ryan Rolison",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 11.74,
+      "totalPoints": 11.74,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": 9.27,
+          "totalPoints": 9.27
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
+        }
+      ]
+    },
+    {
       "id": 592773,
       "name": "Ryne Stanek",
       "teamId": 138,
@@ -60898,47 +61001,6 @@
           "battingPoints": 0,
           "pitchingPoints": 9.33,
           "totalPoints": 9.33
-        }
-      ]
-    },
-    {
-      "id": 669020,
-      "name": "Ryan Rolison",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 9.27,
-      "totalPoints": 9.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": 9.27,
-          "totalPoints": 9.27
         }
       ]
     },
@@ -62605,6 +62667,47 @@
         {
           "gamePk": 824562,
           "gameDate": "2026-08-12",
+          "battingPoints": 0,
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
+        }
+      ]
+    },
+    {
+      "id": 657265,
+      "name": "Peter Strzelecki",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
           "battingPoints": 0,
           "pitchingPoints": 4.8,
           "totalPoints": 4.8
@@ -65122,6 +65225,54 @@
       ]
     },
     {
+      "id": 666171,
+      "name": "Ryan Zeferjahn",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -4,
+      "totalPoints": -4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 822697,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": -5.87,
+          "totalPoints": -5.87
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 1.87,
+          "totalPoints": 1.87
+        }
+      ]
+    },
+    {
       "id": 681895,
       "name": "Evan Sisk",
       "teamId": 134,
@@ -65330,47 +65481,6 @@
           "battingPoints": 0,
           "pitchingPoints": -5.5,
           "totalPoints": -5.5
-        }
-      ]
-    },
-    {
-      "id": 666171,
-      "name": "Ryan Zeferjahn",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -5.87,
-      "totalPoints": -5.87,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 822697,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": -5.87,
-          "totalPoints": -5.87
         }
       ]
     },
@@ -66161,6 +66271,54 @@
       ]
     },
     {
+      "id": 666277,
+      "name": "George Soriano",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -9.77,
+      "totalPoints": -9.77,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 3,
+        "walksAllowed": 2,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823019,
+          "gameDate": "2026-08-11",
+          "battingPoints": 0,
+          "pitchingPoints": 5.8,
+          "totalPoints": 5.8
+        },
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": -15.57,
+          "totalPoints": -15.57
+        }
+      ]
+    },
+    {
       "id": 642100,
       "name": "Gabe Speier",
       "teamId": 136,
@@ -66533,54 +66691,6 @@
           "battingPoints": 0,
           "pitchingPoints": -14.6,
           "totalPoints": -14.6
-        }
-      ]
-    },
-    {
-      "id": 666277,
-      "name": "George Soriano",
-      "teamId": 138,
-      "teamName": "St. Louis Cardinals",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": -14.7,
-      "totalPoints": -14.7,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 1,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823019,
-          "gameDate": "2026-08-11",
-          "battingPoints": 0,
-          "pitchingPoints": 5.8,
-          "totalPoints": 5.8
-        },
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 0,
-          "pitchingPoints": -20.5,
-          "totalPoints": -20.5
         }
       ]
     },
@@ -67415,6 +67525,47 @@
       ]
     },
     {
+      "id": 605280,
+      "name": "Clay Holmes",
+      "teamId": 112,
+      "teamName": "Chicago Cubs",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 49.73,
+      "totalPoints": 49.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 20,
+        "inningsPitched": "6.2",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824643,
+          "gameDate": "2026-08-14",
+          "battingPoints": 0,
+          "pitchingPoints": 49.73,
+          "totalPoints": 49.73
+        }
+      ]
+    },
+    {
       "id": 545361,
       "name": "Mike Trout",
       "teamId": 108,
@@ -67576,47 +67727,6 @@
           "battingPoints": 0,
           "pitchingPoints": 48,
           "totalPoints": 48
-        }
-      ]
-    },
-    {
-      "id": 605280,
-      "name": "Clay Holmes",
-      "teamId": 112,
-      "teamName": "Chicago Cubs",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 47.8,
-      "totalPoints": 47.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 18,
-        "inningsPitched": "6.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824643,
-          "gameDate": "2026-08-14",
-          "battingPoints": 0,
-          "pitchingPoints": 47.8,
-          "totalPoints": 47.8
         }
       ]
     },
