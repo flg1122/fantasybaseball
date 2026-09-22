@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T22:31:13.662Z",
-  "generatedAtET": "9/22/2026, 6:31:13 PM",
+  "generatedAt": "2026-09-22T23:01:15.407Z",
+  "generatedAtET": "9/22/2026, 7:01:15 PM",
   "scoringPeriod": {
     "start": "2026-09-21",
     "end": "2026-09-22",
@@ -11,9 +11,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 108,
-    "hitters": 80,
-    "pitchers": 28
+    "overall": 144,
+    "hitters": 108,
+    "pitchers": 36
   },
   "overallLeaders": [
     {
@@ -259,6 +259,47 @@
           "battingPoints": 26,
           "pitchingPoints": 0,
           "totalPoints": 26
+        }
+      ]
+    },
+    {
+      "id": 683003,
+      "name": "Jared Jones",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 22.8,
+      "totalPoints": 22.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 22.8,
+          "totalPoints": 22.8
         }
       ]
     },
@@ -509,18 +550,18 @@
       ]
     },
     {
-      "id": 680664,
-      "name": "Eduardo Valencia",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "DH",
-      "battingPoints": 18.6,
-      "pitchingPoints": 0,
-      "totalPoints": 18.6,
+      "id": 554430,
+      "name": "Zack Wheeler",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 17.87,
+      "totalPoints": 17.87,
       "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 2,
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
         "walks": 0,
@@ -529,32 +570,32 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
+        "outs": 4,
+        "inningsPitched": "1.1",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 4,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 18.6,
-          "pitchingPoints": 0,
-          "totalPoints": 18.6
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 17.87,
+          "totalPoints": 17.87
         }
       ]
     },
     {
-      "id": 701678,
-      "name": "Hao-Yu Lee",
+      "id": 680664,
+      "name": "Eduardo Valencia",
       "teamId": 116,
       "teamName": "Detroit Tigers",
-      "position": "3B",
+      "position": "DH",
       "battingPoints": 17.6,
       "pitchingPoints": 0,
       "totalPoints": 17.6,
@@ -584,9 +625,64 @@
         {
           "gamePk": 824221,
           "gameDate": "2026-09-21",
+          "battingPoints": 18.6,
+          "pitchingPoints": 0,
+          "totalPoints": 18.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 701678,
+      "name": "Hao-Yu Lee",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "3B",
+      "battingPoints": 16.6,
+      "pitchingPoints": 0,
+      "totalPoints": 16.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
           "battingPoints": 17.6,
           "pitchingPoints": 0,
           "totalPoints": 17.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -1206,6 +1302,54 @@
       ]
     },
     {
+      "id": 682928,
+      "name": "CJ Abrams",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "SS",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
+        }
+      ]
+    },
+    {
       "id": 686797,
       "name": "Brooks Lee",
       "teamId": 142,
@@ -1411,6 +1555,47 @@
       ]
     },
     {
+      "id": 801139,
+      "name": "Payton Tolle",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.8,
+      "totalPoints": 8.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 8.8,
+          "totalPoints": 8.8
+        }
+      ]
+    },
+    {
       "id": 700250,
       "name": "Ben Rice",
       "teamId": 147,
@@ -1493,6 +1678,88 @@
       ]
     },
     {
+      "id": 683000,
+      "name": "Riley Cornelio",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.4,
+      "totalPoints": 8.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 8.4,
+          "totalPoints": 8.4
+        }
+      ]
+    },
+    {
+      "id": 669467,
+      "name": "Andre Pallante",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 7.4,
+      "totalPoints": 7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 7.4,
+          "totalPoints": 7.4
+        }
+      ]
+    },
+    {
       "id": 543807,
       "name": "George Springer",
       "teamId": 141,
@@ -1571,6 +1838,47 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
+        }
+      ]
+    },
+    {
+      "id": 800048,
+      "name": "Parker Messick",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.8,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 6.8,
+          "totalPoints": 6.8
         }
       ]
     },
@@ -1862,47 +2170,6 @@
       ]
     },
     {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": 5.6,
-      "pitchingPoints": 0,
-      "totalPoints": 5.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        }
-      ]
-    },
-    {
       "id": 683766,
       "name": "Christian Koss",
       "teamId": 137,
@@ -1940,6 +2207,177 @@
           "battingPoints": 5.5,
           "pitchingPoints": 0,
           "totalPoints": 5.5
+        }
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "José Ramírez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "3B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 665953,
+      "name": "Andrés Chaparro",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 686611,
+      "name": "Dylan Crews",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 686765,
+      "name": "Nick Sogard",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "1B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
         }
       ]
     },
@@ -2026,6 +2464,47 @@
       ]
     },
     {
+      "id": 669160,
+      "name": "Dustin May",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.4,
+      "totalPoints": 4.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 4.4,
+          "totalPoints": 4.4
+        }
+      ]
+    },
+    {
       "id": 668800,
       "name": "Andrew Knizner",
       "teamId": 137,
@@ -2104,6 +2583,88 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        }
+      ]
+    },
+    {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "RF",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 650402,
+      "name": "Gleyber Torres",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "DH",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -2559,47 +3120,6 @@
       ]
     },
     {
-      "id": 695578,
-      "name": "James Wood",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "LF",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 805805,
       "name": "Walker Jenkins",
       "teamId": 142,
@@ -2637,6 +3157,136 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 695578,
+      "name": "James Wood",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "LF",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 607208,
+      "name": "Trea Turner",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 650333,
+      "name": "Luis Arraez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2723,6 +3373,211 @@
       ]
     },
     {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663330,
+      "name": "Jahmai Jones",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663494,
+      "name": "Bryan Torres",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 664040,
+      "name": "Brandon Lowe",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 665966,
       "name": "Carlos Narváez",
       "teamId": 110,
@@ -2764,6 +3619,170 @@
       ]
     },
     {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 668804,
+      "name": "Bryan Reynolds",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 669236,
       "name": "Jeremiah Jackson",
       "teamId": 110,
@@ -2798,6 +3817,170 @@
         {
           "gamePk": 824787,
           "gameDate": "2026-09-21",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 676475,
+      "name": "Alec Burleson",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 677800,
+      "name": "Wilyer Abreu",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -2880,6 +4063,334 @@
         {
           "gamePk": 824221,
           "gameDate": "2026-09-21",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 699024,
+      "name": "Leo Bernal",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 701350,
+      "name": "Roman Anthony",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 804606,
+      "name": "Konnor Griffin",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -3454,47 +4965,6 @@
         {
           "gamePk": 823543,
           "gameDate": "2026-09-22",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "SS",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
@@ -4158,47 +5628,6 @@
       ]
     },
     {
-      "id": 695734,
-      "name": "Daylen Lile",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "DH",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 807712,
       "name": "Luke Keaschall",
       "teamId": 142,
@@ -4277,6 +5706,95 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 695734,
+      "name": "Daylen Lile",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "DH",
+      "battingPoints": -5,
+      "pitchingPoints": 0,
+      "totalPoints": -5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 623454,
+      "name": "Drew Anderson",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -6.1,
+      "totalPoints": -6.1,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": -6.1,
+          "totalPoints": -6.1
         }
       ]
     },
@@ -4616,47 +6134,6 @@
       "teamId": 116,
       "teamName": "Detroit Tigers",
       "position": "DH",
-      "battingPoints": 18.6,
-      "pitchingPoints": 0,
-      "totalPoints": 18.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 2,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 18.6,
-          "pitchingPoints": 0,
-          "totalPoints": 18.6
-        }
-      ]
-    },
-    {
-      "id": 701678,
-      "name": "Hao-Yu Lee",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "3B",
       "battingPoints": 17.6,
       "pitchingPoints": 0,
       "totalPoints": 17.6,
@@ -4686,9 +6163,64 @@
         {
           "gamePk": 824221,
           "gameDate": "2026-09-21",
+          "battingPoints": 18.6,
+          "pitchingPoints": 0,
+          "totalPoints": 18.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 701678,
+      "name": "Hao-Yu Lee",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "3B",
+      "battingPoints": 16.6,
+      "pitchingPoints": 0,
+      "totalPoints": 16.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
           "battingPoints": 17.6,
           "pitchingPoints": 0,
           "totalPoints": 17.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4976,6 +6508,54 @@
           "battingPoints": 11,
           "pitchingPoints": 0,
           "totalPoints": 11
+        }
+      ]
+    },
+    {
+      "id": 682928,
+      "name": "CJ Abrams",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "SS",
+      "battingPoints": 11,
+      "pitchingPoints": 0,
+      "totalPoints": 11,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 14,
+          "pitchingPoints": 0,
+          "totalPoints": 14
         }
       ]
     },
@@ -5308,47 +6888,6 @@
       ]
     },
     {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "RF",
-      "battingPoints": 5.6,
-      "pitchingPoints": 0,
-      "totalPoints": 5.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        }
-      ]
-    },
-    {
       "id": 683766,
       "name": "Christian Koss",
       "teamId": 137,
@@ -5386,6 +6925,177 @@
           "battingPoints": 5.5,
           "pitchingPoints": 0,
           "totalPoints": 5.5
+        }
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "José Ramírez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "3B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 665953,
+      "name": "Andrés Chaparro",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "1B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 686611,
+      "name": "Dylan Crews",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "RF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 686765,
+      "name": "Nick Sogard",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "1B",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
         }
       ]
     },
@@ -5550,6 +7260,88 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        }
+      ]
+    },
+    {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "RF",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 650402,
+      "name": "Gleyber Torres",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "DH",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -6005,47 +7797,6 @@
       ]
     },
     {
-      "id": 695578,
-      "name": "James Wood",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "LF",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 805805,
       "name": "Walker Jenkins",
       "teamId": 142,
@@ -6083,6 +7834,136 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 695578,
+      "name": "James Wood",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "LF",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 607208,
+      "name": "Trea Turner",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 650333,
+      "name": "Luis Arraez",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -6169,6 +8050,211 @@
       ]
     },
     {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663330,
+      "name": "Jahmai Jones",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663494,
+      "name": "Bryan Torres",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 664040,
+      "name": "Brandon Lowe",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 665966,
       "name": "Carlos Narváez",
       "teamId": 110,
@@ -6210,6 +8296,170 @@
       ]
     },
     {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 668804,
+      "name": "Bryan Reynolds",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 669236,
       "name": "Jeremiah Jackson",
       "teamId": 110,
@@ -6244,6 +8494,170 @@
         {
           "gamePk": 824787,
           "gameDate": "2026-09-21",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iván Herrera",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 676475,
+      "name": "Alec Burleson",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 677800,
+      "name": "Wilyer Abreu",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -6326,6 +8740,334 @@
         {
           "gamePk": 824221,
           "gameDate": "2026-09-21",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 699024,
+      "name": "Leo Bernal",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 701350,
+      "name": "Roman Anthony",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 804606,
+      "name": "Konnor Griffin",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "SS",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -6900,47 +9642,6 @@
         {
           "gamePk": 823543,
           "gameDate": "2026-09-22",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "SS",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
@@ -7604,47 +10305,6 @@
       ]
     },
     {
-      "id": 695734,
-      "name": "Daylen Lile",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "DH",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 807712,
       "name": "Luke Keaschall",
       "teamId": 142,
@@ -7723,6 +10383,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 695734,
+      "name": "Daylen Lile",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "DH",
+      "battingPoints": -5,
+      "pitchingPoints": 0,
+      "totalPoints": -5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     }
@@ -7893,6 +10601,47 @@
       ]
     },
     {
+      "id": 683003,
+      "name": "Jared Jones",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 22.8,
+      "totalPoints": 22.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 22.8,
+          "totalPoints": 22.8
+        }
+      ]
+    },
+    {
       "id": 694494,
       "name": "Ty Johnson",
       "teamId": 139,
@@ -8053,6 +10802,47 @@
           "battingPoints": 0,
           "pitchingPoints": 20,
           "totalPoints": 20
+        }
+      ]
+    },
+    {
+      "id": 554430,
+      "name": "Zack Wheeler",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 17.87,
+      "totalPoints": 17.87,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 17.87,
+          "totalPoints": 17.87
         }
       ]
     },
@@ -8549,6 +11339,47 @@
       ]
     },
     {
+      "id": 801139,
+      "name": "Payton Tolle",
+      "teamId": 111,
+      "teamName": "Boston Red Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.8,
+      "totalPoints": 8.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 8.8,
+          "totalPoints": 8.8
+        }
+      ]
+    },
+    {
       "id": 656529,
       "name": "Sam Hentges",
       "teamId": 137,
@@ -8586,6 +11417,129 @@
           "battingPoints": 0,
           "pitchingPoints": 8.4,
           "totalPoints": 8.4
+        }
+      ]
+    },
+    {
+      "id": 683000,
+      "name": "Riley Cornelio",
+      "teamId": 120,
+      "teamName": "Washington Nationals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.4,
+      "totalPoints": 8.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 8.4,
+          "totalPoints": 8.4
+        }
+      ]
+    },
+    {
+      "id": 669467,
+      "name": "Andre Pallante",
+      "teamId": 138,
+      "teamName": "St. Louis Cardinals",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 7.4,
+      "totalPoints": 7.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 7.4,
+          "totalPoints": 7.4
+        }
+      ]
+    },
+    {
+      "id": 800048,
+      "name": "Parker Messick",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.8,
+      "totalPoints": 6.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824709,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 6.8,
+          "totalPoints": 6.8
         }
       ]
     },
@@ -8709,6 +11663,88 @@
           "battingPoints": 0,
           "pitchingPoints": 5.9,
           "totalPoints": 5.9
+        }
+      ]
+    },
+    {
+      "id": 669160,
+      "name": "Dustin May",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.4,
+      "totalPoints": 4.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 4.4,
+          "totalPoints": 4.4
+        }
+      ]
+    },
+    {
+      "id": 623454,
+      "name": "Drew Anderson",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -6.1,
+      "totalPoints": -6.1,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": -6.1,
+          "totalPoints": -6.1
         }
       ]
     },
@@ -9125,6 +12161,47 @@
       ]
     },
     {
+      "id": 683003,
+      "name": "Jared Jones",
+      "teamId": 134,
+      "teamName": "Pittsburgh Pirates",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 22.8,
+      "totalPoints": 22.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823328,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 22.8,
+          "totalPoints": 22.8
+        }
+      ]
+    },
+    {
       "id": 694494,
       "name": "Ty Johnson",
       "teamId": 139,
@@ -9371,18 +12448,18 @@
       ]
     },
     {
-      "id": 680664,
-      "name": "Eduardo Valencia",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "DH",
-      "battingPoints": 18.6,
-      "pitchingPoints": 0,
-      "totalPoints": 18.6,
+      "id": 554430,
+      "name": "Zack Wheeler",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 17.87,
+      "totalPoints": 17.87,
       "battingStats": {
-        "atBats": 4,
-        "hits": 3,
-        "doubles": 2,
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
         "walks": 0,
@@ -9391,32 +12468,32 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
+        "outs": 4,
+        "inningsPitched": "1.1",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 4,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 18.6,
-          "pitchingPoints": 0,
-          "totalPoints": 18.6
+          "gamePk": 823412,
+          "gameDate": "2026-09-22",
+          "battingPoints": 0,
+          "pitchingPoints": 17.87,
+          "totalPoints": 17.87
         }
       ]
     },
     {
-      "id": 701678,
-      "name": "Hao-Yu Lee",
+      "id": 680664,
+      "name": "Eduardo Valencia",
       "teamId": 116,
       "teamName": "Detroit Tigers",
-      "position": "3B",
+      "position": "DH",
       "battingPoints": 17.6,
       "pitchingPoints": 0,
       "totalPoints": 17.6,
@@ -9446,9 +12523,64 @@
         {
           "gamePk": 824221,
           "gameDate": "2026-09-21",
+          "battingPoints": 18.6,
+          "pitchingPoints": 0,
+          "totalPoints": 18.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 701678,
+      "name": "Hao-Yu Lee",
+      "teamId": 116,
+      "teamName": "Detroit Tigers",
+      "position": "3B",
+      "battingPoints": 16.6,
+      "pitchingPoints": 0,
+      "totalPoints": 16.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 3,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 824221,
+          "gameDate": "2026-09-21",
           "battingPoints": 17.6,
           "pitchingPoints": 0,
           "totalPoints": 17.6
+        },
+        {
+          "gamePk": 824222,
+          "gameDate": "2026-09-22",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -9613,88 +12745,6 @@
           "battingPoints": 0,
           "pitchingPoints": 14.4,
           "totalPoints": 14.4
-        }
-      ]
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "C",
-      "battingPoints": 14.1,
-      "pitchingPoints": 0,
-      "totalPoints": 14.1,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 14.1,
-          "pitchingPoints": 0,
-          "totalPoints": 14.1
-        }
-      ]
-    },
-    {
-      "id": 691002,
-      "name": "Yohandy Morales",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "1B",
-      "battingPoints": 14,
-      "pitchingPoints": 0,
-      "totalPoints": 14,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 14,
-          "pitchingPoints": 0,
-          "totalPoints": 14
         }
       ]
     }
