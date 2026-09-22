@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T03:01:15.228Z",
-  "generatedAtET": "9/21/2026, 11:01:15 PM",
+  "generatedAt": "2026-09-22T03:31:14.073Z",
+  "generatedAtET": "9/21/2026, 11:31:14 PM",
   "scoringPeriod": {
     "start": "2026-09-21",
     "end": "2026-09-21",
@@ -10,9 +10,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 79,
-    "hitters": 60,
-    "pitchers": 19
+    "overall": 81,
+    "hitters": 61,
+    "pitchers": 20
   },
   "overallLeaders": [
     {
@@ -180,14 +180,55 @@
       ]
     },
     {
+      "id": 687551,
+      "name": "Drew Gilbert",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "CF",
+      "battingPoints": 23.2,
+      "pitchingPoints": 0,
+      "totalPoints": 23.2,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 23.2,
+          "pitchingPoints": 0,
+          "totalPoints": 23.2
+        }
+      ]
+    },
+    {
       "id": 805673,
       "name": "Zebby Matthews",
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 23.53,
-      "totalPoints": 23.53,
+      "pitchingPoints": 21.9,
+      "totalPoints": 21.9,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -200,13 +241,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 11,
-        "inningsPitched": "3.2",
-        "hitsAllowed": 6,
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
         "walksAllowed": 0,
         "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 6,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 9,
         "saves": 0,
         "holds": 0
       },
@@ -215,8 +256,49 @@
           "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": 0,
-          "pitchingPoints": 23.53,
-          "totalPoints": 23.53
+          "pitchingPoints": 21.9,
+          "totalPoints": 21.9
+        }
+      ]
+    },
+    {
+      "id": 663941,
+      "name": "Tristan Beck",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 21.73,
+      "totalPoints": 21.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 0,
+          "pitchingPoints": 21.73,
+          "totalPoints": 21.73
         }
       ]
     },
@@ -631,47 +713,6 @@
       ]
     },
     {
-      "id": 686797,
-      "name": "Brooks Lee",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "3B",
-      "battingPoints": 13,
-      "pitchingPoints": 0,
-      "totalPoints": 13,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        }
-      ]
-    },
-    {
       "id": 694918,
       "name": "Blade Tidwell",
       "teamId": 137,
@@ -709,6 +750,47 @@
           "battingPoints": 0,
           "pitchingPoints": 12.57,
           "totalPoints": 12.57
+        }
+      ]
+    },
+    {
+      "id": 686797,
+      "name": "Brooks Lee",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "3B",
+      "battingPoints": 12,
+      "pitchingPoints": 0,
+      "totalPoints": 12,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
         }
       ]
     },
@@ -918,47 +1000,6 @@
       ]
     },
     {
-      "id": 687551,
-      "name": "Drew Gilbert",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "CF",
-      "battingPoints": 9.2,
-      "pitchingPoints": 0,
-      "totalPoints": 9.2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
       "id": 692064,
       "name": "José Rodríguez",
       "teamId": 141,
@@ -996,47 +1037,6 @@
           "battingPoints": 0,
           "pitchingPoints": 8.8,
           "totalPoints": 8.8
-        }
-      ]
-    },
-    {
-      "id": 683766,
-      "name": "Christian Koss",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "SS",
-      "battingPoints": 7.5,
-      "pitchingPoints": 0,
-      "totalPoints": 7.5,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
         }
       ]
     },
@@ -1082,18 +1082,18 @@
       ]
     },
     {
-      "id": 663941,
-      "name": "Tristan Beck",
+      "id": 683766,
+      "name": "Christian Koss",
       "teamId": 137,
       "teamName": "San Francisco Giants",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.93,
-      "totalPoints": 6.93,
+      "position": "SS",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
       "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 0,
         "walks": 0,
@@ -1102,13 +1102,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
+        "outs": 0,
+        "inningsPitched": "0.0",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 1,
+        "strikeOuts": 0,
         "saves": 0,
         "holds": 0
       },
@@ -1116,9 +1116,9 @@
         {
           "gamePk": 823169,
           "gameDate": "2026-09-21",
-          "battingPoints": 0,
-          "pitchingPoints": 6.93,
-          "totalPoints": 6.93
+          "battingPoints": 6.5,
+          "pitchingPoints": 0,
+          "totalPoints": 6.5
         }
       ]
     },
@@ -1369,16 +1369,98 @@
       ]
     },
     {
+      "id": 813841,
+      "name": "Jonah Cox",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "2B",
+      "battingPoints": 5.5,
+      "pitchingPoints": 0,
+      "totalPoints": 5.5,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        }
+      ]
+    },
+    {
+      "id": 668800,
+      "name": "Andrew Knizner",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "PH",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 815589,
       "name": "Bo Davidson",
       "teamId": 137,
       "teamName": "San Francisco Giants",
       "position": "RF",
-      "battingPoints": 5.5,
+      "battingPoints": 4.5,
       "pitchingPoints": 0,
-      "totalPoints": 5.5,
+      "totalPoints": 4.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -1403,91 +1485,9 @@
         {
           "gamePk": 823169,
           "gameDate": "2026-09-21",
-          "battingPoints": 5.5,
+          "battingPoints": 4.5,
           "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
-      "id": 678545,
-      "name": "Osleivis Basabe",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "3B",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 695391,
-      "name": "Brett Harris",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "1B",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
+          "totalPoints": 4.5
         }
       ]
     },
@@ -1497,47 +1497,6 @@
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "DH",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 805805,
-      "name": "Walker Jenkins",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "CF",
       "battingPoints": 3.6,
       "pitchingPoints": 0,
       "totalPoints": 3.6,
@@ -1656,6 +1615,47 @@
       ]
     },
     {
+      "id": 678545,
+      "name": "Osleivis Basabe",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "3B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
       "id": 687952,
       "name": "Christian Encarnacion-Strand",
       "teamId": 110,
@@ -1689,6 +1689,88 @@
       "games": [
         {
           "gamePk": 824787,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 695391,
+      "name": "Brett Harris",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "1B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 805805,
+      "name": "Walker Jenkins",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "CF",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": 2.6,
           "pitchingPoints": 0,
@@ -1861,6 +1943,47 @@
       ]
     },
     {
+      "id": 573124,
+      "name": "Taylor Rogers",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -0.13,
+      "totalPoints": -0.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 0,
+          "pitchingPoints": -0.13,
+          "totalPoints": -0.13
+        }
+      ]
+    },
+    {
       "id": 656716,
       "name": "Zach McKinstry",
       "teamId": 116,
@@ -1935,47 +2058,6 @@
       "games": [
         {
           "gamePk": 824787,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 668952,
-      "name": "Ryan Kreidler",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "SS",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -2107,88 +2189,6 @@
       ]
     },
     {
-      "id": 691181,
-      "name": "Emmanuel Rodriguez",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "LF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 693306,
-      "name": "Aaron Sabato",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "1B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 814430,
       "name": "Brett Callahan",
       "teamId": 116,
@@ -2312,6 +2312,47 @@
       ]
     },
     {
+      "id": 668952,
+      "name": "Ryan Kreidler",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "SS",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 676480,
       "name": "José Barrero",
       "teamId": 110,
@@ -2394,11 +2435,52 @@
       ]
     },
     {
-      "id": 691785,
-      "name": "Marcelo Mayer",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "DH",
+      "id": 691181,
+      "name": "Emmanuel Rodriguez",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "LF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 693306,
+      "name": "Aaron Sabato",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "1B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -2481,88 +2563,6 @@
       "teamId": 137,
       "teamName": "San Francisco Giants",
       "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 807712,
-      "name": "Luke Keaschall",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 813841,
-      "name": "Jonah Cox",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "2B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -2804,6 +2804,47 @@
       ]
     },
     {
+      "id": 691785,
+      "name": "Marcelo Mayer",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "DH",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 694673,
       "name": "Abimelec Ortiz",
       "teamId": 120,
@@ -2837,6 +2878,47 @@
       "games": [
         {
           "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 807712,
+      "name": "Luke Keaschall",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "RF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": -3,
           "pitchingPoints": 0,
@@ -3339,6 +3421,47 @@
       ]
     },
     {
+      "id": 687551,
+      "name": "Drew Gilbert",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "CF",
+      "battingPoints": 23.2,
+      "pitchingPoints": 0,
+      "totalPoints": 23.2,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 23.2,
+          "pitchingPoints": 0,
+          "totalPoints": 23.2
+        }
+      ]
+    },
+    {
       "id": 701162,
       "name": "Ben Malgeri",
       "teamId": 116,
@@ -3590,11 +3713,11 @@
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "3B",
-      "battingPoints": 13,
+      "battingPoints": 12,
       "pitchingPoints": 0,
-      "totalPoints": 13,
+      "totalPoints": 12,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -3619,9 +3742,9 @@
         {
           "gamePk": 823169,
           "gameDate": "2026-09-21",
-          "battingPoints": 13,
+          "battingPoints": 12,
           "pitchingPoints": 0,
-          "totalPoints": 13
+          "totalPoints": 12
         }
       ]
     },
@@ -3708,88 +3831,6 @@
       ]
     },
     {
-      "id": 687551,
-      "name": "Drew Gilbert",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "CF",
-      "battingPoints": 9.2,
-      "pitchingPoints": 0,
-      "totalPoints": 9.2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 9.2,
-          "pitchingPoints": 0,
-          "totalPoints": 9.2
-        }
-      ]
-    },
-    {
-      "id": 683766,
-      "name": "Christian Koss",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "SS",
-      "battingPoints": 7.5,
-      "pitchingPoints": 0,
-      "totalPoints": 7.5,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        }
-      ]
-    },
-    {
       "id": 543807,
       "name": "George Springer",
       "teamId": 141,
@@ -3827,6 +3868,47 @@
           "battingPoints": 7.2,
           "pitchingPoints": 0,
           "totalPoints": 7.2
+        }
+      ]
+    },
+    {
+      "id": 683766,
+      "name": "Christian Koss",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "SS",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 6.5,
+          "pitchingPoints": 0,
+          "totalPoints": 6.5
         }
       ]
     },
@@ -3954,16 +4036,98 @@
       ]
     },
     {
+      "id": 813841,
+      "name": "Jonah Cox",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "2B",
+      "battingPoints": 5.5,
+      "pitchingPoints": 0,
+      "totalPoints": 5.5,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        }
+      ]
+    },
+    {
+      "id": 668800,
+      "name": "Andrew Knizner",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "PH",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
       "id": 815589,
       "name": "Bo Davidson",
       "teamId": 137,
       "teamName": "San Francisco Giants",
       "position": "RF",
-      "battingPoints": 5.5,
+      "battingPoints": 4.5,
       "pitchingPoints": 0,
-      "totalPoints": 5.5,
+      "totalPoints": 4.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -3988,91 +4152,9 @@
         {
           "gamePk": 823169,
           "gameDate": "2026-09-21",
-          "battingPoints": 5.5,
+          "battingPoints": 4.5,
           "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
-      "id": 678545,
-      "name": "Osleivis Basabe",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "3B",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 695391,
-      "name": "Brett Harris",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "1B",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
+          "totalPoints": 4.5
         }
       ]
     },
@@ -4082,47 +4164,6 @@
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "DH",
-      "battingPoints": 3.6,
-      "pitchingPoints": 0,
-      "totalPoints": 3.6,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        }
-      ]
-    },
-    {
-      "id": 805805,
-      "name": "Walker Jenkins",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "CF",
       "battingPoints": 3.6,
       "pitchingPoints": 0,
       "totalPoints": 3.6,
@@ -4241,6 +4282,47 @@
       ]
     },
     {
+      "id": 678545,
+      "name": "Osleivis Basabe",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "3B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
       "id": 687952,
       "name": "Christian Encarnacion-Strand",
       "teamId": 110,
@@ -4274,6 +4356,88 @@
       "games": [
         {
           "gamePk": 824787,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 695391,
+      "name": "Brett Harris",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "1B",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 805805,
+      "name": "Walker Jenkins",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "CF",
+      "battingPoints": 2.6,
+      "pitchingPoints": 0,
+      "totalPoints": 2.6,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": 2.6,
           "pitchingPoints": 0,
@@ -4528,47 +4692,6 @@
       ]
     },
     {
-      "id": 668952,
-      "name": "Ryan Kreidler",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "SS",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 669236,
       "name": "Jeremiah Jackson",
       "teamId": 110,
@@ -4684,88 +4807,6 @@
       "games": [
         {
           "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 691181,
-      "name": "Emmanuel Rodriguez",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "LF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 693306,
-      "name": "Aaron Sabato",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "1B",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -4897,6 +4938,47 @@
       ]
     },
     {
+      "id": 668952,
+      "name": "Ryan Kreidler",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "SS",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 676480,
       "name": "José Barrero",
       "teamId": 110,
@@ -4979,11 +5061,52 @@
       ]
     },
     {
-      "id": 691785,
-      "name": "Marcelo Mayer",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "DH",
+      "id": 691181,
+      "name": "Emmanuel Rodriguez",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "LF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 693306,
+      "name": "Aaron Sabato",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "1B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -5066,88 +5189,6 @@
       "teamId": 137,
       "teamName": "San Francisco Giants",
       "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 807712,
-      "name": "Luke Keaschall",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 813841,
-      "name": "Jonah Cox",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "2B",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -5389,6 +5430,47 @@
       ]
     },
     {
+      "id": 691785,
+      "name": "Marcelo Mayer",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "DH",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
       "id": 694673,
       "name": "Abimelec Ortiz",
       "teamId": 120,
@@ -5422,6 +5504,47 @@
       "games": [
         {
           "gamePk": 824221,
+          "gameDate": "2026-09-21",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 807712,
+      "name": "Luke Keaschall",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "RF",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": -3,
           "pitchingPoints": 0,
@@ -5807,8 +5930,8 @@
       "teamName": "Minnesota Twins",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 23.53,
-      "totalPoints": 23.53,
+      "pitchingPoints": 21.9,
+      "totalPoints": 21.9,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -5821,13 +5944,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 11,
-        "inningsPitched": "3.2",
-        "hitsAllowed": 6,
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
         "walksAllowed": 0,
         "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 6,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 9,
         "saves": 0,
         "holds": 0
       },
@@ -5836,8 +5959,49 @@
           "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": 0,
-          "pitchingPoints": 23.53,
-          "totalPoints": 23.53
+          "pitchingPoints": 21.9,
+          "totalPoints": 21.9
+        }
+      ]
+    },
+    {
+      "id": 663941,
+      "name": "Tristan Beck",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 21.73,
+      "totalPoints": 21.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 0,
+          "pitchingPoints": 21.73,
+          "totalPoints": 21.73
         }
       ]
     },
@@ -6211,47 +6375,6 @@
       ]
     },
     {
-      "id": 663941,
-      "name": "Tristan Beck",
-      "teamId": 137,
-      "teamName": "San Francisco Giants",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.93,
-      "totalPoints": 6.93,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 0,
-          "pitchingPoints": 6.93,
-          "totalPoints": 6.93
-        }
-      ]
-    },
-    {
       "id": 687792,
       "name": "DJ Herz",
       "teamId": 120,
@@ -6371,6 +6494,47 @@
           "battingPoints": 0,
           "pitchingPoints": 5.9,
           "totalPoints": 5.9
+        }
+      ]
+    },
+    {
+      "id": 573124,
+      "name": "Taylor Rogers",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -0.13,
+      "totalPoints": -0.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 0,
+          "pitchingPoints": -0.13,
+          "totalPoints": -0.13
         }
       ]
     },
@@ -6664,14 +6828,55 @@
       ]
     },
     {
+      "id": 687551,
+      "name": "Drew Gilbert",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "CF",
+      "battingPoints": 23.2,
+      "pitchingPoints": 0,
+      "totalPoints": 23.2,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 23.2,
+          "pitchingPoints": 0,
+          "totalPoints": 23.2
+        }
+      ]
+    },
+    {
       "id": 805673,
       "name": "Zebby Matthews",
       "teamId": 142,
       "teamName": "Minnesota Twins",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 23.53,
-      "totalPoints": 23.53,
+      "pitchingPoints": 21.9,
+      "totalPoints": 21.9,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -6684,13 +6889,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 11,
-        "inningsPitched": "3.2",
-        "hitsAllowed": 6,
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 8,
         "walksAllowed": 0,
         "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 6,
+        "homeRunsAllowed": 1,
+        "strikeOuts": 9,
         "saves": 0,
         "holds": 0
       },
@@ -6699,8 +6904,49 @@
           "gamePk": 823169,
           "gameDate": "2026-09-21",
           "battingPoints": 0,
-          "pitchingPoints": 23.53,
-          "totalPoints": 23.53
+          "pitchingPoints": 21.9,
+          "totalPoints": 21.9
+        }
+      ]
+    },
+    {
+      "id": 663941,
+      "name": "Tristan Beck",
+      "teamId": 137,
+      "teamName": "San Francisco Giants",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 21.73,
+      "totalPoints": 21.73,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 8,
+        "inningsPitched": "2.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 0,
+          "pitchingPoints": 21.73,
+          "totalPoints": 21.73
         }
       ]
     },
@@ -7115,47 +7361,6 @@
       ]
     },
     {
-      "id": 686797,
-      "name": "Brooks Lee",
-      "teamId": 142,
-      "teamName": "Minnesota Twins",
-      "position": "3B",
-      "battingPoints": 13,
-      "pitchingPoints": 0,
-      "totalPoints": 13,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 823169,
-          "gameDate": "2026-09-21",
-          "battingPoints": 13,
-          "pitchingPoints": 0,
-          "totalPoints": 13
-        }
-      ]
-    },
-    {
       "id": 694918,
       "name": "Blade Tidwell",
       "teamId": 137,
@@ -7197,6 +7402,47 @@
       ]
     },
     {
+      "id": 686797,
+      "name": "Brooks Lee",
+      "teamId": 142,
+      "teamName": "Minnesota Twins",
+      "position": "3B",
+      "battingPoints": 12,
+      "pitchingPoints": 0,
+      "totalPoints": 12,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 823169,
+          "gameDate": "2026-09-21",
+          "battingPoints": 12,
+          "pitchingPoints": 0,
+          "totalPoints": 12
+        }
+      ]
+    },
+    {
       "id": 680686,
       "name": "Josiah Gray",
       "teamId": 120,
@@ -7234,88 +7480,6 @@
           "battingPoints": 0,
           "pitchingPoints": 11.6,
           "totalPoints": 11.6
-        }
-      ]
-    },
-    {
-      "id": 696285,
-      "name": "Jacob Young",
-      "teamId": 120,
-      "teamName": "Washington Nationals",
-      "position": "CF",
-      "battingPoints": 11.1,
-      "pitchingPoints": 0,
-      "totalPoints": 11.1,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 11.1,
-          "pitchingPoints": 0,
-          "totalPoints": 11.1
-        }
-      ]
-    },
-    {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "teamId": 116,
-      "teamName": "Detroit Tigers",
-      "position": "1B",
-      "battingPoints": 11,
-      "pitchingPoints": 0,
-      "totalPoints": 11,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 824221,
-          "gameDate": "2026-09-21",
-          "battingPoints": 11,
-          "pitchingPoints": 0,
-          "totalPoints": 11
         }
       ]
     }
