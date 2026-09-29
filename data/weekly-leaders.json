@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T19:30:18.999Z",
-  "generatedAtET": "9/29/2026, 3:30:18 PM",
+  "generatedAt": "2026-09-29T20:00:55.238Z",
+  "generatedAtET": "9/29/2026, 4:00:55 PM",
   "scoringPeriod": {
     "start": "2026-09-28",
     "end": "2026-09-29",
@@ -11,9 +11,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 20,
+    "overall": 21,
     "hitters": 18,
-    "pitchers": 2
+    "pitchers": 3
   },
   "overallLeaders": [
     {
@@ -23,8 +23,49 @@
       "teamName": "Atlanta Braves",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 39.8,
-      "totalPoints": 39.8,
+      "pitchingPoints": 45.47,
+      "totalPoints": 45.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 19,
+        "inningsPitched": "6.1",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 9,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 45.47,
+          "totalPoints": 45.47
+        }
+      ]
+    },
+    {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 32.2,
+      "totalPoints": 32.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -39,11 +80,11 @@
       "pitchingStats": {
         "outs": 15,
         "inningsPitched": "5.0",
-        "hitsAllowed": 2,
+        "hitsAllowed": 3,
         "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "hitBatsmen": 2,
         "homeRunsAllowed": 0,
-        "strikeOuts": 7,
+        "strikeOuts": 6,
         "saves": 0,
         "holds": 0
       },
@@ -52,20 +93,184 @@
           "gamePk": 849845,
           "gameDate": "2026-09-29",
           "battingPoints": 0,
-          "pitchingPoints": 39.8,
-          "totalPoints": 39.8
+          "pitchingPoints": 32.2,
+          "totalPoints": 32.2
         }
       ]
     },
     {
-      "id": 666200,
-      "name": "Jesús Luzardo",
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "2B",
+      "battingPoints": 12.3,
+      "pitchingPoints": 0,
+      "totalPoints": 12.3,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 1,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 12.3,
+          "pitchingPoints": 0,
+          "totalPoints": 12.3
+        }
+      ]
+    },
+    {
+      "id": 671739,
+      "name": "Michael Harris II",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "CF",
+      "battingPoints": 9.2,
+      "pitchingPoints": 0,
+      "totalPoints": 9.2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 9.2,
+          "pitchingPoints": 0,
+          "totalPoints": 9.2
+        }
+      ]
+    },
+    {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
+      "battingPoints": 6.6,
+      "pitchingPoints": 0,
+      "totalPoints": 6.6,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
+        }
+      ]
+    },
+    {
+      "id": 624641,
+      "name": "Edmundo Sosa",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "3B",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 6.5,
+          "pitchingPoints": 0,
+          "totalPoints": 6.5
+        }
+      ]
+    },
+    {
+      "id": 686934,
+      "name": "Alex McFarlane",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 23.8,
-      "totalPoints": 23.8,
+      "pitchingPoints": 6.2,
+      "totalPoints": 6.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -78,13 +283,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 12,
-        "inningsPitched": "4.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 4,
+        "strikeOuts": 2,
         "saves": 0,
         "holds": 0
       },
@@ -93,49 +298,8 @@
           "gamePk": 849845,
           "gameDate": "2026-09-29",
           "battingPoints": 0,
-          "pitchingPoints": 23.8,
-          "totalPoints": 23.8
-        }
-      ]
-    },
-    {
-      "id": 624641,
-      "name": "Edmundo Sosa",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "3B",
-      "battingPoints": 6.5,
-      "pitchingPoints": 0,
-      "totalPoints": 6.5,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
-          "pitchingPoints": 0,
-          "totalPoints": 6.5
+          "pitchingPoints": 6.2,
+          "totalPoints": 6.2
         }
       ]
     },
@@ -145,11 +309,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "LF",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -174,9 +338,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
+          "totalPoints": 5.5
         }
       ]
     },
@@ -186,11 +350,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "1B",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -215,50 +379,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
-      "id": 671739,
-      "name": "Michael Harris II",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "CF",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": 5.5
         }
       ]
     },
@@ -268,11 +391,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "DH",
-      "battingPoints": 3.6,
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 3.6,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -297,69 +420,28 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 3.6,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 3.6
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "2B",
-      "battingPoints": 2,
-      "pitchingPoints": 0,
-      "totalPoints": 2,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
-      "id": 656941,
-      "name": "Kyle Schwarber",
+      "id": 681082,
+      "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "DH",
-      "battingPoints": 2,
+      "position": "2B",
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 1,
-        "hits": 0,
+        "atBats": 3,
+        "hits": 1,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -379,23 +461,23 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "3B",
-      "battingPoints": 2,
+      "id": 650559,
+      "name": "Bryan De La Cruz",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "LF",
+      "battingPoints": 1,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 1,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -420,9 +502,91 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 1,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 660670,
+      "name": "Ronald Acuña Jr.",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "RF",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "3B",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -432,11 +596,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "SS",
-      "battingPoints": -0.8,
+      "battingPoints": -1.8,
       "pitchingPoints": 0,
-      "totalPoints": -0.8,
+      "totalPoints": -1.8,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -461,91 +625,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -0.8,
+          "battingPoints": -1.8,
           "pitchingPoints": 0,
-          "totalPoints": -0.8
-        }
-      ]
-    },
-    {
-      "id": 673490,
-      "name": "Ha-Seong Kim",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "SS",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -1.8
         }
       ]
     },
@@ -591,11 +673,11 @@
       ]
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
+      "id": 673490,
+      "name": "Ha-Seong Kim",
       "teamId": 144,
       "teamName": "Atlanta Braves",
-      "position": "1B",
+      "position": "SS",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -632,16 +714,16 @@
       ]
     },
     {
-      "id": 650559,
-      "name": "Bryan De La Cruz",
+      "id": 547180,
+      "name": "Bryce Harper",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "LF",
-      "battingPoints": -2,
+      "position": "RF",
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -666,9 +748,50 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "1B",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -678,11 +801,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "CF",
-      "battingPoints": -2,
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -707,91 +830,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 660670,
-      "name": "Ronald Acuña Jr.",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 681082,
-      "name": "Bryson Stott",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "2B",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
         }
       ]
     },
@@ -801,11 +842,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "C",
-      "battingPoints": -2,
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -830,15 +871,138 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
         }
       ]
     }
   ],
   "hitterLeaders": [
     {
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "2B",
+      "battingPoints": 12.3,
+      "pitchingPoints": 0,
+      "totalPoints": 12.3,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 1,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 12.3,
+          "pitchingPoints": 0,
+          "totalPoints": 12.3
+        }
+      ]
+    },
+    {
+      "id": 671739,
+      "name": "Michael Harris II",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "CF",
+      "battingPoints": 9.2,
+      "pitchingPoints": 0,
+      "totalPoints": 9.2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 9.2,
+          "pitchingPoints": 0,
+          "totalPoints": 9.2
+        }
+      ]
+    },
+    {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
+      "battingPoints": 6.6,
+      "pitchingPoints": 0,
+      "totalPoints": 6.6,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
+        }
+      ]
+    },
+    {
       "id": 624641,
       "name": "Edmundo Sosa",
       "teamId": 143,
@@ -885,11 +1049,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "LF",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -914,9 +1078,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
+          "totalPoints": 5.5
         }
       ]
     },
@@ -926,11 +1090,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "1B",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -955,50 +1119,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
-      "id": 671739,
-      "name": "Michael Harris II",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "CF",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": 5.5
         }
       ]
     },
@@ -1008,11 +1131,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "DH",
-      "battingPoints": 3.6,
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 3.6,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -1037,69 +1160,28 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 3.6,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 3.6
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "2B",
-      "battingPoints": 2,
-      "pitchingPoints": 0,
-      "totalPoints": 2,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
-      "id": 656941,
-      "name": "Kyle Schwarber",
+      "id": 681082,
+      "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "DH",
-      "battingPoints": 2,
+      "position": "2B",
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 1,
-        "hits": 0,
+        "atBats": 3,
+        "hits": 1,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -1119,23 +1201,23 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "3B",
-      "battingPoints": 2,
+      "id": 650559,
+      "name": "Bryan De La Cruz",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "LF",
+      "battingPoints": 1,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 1,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1160,9 +1242,91 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 1,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 660670,
+      "name": "Ronald Acuña Jr.",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "RF",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "3B",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -1172,11 +1336,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "SS",
-      "battingPoints": -0.8,
+      "battingPoints": -1.8,
       "pitchingPoints": 0,
-      "totalPoints": -0.8,
+      "totalPoints": -1.8,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1201,91 +1365,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -0.8,
+          "battingPoints": -1.8,
           "pitchingPoints": 0,
-          "totalPoints": -0.8
-        }
-      ]
-    },
-    {
-      "id": 673490,
-      "name": "Ha-Seong Kim",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "SS",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -1.8
         }
       ]
     },
@@ -1331,11 +1413,11 @@
       ]
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
+      "id": 673490,
+      "name": "Ha-Seong Kim",
       "teamId": 144,
       "teamName": "Atlanta Braves",
-      "position": "1B",
+      "position": "SS",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -1372,16 +1454,16 @@
       ]
     },
     {
-      "id": 650559,
-      "name": "Bryan De La Cruz",
+      "id": 547180,
+      "name": "Bryce Harper",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "LF",
-      "battingPoints": -2,
+      "position": "RF",
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1406,9 +1488,50 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "1B",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -1418,11 +1541,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "CF",
-      "battingPoints": -2,
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1447,91 +1570,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 660670,
-      "name": "Ronald Acuña Jr.",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 681082,
-      "name": "Bryson Stott",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "2B",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
         }
       ]
     },
@@ -1541,11 +1582,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "C",
-      "battingPoints": -2,
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1570,9 +1611,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
         }
       ]
     }
@@ -1585,8 +1626,49 @@
       "teamName": "Atlanta Braves",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 39.8,
-      "totalPoints": 39.8,
+      "pitchingPoints": 45.47,
+      "totalPoints": 45.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 19,
+        "inningsPitched": "6.1",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 9,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 45.47,
+          "totalPoints": 45.47
+        }
+      ]
+    },
+    {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 32.2,
+      "totalPoints": 32.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -1601,11 +1683,11 @@
       "pitchingStats": {
         "outs": 15,
         "inningsPitched": "5.0",
-        "hitsAllowed": 2,
+        "hitsAllowed": 3,
         "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "hitBatsmen": 2,
         "homeRunsAllowed": 0,
-        "strikeOuts": 7,
+        "strikeOuts": 6,
         "saves": 0,
         "holds": 0
       },
@@ -1614,20 +1696,20 @@
           "gamePk": 849845,
           "gameDate": "2026-09-29",
           "battingPoints": 0,
-          "pitchingPoints": 39.8,
-          "totalPoints": 39.8
+          "pitchingPoints": 32.2,
+          "totalPoints": 32.2
         }
       ]
     },
     {
-      "id": 666200,
-      "name": "Jesús Luzardo",
+      "id": 686934,
+      "name": "Alex McFarlane",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 23.8,
-      "totalPoints": 23.8,
+      "pitchingPoints": 6.2,
+      "totalPoints": 6.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -1640,13 +1722,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 12,
-        "inningsPitched": "4.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 4,
+        "strikeOuts": 2,
         "saves": 0,
         "holds": 0
       },
@@ -1655,8 +1737,8 @@
           "gamePk": 849845,
           "gameDate": "2026-09-29",
           "battingPoints": 0,
-          "pitchingPoints": 23.8,
-          "totalPoints": 23.8
+          "pitchingPoints": 6.2,
+          "totalPoints": 6.2
         }
       ]
     }
@@ -1669,8 +1751,49 @@
       "teamName": "Atlanta Braves",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 39.8,
-      "totalPoints": 39.8,
+      "pitchingPoints": 45.47,
+      "totalPoints": 45.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 19,
+        "inningsPitched": "6.1",
+        "hitsAllowed": 4,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 9,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 45.47,
+          "totalPoints": 45.47
+        }
+      ]
+    },
+    {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 32.2,
+      "totalPoints": 32.2,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -1685,11 +1808,11 @@
       "pitchingStats": {
         "outs": 15,
         "inningsPitched": "5.0",
-        "hitsAllowed": 2,
+        "hitsAllowed": 3,
         "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "hitBatsmen": 2,
         "homeRunsAllowed": 0,
-        "strikeOuts": 7,
+        "strikeOuts": 6,
         "saves": 0,
         "holds": 0
       },
@@ -1698,23 +1821,64 @@
           "gamePk": 849845,
           "gameDate": "2026-09-29",
           "battingPoints": 0,
-          "pitchingPoints": 39.8,
-          "totalPoints": 39.8
+          "pitchingPoints": 32.2,
+          "totalPoints": 32.2
         }
       ]
     },
     {
-      "id": 666200,
-      "name": "Jesús Luzardo",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 23.8,
-      "totalPoints": 23.8,
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "2B",
+      "battingPoints": 12.3,
+      "pitchingPoints": 0,
+      "totalPoints": 12.3,
       "battingStats": {
-        "atBats": 0,
-        "hits": 0,
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 1,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 12.3,
+          "pitchingPoints": 0,
+          "totalPoints": 12.3
+        }
+      ]
+    },
+    {
+      "id": 671739,
+      "name": "Michael Harris II",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "CF",
+      "battingPoints": 9.2,
+      "pitchingPoints": 0,
+      "totalPoints": 9.2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 2,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
@@ -1724,13 +1888,13 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 12,
-        "inningsPitched": "4.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 1,
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 4,
+        "strikeOuts": 0,
         "saves": 0,
         "holds": 0
       },
@@ -1738,9 +1902,50 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 23.8,
-          "totalPoints": 23.8
+          "battingPoints": 9.2,
+          "pitchingPoints": 0,
+          "totalPoints": 9.2
+        }
+      ]
+    },
+    {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "DH",
+      "battingPoints": 6.6,
+      "pitchingPoints": 0,
+      "totalPoints": 6.6,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 6.6,
+          "pitchingPoints": 0,
+          "totalPoints": 6.6
         }
       ]
     },
@@ -1786,16 +1991,57 @@
       ]
     },
     {
+      "id": 686934,
+      "name": "Alex McFarlane",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.2,
+      "totalPoints": 6.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 2,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 6.2,
+          "totalPoints": 6.2
+        }
+      ]
+    },
+    {
       "id": 643289,
       "name": "Mauricio Dubón",
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "LF",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -1820,9 +2066,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
+          "totalPoints": 5.5
         }
       ]
     },
@@ -1832,11 +2078,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "1B",
-      "battingPoints": 6.5,
+      "battingPoints": 5.5,
       "pitchingPoints": 0,
-      "totalPoints": 6.5,
+      "totalPoints": 5.5,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 1,
         "triples": 0,
@@ -1861,50 +2107,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 6.5,
+          "battingPoints": 5.5,
           "pitchingPoints": 0,
-          "totalPoints": 6.5
-        }
-      ]
-    },
-    {
-      "id": 671739,
-      "name": "Michael Harris II",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "CF",
-      "battingPoints": 4.6,
-      "pitchingPoints": 0,
-      "totalPoints": 4.6,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": 5.5
         }
       ]
     },
@@ -1914,11 +2119,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "DH",
-      "battingPoints": 3.6,
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 3.6,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -1943,69 +2148,28 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 3.6,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 3.6
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "2B",
-      "battingPoints": 2,
-      "pitchingPoints": 0,
-      "totalPoints": 2,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 2,
-          "pitchingPoints": 0,
-          "totalPoints": 2
-        }
-      ]
-    },
-    {
-      "id": 656941,
-      "name": "Kyle Schwarber",
+      "id": 681082,
+      "name": "Bryson Stott",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "DH",
-      "battingPoints": 2,
+      "position": "2B",
+      "battingPoints": 2.6,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 2.6,
       "battingStats": {
-        "atBats": 1,
-        "hits": 0,
+        "atBats": 3,
+        "hits": 1,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 0,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -2025,23 +2189,23 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 2.6,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 2.6
         }
       ]
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "3B",
-      "battingPoints": 2,
+      "id": 650559,
+      "name": "Bryan De La Cruz",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "LF",
+      "battingPoints": 1,
       "pitchingPoints": 0,
-      "totalPoints": 2,
+      "totalPoints": 1,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -2066,9 +2230,91 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": 2,
+          "battingPoints": 1,
           "pitchingPoints": 0,
-          "totalPoints": 2
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 660670,
+      "name": "Ronald Acuña Jr.",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "RF",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        }
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "3B",
+      "battingPoints": 1,
+      "pitchingPoints": 0,
+      "totalPoints": 1,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
         }
       ]
     },
@@ -2078,11 +2324,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "SS",
-      "battingPoints": -0.8,
+      "battingPoints": -1.8,
       "pitchingPoints": 0,
-      "totalPoints": -0.8,
+      "totalPoints": -1.8,
       "battingStats": {
-        "atBats": 1,
+        "atBats": 2,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -2107,91 +2353,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -0.8,
+          "battingPoints": -1.8,
           "pitchingPoints": 0,
-          "totalPoints": -0.8
-        }
-      ]
-    },
-    {
-      "id": 673490,
-      "name": "Ha-Seong Kim",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "SS",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -1.8
         }
       ]
     },
@@ -2237,11 +2401,11 @@
       ]
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
+      "id": 673490,
+      "name": "Ha-Seong Kim",
       "teamId": 144,
       "teamName": "Atlanta Braves",
-      "position": "1B",
+      "position": "SS",
       "battingPoints": -2,
       "pitchingPoints": 0,
       "totalPoints": -2,
@@ -2278,16 +2442,16 @@
       ]
     },
     {
-      "id": 650559,
-      "name": "Bryan De La Cruz",
+      "id": 547180,
+      "name": "Bryce Harper",
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
-      "position": "LF",
-      "battingPoints": -2,
+      "position": "RF",
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -2312,9 +2476,50 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "1B",
+      "battingPoints": -3,
+      "pitchingPoints": 0,
+      "totalPoints": -3,
+      "battingStats": {
+        "atBats": 3,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
         }
       ]
     },
@@ -2324,11 +2529,11 @@
       "teamId": 143,
       "teamName": "Philadelphia Phillies",
       "position": "CF",
-      "battingPoints": -2,
+      "battingPoints": -3,
       "pitchingPoints": 0,
-      "totalPoints": -2,
+      "totalPoints": -3,
       "battingStats": {
-        "atBats": 2,
+        "atBats": 3,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -2353,132 +2558,9 @@
         {
           "gamePk": 849845,
           "gameDate": "2026-09-29",
-          "battingPoints": -2,
+          "battingPoints": -3,
           "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 660670,
-      "name": "Ronald Acuña Jr.",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 681082,
-      "name": "Bryson Stott",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "2B",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
-        }
-      ]
-    },
-    {
-      "id": 686948,
-      "name": "Drake Baldwin",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "C",
-      "battingPoints": -2,
-      "pitchingPoints": 0,
-      "totalPoints": -2,
-      "battingStats": {
-        "atBats": 2,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -2,
-          "pitchingPoints": 0,
-          "totalPoints": -2
+          "totalPoints": -3
         }
       ]
     }
