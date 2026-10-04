@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T20:31:09.441Z",
-  "generatedAtET": "10/4/2026, 4:31:09 PM",
+  "generatedAt": "2026-10-04T21:01:06.862Z",
+  "generatedAtET": "10/4/2026, 5:01:06 PM",
   "scoringPeriod": {
     "start": "2026-09-28",
     "end": "2026-10-04",
@@ -16,11 +16,59 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 229,
-    "hitters": 131,
+    "overall": 231,
+    "hitters": 133,
     "pitchers": 98
   },
   "overallLeaders": [
+    {
+      "id": 650633,
+      "name": "Michael King",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 86.4,
+      "totalPoints": 86.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 30,
+        "inningsPitched": "10.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 12,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 56.2,
+          "totalPoints": 56.2
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 30.2,
+          "totalPoints": 30.2
+        }
+      ]
+    },
     {
       "id": 656876,
       "name": "Drew Rasmussen",
@@ -59,54 +107,6 @@
           "battingPoints": 0,
           "pitchingPoints": 70.6,
           "totalPoints": 70.6
-        }
-      ]
-    },
-    {
-      "id": 650633,
-      "name": "Michael King",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 63.6,
-      "totalPoints": 63.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 24,
-        "inningsPitched": "8.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 3,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 8,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 56.2,
-          "totalPoints": 56.2
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 7.4,
-          "totalPoints": 7.4
         }
       ]
     },
@@ -459,11 +459,11 @@
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "3B",
-      "battingPoints": 41.2,
+      "battingPoints": 40.2,
       "pitchingPoints": 0,
-      "totalPoints": 41.2,
+      "totalPoints": 40.2,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 2,
         "triples": 0,
@@ -509,9 +509,9 @@
         {
           "gamePk": 849825,
           "gameDate": "2026-10-04",
-          "battingPoints": 3,
+          "battingPoints": 2,
           "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 2
         }
       ]
     },
@@ -646,16 +646,57 @@
       ]
     },
     {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 32.2,
+      "totalPoints": 32.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 6,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 32.2,
+          "totalPoints": 32.2
+        }
+      ]
+    },
+    {
       "id": 593428,
       "name": "Xander Bogaerts",
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "SS",
-      "battingPoints": 32.3,
+      "battingPoints": 31.3,
       "pitchingPoints": 0,
-      "totalPoints": 32.3,
+      "totalPoints": 31.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 1,
         "triples": 0,
@@ -697,47 +738,13 @@
           "battingPoints": 5.6,
           "pitchingPoints": 0,
           "totalPoints": 5.6
-        }
-      ]
-    },
-    {
-      "id": 666200,
-      "name": "Jesús Luzardo",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 32.2,
-      "totalPoints": 32.2,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 2,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 6,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
+        },
         {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 32.2,
-          "totalPoints": 32.2
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -968,68 +975,6 @@
       ]
     },
     {
-      "id": 664034,
-      "name": "Ty France",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "1B",
-      "battingPoints": 26.5,
-      "pitchingPoints": 0,
-      "totalPoints": 26.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        }
-      ]
-    },
-    {
       "id": 695657,
       "name": "Colson Montgomery",
       "teamId": 145,
@@ -1129,6 +1074,68 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 664034,
+      "name": "Ty France",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "1B",
+      "battingPoints": 25.5,
+      "pitchingPoints": 0,
+      "totalPoints": 25.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
         }
       ]
     },
@@ -1634,6 +1641,47 @@
       ]
     },
     {
+      "id": 701656,
+      "name": "Logan Henderson",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 19.07,
+      "totalPoints": 19.07,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 10,
+        "inningsPitched": "3.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 19.07,
+          "totalPoints": 19.07
+        }
+      ]
+    },
+    {
       "id": 601713,
       "name": "Nick Pivetta",
       "teamId": 135,
@@ -1842,68 +1890,6 @@
           "battingPoints": 16.6,
           "pitchingPoints": 0,
           "totalPoints": 16.6
-        }
-      ]
-    },
-    {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "RF",
-      "battingPoints": 18.1,
-      "pitchingPoints": 0,
-      "totalPoints": 18.1,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 22.5,
-          "pitchingPoints": 0,
-          "totalPoints": 22.5
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -2192,6 +2178,68 @@
           "battingPoints": 16.6,
           "pitchingPoints": 0,
           "totalPoints": 16.6
+        }
+      ]
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "RF",
+      "battingPoints": 17.1,
+      "pitchingPoints": 0,
+      "totalPoints": 17.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 22.5,
+          "pitchingPoints": 0,
+          "totalPoints": 22.5
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -2744,47 +2792,6 @@
       ]
     },
     {
-      "id": 661388,
-      "name": "William Contreras",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "C",
-      "battingPoints": 15,
-      "pitchingPoints": 0,
-      "totalPoints": 15,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        }
-      ]
-    },
-    {
       "id": 670970,
       "name": "Adrian Morejon",
       "teamId": 135,
@@ -2973,6 +2980,54 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3443,68 +3498,6 @@
       ]
     },
     {
-      "id": 701538,
-      "name": "Jackson Merrill",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "CF",
-      "battingPoints": 11.5,
-      "pitchingPoints": 0,
-      "totalPoints": 11.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 10.3,
-          "pitchingPoints": 0,
-          "totalPoints": 10.3
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 806146,
       "name": "George Lombard Jr.",
       "teamId": 147,
@@ -3724,6 +3717,68 @@
       ]
     },
     {
+      "id": 701538,
+      "name": "Jackson Merrill",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "CF",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 10.3,
+          "pitchingPoints": 0,
+          "totalPoints": 10.3
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 641343,
       "name": "Jake Bauers",
       "teamId": 158,
@@ -3816,6 +3871,61 @@
           "battingPoints": 0,
           "pitchingPoints": 8.27,
           "totalPoints": 8.27
+        }
+      ]
+    },
+    {
+      "id": 669134,
+      "name": "Luis Campusano",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "C",
+      "battingPoints": 10.2,
+      "pitchingPoints": 0,
+      "totalPoints": 10.2,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -4690,47 +4800,6 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 7.5,
-      "pitchingPoints": 0,
-      "totalPoints": 7.5,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        }
-      ]
-    },
-    {
       "id": 669711,
       "name": "Greg Weissert",
       "teamId": 111,
@@ -4809,54 +4878,6 @@
           "battingPoints": 0,
           "pitchingPoints": 7.4,
           "totalPoints": 7.4
-        }
-      ]
-    },
-    {
-      "id": 669134,
-      "name": "Luis Campusano",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "C",
-      "battingPoints": 7.2,
-      "pitchingPoints": 0,
-      "totalPoints": 7.2,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
         }
       ]
     },
@@ -5163,6 +5184,54 @@
       ]
     },
     {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 681987,
       "name": "Nate Eaton",
       "teamId": 111,
@@ -5399,68 +5468,6 @@
           "battingPoints": 8.2,
           "pitchingPoints": 0,
           "totalPoints": 8.2
-        }
-      ]
-    },
-    {
-      "id": 687957,
-      "name": "Dustin Harris",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "LF",
-      "battingPoints": 6,
-      "pitchingPoints": 0,
-      "totalPoints": 6,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 7.4,
-          "pitchingPoints": 0,
-          "totalPoints": 7.4
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -5735,6 +5742,68 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 687957,
+      "name": "Dustin Harris",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "LF",
+      "battingPoints": 5,
+      "pitchingPoints": 0,
+      "totalPoints": 5,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 7.4,
+          "pitchingPoints": 0,
+          "totalPoints": 7.4
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -6259,47 +6328,6 @@
       ]
     },
     {
-      "id": 701656,
-      "name": "Logan Henderson",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 2.8,
-      "totalPoints": 2.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 2.8,
-          "totalPoints": 2.8
-        }
-      ]
-    },
-    {
       "id": 686948,
       "name": "Drake Baldwin",
       "teamId": 144,
@@ -6358,47 +6386,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 2.6,
-      "pitchingPoints": 0,
-      "totalPoints": 2.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
         }
       ]
     },
@@ -7074,6 +7061,54 @@
       ]
     },
     {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 650490,
       "name": "Yandy Díaz",
       "teamId": 139,
@@ -7642,61 +7677,6 @@
       ]
     },
     {
-      "id": 630105,
-      "name": "Jake Cronenworth",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "2B",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 650644,
       "name": "Aaron Civale",
       "teamId": 112,
@@ -7902,6 +7882,47 @@
       ]
     },
     {
+      "id": 666152,
+      "name": "David Hamilton",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 681807,
       "name": "David Fry",
       "teamId": 114,
@@ -7936,6 +7957,47 @@
         {
           "gamePk": 849829,
           "gameDate": "2026-10-03",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -8062,6 +8124,68 @@
           "battingPoints": 0,
           "pitchingPoints": -1.27,
           "totalPoints": -1.27
+        }
+      ]
+    },
+    {
+      "id": 630105,
+      "name": "Jake Cronenworth",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "2B",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -9454,11 +9578,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "SS",
-      "battingPoints": -4,
+      "battingPoints": -5,
       "pitchingPoints": 0,
-      "totalPoints": -4,
+      "totalPoints": -5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -9486,6 +9610,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -10620,11 +10751,11 @@
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "3B",
-      "battingPoints": 41.2,
+      "battingPoints": 40.2,
       "pitchingPoints": 0,
-      "totalPoints": 41.2,
+      "totalPoints": 40.2,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 2,
         "triples": 0,
@@ -10670,9 +10801,9 @@
         {
           "gamePk": 849825,
           "gameDate": "2026-10-04",
-          "battingPoints": 3,
+          "battingPoints": 2,
           "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 2
         }
       ]
     },
@@ -10682,11 +10813,11 @@
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "SS",
-      "battingPoints": 32.3,
+      "battingPoints": 31.3,
       "pitchingPoints": 0,
-      "totalPoints": 32.3,
+      "totalPoints": 31.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 1,
         "triples": 0,
@@ -10728,6 +10859,13 @@
           "battingPoints": 5.6,
           "pitchingPoints": 0,
           "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -10783,68 +10921,6 @@
           "battingPoints": 11.2,
           "pitchingPoints": 0,
           "totalPoints": 11.2
-        }
-      ]
-    },
-    {
-      "id": 664034,
-      "name": "Ty France",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "1B",
-      "battingPoints": 26.5,
-      "pitchingPoints": 0,
-      "totalPoints": 26.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 6,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
         }
       ]
     },
@@ -10948,6 +11024,68 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 664034,
+      "name": "Ty France",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "1B",
+      "battingPoints": 25.5,
+      "pitchingPoints": 0,
+      "totalPoints": 25.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 6,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 10.1,
+          "pitchingPoints": 0,
+          "totalPoints": 10.1
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
         }
       ]
     },
@@ -11316,68 +11454,6 @@
       ]
     },
     {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "RF",
-      "battingPoints": 18.1,
-      "pitchingPoints": 0,
-      "totalPoints": 18.1,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 22.5,
-          "pitchingPoints": 0,
-          "totalPoints": 22.5
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 665862,
       "name": "Jazz Chisholm Jr.",
       "teamId": 147,
@@ -11580,6 +11656,68 @@
           "battingPoints": 16.6,
           "pitchingPoints": 0,
           "totalPoints": 16.6
+        }
+      ]
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "RF",
+      "battingPoints": 17.1,
+      "pitchingPoints": 0,
+      "totalPoints": 17.1,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 22.5,
+          "pitchingPoints": 0,
+          "totalPoints": 22.5
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -11831,47 +11969,6 @@
       ]
     },
     {
-      "id": 661388,
-      "name": "William Contreras",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "C",
-      "battingPoints": 15,
-      "pitchingPoints": 0,
-      "totalPoints": 15,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        }
-      ]
-    },
-    {
       "id": 660670,
       "name": "Ronald Acuña Jr.",
       "teamId": 144,
@@ -11923,6 +12020,54 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "C",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -12181,68 +12326,6 @@
       ]
     },
     {
-      "id": 701538,
-      "name": "Jackson Merrill",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "CF",
-      "battingPoints": 11.5,
-      "pitchingPoints": 0,
-      "totalPoints": 11.5,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 7.2,
-          "pitchingPoints": 0,
-          "totalPoints": 7.2
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 10.3,
-          "pitchingPoints": 0,
-          "totalPoints": 10.3
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": -5,
-          "pitchingPoints": 0,
-          "totalPoints": -5
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
       "id": 806146,
       "name": "George Lombard Jr.",
       "teamId": 147,
@@ -12380,6 +12463,68 @@
       ]
     },
     {
+      "id": 701538,
+      "name": "Jackson Merrill",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "CF",
+      "battingPoints": 10.5,
+      "pitchingPoints": 0,
+      "totalPoints": 10.5,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 7.2,
+          "pitchingPoints": 0,
+          "totalPoints": 7.2
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 10.3,
+          "pitchingPoints": 0,
+          "totalPoints": 10.3
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": -5,
+          "pitchingPoints": 0,
+          "totalPoints": -5
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
+        }
+      ]
+    },
+    {
       "id": 641343,
       "name": "Jake Bauers",
       "teamId": 158,
@@ -12424,6 +12569,61 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 669134,
+      "name": "Luis Campusano",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "C",
+      "battingPoints": 10.2,
+      "pitchingPoints": 0,
+      "totalPoints": 10.2,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -12826,95 +13026,6 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 7.5,
-      "pitchingPoints": 0,
-      "totalPoints": 7.5,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        }
-      ]
-    },
-    {
-      "id": 669134,
-      "name": "Luis Campusano",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "C",
-      "battingPoints": 7.2,
-      "pitchingPoints": 0,
-      "totalPoints": 7.2,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        }
-      ]
-    },
-    {
       "id": 673548,
       "name": "Seiya Suzuki",
       "teamId": 112,
@@ -13176,6 +13287,54 @@
       ]
     },
     {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 6.5,
+      "pitchingPoints": 0,
+      "totalPoints": 6.5,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 681987,
       "name": "Nate Eaton",
       "teamId": 111,
@@ -13371,68 +13530,6 @@
           "battingPoints": 8.2,
           "pitchingPoints": 0,
           "totalPoints": 8.2
-        }
-      ]
-    },
-    {
-      "id": 687957,
-      "name": "Dustin Harris",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "LF",
-      "battingPoints": 6,
-      "pitchingPoints": 0,
-      "totalPoints": 6,
-      "battingStats": {
-        "atBats": 11,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 3.6,
-          "pitchingPoints": 0,
-          "totalPoints": 3.6
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 7.4,
-          "pitchingPoints": 0,
-          "totalPoints": 7.4
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
         }
       ]
     },
@@ -13707,6 +13804,68 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 687957,
+      "name": "Dustin Harris",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "LF",
+      "battingPoints": 5,
+      "pitchingPoints": 0,
+      "totalPoints": 5,
+      "battingStats": {
+        "atBats": 12,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 3.6,
+          "pitchingPoints": 0,
+          "totalPoints": 3.6
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 7.4,
+          "pitchingPoints": 0,
+          "totalPoints": 7.4
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -14070,47 +14229,6 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
-        }
-      ]
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 2.6,
-      "pitchingPoints": 0,
-      "totalPoints": 2.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
         }
       ]
     },
@@ -14529,6 +14647,54 @@
           "battingPoints": 2,
           "pitchingPoints": 0,
           "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
+      "battingPoints": 1.6,
+      "pitchingPoints": 0,
+      "totalPoints": 1.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -15019,61 +15185,6 @@
       ]
     },
     {
-      "id": 630105,
-      "name": "Jake Cronenworth",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "2B",
-      "battingPoints": -0.4,
-      "pitchingPoints": 0,
-      "totalPoints": -0.4,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849842,
-          "gameDate": "2026-09-30",
-          "battingPoints": 1,
-          "pitchingPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "gamePk": 849830,
-          "gameDate": "2026-10-03",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 519317,
       "name": "Giancarlo Stanton",
       "teamId": 147,
@@ -15156,6 +15267,47 @@
       ]
     },
     {
+      "id": 666152,
+      "name": "David Hamilton",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "3B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 681807,
       "name": "David Fry",
       "teamId": 114,
@@ -15197,6 +15349,47 @@
       ]
     },
     {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 805249,
       "name": "Otto Kemp",
       "teamId": 143,
@@ -15231,6 +15424,68 @@
         {
           "gamePk": 849844,
           "gameDate": "2026-10-01",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 630105,
+      "name": "Jake Cronenworth",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "2B",
+      "battingPoints": -1.4,
+      "pitchingPoints": 0,
+      "totalPoints": -1.4,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849842,
+          "gameDate": "2026-09-30",
+          "battingPoints": 1,
+          "pitchingPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "gamePk": 849830,
+          "gameDate": "2026-10-03",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -16462,11 +16717,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "SS",
-      "battingPoints": -4,
+      "battingPoints": -5,
       "pitchingPoints": 0,
-      "totalPoints": -4,
+      "totalPoints": -5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -16494,6 +16749,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -16795,6 +17057,54 @@
   ],
   "pitcherLeaders": [
     {
+      "id": 650633,
+      "name": "Michael King",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 86.4,
+      "totalPoints": 86.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 30,
+        "inningsPitched": "10.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 12,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 56.2,
+          "totalPoints": 56.2
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 30.2,
+          "totalPoints": 30.2
+        }
+      ]
+    },
+    {
       "id": 656876,
       "name": "Drew Rasmussen",
       "teamId": 139,
@@ -16832,54 +17142,6 @@
           "battingPoints": 0,
           "pitchingPoints": 70.6,
           "totalPoints": 70.6
-        }
-      ]
-    },
-    {
-      "id": 650633,
-      "name": "Michael King",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 63.6,
-      "totalPoints": 63.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 24,
-        "inningsPitched": "8.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 3,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 8,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 56.2,
-          "totalPoints": 56.2
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 7.4,
-          "totalPoints": 7.4
         }
       ]
     },
@@ -17681,6 +17943,47 @@
           "battingPoints": 0,
           "pitchingPoints": 20.2,
           "totalPoints": 20.2
+        }
+      ]
+    },
+    {
+      "id": 701656,
+      "name": "Logan Henderson",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 19.07,
+      "totalPoints": 19.07,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 10,
+        "inningsPitched": "3.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 3,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 19.07,
+          "totalPoints": 19.07
         }
       ]
     },
@@ -19521,47 +19824,6 @@
           "battingPoints": 0,
           "pitchingPoints": 3.2,
           "totalPoints": 3.2
-        }
-      ]
-    },
-    {
-      "id": 701656,
-      "name": "Logan Henderson",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 2.8,
-      "totalPoints": 2.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 2,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 2.8,
-          "totalPoints": 2.8
         }
       ]
     },
@@ -20990,6 +21252,54 @@
   ],
   "leaders": [
     {
+      "id": 650633,
+      "name": "Michael King",
+      "teamId": 135,
+      "teamName": "San Diego Padres",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 86.4,
+      "totalPoints": 86.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 30,
+        "inningsPitched": "10.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 12,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849843,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 56.2,
+          "totalPoints": 56.2
+        },
+        {
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 30.2,
+          "totalPoints": 30.2
+        }
+      ]
+    },
+    {
       "id": 656876,
       "name": "Drew Rasmussen",
       "teamId": 139,
@@ -21027,54 +21337,6 @@
           "battingPoints": 0,
           "pitchingPoints": 70.6,
           "totalPoints": 70.6
-        }
-      ]
-    },
-    {
-      "id": 650633,
-      "name": "Michael King",
-      "teamId": 135,
-      "teamName": "San Diego Padres",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 63.6,
-      "totalPoints": 63.6,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 24,
-        "inningsPitched": "8.0",
-        "hitsAllowed": 1,
-        "walksAllowed": 3,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 8,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849843,
-          "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 56.2,
-          "totalPoints": 56.2
-        },
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 7.4,
-          "totalPoints": 7.4
         }
       ]
     },
@@ -21427,11 +21689,11 @@
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "3B",
-      "battingPoints": 41.2,
+      "battingPoints": 40.2,
       "pitchingPoints": 0,
-      "totalPoints": 41.2,
+      "totalPoints": 40.2,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 2,
         "triples": 0,
@@ -21477,9 +21739,9 @@
         {
           "gamePk": 849825,
           "gameDate": "2026-10-04",
-          "battingPoints": 3,
+          "battingPoints": 2,
           "pitchingPoints": 0,
-          "totalPoints": 3
+          "totalPoints": 2
         }
       ]
     },
@@ -21614,16 +21876,57 @@
       ]
     },
     {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "teamId": 143,
+      "teamName": "Philadelphia Phillies",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 32.2,
+      "totalPoints": 32.2,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 15,
+        "inningsPitched": "5.0",
+        "hitsAllowed": 3,
+        "walksAllowed": 1,
+        "hitBatsmen": 2,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 6,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 0,
+          "pitchingPoints": 32.2,
+          "totalPoints": 32.2
+        }
+      ]
+    },
+    {
       "id": 593428,
       "name": "Xander Bogaerts",
       "teamId": 135,
       "teamName": "San Diego Padres",
       "position": "SS",
-      "battingPoints": 32.3,
+      "battingPoints": 31.3,
       "pitchingPoints": 0,
-      "totalPoints": 32.3,
+      "totalPoints": 31.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 5,
         "doubles": 1,
         "triples": 0,
@@ -21665,47 +21968,13 @@
           "battingPoints": 5.6,
           "pitchingPoints": 0,
           "totalPoints": 5.6
-        }
-      ]
-    },
-    {
-      "id": 666200,
-      "name": "Jesús Luzardo",
-      "teamId": 143,
-      "teamName": "Philadelphia Phillies",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 32.2,
-      "totalPoints": 32.2,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 3,
-        "walksAllowed": 1,
-        "hitBatsmen": 2,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 6,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
+        },
         {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 0,
-          "pitchingPoints": 32.2,
-          "totalPoints": 32.2
+          "gamePk": 849825,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
