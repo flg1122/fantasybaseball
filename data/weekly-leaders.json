@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T21:11:47.146Z",
-  "generatedAtET": "10/5/2026, 5:11:47 PM",
+  "generatedAt": "2026-10-05T21:36:11.611Z",
+  "generatedAtET": "10/5/2026, 5:36:11 PM",
   "scoringPeriod": {
     "start": "2026-10-05",
     "end": "2026-10-05",
@@ -10,9 +10,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 5,
-    "hitters": 4,
-    "pitchers": 1
+    "overall": 16,
+    "hitters": 13,
+    "pitchers": 3
   },
   "overallLeaders": [
     {
@@ -22,8 +22,8 @@
       "teamName": "Cleveland Guardians",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 8.4,
-      "totalPoints": 8.4,
+      "pitchingPoints": 17.33,
+      "totalPoints": 17.33,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -36,8 +36,49 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": 17.33,
+          "totalPoints": 17.33
+        }
+      ]
+    },
+    {
+      "id": 656794,
+      "name": "Sean Newcomb",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 5.93,
+      "totalPoints": 5.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
         "hitsAllowed": 0,
         "walksAllowed": 1,
         "hitBatsmen": 0,
@@ -51,8 +92,131 @@
           "gamePk": 849834,
           "gameDate": "2026-10-05",
           "battingPoints": 0,
-          "pitchingPoints": 8.4,
-          "totalPoints": 8.4
+          "pitchingPoints": 5.93,
+          "totalPoints": 5.93
+        }
+      ]
+    },
+    {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "José Ramírez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "3B",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "DH",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -98,11 +262,257 @@
       ]
     },
     {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 671976,
+      "name": "Tristan Peters",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 682657,
+      "name": "Angel Martínez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691019,
       "name": "Kyle Teel",
       "teamId": 145,
       "teamName": "Chicago White Sox",
       "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -219,9 +629,173 @@
           "totalPoints": -1
         }
       ]
+    },
+    {
+      "id": 641743,
+      "name": "Anthony Kay",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -3.13,
+      "totalPoints": -3.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": -3.13,
+          "totalPoints": -3.13
+        }
+      ]
     }
   ],
   "hitterLeaders": [
+    {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "José Ramírez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "3B",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "DH",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
     {
       "id": 678246,
       "name": "Miguel Vargas",
@@ -264,11 +838,257 @@
       ]
     },
     {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 671976,
+      "name": "Tristan Peters",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 682657,
+      "name": "Angel Martínez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691019,
       "name": "Kyle Teel",
       "teamId": 145,
       "teamName": "Chicago White Sox",
       "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -395,8 +1215,8 @@
       "teamName": "Cleveland Guardians",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 8.4,
-      "totalPoints": 8.4,
+      "pitchingPoints": 17.33,
+      "totalPoints": 17.33,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -409,8 +1229,49 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": 17.33,
+          "totalPoints": 17.33
+        }
+      ]
+    },
+    {
+      "id": 656794,
+      "name": "Sean Newcomb",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 5.93,
+      "totalPoints": 5.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
         "hitsAllowed": 0,
         "walksAllowed": 1,
         "hitBatsmen": 0,
@@ -424,8 +1285,49 @@
           "gamePk": 849834,
           "gameDate": "2026-10-05",
           "battingPoints": 0,
-          "pitchingPoints": 8.4,
-          "totalPoints": 8.4
+          "pitchingPoints": 5.93,
+          "totalPoints": 5.93
+        }
+      ]
+    },
+    {
+      "id": 641743,
+      "name": "Anthony Kay",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -3.13,
+      "totalPoints": -3.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": -3.13,
+          "totalPoints": -3.13
         }
       ]
     }
@@ -438,8 +1340,8 @@
       "teamName": "Cleveland Guardians",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 8.4,
-      "totalPoints": 8.4,
+      "pitchingPoints": 17.33,
+      "totalPoints": 17.33,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -452,8 +1354,49 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": 17.33,
+          "totalPoints": 17.33
+        }
+      ]
+    },
+    {
+      "id": 656794,
+      "name": "Sean Newcomb",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 5.93,
+      "totalPoints": 5.93,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 2,
+        "inningsPitched": "0.2",
         "hitsAllowed": 0,
         "walksAllowed": 1,
         "hitBatsmen": 0,
@@ -467,8 +1410,131 @@
           "gamePk": 849834,
           "gameDate": "2026-10-05",
           "battingPoints": 0,
-          "pitchingPoints": 8.4,
-          "totalPoints": 8.4
+          "pitchingPoints": 5.93,
+          "totalPoints": 5.93
+        }
+      ]
+    },
+    {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "José Ramírez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "3B",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "DH",
+      "battingPoints": 3,
+      "pitchingPoints": 0,
+      "totalPoints": 3,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -514,11 +1580,257 @@
       ]
     },
     {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "DH",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "1B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 671976,
+      "name": "Tristan Peters",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "CF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 682657,
+      "name": "Angel Martínez",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "LF",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "2B",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 691019,
       "name": "Kyle Teel",
       "teamId": 145,
       "teamName": "Chicago White Sox",
       "position": "C",
+      "battingPoints": -1,
+      "pitchingPoints": 0,
+      "totalPoints": -1,
+      "battingStats": {
+        "atBats": 1,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "RF",
       "battingPoints": -1,
       "pitchingPoints": 0,
       "totalPoints": -1,
@@ -633,6 +1945,47 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 641743,
+      "name": "Anthony Kay",
+      "teamId": 145,
+      "teamName": "Chicago White Sox",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": -3.13,
+      "totalPoints": -3.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849834,
+          "gameDate": "2026-10-05",
+          "battingPoints": 0,
+          "pitchingPoints": -3.13,
+          "totalPoints": -3.13
         }
       ]
     }
