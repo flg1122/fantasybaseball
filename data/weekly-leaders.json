@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T00:01:13.741Z",
-  "generatedAtET": "10/4/2026, 8:01:13 PM",
+  "generatedAt": "2026-10-05T00:31:09.861Z",
+  "generatedAtET": "10/4/2026, 8:31:09 PM",
   "scoringPeriod": {
     "start": "2026-09-28",
     "end": "2026-10-04",
@@ -16,9 +16,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 234,
+    "overall": 235,
     "hitters": 135,
-    "pitchers": 99
+    "pitchers": 100
   },
   "overallLeaders": [
     {
@@ -253,16 +253,16 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "2B",
-      "battingPoints": 49.9,
+      "battingPoints": 52.9,
       "pitchingPoints": 0,
-      "totalPoints": 49.9,
+      "totalPoints": 52.9,
       "battingStats": {
         "atBats": 12,
         "hits": 4,
         "doubles": 0,
         "triples": 1,
         "homeRuns": 2,
-        "walks": 4,
+        "walks": 5,
         "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -306,6 +306,13 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -601,6 +608,54 @@
           "battingPoints": 0,
           "pitchingPoints": 34.9,
           "totalPoints": 34.9
+        }
+      ]
+    },
+    {
+      "id": 678061,
+      "name": "Ray Kerr",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 34.47,
+      "totalPoints": 34.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 13,
+        "inningsPitched": "4.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 0,
+          "pitchingPoints": 23.07,
+          "totalPoints": 23.07
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
         }
       ]
     },
@@ -1234,11 +1289,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "CF",
-      "battingPoints": 25.4,
+      "battingPoints": 24.4,
       "pitchingPoints": 0,
-      "totalPoints": 25.4,
+      "totalPoints": 24.4,
       "battingStats": {
-        "atBats": 15,
+        "atBats": 16,
         "hits": 5,
         "doubles": 0,
         "triples": 0,
@@ -1287,6 +1342,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -1497,47 +1559,6 @@
       ]
     },
     {
-      "id": 678061,
-      "name": "Ray Kerr",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 23.07,
-      "totalPoints": 23.07,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 0,
-          "pitchingPoints": 23.07,
-          "totalPoints": 23.07
-        }
-      ]
-    },
-    {
       "id": 621112,
       "name": "Paul Blackburn",
       "teamId": 147,
@@ -1634,24 +1655,24 @@
       ]
     },
     {
-      "id": 669221,
-      "name": "Sean Murphy",
+      "id": 660670,
+      "name": "Ronald Acuña Jr.",
       "teamId": 144,
       "teamName": "Atlanta Braves",
-      "position": "C",
+      "position": "RF",
       "battingPoints": 20.5,
       "pitchingPoints": 0,
       "totalPoints": 20.5,
       "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 1,
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 0,
         "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
+        "homeRuns": 0,
+        "walks": 3,
         "hitByPitch": 0,
         "caughtStealing": 0,
-        "stolenBases": 0
+        "stolenBases": 3
       },
       "pitchingStats": {
         "outs": 0,
@@ -1668,16 +1689,30 @@
         {
           "gamePk": 849841,
           "gameDate": "2026-09-30",
-          "battingPoints": 8.5,
+          "battingPoints": 6.8,
           "pitchingPoints": 0,
-          "totalPoints": 8.5
+          "totalPoints": 6.8
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
         },
         {
           "gamePk": 849828,
           "gameDate": "2026-10-03",
-          "battingPoints": 12,
+          "battingPoints": 1.6,
           "pitchingPoints": 0,
-          "totalPoints": 12
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 6.5,
+          "pitchingPoints": 0,
+          "totalPoints": 6.5
         }
       ]
     },
@@ -1723,22 +1758,22 @@
       ]
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
+      "id": 669221,
+      "name": "Sean Murphy",
       "teamId": 144,
       "teamName": "Atlanta Braves",
-      "position": "3B",
-      "battingPoints": 19.6,
+      "position": "C",
+      "battingPoints": 19.5,
       "pitchingPoints": 0,
-      "totalPoints": 19.6,
+      "totalPoints": 19.5,
       "battingStats": {
-        "atBats": 13,
+        "atBats": 7,
         "hits": 2,
-        "doubles": 0,
+        "doubles": 1,
         "triples": 0,
         "homeRuns": 1,
-        "walks": 3,
-        "hitByPitch": 1,
+        "walks": 1,
+        "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
@@ -1755,32 +1790,25 @@
       },
       "games": [
         {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        },
-        {
           "gamePk": 849841,
           "gameDate": "2026-09-30",
-          "battingPoints": 4.6,
+          "battingPoints": 8.5,
           "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 4,
-          "pitchingPoints": 0,
-          "totalPoints": 4
+          "totalPoints": 8.5
         },
         {
           "gamePk": 849828,
           "gameDate": "2026-10-03",
-          "battingPoints": -4,
+          "battingPoints": 12,
           "pitchingPoints": 0,
-          "totalPoints": -4
+          "totalPoints": 12
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -1863,6 +1891,75 @@
           "battingPoints": 0,
           "pitchingPoints": 18.7,
           "totalPoints": 18.7
+        }
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "3B",
+      "battingPoints": 18.6,
+      "pitchingPoints": 0,
+      "totalPoints": 18.6,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 3,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 4,
+          "pitchingPoints": 0,
+          "totalPoints": 4
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3108,61 +3205,6 @@
       ]
     },
     {
-      "id": 660670,
-      "name": "Ronald Acuña Jr.",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": 14,
-      "pitchingPoints": 0,
-      "totalPoints": 14,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 6.8,
-          "pitchingPoints": 0,
-          "totalPoints": 6.8
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 669134,
       "name": "Luis Campusano",
       "teamId": 135,
@@ -3691,6 +3733,75 @@
       ]
     },
     {
+      "id": 621566,
+      "name": "Matt Olson",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "1B",
+      "battingPoints": 11.6,
+      "pitchingPoints": 0,
+      "totalPoints": 11.6,
+      "battingStats": {
+        "atBats": 15,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 806146,
       "name": "George Lombard Jr.",
       "teamId": 147,
@@ -3742,6 +3853,68 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 643289,
+      "name": "Mauricio Dubón",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "SS",
+      "battingPoints": 11.3,
+      "pitchingPoints": 0,
+      "totalPoints": 11.3,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
         }
       ]
     },
@@ -4636,68 +4809,6 @@
       ]
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "1B",
-      "battingPoints": 8.6,
-      "pitchingPoints": 0,
-      "totalPoints": 8.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 643217,
       "name": "Andrew Benintendi",
       "teamId": 145,
@@ -5253,61 +5364,6 @@
       ]
     },
     {
-      "id": 643289,
-      "name": "Mauricio Dubón",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "SS",
-      "battingPoints": 6.7,
-      "pitchingPoints": 0,
-      "totalPoints": 6.7,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 554430,
       "name": "Zack Wheeler",
       "teamId": 143,
@@ -5671,47 +5727,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 5.6,
-      "pitchingPoints": 0,
-      "totalPoints": 5.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        }
-      ]
-    },
-    {
       "id": 670623,
       "name": "Isaac Paredes",
       "teamId": 117,
@@ -5904,6 +5919,75 @@
       ]
     },
     {
+      "id": 686948,
+      "name": "Drake Baldwin",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "C",
+      "battingPoints": 4.7,
+      "pitchingPoints": 0,
+      "totalPoints": 4.7,
+      "battingStats": {
+        "atBats": 18,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 9.1,
+          "pitchingPoints": 0,
+          "totalPoints": 9.1
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
       "id": 657097,
       "name": "Jacob Webb",
       "teamId": 112,
@@ -5941,6 +6025,54 @@
           "battingPoints": 0,
           "pitchingPoints": 4.67,
           "totalPoints": 4.67
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -6468,68 +6600,6 @@
           "battingPoints": 2.8,
           "pitchingPoints": 0,
           "totalPoints": 2.8
-        }
-      ]
-    },
-    {
-      "id": 686948,
-      "name": "Drake Baldwin",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "C",
-      "battingPoints": 2.7,
-      "pitchingPoints": 0,
-      "totalPoints": 2.7,
-      "battingStats": {
-        "atBats": 17,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 9.1,
-          "pitchingPoints": 0,
-          "totalPoints": 9.1
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
         }
       ]
     },
@@ -7308,47 +7378,6 @@
       ]
     },
     {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 669392,
       "name": "Samad Taylor",
       "teamId": 135,
@@ -7739,6 +7768,54 @@
       ]
     },
     {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 686668,
       "name": "Brenton Doyle",
       "teamId": 145,
@@ -7838,6 +7915,47 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 605483,
+      "name": "Blake Snell",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 0.13,
+      "totalPoints": 0.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 0.13,
+          "totalPoints": 0.13
         }
       ]
     },
@@ -7998,47 +8116,6 @@
       "games": [
         {
           "gamePk": 849835,
-          "gameDate": "2026-10-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 657041,
-      "name": "Lane Thomas",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "LF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
           "gameDate": "2026-10-03",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -8766,6 +8843,54 @@
       ]
     },
     {
+      "id": 657041,
+      "name": "Lane Thomas",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "LF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 701350,
       "name": "Roman Anthony",
       "teamId": 111,
@@ -9485,47 +9610,6 @@
       ]
     },
     {
-      "id": 669257,
-      "name": "Will Smith",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 681624,
       "name": "Andy Pages",
       "teamId": 119,
@@ -9830,6 +9914,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 669257,
+      "name": "Will Smith",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": -5,
+      "pitchingPoints": 0,
+      "totalPoints": -5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -10820,16 +10952,16 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "2B",
-      "battingPoints": 49.9,
+      "battingPoints": 52.9,
       "pitchingPoints": 0,
-      "totalPoints": 49.9,
+      "totalPoints": 52.9,
       "battingStats": {
         "atBats": 12,
         "hits": 4,
         "doubles": 0,
         "triples": 1,
         "homeRuns": 2,
-        "walks": 4,
+        "walks": 5,
         "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -10873,6 +11005,13 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -11267,11 +11406,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "CF",
-      "battingPoints": 25.4,
+      "battingPoints": 24.4,
       "pitchingPoints": 0,
-      "totalPoints": 25.4,
+      "totalPoints": 24.4,
       "battingStats": {
-        "atBats": 15,
+        "atBats": 16,
         "hits": 5,
         "doubles": 0,
         "triples": 0,
@@ -11320,6 +11459,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -11427,16 +11573,78 @@
       ]
     },
     {
+      "id": 660670,
+      "name": "Ronald Acuña Jr.",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "RF",
+      "battingPoints": 20.5,
+      "pitchingPoints": 0,
+      "totalPoints": 20.5,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 3,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 3
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 6.8,
+          "pitchingPoints": 0,
+          "totalPoints": 6.8
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 6.5,
+          "pitchingPoints": 0,
+          "totalPoints": 6.5
+        }
+      ]
+    },
+    {
       "id": 669221,
       "name": "Sean Murphy",
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "C",
-      "battingPoints": 20.5,
+      "battingPoints": 19.5,
       "pitchingPoints": 0,
-      "totalPoints": 20.5,
+      "totalPoints": 19.5,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 2,
         "doubles": 1,
         "triples": 0,
@@ -11471,6 +11679,13 @@
           "battingPoints": 12,
           "pitchingPoints": 0,
           "totalPoints": 12
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -11480,11 +11695,11 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "3B",
-      "battingPoints": 19.6,
+      "battingPoints": 18.6,
       "pitchingPoints": 0,
-      "totalPoints": 19.6,
+      "totalPoints": 18.6,
       "battingStats": {
-        "atBats": 13,
+        "atBats": 14,
         "hits": 2,
         "doubles": 0,
         "triples": 0,
@@ -11533,6 +11748,13 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -12251,61 +12473,6 @@
       ]
     },
     {
-      "id": 660670,
-      "name": "Ronald Acuña Jr.",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "RF",
-      "battingPoints": 14,
-      "pitchingPoints": 0,
-      "totalPoints": 14,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 2
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 6.8,
-          "pitchingPoints": 0,
-          "totalPoints": 6.8
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 669134,
       "name": "Luis Campusano",
       "teamId": 135,
@@ -12663,6 +12830,75 @@
       ]
     },
     {
+      "id": 621566,
+      "name": "Matt Olson",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "1B",
+      "battingPoints": 11.6,
+      "pitchingPoints": 0,
+      "totalPoints": 11.6,
+      "battingStats": {
+        "atBats": 15,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 806146,
       "name": "George Lombard Jr.",
       "teamId": 147,
@@ -12714,6 +12950,68 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 643289,
+      "name": "Mauricio Dubón",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "SS",
+      "battingPoints": 11.3,
+      "pitchingPoints": 0,
+      "totalPoints": 11.3,
+      "battingStats": {
+        "atBats": 14,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
         }
       ]
     },
@@ -13136,68 +13434,6 @@
       ]
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "1B",
-      "battingPoints": 8.6,
-      "pitchingPoints": 0,
-      "totalPoints": 8.6,
-      "battingStats": {
-        "atBats": 15,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 15,
-          "pitchingPoints": 0,
-          "totalPoints": 15
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 643217,
       "name": "Andrew Benintendi",
       "teamId": 145,
@@ -13541,61 +13777,6 @@
       ]
     },
     {
-      "id": 643289,
-      "name": "Mauricio Dubón",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "SS",
-      "battingPoints": 6.7,
-      "pitchingPoints": 0,
-      "totalPoints": 6.7,
-      "battingStats": {
-        "atBats": 13,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": 4.5,
-          "pitchingPoints": 0,
-          "totalPoints": 4.5
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 681987,
       "name": "Nate Eaton",
       "teamId": 111,
@@ -13836,47 +14017,6 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "SS",
-      "battingPoints": 5.6,
-      "pitchingPoints": 0,
-      "totalPoints": 5.6,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 5.6,
-          "pitchingPoints": 0,
-          "totalPoints": 5.6
-        }
-      ]
-    },
-    {
       "id": 670623,
       "name": "Isaac Paredes",
       "teamId": 117,
@@ -14065,6 +14205,123 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        }
+      ]
+    },
+    {
+      "id": 686948,
+      "name": "Drake Baldwin",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "C",
+      "battingPoints": 4.7,
+      "pitchingPoints": 0,
+      "totalPoints": 4.7,
+      "battingStats": {
+        "atBats": 18,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849845,
+          "gameDate": "2026-09-29",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849841,
+          "gameDate": "2026-09-30",
+          "battingPoints": 9.1,
+          "pitchingPoints": 0,
+          "totalPoints": 9.1
+        },
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 2,
+          "pitchingPoints": 0,
+          "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "SS",
+      "battingPoints": 4.6,
+      "pitchingPoints": 0,
+      "totalPoints": 4.6,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -14414,68 +14671,6 @@
           "battingPoints": 2.8,
           "pitchingPoints": 0,
           "totalPoints": 2.8
-        }
-      ]
-    },
-    {
-      "id": 686948,
-      "name": "Drake Baldwin",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "C",
-      "battingPoints": 2.7,
-      "pitchingPoints": 0,
-      "totalPoints": 2.7,
-      "battingStats": {
-        "atBats": 17,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849845,
-          "gameDate": "2026-09-29",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849841,
-          "gameDate": "2026-09-30",
-          "battingPoints": 9.1,
-          "pitchingPoints": 0,
-          "totalPoints": 9.1
-        },
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
         }
       ]
     },
@@ -15001,47 +15196,6 @@
       ]
     },
     {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        }
-      ]
-    },
-    {
       "id": 669392,
       "name": "Samad Taylor",
       "teamId": 135,
@@ -15350,6 +15504,54 @@
       ]
     },
     {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 686668,
       "name": "Brenton Doyle",
       "teamId": 145,
@@ -15486,47 +15688,6 @@
       "games": [
         {
           "gamePk": 849835,
-          "gameDate": "2026-10-03",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 657041,
-      "name": "Lane Thomas",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "LF",
-      "battingPoints": -1,
-      "pitchingPoints": 0,
-      "totalPoints": -1,
-      "battingStats": {
-        "atBats": 1,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
           "gameDate": "2026-10-03",
           "battingPoints": -1,
           "pitchingPoints": 0,
@@ -15997,6 +16158,54 @@
           "battingPoints": -2,
           "pitchingPoints": 0,
           "totalPoints": -2
+        }
+      ]
+    },
+    {
+      "id": 657041,
+      "name": "Lane Thomas",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "LF",
+      "battingPoints": -2,
+      "pitchingPoints": 0,
+      "totalPoints": -2,
+      "battingStats": {
+        "atBats": 2,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -16679,47 +16888,6 @@
       ]
     },
     {
-      "id": 669257,
-      "name": "Will Smith",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": -4,
-      "pitchingPoints": 0,
-      "totalPoints": -4,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849828,
-          "gameDate": "2026-10-03",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 681624,
       "name": "Andy Pages",
       "teamId": 119,
@@ -17024,6 +17192,54 @@
           "battingPoints": -4,
           "pitchingPoints": 0,
           "totalPoints": -4
+        }
+      ]
+    },
+    {
+      "id": 669257,
+      "name": "Will Smith",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": -5,
+      "pitchingPoints": 0,
+      "totalPoints": -5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849828,
+          "gameDate": "2026-10-03",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -17743,6 +17959,54 @@
       ]
     },
     {
+      "id": 678061,
+      "name": "Ray Kerr",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 34.47,
+      "totalPoints": 34.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 13,
+        "inningsPitched": "4.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 0,
+          "pitchingPoints": 23.07,
+          "totalPoints": 23.07
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
+        }
+      ]
+    },
+    {
       "id": 608331,
       "name": "Max Fried",
       "teamId": 147,
@@ -18239,47 +18503,6 @@
           "battingPoints": 0,
           "pitchingPoints": 13.83,
           "totalPoints": 13.83
-        }
-      ]
-    },
-    {
-      "id": 678061,
-      "name": "Ray Kerr",
-      "teamId": 144,
-      "teamName": "Atlanta Braves",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 23.07,
-      "totalPoints": 23.07,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 10,
-        "inningsPitched": "3.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 2,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849844,
-          "gameDate": "2026-10-01",
-          "battingPoints": 0,
-          "pitchingPoints": 23.07,
-          "totalPoints": 23.07
         }
       ]
     },
@@ -20510,6 +20733,47 @@
           "battingPoints": 0,
           "pitchingPoints": 1.27,
           "totalPoints": 1.27
+        }
+      ]
+    },
+    {
+      "id": 605483,
+      "name": "Blake Snell",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 0.13,
+      "totalPoints": 0.13,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 2,
+        "walksAllowed": 3,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 0.13,
+          "totalPoints": 0.13
         }
       ]
     },
@@ -21841,16 +22105,16 @@
       "teamId": 144,
       "teamName": "Atlanta Braves",
       "position": "2B",
-      "battingPoints": 49.9,
+      "battingPoints": 52.9,
       "pitchingPoints": 0,
-      "totalPoints": 49.9,
+      "totalPoints": 52.9,
       "battingStats": {
         "atBats": 12,
         "hits": 4,
         "doubles": 0,
         "triples": 1,
         "homeRuns": 2,
-        "walks": 4,
+        "walks": 5,
         "hitByPitch": 1,
         "caughtStealing": 0,
         "stolenBases": 0
@@ -21894,6 +22158,13 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -22189,6 +22460,54 @@
           "battingPoints": 0,
           "pitchingPoints": 34.9,
           "totalPoints": 34.9
+        }
+      ]
+    },
+    {
+      "id": 678061,
+      "name": "Ray Kerr",
+      "teamId": 144,
+      "teamName": "Atlanta Braves",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 34.47,
+      "totalPoints": 34.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 13,
+        "inningsPitched": "4.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 4,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849844,
+          "gameDate": "2026-10-01",
+          "battingPoints": 0,
+          "pitchingPoints": 23.07,
+          "totalPoints": 23.07
+        },
+        {
+          "gamePk": 849823,
+          "gameDate": "2026-10-04",
+          "battingPoints": 0,
+          "pitchingPoints": 11.4,
+          "totalPoints": 11.4
         }
       ]
     },
@@ -22525,47 +22844,6 @@
           "battingPoints": 0,
           "pitchingPoints": 28.2,
           "totalPoints": 28.2
-        }
-      ]
-    },
-    {
-      "id": 701656,
-      "name": "Logan Henderson",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 27.8,
-      "totalPoints": 27.8,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 15,
-        "inningsPitched": "5.0",
-        "hitsAllowed": 2,
-        "walksAllowed": 3,
-        "hitBatsmen": 1,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 4,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849825,
-          "gameDate": "2026-10-04",
-          "battingPoints": 0,
-          "pitchingPoints": 27.8,
-          "totalPoints": 27.8
         }
       ]
     }
