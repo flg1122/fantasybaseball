@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T02:30:33.919Z",
-  "generatedAtET": "10/14/2026, 10:30:33 PM",
+  "generatedAt": "2026-10-15T03:00:40.970Z",
+  "generatedAtET": "10/14/2026, 11:00:40 PM",
   "scoringPeriod": {
     "start": "2026-10-12",
     "end": "2026-10-14",
@@ -12,9 +12,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 81,
+    "overall": 82,
     "hitters": 46,
-    "pitchers": 35
+    "pitchers": 36
   },
   "overallLeaders": [
     {
@@ -153,12 +153,12 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 22.2,
+      "battingPoints": 26.8,
       "pitchingPoints": 0,
-      "totalPoints": 22.2,
+      "totalPoints": 26.8,
       "battingStats": {
-        "atBats": 7,
-        "hits": 3,
+        "atBats": 8,
+        "hits": 4,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 1,
@@ -189,9 +189,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -3,
+          "battingPoints": 1.6,
           "pitchingPoints": 0,
-          "totalPoints": -3
+          "totalPoints": 1.6
         }
       ]
     },
@@ -367,6 +367,54 @@
       ]
     },
     {
+      "id": 806198,
+      "name": "Cooper Pratt",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "SS",
+      "battingPoints": 19.1,
+      "pitchingPoints": 0,
+      "totalPoints": 19.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.4,
+          "pitchingPoints": 0,
+          "totalPoints": 4.4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        }
+      ]
+    },
+    {
       "id": 668930,
       "name": "Brice Turang",
       "teamId": 158,
@@ -411,6 +459,47 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 669084,
+      "name": "DL Hall",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.67,
+      "totalPoints": 18.67,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": 18.67,
+          "totalPoints": 18.67
         }
       ]
     },
@@ -504,62 +593,14 @@
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "1B",
-      "battingPoints": 16.6,
-      "pitchingPoints": 0,
-      "totalPoints": 16.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        }
-      ]
-    },
-    {
-      "id": 669084,
-      "name": "DL Hall",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
+      "id": 680736,
+      "name": "Justin Wrobleski",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 16.33,
-      "totalPoints": 16.33,
+      "pitchingPoints": 17.6,
+      "totalPoints": 17.6,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -572,23 +613,30 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 2,
+        "strikeOuts": 4,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 0,
+          "pitchingPoints": 4.33,
+          "totalPoints": 4.33
+        },
+        {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
           "battingPoints": 0,
-          "pitchingPoints": 16.33,
-          "totalPoints": 16.33
+          "pitchingPoints": 13.27,
+          "totalPoints": 13.27
         }
       ]
     },
@@ -682,6 +730,54 @@
       ]
     },
     {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "1B",
+      "battingPoints": 15.6,
+      "pitchingPoints": 0,
+      "totalPoints": 15.6,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
       "id": 666152,
       "name": "David Hamilton",
       "teamId": 158,
@@ -723,54 +819,6 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 15,
-      "pitchingPoints": 0,
-      "totalPoints": 15,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
-        }
-      ]
-    },
-    {
       "id": 641329,
       "name": "Bryan Baker",
       "teamId": 139,
@@ -808,6 +856,54 @@
           "battingPoints": 0,
           "pitchingPoints": 14.4,
           "totalPoints": 14.4
+        }
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
+      "battingStats": {
+        "atBats": 7,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 2,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
         }
       ]
     },
@@ -935,54 +1031,6 @@
       ]
     },
     {
-      "id": 806198,
-      "name": "Cooper Pratt",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "SS",
-      "battingPoints": 12.6,
-      "pitchingPoints": 0,
-      "totalPoints": 12.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 4.4,
-          "pitchingPoints": 0,
-          "totalPoints": 4.4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 8.2,
-          "pitchingPoints": 0,
-          "totalPoints": 8.2
-        }
-      ]
-    },
-    {
       "id": 608070,
       "name": "José Ramírez",
       "teamId": 114,
@@ -1027,54 +1075,6 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
-        }
-      ]
-    },
-    {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "RF",
-      "battingPoints": 12.1,
-      "pitchingPoints": 0,
-      "totalPoints": 12.1,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 6.6,
-          "pitchingPoints": 0,
-          "totalPoints": 6.6
         }
       ]
     },
@@ -1198,6 +1198,54 @@
           "battingPoints": 0,
           "pitchingPoints": 11.4,
           "totalPoints": 11.4
+        }
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "RF",
+      "battingPoints": 11.1,
+      "pitchingPoints": 0,
+      "totalPoints": 11.1,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 5.5,
+          "pitchingPoints": 0,
+          "totalPoints": 5.5
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 5.6,
+          "pitchingPoints": 0,
+          "totalPoints": 5.6
         }
       ]
     },
@@ -1647,95 +1695,6 @@
       ]
     },
     {
-      "id": 808963,
-      "name": "Roki Sasaki",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.27,
-      "totalPoints": 6.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 0,
-          "pitchingPoints": 6.4,
-          "totalPoints": 6.4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 0,
-          "pitchingPoints": -0.13,
-          "totalPoints": -0.13
-        }
-      ]
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        }
-      ]
-    },
-    {
       "id": 689414,
       "name": "Liam Hicks",
       "teamId": 139,
@@ -1880,6 +1839,54 @@
       ]
     },
     {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 5.6,
+      "pitchingPoints": 0,
+      "totalPoints": 5.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 9.6,
+          "pitchingPoints": 0,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
       "id": 808967,
       "name": "Yoshinobu Yamamoto",
       "teamId": 119,
@@ -1917,6 +1924,54 @@
           "battingPoints": 0,
           "pitchingPoints": 5.33,
           "totalPoints": 5.33
+        }
+      ]
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2099,14 +2154,14 @@
       ]
     },
     {
-      "id": 680736,
-      "name": "Justin Wrobleski",
+      "id": 808963,
+      "name": "Roki Sasaki",
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 4.33,
-      "totalPoints": 4.33,
+      "pitchingPoints": 3.67,
+      "totalPoints": 3.67,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -2119,10 +2174,10 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
         "strikeOuts": 1,
@@ -2134,8 +2189,15 @@
           "gamePk": 849812,
           "gameDate": "2026-10-12",
           "battingPoints": 0,
-          "pitchingPoints": 4.33,
-          "totalPoints": 4.33
+          "pitchingPoints": 6.4,
+          "totalPoints": 6.4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": -2.73,
+          "totalPoints": -2.73
         }
       ]
     },
@@ -2232,6 +2294,47 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 656730,
+      "name": "Trevor Megill",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 2.47,
+      "totalPoints": 2.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
         }
       ]
     },
@@ -2414,54 +2517,6 @@
       ]
     },
     {
-      "id": 669257,
-      "name": "Will Smith",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": 1.5,
-      "pitchingPoints": 0,
-      "totalPoints": 1.5,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
       "id": 676282,
       "name": "Joey Cantillo",
       "teamId": 114,
@@ -2499,54 +2554,6 @@
           "battingPoints": 0,
           "pitchingPoints": 1.4,
           "totalPoints": 1.4
-        }
-      ]
-    },
-    {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 1,
-      "pitchingPoints": 0,
-      "totalPoints": 1,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 5,
-          "pitchingPoints": 0,
-          "totalPoints": 5
         }
       ]
     },
@@ -2725,6 +2732,54 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 669257,
+      "name": "Will Smith",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": 0.5,
+      "pitchingPoints": 0,
+      "totalPoints": 0.5,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -3290,47 +3345,6 @@
       ]
     },
     {
-      "id": 800325,
-      "name": "Luis Lara",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 683618,
       "name": "Edgardo Henriquez",
       "teamId": 119,
@@ -3372,11 +3386,11 @@
       ]
     },
     {
-      "id": 571970,
-      "name": "Max Muncy",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "3B",
+      "id": 800325,
+      "name": "Luis Lara",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
       "battingPoints": -4,
       "pitchingPoints": 0,
       "totalPoints": -4,
@@ -3404,18 +3418,11 @@
       },
       "games": [
         {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -1,
+          "battingPoints": -4,
           "pitchingPoints": 0,
-          "totalPoints": -1
+          "totalPoints": -4
         }
       ]
     },
@@ -3457,6 +3464,54 @@
           "battingPoints": 0,
           "pitchingPoints": -4.27,
           "totalPoints": -4.27
+        }
+      ]
+    },
+    {
+      "id": 571970,
+      "name": "Max Muncy",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "3B",
+      "battingPoints": -5,
+      "pitchingPoints": 0,
+      "totalPoints": -5,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": -2,
+          "pitchingPoints": 0,
+          "totalPoints": -2
         }
       ]
     },
@@ -3653,12 +3708,12 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 22.2,
+      "battingPoints": 26.8,
       "pitchingPoints": 0,
-      "totalPoints": 22.2,
+      "totalPoints": 26.8,
       "battingStats": {
-        "atBats": 7,
-        "hits": 3,
+        "atBats": 8,
+        "hits": 4,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 1,
@@ -3689,9 +3744,57 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -3,
+          "battingPoints": 1.6,
           "pitchingPoints": 0,
-          "totalPoints": -3
+          "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 806198,
+      "name": "Cooper Pratt",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "SS",
+      "battingPoints": 19.1,
+      "pitchingPoints": 0,
+      "totalPoints": 19.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.4,
+          "pitchingPoints": 0,
+          "totalPoints": 4.4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
         }
       ]
     },
@@ -3792,54 +3895,6 @@
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "1B",
-      "battingPoints": 16.6,
-      "pitchingPoints": 0,
-      "totalPoints": 16.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        }
-      ]
-    },
-    {
       "id": 676356,
       "name": "Jonny DeLuca",
       "teamId": 139,
@@ -3929,6 +3984,54 @@
       ]
     },
     {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "1B",
+      "battingPoints": 15.6,
+      "pitchingPoints": 0,
+      "totalPoints": 15.6,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
       "id": 666152,
       "name": "David Hamilton",
       "teamId": 158,
@@ -3975,11 +4078,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "CF",
-      "battingPoints": 15,
+      "battingPoints": 14,
       "pitchingPoints": 0,
-      "totalPoints": 15,
+      "totalPoints": 14,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 1,
         "doubles": 0,
         "triples": 0,
@@ -4011,57 +4114,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": 16,
+          "battingPoints": 15,
           "pitchingPoints": 0,
-          "totalPoints": 16
-        }
-      ]
-    },
-    {
-      "id": 806198,
-      "name": "Cooper Pratt",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "SS",
-      "battingPoints": 12.6,
-      "pitchingPoints": 0,
-      "totalPoints": 12.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 4,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 1,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 4.4,
-          "pitchingPoints": 0,
-          "totalPoints": 4.4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 8.2,
-          "pitchingPoints": 0,
-          "totalPoints": 8.2
+          "totalPoints": 15
         }
       ]
     },
@@ -4119,11 +4174,11 @@
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "RF",
-      "battingPoints": 12.1,
+      "battingPoints": 11.1,
       "pitchingPoints": 0,
-      "totalPoints": 12.1,
+      "totalPoints": 11.1,
       "battingStats": {
-        "atBats": 5,
+        "atBats": 6,
         "hits": 2,
         "doubles": 1,
         "triples": 0,
@@ -4155,9 +4210,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": 6.6,
+          "battingPoints": 5.6,
           "pitchingPoints": 0,
-          "totalPoints": 6.6
+          "totalPoints": 5.6
         }
       ]
     },
@@ -4354,47 +4409,6 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        }
-      ]
-    },
-    {
       "id": 689414,
       "name": "Liam Hicks",
       "teamId": 139,
@@ -4535,6 +4549,102 @@
           "battingPoints": 2,
           "pitchingPoints": 0,
           "totalPoints": 2
+        }
+      ]
+    },
+    {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "DH",
+      "battingPoints": 5.6,
+      "pitchingPoints": 0,
+      "totalPoints": 5.6,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 1,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 9.6,
+          "pitchingPoints": 0,
+          "totalPoints": 9.6
+        }
+      ]
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "DH",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4820,102 +4930,6 @@
       ]
     },
     {
-      "id": 669257,
-      "name": "Will Smith",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "C",
-      "battingPoints": 1.5,
-      "pitchingPoints": 0,
-      "totalPoints": 1.5,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 1,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 5.5,
-          "pitchingPoints": 0,
-          "totalPoints": 5.5
-        }
-      ]
-    },
-    {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "DH",
-      "battingPoints": 1,
-      "pitchingPoints": 0,
-      "totalPoints": 1,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 5,
-          "pitchingPoints": 0,
-          "totalPoints": 5
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -5090,6 +5104,54 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 669257,
+      "name": "Will Smith",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
+      "position": "C",
+      "battingPoints": 0.5,
+      "pitchingPoints": 0,
+      "totalPoints": 0.5,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 4.5,
+          "pitchingPoints": 0,
+          "totalPoints": 4.5
         }
       ]
     },
@@ -5537,11 +5599,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "RF",
-      "battingPoints": -3,
+      "battingPoints": -4,
       "pitchingPoints": 0,
-      "totalPoints": -3,
+      "totalPoints": -4,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 4,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -5566,9 +5628,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -3,
+          "battingPoints": -4,
           "pitchingPoints": 0,
-          "totalPoints": -3
+          "totalPoints": -4
         }
       ]
     },
@@ -5578,11 +5640,11 @@
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "3B",
-      "battingPoints": -4,
+      "battingPoints": -5,
       "pitchingPoints": 0,
-      "totalPoints": -4,
+      "totalPoints": -5,
       "battingStats": {
-        "atBats": 4,
+        "atBats": 5,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -5614,9 +5676,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -1,
+          "battingPoints": -2,
           "pitchingPoints": 0,
-          "totalPoints": -1
+          "totalPoints": -2
         }
       ]
     },
@@ -5972,6 +6034,47 @@
       ]
     },
     {
+      "id": 669084,
+      "name": "DL Hall",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.67,
+      "totalPoints": 18.67,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": 18.67,
+          "totalPoints": 18.67
+        }
+      ]
+    },
+    {
       "id": 800048,
       "name": "Parker Messick",
       "teamId": 114,
@@ -6013,14 +6116,14 @@
       ]
     },
     {
-      "id": 669084,
-      "name": "DL Hall",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
+      "id": 680736,
+      "name": "Justin Wrobleski",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 16.33,
-      "totalPoints": 16.33,
+      "pitchingPoints": 17.6,
+      "totalPoints": 17.6,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -6033,23 +6136,30 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 2,
+        "strikeOuts": 4,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 0,
+          "pitchingPoints": 4.33,
+          "totalPoints": 4.33
+        },
+        {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
           "battingPoints": 0,
-          "pitchingPoints": 16.33,
-          "totalPoints": 16.33
+          "pitchingPoints": 13.27,
+          "totalPoints": 13.27
         }
       ]
     },
@@ -6594,54 +6704,6 @@
       ]
     },
     {
-      "id": 808963,
-      "name": "Roki Sasaki",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 6.27,
-      "totalPoints": 6.27,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 4,
-        "inningsPitched": "1.1",
-        "hitsAllowed": 1,
-        "walksAllowed": 1,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 0,
-          "pitchingPoints": 6.4,
-          "totalPoints": 6.4
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 0,
-          "pitchingPoints": -0.13,
-          "totalPoints": -0.13
-        }
-      ]
-    },
-    {
       "id": 808967,
       "name": "Yoshinobu Yamamoto",
       "teamId": 119,
@@ -6765,14 +6827,14 @@
       ]
     },
     {
-      "id": 680736,
-      "name": "Justin Wrobleski",
+      "id": 808963,
+      "name": "Roki Sasaki",
       "teamId": 119,
       "teamName": "Los Angeles Dodgers",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 4.33,
-      "totalPoints": 4.33,
+      "pitchingPoints": 3.67,
+      "totalPoints": 3.67,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -6785,10 +6847,10 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 2,
-        "inningsPitched": "0.2",
-        "hitsAllowed": 1,
-        "walksAllowed": 0,
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 2,
+        "walksAllowed": 1,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
         "strikeOuts": 1,
@@ -6800,8 +6862,15 @@
           "gamePk": 849812,
           "gameDate": "2026-10-12",
           "battingPoints": 0,
-          "pitchingPoints": 4.33,
-          "totalPoints": 4.33
+          "pitchingPoints": 6.4,
+          "totalPoints": 6.4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": -2.73,
+          "totalPoints": -2.73
         }
       ]
     },
@@ -6850,6 +6919,47 @@
           "battingPoints": 0,
           "pitchingPoints": 3.33,
           "totalPoints": 3.33
+        }
+      ]
+    },
+    {
+      "id": 656730,
+      "name": "Trevor Megill",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 2.47,
+      "totalPoints": 2.47,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 1,
+        "inningsPitched": "0.1",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": 2.47,
+          "totalPoints": 2.47
         }
       ]
     },
@@ -7319,12 +7429,12 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 22.2,
+      "battingPoints": 26.8,
       "pitchingPoints": 0,
-      "totalPoints": 22.2,
+      "totalPoints": 26.8,
       "battingStats": {
-        "atBats": 7,
-        "hits": 3,
+        "atBats": 8,
+        "hits": 4,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 1,
@@ -7355,9 +7465,9 @@
         {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
-          "battingPoints": -3,
+          "battingPoints": 1.6,
           "pitchingPoints": 0,
-          "totalPoints": -3
+          "totalPoints": 1.6
         }
       ]
     },
@@ -7533,6 +7643,54 @@
       ]
     },
     {
+      "id": 806198,
+      "name": "Cooper Pratt",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "SS",
+      "battingPoints": 19.1,
+      "pitchingPoints": 0,
+      "totalPoints": 19.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 1,
+        "stolenBases": 1
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.4,
+          "pitchingPoints": 0,
+          "totalPoints": 4.4
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        }
+      ]
+    },
+    {
       "id": 668930,
       "name": "Brice Turang",
       "teamId": 158,
@@ -7577,6 +7735,47 @@
           "battingPoints": 1.6,
           "pitchingPoints": 0,
           "totalPoints": 1.6
+        }
+      ]
+    },
+    {
+      "id": 669084,
+      "name": "DL Hall",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 18.67,
+      "totalPoints": 18.67,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 7,
+        "inningsPitched": "2.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 0,
+          "pitchingPoints": 18.67,
+          "totalPoints": 18.67
         }
       ]
     },
@@ -7670,62 +7869,14 @@
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "1B",
-      "battingPoints": 16.6,
-      "pitchingPoints": 0,
-      "totalPoints": 16.6,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": 4.6,
-          "pitchingPoints": 0,
-          "totalPoints": 4.6
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 12,
-          "pitchingPoints": 0,
-          "totalPoints": 12
-        }
-      ]
-    },
-    {
-      "id": 669084,
-      "name": "DL Hall",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
+      "id": 680736,
+      "name": "Justin Wrobleski",
+      "teamId": 119,
+      "teamName": "Los Angeles Dodgers",
       "position": "P",
       "battingPoints": 0,
-      "pitchingPoints": 16.33,
-      "totalPoints": 16.33,
+      "pitchingPoints": 17.6,
+      "totalPoints": 17.6,
       "battingStats": {
         "atBats": 0,
         "hits": 0,
@@ -7738,23 +7889,30 @@
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 5,
-        "inningsPitched": "1.2",
-        "hitsAllowed": 0,
+        "outs": 6,
+        "inningsPitched": "2.0",
+        "hitsAllowed": 2,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 2,
+        "strikeOuts": 4,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 0,
+          "pitchingPoints": 4.33,
+          "totalPoints": 4.33
+        },
+        {
           "gamePk": 849811,
           "gameDate": "2026-10-14",
           "battingPoints": 0,
-          "pitchingPoints": 16.33,
-          "totalPoints": 16.33
+          "pitchingPoints": 13.27,
+          "totalPoints": 13.27
         }
       ]
     },
@@ -7848,6 +8006,54 @@
       ]
     },
     {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "1B",
+      "battingPoints": 15.6,
+      "pitchingPoints": 0,
+      "totalPoints": 15.6,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849812,
+          "gameDate": "2026-10-12",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 11,
+          "pitchingPoints": 0,
+          "totalPoints": 11
+        }
+      ]
+    },
+    {
       "id": 666152,
       "name": "David Hamilton",
       "teamId": 158,
@@ -7885,54 +8091,6 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
-        }
-      ]
-    },
-    {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "CF",
-      "battingPoints": 15,
-      "pitchingPoints": 0,
-      "totalPoints": 15,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 1,
-        "walks": 2,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849812,
-          "gameDate": "2026-10-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 849811,
-          "gameDate": "2026-10-14",
-          "battingPoints": 16,
-          "pitchingPoints": 0,
-          "totalPoints": 16
         }
       ]
     },
@@ -7978,33 +8136,33 @@
       ]
     },
     {
-      "id": 656945,
-      "name": "Tanner Scott",
-      "teamId": 119,
-      "teamName": "Los Angeles Dodgers",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 13.4,
-      "totalPoints": 13.4,
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "CF",
+      "battingPoints": 14,
+      "pitchingPoints": 0,
+      "totalPoints": 14,
       "battingStats": {
-        "atBats": 0,
-        "hits": 0,
+        "atBats": 7,
+        "hits": 1,
         "doubles": 0,
         "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
+        "homeRuns": 1,
+        "walks": 2,
         "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
+        "outs": 0,
+        "inningsPitched": "0.0",
         "hitsAllowed": 0,
         "walksAllowed": 0,
         "hitBatsmen": 0,
         "homeRunsAllowed": 0,
-        "strikeOuts": 3,
+        "strikeOuts": 0,
         "saves": 0,
         "holds": 0
       },
@@ -8012,50 +8170,16 @@
         {
           "gamePk": 849812,
           "gameDate": "2026-10-12",
-          "battingPoints": 0,
-          "pitchingPoints": 13.4,
-          "totalPoints": 13.4
-        }
-      ]
-    },
-    {
-      "id": 682982,
-      "name": "Daniel Espino",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 13.4,
-      "totalPoints": 13.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 3,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
         {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 0,
-          "pitchingPoints": 13.4,
-          "totalPoints": 13.4
+          "gamePk": 849811,
+          "gameDate": "2026-10-14",
+          "battingPoints": 15,
+          "pitchingPoints": 0,
+          "totalPoints": 15
         }
       ]
     }
