@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T17:01:23.176Z",
-  "generatedAtET": "10/15/2026, 1:01:23 PM",
+  "generatedAt": "2026-10-15T17:30:51.143Z",
+  "generatedAtET": "10/15/2026, 1:30:51 PM",
   "scoringPeriod": {
     "start": "2026-10-12",
     "end": "2026-10-15",
@@ -13,9 +13,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 82,
+    "overall": 84,
     "hitters": 46,
-    "pitchers": 36
+    "pitchers": 38
   },
   "overallLeaders": [
     {
@@ -24,11 +24,11 @@
       "teamId": 114,
       "teamName": "Cleveland Guardians",
       "position": "RF",
-      "battingPoints": 40.6,
+      "battingPoints": 39.6,
       "pitchingPoints": 0,
-      "totalPoints": 40.6,
+      "totalPoints": 39.6,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 4,
         "doubles": 2,
         "triples": 0,
@@ -63,6 +63,13 @@
           "battingPoints": 12.5,
           "pitchingPoints": 0,
           "totalPoints": 12.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -683,6 +690,47 @@
       ]
     },
     {
+      "id": 668909,
+      "name": "Gavin Williams",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 16.33,
+      "totalPoints": 16.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0,
+          "pitchingPoints": 16.33,
+          "totalPoints": 16.33
+        }
+      ]
+    },
+    {
       "id": 676356,
       "name": "Jonny DeLuca",
       "teamId": 139,
@@ -1078,18 +1126,18 @@
       "teamId": 114,
       "teamName": "Cleveland Guardians",
       "position": "3B",
-      "battingPoints": 12.5,
+      "battingPoints": 12.7,
       "pitchingPoints": 0,
-      "totalPoints": 12.5,
+      "totalPoints": 12.7,
       "battingStats": {
         "atBats": 9,
         "hits": 4,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
-        "caughtStealing": 1,
+        "caughtStealing": 2,
         "stolenBases": 1
       },
       "pitchingStats": {
@@ -1117,6 +1165,13 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0.2,
+          "pitchingPoints": 0,
+          "totalPoints": 0.2
         }
       ]
     },
@@ -1340,54 +1395,6 @@
       ]
     },
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "3B",
-      "battingPoints": 10.1,
-      "pitchingPoints": 0,
-      "totalPoints": 10.1,
-      "battingStats": {
-        "atBats": 7,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 8.5,
-          "pitchingPoints": 0,
-          "totalPoints": 8.5
-        }
-      ]
-    },
-    {
       "id": 592155,
       "name": "Cam Booser",
       "teamId": 139,
@@ -1511,6 +1518,61 @@
       ]
     },
     {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "3B",
+      "battingPoints": 9.1,
+      "pitchingPoints": 0,
+      "totalPoints": 9.1,
+      "battingStats": {
+        "atBats": 8,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": 8.5,
+          "pitchingPoints": 0,
+          "totalPoints": 8.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 671922,
       "name": "Cade Smith",
       "teamId": 114,
@@ -1548,54 +1610,6 @@
           "battingPoints": 0,
           "pitchingPoints": 7.4,
           "totalPoints": 7.4
-        }
-      ]
-    },
-    {
-      "id": 680757,
-      "name": "Steven Kwan",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "CF",
-      "battingPoints": 6.8,
-      "pitchingPoints": 0,
-      "totalPoints": 6.8,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
         }
       ]
     },
@@ -1685,6 +1699,47 @@
           "battingPoints": 7.6,
           "pitchingPoints": 0,
           "totalPoints": 7.6
+        }
+      ]
+    },
+    {
+      "id": 643377,
+      "name": "Griffin Jax",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.4,
+      "totalPoints": 6.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0,
+          "pitchingPoints": 6.4,
+          "totalPoints": 6.4
         }
       ]
     },
@@ -1833,6 +1888,61 @@
       ]
     },
     {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": 5.8,
+      "pitchingPoints": 0,
+      "totalPoints": 5.8,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 660271,
       "name": "Shohei Ohtani",
       "teamId": 119,
@@ -1966,54 +2076,6 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy Díaz",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "DH",
-      "battingPoints": 5.1,
-      "pitchingPoints": 0,
-      "totalPoints": 5.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 9.1,
-          "pitchingPoints": 0,
-          "totalPoints": 9.1
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
         }
       ]
     },
@@ -2192,6 +2254,61 @@
           "battingPoints": 0,
           "pitchingPoints": 4.47,
           "totalPoints": 4.47
+        }
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
+      "battingPoints": 4.1,
+      "pitchingPoints": 0,
+      "totalPoints": 4.1,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 9.1,
+          "pitchingPoints": 0,
+          "totalPoints": 9.1
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2511,54 +2628,6 @@
       ]
     },
     {
-      "id": 802415,
-      "name": "Chandler Simpson",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "PH",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 676282,
       "name": "Joey Cantillo",
       "teamId": 114,
@@ -2726,6 +2795,61 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 802415,
+      "name": "Chandler Simpson",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "PH",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3175,54 +3299,6 @@
       ]
     },
     {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "RF",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 669330,
       "name": "Tyler Wells",
       "teamId": 139,
@@ -3305,47 +3381,6 @@
       ]
     },
     {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "1B",
-      "battingPoints": -3,
-      "pitchingPoints": 0,
-      "totalPoints": -3,
-      "battingStats": {
-        "atBats": 3,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        }
-      ]
-    },
-    {
       "id": 683618,
       "name": "Edgardo Henriquez",
       "teamId": 119,
@@ -3383,6 +3418,109 @@
           "battingPoints": 0,
           "pitchingPoints": -3.4,
           "totalPoints": -3.4
+        }
+      ]
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "RF",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "1B",
+      "battingPoints": -4,
+      "pitchingPoints": 0,
+      "totalPoints": -4,
+      "battingStats": {
+        "atBats": 4,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3661,11 +3799,11 @@
       "teamId": 114,
       "teamName": "Cleveland Guardians",
       "position": "RF",
-      "battingPoints": 40.6,
+      "battingPoints": 39.6,
       "pitchingPoints": 0,
-      "totalPoints": 40.6,
+      "totalPoints": 39.6,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 4,
         "doubles": 2,
         "triples": 0,
@@ -3700,6 +3838,13 @@
           "battingPoints": 12.5,
           "pitchingPoints": 0,
           "totalPoints": 12.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4127,18 +4272,18 @@
       "teamId": 114,
       "teamName": "Cleveland Guardians",
       "position": "3B",
-      "battingPoints": 12.5,
+      "battingPoints": 12.7,
       "pitchingPoints": 0,
-      "totalPoints": 12.5,
+      "totalPoints": 12.7,
       "battingStats": {
         "atBats": 9,
         "hits": 4,
         "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 0,
+        "walks": 1,
         "hitByPitch": 0,
-        "caughtStealing": 1,
+        "caughtStealing": 2,
         "stolenBases": 1
       },
       "pitchingStats": {
@@ -4166,6 +4311,13 @@
           "battingPoints": 3.5,
           "pitchingPoints": 0,
           "totalPoints": 3.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0.2,
+          "pitchingPoints": 0,
+          "totalPoints": 0.2
         }
       ]
     },
@@ -4223,11 +4375,11 @@
       "teamId": 139,
       "teamName": "Tampa Bay Rays",
       "position": "3B",
-      "battingPoints": 10.1,
+      "battingPoints": 9.1,
       "pitchingPoints": 0,
-      "totalPoints": 10.1,
+      "totalPoints": 9.1,
       "battingStats": {
-        "atBats": 7,
+        "atBats": 8,
         "hits": 2,
         "doubles": 1,
         "triples": 0,
@@ -4262,54 +4414,13 @@
           "battingPoints": 8.5,
           "pitchingPoints": 0,
           "totalPoints": 8.5
-        }
-      ]
-    },
-    {
-      "id": 680757,
-      "name": "Steven Kwan",
-      "teamId": 114,
-      "teamName": "Cleveland Guardians",
-      "position": "CF",
-      "battingPoints": 6.8,
-      "pitchingPoints": 0,
-      "totalPoints": 6.8,
-      "battingStats": {
-        "atBats": 10,
-        "hits": 3,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
         },
         {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 6.2,
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 6.2
+          "totalPoints": -1
         }
       ]
     },
@@ -4506,6 +4617,61 @@
       ]
     },
     {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "CF",
+      "battingPoints": 5.8,
+      "pitchingPoints": 0,
+      "totalPoints": 5.8,
+      "battingStats": {
+        "atBats": 11,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 660271,
       "name": "Shohei Ohtani",
       "teamId": 119,
@@ -4602,54 +4768,6 @@
       ]
     },
     {
-      "id": 650490,
-      "name": "Yandy Díaz",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "DH",
-      "battingPoints": 5.1,
-      "pitchingPoints": 0,
-      "totalPoints": 5.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 9.1,
-          "pitchingPoints": 0,
-          "totalPoints": 9.1
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 683953,
       "name": "Travis Bazzana",
       "teamId": 114,
@@ -4742,6 +4860,61 @@
           "battingPoints": 10,
           "pitchingPoints": 0,
           "totalPoints": 10
+        }
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
+      "battingPoints": 4.1,
+      "pitchingPoints": 0,
+      "totalPoints": 4.1,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 9.1,
+          "pitchingPoints": 0,
+          "totalPoints": 9.1
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4924,54 +5097,6 @@
       ]
     },
     {
-      "id": 802415,
-      "name": "Chandler Simpson",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "PH",
-      "battingPoints": 1.6,
-      "pitchingPoints": 0,
-      "totalPoints": 1.6,
-      "battingStats": {
-        "atBats": 4,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": -1,
-          "pitchingPoints": 0,
-          "totalPoints": -1
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 2.6,
-          "pitchingPoints": 0,
-          "totalPoints": 2.6
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -5098,6 +5223,61 @@
           "battingPoints": 2.6,
           "pitchingPoints": 0,
           "totalPoints": 2.6
+        }
+      ]
+    },
+    {
+      "id": 802415,
+      "name": "Chandler Simpson",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "PH",
+      "battingPoints": 0.6,
+      "pitchingPoints": 0,
+      "totalPoints": 0.6,
+      "battingStats": {
+        "atBats": 5,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": 2.6,
+          "pitchingPoints": 0,
+          "totalPoints": 2.6
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -5465,54 +5645,6 @@
       ]
     },
     {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "RF",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849820,
-          "gameDate": "2026-10-12",
-          "battingPoints": 1.6,
-          "pitchingPoints": 0,
-          "totalPoints": 1.6
-        },
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": -4,
-          "pitchingPoints": 0,
-          "totalPoints": -4
-        }
-      ]
-    },
-    {
       "id": 606192,
       "name": "Teoscar Hernández",
       "teamId": 119,
@@ -5554,16 +5686,71 @@
       ]
     },
     {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "RF",
+      "battingPoints": -3.4,
+      "pitchingPoints": 0,
+      "totalPoints": -3.4,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849820,
+          "gameDate": "2026-10-12",
+          "battingPoints": 1.6,
+          "pitchingPoints": 0,
+          "totalPoints": 1.6
+        },
+        {
+          "gamePk": 849813,
+          "gameDate": "2026-10-13",
+          "battingPoints": -4,
+          "pitchingPoints": 0,
+          "totalPoints": -4
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 666018,
       "name": "Jonathan Aranda",
       "teamId": 139,
       "teamName": "Tampa Bay Rays",
       "position": "1B",
-      "battingPoints": -3,
+      "battingPoints": -4,
       "pitchingPoints": 0,
-      "totalPoints": -3,
+      "totalPoints": -4,
       "battingStats": {
-        "atBats": 3,
+        "atBats": 4,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -5591,6 +5778,13 @@
           "battingPoints": -3,
           "pitchingPoints": 0,
           "totalPoints": -3
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -6206,6 +6400,47 @@
       ]
     },
     {
+      "id": 668909,
+      "name": "Gavin Williams",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 16.33,
+      "totalPoints": 16.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0,
+          "pitchingPoints": 16.33,
+          "totalPoints": 16.33
+        }
+      ]
+    },
+    {
       "id": 641329,
       "name": "Bryan Baker",
       "teamId": 139,
@@ -6742,6 +6977,47 @@
           "battingPoints": 0,
           "pitchingPoints": 6.8,
           "totalPoints": 6.8
+        }
+      ]
+    },
+    {
+      "id": 643377,
+      "name": "Griffin Jax",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 6.4,
+      "totalPoints": 6.4,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 1,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 1,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0,
+          "pitchingPoints": 6.4,
+          "totalPoints": 6.4
         }
       ]
     },
@@ -7300,11 +7576,11 @@
       "teamId": 114,
       "teamName": "Cleveland Guardians",
       "position": "RF",
-      "battingPoints": 40.6,
+      "battingPoints": 39.6,
       "pitchingPoints": 0,
-      "totalPoints": 40.6,
+      "totalPoints": 39.6,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 4,
         "doubles": 2,
         "triples": 0,
@@ -7339,6 +7615,13 @@
           "battingPoints": 12.5,
           "pitchingPoints": 0,
           "totalPoints": 12.5
+        },
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -7959,6 +8242,47 @@
       ]
     },
     {
+      "id": 668909,
+      "name": "Gavin Williams",
+      "teamId": 114,
+      "teamName": "Cleveland Guardians",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 16.33,
+      "totalPoints": 16.33,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 5,
+        "inningsPitched": "1.2",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849818,
+          "gameDate": "2026-10-15",
+          "battingPoints": 0,
+          "pitchingPoints": 16.33,
+          "totalPoints": 16.33
+        }
+      ]
+    },
+    {
       "id": 676356,
       "name": "Jonny DeLuca",
       "teamId": 139,
@@ -8133,47 +8457,6 @@
           "battingPoints": 15,
           "pitchingPoints": 0,
           "totalPoints": 15
-        }
-      ]
-    },
-    {
-      "id": 641329,
-      "name": "Bryan Baker",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "P",
-      "battingPoints": 0,
-      "pitchingPoints": 14.4,
-      "totalPoints": 14.4,
-      "battingStats": {
-        "atBats": 0,
-        "hits": 0,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 3,
-        "inningsPitched": "1.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 1,
-        "saves": 1,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849813,
-          "gameDate": "2026-10-13",
-          "battingPoints": 0,
-          "pitchingPoints": 14.4,
-          "totalPoints": 14.4
         }
       ]
     }
