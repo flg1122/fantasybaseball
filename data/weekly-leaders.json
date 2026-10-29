@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T00:00:48.374Z",
-  "generatedAtET": "10/28/2026, 8:00:48 PM",
+  "generatedAt": "2026-10-29T00:30:48.310Z",
+  "generatedAtET": "10/28/2026, 8:30:48 PM",
   "scoringPeriod": {
     "start": "2026-10-26",
     "end": "2026-10-28",
@@ -12,9 +12,9 @@
     "timezone": "America/New_York"
   },
   "counts": {
-    "overall": 47,
+    "overall": 49,
     "hitters": 26,
-    "pitchers": 21
+    "pitchers": 23
   },
   "overallLeaders": [
     {
@@ -112,11 +112,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "LF",
-      "battingPoints": 30.3,
+      "battingPoints": 29.3,
       "pitchingPoints": 0,
-      "totalPoints": 30.3,
+      "totalPoints": 29.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 6,
         "doubles": 2,
         "triples": 0,
@@ -151,6 +151,13 @@
           "battingPoints": 8.1,
           "pitchingPoints": 0,
           "totalPoints": 8.1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -240,6 +247,61 @@
           "battingPoints": 0,
           "pitchingPoints": 23.27,
           "totalPoints": 23.27
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": 21.2,
+      "pitchingPoints": 0,
+      "totalPoints": 21.2,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
         }
       ]
     },
@@ -374,54 +436,6 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 16.1,
-      "pitchingPoints": 0,
-      "totalPoints": 16.1,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 4.9,
-          "pitchingPoints": 0,
-          "totalPoints": 4.9
-        }
-      ]
-    },
-    {
       "id": 642547,
       "name": "Freddy Peralta",
       "teamId": 139,
@@ -463,24 +477,24 @@
       ]
     },
     {
-      "id": 650490,
-      "name": "Yandy Díaz",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
       "position": "DH",
-      "battingPoints": 14.7,
+      "battingPoints": 15.1,
       "pitchingPoints": 0,
-      "totalPoints": 14.7,
+      "totalPoints": 15.1,
       "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 1,
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 3,
         "hitByPitch": 0,
         "caughtStealing": 0,
-        "stolenBases": 0
+        "stolenBases": 1
       },
       "pitchingStats": {
         "outs": 0,
@@ -497,16 +511,23 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
-          "battingPoints": 10.1,
+          "battingPoints": 11.2,
           "pitchingPoints": 0,
-          "totalPoints": 10.1
+          "totalPoints": 11.2
         },
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
-          "battingPoints": 4.6,
+          "battingPoints": 4.9,
           "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": 4.9
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -600,11 +621,11 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "2B",
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
       "battingPoints": 13.7,
       "pitchingPoints": 0,
       "totalPoints": 13.7,
@@ -634,13 +655,20 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
-          "battingPoints": 14.7,
+          "battingPoints": 10.1,
           "pitchingPoints": 0,
-          "totalPoints": 14.7
+          "totalPoints": 10.1
         },
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -730,16 +758,71 @@
       ]
     },
     {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": 11.1,
+      "pitchingPoints": 0,
+      "totalPoints": 11.1,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 2,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 661388,
       "name": "William Contreras",
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 10.8,
+      "battingPoints": 9.8,
       "pitchingPoints": 0,
-      "totalPoints": 10.8,
+      "totalPoints": 9.8,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 3,
         "doubles": 0,
         "triples": 0,
@@ -771,6 +854,13 @@
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -860,50 +950,43 @@
       ]
     },
     {
-      "id": 686217,
-      "name": "Sal Frelick",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": 8.1,
-      "pitchingPoints": 0,
-      "totalPoints": 8.1,
+      "id": 656876,
+      "name": "Drew Rasmussen",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.27,
+      "totalPoints": 8.27,
       "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
         "walks": 0,
-        "hitByPitch": 1,
+        "hitByPitch": 0,
         "caughtStealing": 0,
         "stolenBases": 0
       },
       "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 1,
         "walksAllowed": 0,
-        "hitBatsmen": 0,
+        "hitBatsmen": 1,
         "homeRunsAllowed": 0,
-        "strikeOuts": 0,
+        "strikeOuts": 2,
         "saves": 0,
         "holds": 0
       },
       "games": [
         {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 0,
+          "pitchingPoints": 8.27,
+          "totalPoints": 8.27
         }
       ]
     },
@@ -990,47 +1073,6 @@
       ]
     },
     {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "C",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
-        }
-      ]
-    },
-    {
       "id": 802415,
       "name": "Chandler Simpson",
       "teamId": 139,
@@ -1075,6 +1117,95 @@
           "battingPoints": 11.9,
           "pitchingPoints": 0,
           "totalPoints": 11.9
+        }
+      ]
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "C",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 0,
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
         }
       ]
     },
@@ -1198,6 +1329,61 @@
           "battingPoints": 0,
           "pitchingPoints": 4.2,
           "totalPoints": 4.2
+        }
+      ]
+    },
+    {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "3B",
+      "battingPoints": 2.2,
+      "pitchingPoints": 0,
+      "totalPoints": 2.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
         }
       ]
     },
@@ -1647,54 +1833,6 @@
       ]
     },
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "3B",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -1885,11 +2023,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "1B",
-      "battingPoints": -7,
+      "battingPoints": -8,
       "pitchingPoints": 0,
-      "totalPoints": -7,
+      "totalPoints": -8,
       "battingStats": {
-        "atBats": 10,
+        "atBats": 11,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1924,6 +2062,13 @@
           "battingPoints": -6,
           "pitchingPoints": 0,
           "totalPoints": -6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -1933,11 +2078,11 @@
       "teamId": 139,
       "teamName": "Tampa Bay Rays",
       "position": "1B",
-      "battingPoints": -7,
+      "battingPoints": -8,
       "pitchingPoints": 0,
-      "totalPoints": -7,
+      "totalPoints": -8,
       "battingStats": {
-        "atBats": 7,
+        "atBats": 8,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -1972,6 +2117,13 @@
           "battingPoints": -5,
           "pitchingPoints": 0,
           "totalPoints": -5
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -2161,11 +2313,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "LF",
-      "battingPoints": 30.3,
+      "battingPoints": 29.3,
       "pitchingPoints": 0,
-      "totalPoints": 30.3,
+      "totalPoints": 29.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 6,
         "doubles": 2,
         "triples": 0,
@@ -2200,6 +2352,68 @@
           "battingPoints": 8.1,
           "pitchingPoints": 0,
           "totalPoints": 8.1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": 21.2,
+      "pitchingPoints": 0,
+      "totalPoints": 21.2,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
         }
       ]
     },
@@ -2209,11 +2423,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "DH",
-      "battingPoints": 16.1,
+      "battingPoints": 15.1,
       "pitchingPoints": 0,
-      "totalPoints": 16.1,
+      "totalPoints": 15.1,
       "battingStats": {
-        "atBats": 6,
+        "atBats": 7,
         "hits": 2,
         "doubles": 0,
         "triples": 0,
@@ -2248,54 +2462,13 @@
           "battingPoints": 4.9,
           "pitchingPoints": 0,
           "totalPoints": 4.9
-        }
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy Díaz",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "DH",
-      "battingPoints": 14.7,
-      "pitchingPoints": 0,
-      "totalPoints": 14.7,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 1,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 10.1,
-          "pitchingPoints": 0,
-          "totalPoints": 10.1
         },
         {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 4.6,
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": -1
         }
       ]
     },
@@ -2348,11 +2521,11 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "2B",
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
       "battingPoints": 13.7,
       "pitchingPoints": 0,
       "totalPoints": 13.7,
@@ -2382,16 +2555,78 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
-          "battingPoints": 14.7,
+          "battingPoints": 10.1,
           "pitchingPoints": 0,
-          "totalPoints": 14.7
+          "totalPoints": 10.1
         },
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
+        }
+      ]
+    },
+    {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": 11.1,
+      "pitchingPoints": 0,
+      "totalPoints": 11.1,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 2,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
         }
       ]
     },
@@ -2401,11 +2636,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 10.8,
+      "battingPoints": 9.8,
       "pitchingPoints": 0,
-      "totalPoints": 10.8,
+      "totalPoints": 9.8,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 3,
         "doubles": 0,
         "triples": 0,
@@ -2440,95 +2675,13 @@
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
-        }
-      ]
-    },
-    {
-      "id": 686217,
-      "name": "Sal Frelick",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": 8.1,
-      "pitchingPoints": 0,
-      "totalPoints": 8.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
         },
         {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 0.6,
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
           "pitchingPoints": 0,
-          "totalPoints": 0.6
-        }
-      ]
-    },
-    {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "C",
-      "battingPoints": 6.2,
-      "pitchingPoints": 0,
-      "totalPoints": 6.2,
-      "battingStats": {
-        "atBats": 5,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 6.2,
-          "pitchingPoints": 0,
-          "totalPoints": 6.2
+          "totalPoints": -1
         }
       ]
     },
@@ -2581,6 +2734,54 @@
       ]
     },
     {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "C",
+      "battingPoints": 5.2,
+      "pitchingPoints": 0,
+      "totalPoints": 5.2,
+      "battingStats": {
+        "atBats": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 6.2,
+          "pitchingPoints": 0,
+          "totalPoints": 6.2
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        }
+      ]
+    },
+    {
       "id": 656775,
       "name": "Cedric Mullins",
       "teamId": 139,
@@ -2615,6 +2816,61 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        }
+      ]
+    },
+    {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "3B",
+      "battingPoints": 2.2,
+      "pitchingPoints": 0,
+      "totalPoints": 2.2,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": -3,
+          "pitchingPoints": 0,
+          "totalPoints": -3
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": 4.6,
           "pitchingPoints": 0,
           "totalPoints": 4.6
@@ -2985,54 +3241,6 @@
       ]
     },
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
-      "position": "3B",
-      "battingPoints": -2.4,
-      "pitchingPoints": 0,
-      "totalPoints": -2.4,
-      "battingStats": {
-        "atBats": 8,
-        "hits": 1,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": -3,
-          "pitchingPoints": 0,
-          "totalPoints": -3
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
-        }
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "teamId": 139,
@@ -3223,11 +3431,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "1B",
-      "battingPoints": -7,
+      "battingPoints": -8,
       "pitchingPoints": 0,
-      "totalPoints": -7,
+      "totalPoints": -8,
       "battingStats": {
-        "atBats": 10,
+        "atBats": 11,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -3262,6 +3470,13 @@
           "battingPoints": -6,
           "pitchingPoints": 0,
           "totalPoints": -6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -3271,11 +3486,11 @@
       "teamId": 139,
       "teamName": "Tampa Bay Rays",
       "position": "1B",
-      "battingPoints": -7,
+      "battingPoints": -8,
       "pitchingPoints": 0,
-      "totalPoints": -7,
+      "totalPoints": -8,
       "battingStats": {
-        "atBats": 7,
+        "atBats": 8,
         "hits": 0,
         "doubles": 0,
         "triples": 0,
@@ -3310,6 +3525,13 @@
           "battingPoints": -5,
           "pitchingPoints": 0,
           "totalPoints": -5
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     }
@@ -3822,6 +4044,47 @@
       ]
     },
     {
+      "id": 656876,
+      "name": "Drew Rasmussen",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 8.27,
+      "totalPoints": 8.27,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 4,
+        "inningsPitched": "1.1",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 1,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 2,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 0,
+          "pitchingPoints": 8.27,
+          "totalPoints": 8.27
+        }
+      ]
+    },
+    {
       "id": 668941,
       "name": "JoJo Romero",
       "teamId": 158,
@@ -3900,6 +4163,47 @@
           "battingPoints": 0,
           "pitchingPoints": 6.4,
           "totalPoints": 6.4
+        }
+      ]
+    },
+    {
+      "id": 694819,
+      "name": "Jacob Misiorowski",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "P",
+      "battingPoints": 0,
+      "pitchingPoints": 4.8,
+      "totalPoints": 4.8,
+      "battingStats": {
+        "atBats": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 3,
+        "inningsPitched": "1.0",
+        "hitsAllowed": 1,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 0,
+          "pitchingPoints": 4.8,
+          "totalPoints": 4.8
         }
       ]
     },
@@ -4294,11 +4598,11 @@
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "LF",
-      "battingPoints": 30.3,
+      "battingPoints": 29.3,
       "pitchingPoints": 0,
-      "totalPoints": 30.3,
+      "totalPoints": 29.3,
       "battingStats": {
-        "atBats": 11,
+        "atBats": 12,
         "hits": 6,
         "doubles": 2,
         "triples": 0,
@@ -4333,6 +4637,13 @@
           "battingPoints": 8.1,
           "pitchingPoints": 0,
           "totalPoints": 8.1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4422,6 +4733,61 @@
           "battingPoints": 0,
           "pitchingPoints": 23.27,
           "totalPoints": 23.27
+        }
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "2B",
+      "battingPoints": 21.2,
+      "pitchingPoints": 0,
+      "totalPoints": 21.2,
+      "battingStats": {
+        "atBats": 10,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 1,
+        "hitByPitch": 0,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 14.7,
+          "pitchingPoints": 0,
+          "totalPoints": 14.7
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
         }
       ]
     },
@@ -4556,54 +4922,6 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "DH",
-      "battingPoints": 16.1,
-      "pitchingPoints": 0,
-      "totalPoints": 16.1,
-      "battingStats": {
-        "atBats": 6,
-        "hits": 2,
-        "doubles": 0,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 3,
-        "hitByPitch": 0,
-        "caughtStealing": 0,
-        "stolenBases": 1
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 11.2,
-          "pitchingPoints": 0,
-          "totalPoints": 11.2
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 4.9,
-          "pitchingPoints": 0,
-          "totalPoints": 4.9
-        }
-      ]
-    },
-    {
       "id": 642547,
       "name": "Freddy Peralta",
       "teamId": 139,
@@ -4645,24 +4963,24 @@
       ]
     },
     {
-      "id": 650490,
-      "name": "Yandy Díaz",
-      "teamId": 139,
-      "teamName": "Tampa Bay Rays",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
       "position": "DH",
-      "battingPoints": 14.7,
+      "battingPoints": 15.1,
       "pitchingPoints": 0,
-      "totalPoints": 14.7,
+      "totalPoints": 15.1,
       "battingStats": {
-        "atBats": 8,
-        "hits": 3,
-        "doubles": 1,
+        "atBats": 7,
+        "hits": 2,
+        "doubles": 0,
         "triples": 0,
         "homeRuns": 0,
-        "walks": 1,
+        "walks": 3,
         "hitByPitch": 0,
         "caughtStealing": 0,
-        "stolenBases": 0
+        "stolenBases": 1
       },
       "pitchingStats": {
         "outs": 0,
@@ -4679,16 +4997,23 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
-          "battingPoints": 10.1,
+          "battingPoints": 11.2,
           "pitchingPoints": 0,
-          "totalPoints": 10.1
+          "totalPoints": 11.2
         },
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
-          "battingPoints": 4.6,
+          "battingPoints": 4.9,
           "pitchingPoints": 0,
-          "totalPoints": 4.6
+          "totalPoints": 4.9
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
         }
       ]
     },
@@ -4782,11 +5107,11 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "2B",
+      "id": 650490,
+      "name": "Yandy Díaz",
+      "teamId": 139,
+      "teamName": "Tampa Bay Rays",
+      "position": "DH",
       "battingPoints": 13.7,
       "pitchingPoints": 0,
       "totalPoints": 13.7,
@@ -4816,13 +5141,20 @@
         {
           "gamePk": 849804,
           "gameDate": "2026-10-26",
-          "battingPoints": 14.7,
+          "battingPoints": 10.1,
           "pitchingPoints": 0,
-          "totalPoints": 14.7
+          "totalPoints": 10.1
         },
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
+          "battingPoints": 4.6,
+          "pitchingPoints": 0,
+          "totalPoints": 4.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -4912,16 +5244,71 @@
       ]
     },
     {
+      "id": 686217,
+      "name": "Sal Frelick",
+      "teamId": 158,
+      "teamName": "Milwaukee Brewers",
+      "position": "RF",
+      "battingPoints": 11.1,
+      "pitchingPoints": 0,
+      "totalPoints": 11.1,
+      "battingStats": {
+        "atBats": 9,
+        "hits": 2,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "walks": 0,
+        "hitByPitch": 2,
+        "caughtStealing": 0,
+        "stolenBases": 0
+      },
+      "pitchingStats": {
+        "outs": 0,
+        "inningsPitched": "0.0",
+        "hitsAllowed": 0,
+        "walksAllowed": 0,
+        "hitBatsmen": 0,
+        "homeRunsAllowed": 0,
+        "strikeOuts": 0,
+        "saves": 0,
+        "holds": 0
+      },
+      "games": [
+        {
+          "gamePk": 849804,
+          "gameDate": "2026-10-26",
+          "battingPoints": 7.5,
+          "pitchingPoints": 0,
+          "totalPoints": 7.5
+        },
+        {
+          "gamePk": 849803,
+          "gameDate": "2026-10-27",
+          "battingPoints": 0.6,
+          "pitchingPoints": 0,
+          "totalPoints": 0.6
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
+          "battingPoints": 3,
+          "pitchingPoints": 0,
+          "totalPoints": 3
+        }
+      ]
+    },
+    {
       "id": 661388,
       "name": "William Contreras",
       "teamId": 158,
       "teamName": "Milwaukee Brewers",
       "position": "C",
-      "battingPoints": 10.8,
+      "battingPoints": 9.8,
       "pitchingPoints": 0,
-      "totalPoints": 10.8,
+      "totalPoints": 9.8,
       "battingStats": {
-        "atBats": 9,
+        "atBats": 10,
         "hits": 3,
         "doubles": 0,
         "triples": 0,
@@ -4953,6 +5340,13 @@
         {
           "gamePk": 849803,
           "gameDate": "2026-10-27",
+          "battingPoints": -1,
+          "pitchingPoints": 0,
+          "totalPoints": -1
+        },
+        {
+          "gamePk": 849799,
+          "gameDate": "2026-10-28",
           "battingPoints": -1,
           "pitchingPoints": 0,
           "totalPoints": -1
@@ -5038,54 +5432,6 @@
           "battingPoints": 0,
           "pitchingPoints": 9.4,
           "totalPoints": 9.4
-        }
-      ]
-    },
-    {
-      "id": 686217,
-      "name": "Sal Frelick",
-      "teamId": 158,
-      "teamName": "Milwaukee Brewers",
-      "position": "RF",
-      "battingPoints": 8.1,
-      "pitchingPoints": 0,
-      "totalPoints": 8.1,
-      "battingStats": {
-        "atBats": 9,
-        "hits": 2,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "walks": 0,
-        "hitByPitch": 1,
-        "caughtStealing": 0,
-        "stolenBases": 0
-      },
-      "pitchingStats": {
-        "outs": 0,
-        "inningsPitched": "0.0",
-        "hitsAllowed": 0,
-        "walksAllowed": 0,
-        "hitBatsmen": 0,
-        "homeRunsAllowed": 0,
-        "strikeOuts": 0,
-        "saves": 0,
-        "holds": 0
-      },
-      "games": [
-        {
-          "gamePk": 849804,
-          "gameDate": "2026-10-26",
-          "battingPoints": 7.5,
-          "pitchingPoints": 0,
-          "totalPoints": 7.5
-        },
-        {
-          "gamePk": 849803,
-          "gameDate": "2026-10-27",
-          "battingPoints": 0.6,
-          "pitchingPoints": 0,
-          "totalPoints": 0.6
         }
       ]
     }
